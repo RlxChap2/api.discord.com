@@ -5,6 +5,8 @@ on:
         branches:
             - main # Triggers on push to the main branch
     workflow_dispatch: # Allows manual triggering via the GitHub UI
+    schedule:
+        - cron: "*/20 * * * *" # Triggers every 20 minutes
 
 jobs:
     run-index:
