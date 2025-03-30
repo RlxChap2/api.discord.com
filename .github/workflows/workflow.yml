@@ -1,38 +1,30 @@
-name: Post Changes
+name: Run Index.js
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'  # Runs every 20 minutes
-  workflow_dispatch:  # Allows manual triggering of the workflow
+    push:
+        branches:
+            - main # Triggers on push to the main branch
+    workflow_dispatch: # Allows manual triggering via the GitHub UI
 
 jobs:
-  main:
-    runs-on: ubuntu-latest
+    run-index:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+        steps:
+            # Checkout the code
+            - name: Checkout code
+              uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+            # Set up Node.js
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
+            # Install dependencies
+            - name: Install dependencies
+              run: npm install
 
-      - name: Run index.js
-        run: npm run start
-
-      - name: Commit and push changes if there are any
-        run: |
-          # Check if there are any changes
-          git diff --exit-code || {
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add .
-            git commit -m "New Detections - $(date)"
-            git push
-          }
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            # Run the index.js script
+            - name: Run index.js
+              run: npm run start
