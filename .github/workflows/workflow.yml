@@ -1,0 +1,27 @@
+on:
+    schedule:
+        - cron: '*/20 * * * *'
+    # run workflow with button
+    workflow_dispatch:
+name: Post Changes
+jobs:
+    main:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: '20'
+            # install dependencies
+            - name: Install dependencies
+              working-directory: ./
+              run: npm install
+            # run index.js
+            - name: Run index.js
+              working-directory: ./
+              run: node index.js
+            # commit to github if changes are made with message as New Detections and add full timestamp
+            - name: Commit & Push changes
+              uses: actions-js/push@master
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
