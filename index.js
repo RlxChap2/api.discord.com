@@ -16,7 +16,7 @@ const newApps = json.filter(app => !current.some(c => c.id === app.id));
 
 for (const app of newApps) {
     console.log(`Found new app: ${app.name} (${app.id})`);
-    writeFileSync(`../apps/${app.id}.json`, JSON.stringify(app, null, 4));
+    writeFileSync(`./apps/${app.id}.json`, JSON.stringify(app, null, 4));
     current.push(app);
 }
 
