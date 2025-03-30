@@ -30,3 +30,7 @@ jobs:
             # Run the index.js script
             - name: Run index.js
               run: npm run start
+
+            # Run the logger script
+            - name: Run logger.js
+              run: npm run logger
