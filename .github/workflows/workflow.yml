@@ -6,7 +6,7 @@ on:
             - main # Triggers on push to the main branch
     workflow_dispatch: # Allows manual triggering via the GitHub UI
     schedule:
-        - cron: "*/20 * * * *" # Triggers every 20 minutes
+        - cron: '*/20 * * * *' # Triggers every 20 minutes
 
 jobs:
     run-index:
@@ -34,3 +34,10 @@ jobs:
             # Run the logger script
             - name: Run logger.js
               run: npm run logger
+
+            # Push changes to GitHub
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: main
