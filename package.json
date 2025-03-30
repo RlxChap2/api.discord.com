@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:874765c0f075944473eae1a6b3e770c15ee2fa8424facff86a80c1dc1816a8cb
-size 653
+{
+    "name": "api.discord.com",
+    "version": "https://git-lfs.github.com/spec/",
+    "description": "> [!CAUTION]\r > **This project is intended for educational purposes only. The author does NOT endorse or encourage any form of Discord ToS violation, malicious activity, or client modification. Use at your own risk.**",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node index.js",
+        "push": "git add . && git commit -m \"update\" && git push"
+    },
+    "keywords": [],
+    "author": "RlxChap2",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
