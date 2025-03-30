@@ -1,27 +1,38 @@
-on:
-    schedule:
-        - cron: '*/20 * * * *'
-    # run workflow with button
-    workflow_dispatch:
 name: Post Changes
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'  # Runs every 20 minutes
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
 jobs:
-    main:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v4
-              with:
-                  node-version: '20'
-            # install dependencies
-            - name: Install dependencies
-              working-directory: ./
-              run: npm install
-            # run index.js
-            - name: Run index.js
-              working-directory: ./
-              run: npm run start
-            # commit to github if changes are made with message as New Detections and add full timestamp
-            - name: Commit & Push changes
-              uses: actions-js/push@master
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run index.js
+        run: npm run start
+
+      - name: Commit and push changes if there are any
+        run: |
+          # Check if there are any changes
+          git diff --exit-code || {
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "New Detections - $(date)"
+            git push
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
