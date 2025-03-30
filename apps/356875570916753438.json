@@ -1,0 +1,51 @@
+{
+    "aliases": [
+        "Minecraft Windows 10 Edition",
+        "Minecraft Launcher"
+    ],
+    "executables": [
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">javaw.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "content/minecraft.exe",
+            "os": "win32"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">java",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
+        }
+    ],
+    "hook": true,
+    "id": "356875570916753438",
+    "name": "Minecraft",
+    "overlay": false,
+    "overlay_compatibility_hook": false,
+    "overlay_methods": null,
+    "overlay_warn": false,
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Survival",
+        "Sandbox",
+        "Kids",
+        "Open world",
+        "4X (explore, expand, exploit, and exterminate)"
+    ]
+}
