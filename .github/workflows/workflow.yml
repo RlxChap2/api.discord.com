@@ -35,9 +35,14 @@ jobs:
             - name: Run logger.js
               run: npm run logger
 
-            # Push changes to GitHub
-            - name: Push changes
-              uses: ad-m/github-push-action@master
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: main
+            # Commit and push changes if there are any changes
+            - name: Commit and Push changes
+              run: |
+                git config --global user.name "${{ secrets.USERNAME }}"
+                git config --global user.email "${{ secrets.EMAIL }}"
+                git add .
+                git diff --cached
+                git commit -m "Automated commit from GitHub Actions" || echo "No changes to commit"
+                git push
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
