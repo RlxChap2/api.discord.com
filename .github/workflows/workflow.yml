@@ -6,7 +6,7 @@ on:
             - main # Triggers on push to the main branch
     workflow_dispatch: # Allows manual triggering via the GitHub UI
     schedule:
-        - cron: '*/20 * * * *' # Triggers every 20 minutes
+        - cron: '0 */5 * * *'
 
 jobs:
     run-index:
@@ -38,11 +38,11 @@ jobs:
             # Commit and push changes if there are any changes
             - name: Commit and Push changes
               run: |
-                git config --global user.name "${{ secrets.USERNAME }}"
-                git config --global user.email "${{ secrets.EMAIL }}"
-                git add .
-                git diff --cached
-                git commit -m "Automated commit from GitHub Actions" || echo "No changes to commit"
-                git push
+                  git config --global user.name "${{ secrets.USERNAME }}"
+                  git config --global user.email "${{ secrets.EMAIL }}"
+                  git add .
+                  git diff --cached
+                  git commit -m "New Updates Detected & Webpack Update" || echo "No changes to commit"
+                  git push
               env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
