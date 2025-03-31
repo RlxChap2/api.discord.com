@@ -1,9 +1,14 @@
 {
     "aliases": [
-        "Star Wars Jedi Knight",
-        "STAR WARS™ Jedi Knight: Jedi Academy™"
+        "STAR WARS™ Jedi Knight: Jedi Academy™",
+        "Star Wars Jedi Knight"
     ],
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "jasp.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "jediacademy.exe",
@@ -12,11 +17,6 @@
         {
             "is_launcher": false,
             "name": "gamedata/movieduels.x86.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "jasp.exe",
             "os": "win32"
         },
         {
