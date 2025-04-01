@@ -1,61 +1,62 @@
-name: Run Index.js
+name: Automated Versioning and Release
 
 on:
-    push:
-        branches:
-            - main # Triggers on push to the main branch
-    workflow_dispatch: # Allows manual triggering via the GitHub UI
-    schedule:
-        - cron: '0 */5 * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */5 * * *'
 
 jobs:
-    run-index:
-        runs-on: ubuntu-latest
+  versioning:
+    runs-on: ubuntu-latest
 
-        steps:
-            # Checkout the code
-            - name: Checkout code
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-            # Set up Node.js
-            - name: Set up Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version: '20'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-            # Install dependencies
-            - name: Install dependencies
-              run: npm install
+      - name: Install dependencies
+        run: npm install
 
-            # Run the index.js script
-            - name: Run index.js
-              run: npm run start
+      - name: Run index.js
+        run: npm run start
 
-            # Run the logger script
-            - name: Run logger.js
-              run: npm run logger
+      - name: Run logger.js
+        run: npm run logger
 
-            # Commit and push changes if there are any changes
-            - name: Commit and Push changes
-              run: |
-                  git config --global user.name "${{ secrets.USERNAME }}"
-                  git config --global user.email "${{ secrets.EMAIL }}"
-                  git add .
-                  git diff --cached
-                  git commit -m "New Updates Detected & Webpack Update" || echo "No changes to commit"
-                  git push
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get current package version
+        id: package_version
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
 
-            # Push new Release
-            - name: Create Release
-              id: create_release
-              uses: actions/create-release@v1
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                  tag_name: ${{ github.ref_name }}
-                  release_name: Release ${{ github.ref_name }}
-                  body: |
-                      ## Changelog
-                      - ${{ github.event.head_commit.message }}
+      - name: Increment version
+        run: |
+          npm version patch -m "Upgrade to version %s"
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "${{ secrets.USERNAME }}"
+          git config --global user.email "${{ secrets.EMAIL }}"
+          git add .
+          git diff --cached
+          git commit -m "New Updates Detected & Webpack Update" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.package_version.outputs.current_version }}
+          release_name: Release v${{ steps.package_version.outputs.current_version }}
+          body: |
+            ## Changelog
+            - Updated to version ${{ steps.package_version.outputs.current_version }}
