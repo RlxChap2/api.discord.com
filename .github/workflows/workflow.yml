@@ -46,3 +46,25 @@ jobs:
                   git push
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            # Increment the version and create a new release tag
+            - name: Increment version and create a release
+              run: |
+                  VERSION_PARTS=(${VERSION//./ })
+                  PATCH=${VERSION_PARTS[2]}
+                  PATCH=$((PATCH + 1))
+                  NEW_VERSION="${VERSION_PARTS[0]}.${VERSION_PARTS[1]}.$PATCH"
+
+                  jq --arg new_version "$NEW_VERSION" '.version_release = $new_version' package.json > temp.json && mv temp.json package.json
+
+                  git add .
+                  git commit -m "Bump version to $NEW_VERSION"
+                  git push
+
+                  git tag "v$NEW_VERSION"
+                  git push origin "v$NEW_VERSION"
+
+                  # Create GitHub release with the new version
+                  gh release create "v$NEW_VERSION" dist/* --title "Release $NEW_VERSION" --notes "Release of version $NEW_VERSION"
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
