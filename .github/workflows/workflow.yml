@@ -50,7 +50,7 @@ jobs:
             # Increment the version and create a new release tag
             - name: Increment version and create a release
               run: |
-                  # Get current version from the package.json custom field version_release
+                  # Get the current version from the package.json custom field version_release
                   VERSION=$(jq -r '.version_release' package.json)
 
                   # Check if VERSION is in correct format X.Y.Z (e.g., 1.0.0)
@@ -61,6 +61,13 @@ jobs:
 
                   # Split the version into major, minor, patch parts
                   VERSION_PARTS=(${VERSION//./ })
+
+                  # Ensure we have at least 3 parts (major, minor, patch)
+                  if [ ${#VERSION_PARTS[@]} -lt 3 ]; then
+                      echo "ERROR: Invalid version format. Expected at least 3 parts (X.Y.Z), got $VERSION"
+                      exit 1
+                  fi
+
                   MAJOR=${VERSION_PARTS[0]}
                   MINOR=${VERSION_PARTS[1]}
                   PATCH=${VERSION_PARTS[2]}
