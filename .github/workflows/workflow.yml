@@ -50,19 +50,15 @@ jobs:
             # Increment the version and create a new release tag
             - name: Increment version and create a release
               run: |
-                  # Get the current version from the package.json custom field version_release
                   VERSION=$(jq -r '.version_release' package.json)
 
-                  # Check if VERSION is in correct format X.Y.Z (e.g., 1.0.0)
                   if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
                       echo "ERROR: Invalid version format. Expected format: X.Y.Z"
                       exit 1
                   fi
 
-                  # Split the version into major, minor, patch parts
                   VERSION_PARTS=(${VERSION//./ })
 
-                  # Ensure we have at least 3 parts (major, minor, patch)
                   if [ ${#VERSION_PARTS[@]} -lt 3 ]; then
                       echo "ERROR: Invalid version format. Expected at least 3 parts (X.Y.Z), got $VERSION"
                       exit 1
@@ -72,25 +68,19 @@ jobs:
                   MINOR=${VERSION_PARTS[1]}
                   PATCH=${VERSION_PARTS[2]}
 
-                  # Increment the patch version
                   PATCH=$((PATCH + 1))
 
-                  # Create the new version string
                   NEW_VERSION="${MAJOR}.${MINOR}.${PATCH}"
 
-                  # Update the version in package.json with the new version
                   jq --arg new_version "$NEW_VERSION" '.version_release = $new_version' package.json > temp.json && mv temp.json package.json
 
-                  # Commit the version change
                   git add package.json
                   git commit -m "Bump version to $NEW_VERSION"
                   git push
 
-                  # Tag the new version
                   git tag "v$NEW_VERSION"
                   git push origin "v$NEW_VERSION"
 
-                  # Create GitHub release with the new version
                   gh release create "v$NEW_VERSION" dist/* --title "Release $NEW_VERSION" --notes "Release of version $NEW_VERSION"
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
