@@ -81,6 +81,6 @@ jobs:
                   git tag "v$NEW_VERSION"
                   git push origin "v$NEW_VERSION"
 
-                  gh release create "v$NEW_VERSION" dist/* --title "Release $NEW_VERSION" --notes "Release of version $NEW_VERSION"
+                  gh release create "v$NEW_VERSION" /* --title "Release $NEW_VERSION" --notes "Release of version $NEW_VERSION"
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
