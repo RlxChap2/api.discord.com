@@ -5,6 +5,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "brawlhalla.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "brawlhalla/brawlhallagame.exe",
             "os": "win32"
         },
@@ -12,11 +17,6 @@
             "is_launcher": false,
             "name": "brawlhalla.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "brawlhalla.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
