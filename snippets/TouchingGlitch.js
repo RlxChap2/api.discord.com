@@ -179,7 +179,7 @@ async function autoClick() {
 
     setTimeout(() => {
         console.log(`✅ Clicked ${clicks} times`);
-    }, 20 * 1000); // 20 seconds delay to check if it stils working
+    }, 20 * 1000); // 20 seconds delay to check if it still working
 
     await sleep(interval);
     autoClick();
