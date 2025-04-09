@@ -1,17 +1,32 @@
 {
     "aliases": [
-        "SUPERVIVE Demo",
-        "Loki"
+        "Loki",
+        "SUPERVIVE Demo"
     ],
     "executables": [
         {
             "is_launcher": false,
-            "name": "supervive.exe",
+            "name": "win64/supervive-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "supervive-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "win64/loki.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "loki.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "supervive.exe",
             "os": "win32"
         },
         {
@@ -22,21 +37,6 @@
         {
             "is_launcher": false,
             "name": "loki-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "supervive-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/supervive-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "loki.exe",
             "os": "win32"
         }
     ],
