@@ -5,19 +5,8 @@
     ],
     "executables": [
         {
-            "arguments": "net.minecraft.client.main.Main",
-            "is_launcher": false,
-            "name": ">javaw.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "content/minecraft.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
             "os": "win32"
         },
         {
@@ -25,6 +14,17 @@
             "is_launcher": false,
             "name": ">java",
             "os": "darwin"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">javaw.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
