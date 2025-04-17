@@ -1,5 +1,10 @@
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import _ from "lodash";
+
+// Ensure ./apps directory exists
+if (!existsSync("./apps")) {
+    mkdirSync("./apps");
+}
 
 const req = await fetch("https://discord.com/api/v10/applications/detectable");
 
