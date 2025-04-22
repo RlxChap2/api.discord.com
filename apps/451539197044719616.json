@@ -1,9 +1,14 @@
 {
     "aliases": [
-        "The Elder Scrolls III: Morrowind",
-        "Morrowind Launcher"
+        "Morrowind Launcher",
+        "The Elder Scrolls III: Morrowind"
     ],
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "mlox/mlox.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "morrowind/moinstaller.exe",
@@ -12,11 +17,6 @@
         {
             "is_launcher": false,
             "name": "morrowind.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "mlox/mlox.exe",
             "os": "win32"
         },
         {
