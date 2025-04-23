@@ -4,16 +4,9 @@
     ],
     "executables": [
         {
-            "arguments": "-game garrysmod",
             "is_launcher": false,
-            "name": "hl2.exe",
+            "name": "bin/gmad.exe",
             "os": "win32"
-        },
-        {
-            "arguments": "-game garrysmod",
-            "is_launcher": false,
-            "name": ">hl2_osx",
-            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -33,8 +26,15 @@
             "os": "win32"
         },
         {
+            "arguments": "-game garrysmod",
             "is_launcher": false,
-            "name": "bin/gmad.exe",
+            "name": ">hl2_osx",
+            "os": "darwin"
+        },
+        {
+            "arguments": "-game garrysmod",
+            "is_launcher": false,
+            "name": "hl2.exe",
             "os": "win32"
         }
     ],
