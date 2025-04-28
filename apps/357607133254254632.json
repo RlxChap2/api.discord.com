@@ -4,13 +4,13 @@
     ],
     "executables": [
         {
-            "is_launcher": true,
-            "name": "dead by daylight/deadbydaylight.exe",
+            "is_launcher": false,
+            "name": "deadbydaylight-win64-shipping.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "deadbydaylight-win64-shipping.exe",
+            "is_launcher": true,
+            "name": "dead by daylight/deadbydaylight.exe",
             "os": "win32"
         },
         {
@@ -26,5 +26,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival",
+        "Stealth"
+    ]
 }
