@@ -5,7 +5,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "boot/ffxivboot.exe",
+            "name": "ffxiv_dx11.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ffxiv.exe",
             "os": "win32"
         },
         {
@@ -15,12 +20,7 @@
         },
         {
             "is_launcher": false,
-            "name": "ffxiv_dx11.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "ffxiv.exe",
+            "name": "boot/ffxivboot.exe",
             "os": "win32"
         }
     ],
