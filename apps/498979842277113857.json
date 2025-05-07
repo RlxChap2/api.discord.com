@@ -1,17 +1,28 @@
 {
     "aliases": [
-        "Oni"
+        "Oni",
+        "ONI"
     ],
     "executables": [
         {
             "is_launcher": false,
+            "name": "oni/oni.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "oni.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ae/oni.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "id": "498979842277113857",
-    "name": "ONI",
+    "name": "ONI : Road to be the Mightiest Oni",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,

@@ -8,9 +8,7 @@ let chunk =
         },
     ]),
     m);
-let user = chunk
-    .find((m) => m?.exports?.Z?.getCurrentUser)
-    .exports.Z.getCurrentUser();
+let user = chunk.find((m) => m?.exports?.Z?.getCurrentUser).exports.Z.getCurrentUser();
 let userProfile = chunk.find((m) => m?.exports?.Z?.getUserProfile).exports.Z;
 
 function getBadges() {
@@ -22,7 +20,7 @@ function getBadges() {
             icon: '5e74e9b61934fc1f67c65515d1f7e60d',
             link: 'https://discord.com/company',
         },
-        {   
+        {
             id: 'premium_default',
             description: 'Subscriber since Dec 22, 2016',
             icon: '2ba85e8026a8614b640c2837bcdfe21b',

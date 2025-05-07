@@ -1,23 +1,23 @@
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
-import _ from "lodash";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
+import _ from 'lodash';
 
 // Ensure ./apps directory exists
-if (!existsSync("./apps")) {
-    mkdirSync("./apps");
+if (!existsSync('./apps')) {
+    mkdirSync('./apps');
 }
 
-const req = await fetch("https://discord.com/api/v10/applications/detectable");
+const req = await fetch('https://discord.com/api/v10/applications/detectable');
 
 let current;
 try {
-    current = JSON.parse(readFileSync("./current.json", "utf-8"));
+    current = JSON.parse(readFileSync('./current.json', 'utf-8'));
 } catch (e) {
-    if (e.code !== "ENOENT") throw e;
+    if (e.code !== 'ENOENT') throw e;
     current = [];
 }
 
 const json = await req.json();
-const newApps = json.filter(app => !current.some(c => c.id === app.id));
+const newApps = json.filter((app) => !current.some((c) => c.id === app.id));
 
 for (const app of newApps) {
     console.log(`Found new app: ${app.name} (${app.id})`);
@@ -27,14 +27,14 @@ for (const app of newApps) {
 
 let changes = 0;
 // Check for deleted apps
-const deletedApps = current.filter(app => !json.some(c => c.id === app.id));
+const deletedApps = current.filter((app) => !json.some((c) => c.id === app.id));
 for (const app of deletedApps) {
     console.log(`Deleted app: ${app.name} (${app.id})`);
 }
 
 // Check for changes in existing apps
 for (let app of current) {
-    const newApp = json.find(c => c.id === app.id);
+    const newApp = json.find((c) => c.id === app.id);
     if (!_.isEqual(app, newApp)) {
         console.log(`Updated app: ${app.name} (${app.id})`);
         writeFileSync(`./apps/${app.id}.json`, JSON.stringify(newApp, null, 4));
@@ -43,5 +43,5 @@ for (let app of current) {
     }
 }
 
-writeFileSync("./current.json", JSON.stringify(json, null, 4));
+writeFileSync('./current.json', JSON.stringify(json, null, 4));
 console.log(`Done! (${newApps.length} new apps, ${changes} changed apps, ${deletedApps.length} deleted apps)`);
