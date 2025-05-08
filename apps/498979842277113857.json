@@ -1,9 +1,14 @@
 {
     "aliases": [
-        "ONI",
-        "Oni"
+        "Oni",
+        "ONI"
     ],
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "oni/oni.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "oni.exe",
@@ -12,11 +17,6 @@
         {
             "is_launcher": false,
             "name": "ae/oni.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "oni/oni.exe",
             "os": "win32"
         }
     ],
