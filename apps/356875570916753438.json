@@ -6,7 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "name": "minecraft.windows.exe",
+            "os": "win32"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">javaw.exe",
             "os": "win32"
         },
         {
@@ -16,19 +22,13 @@
             "os": "darwin"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
-            "is_launcher": false,
-            "name": ">javaw.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "content/minecraft.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
             "os": "win32"
         }
     ],
