@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Minecraft Launcher",
-        "Minecraft Windows 10 Edition"
+        "Minecraft Windows 10 Edition",
+        "Minecraft Launcher"
     ],
     "executables": [
         {
@@ -16,9 +16,8 @@
             "os": "darwin"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
+            "name": "content/minecraft.exe",
             "os": "win32"
         },
         {
@@ -27,8 +26,9 @@
             "os": "win32"
         },
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "content/minecraft.exe",
+            "name": ">javaw.exe",
             "os": "win32"
         }
     ],
