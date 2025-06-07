@@ -5,7 +5,22 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "spellcraft-gamelab/game/run/tap.exe",
+            "name": "spellcraft-live/game/run/tap.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": true,
+            "name": "spellcraft-staging.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft-staging/game/run/tap.exe",
             "os": "win32"
         },
         {
@@ -15,12 +30,12 @@
         },
         {
             "is_launcher": false,
-            "name": "spellcraft-staging/game/run/tap.exe",
+            "name": "spellcraft-gamelab/game/run/tap.exe",
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "spellcraft-staging.exe",
+            "is_launcher": false,
+            "name": "v0/spellcraft.exe",
             "os": "win32"
         },
         {
@@ -31,21 +46,6 @@
         {
             "is_launcher": true,
             "name": "spellcraft-live.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "v0/spellcraft.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "spellcraft-live/game/run/tap.exe",
             "os": "win32"
         }
     ],
