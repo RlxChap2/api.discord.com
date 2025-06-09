@@ -1,14 +1,9 @@
 {
     "aliases": [
-        "The Elder Scrolls III: Morrowind",
-        "Morrowind Launcher"
+        "Morrowind Launcher",
+        "The Elder Scrolls III: Morrowind"
     ],
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "morrowind/mgexegui.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "morrowind.exe",
@@ -16,7 +11,12 @@
         },
         {
             "is_launcher": false,
-            "name": "mlox/mlox.exe",
+            "name": "morrowind/morrowind code patch.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "morrowind/mgexegui.exe",
             "os": "win32"
         },
         {
@@ -26,7 +26,7 @@
         },
         {
             "is_launcher": false,
-            "name": "morrowind/morrowind code patch.exe",
+            "name": "mlox/mlox.exe",
             "os": "win32"
         }
     ],
