@@ -56,26 +56,6 @@ setProtoFields(Guild, ['isOwner', 'isOwnerWithRequiredMfaLevel'], function (id) 
  * @version 3
  * @description: Server Access
  */
-let _mods = webpackChunkdiscord_app.push([[Symbol()], {}, (r) => r.c]);
-webpackChunkdiscord_app.pop();
-
-let findByProps = (...props) => {
-    for (let m of Object.values(_mods)) {
-        try {
-            if (!m.exports || m.exports === window) continue;
-            if (props.every((x) => m.exports?.[x])) return m.exports;
-
-            for (let ex in m.exports) {
-                if (
-                    props.every((x) => m.exports?.[ex]?.[x]) &&
-                    m.exports[ex][Symbol.toStringTag] !== 'IntlMessagesProxy'
-                )
-                    return m.exports[ex];
-            }
-        } catch {}
-    }
-};
-
 const find =
     (typeof findByProps !== 'undefined' && findByProps) || window?.findByProps || window?.Vencord?.Webpack?.findByProps;
 if (!find)
