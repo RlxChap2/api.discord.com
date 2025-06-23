@@ -2,11 +2,6 @@
     "aliases": [],
     "executables": [
         {
-            "is_launcher": false,
-            "name": "vrchat/start_protected_game.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": true,
             "name": "vrchat/launch.exe",
             "os": "win32"
@@ -15,9 +10,15 @@
             "is_launcher": false,
             "name": "vrchat/vrchat.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "vrchat/start_protected_game.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
+    "icon_hash": "a87dfe64fa914769f1c6cf37daa0a3d1",
     "id": "398632010442211348",
     "name": "VRChat",
     "overlay": false,
