@@ -34,13 +34,13 @@ webpackChunkdiscord_app.pop();
 
 const getModule = (fn) => Object.values(wpModules).find(fn)?.exports;
 
-const streamMod = getModule((m) => m?.Z?.__proto__?.getStreamerActiveStreamMetadata)?.Z;
-const gamesMod = getModule((m) => m?.ZP?.getRunningGames)?.ZP;
-const questsMod = getModule((m) => m?.Z?.__proto__?.getQuest)?.Z;
-const threadsMod = getModule((m) => m?.Z?.__proto__?.getAllThreadsForParent)?.Z;
-const guildMod = getModule((m) => m?.ZP?.getSFWDefaultChannel)?.ZP;
-const flushMod = getModule((m) => m?.Z?.__proto__?.flushWaitQueue)?.Z;
-const questStore = getModule((m) => m?.tn?.get)?.tn;
+const streamMod = getModule((m) => m?.exports?.Z?.__proto__?.getStreamerActiveStreamMetadata)?.Z;
+const gamesMod = getModule((m) => m?.exports?.ZP?.getRunningGames)?.ZP;
+const questsMod = getModule((m) => m?.exports?.Z?.__proto__?.getQuest)?.Z;
+const threadsMod = getModule((m) => m?.exports?.Z?.__proto__?.getAllThreadsForParent)?.Z;
+const guildMod = getModule((m) => m?.exports?.ZP?.getSFWDefaultChannel)?.ZP;
+const flushMod = getModule((m) => m?.exports?.Z?.__proto__?.flushWaitQueue)?.Z;
+const questStore = getModule((m) => m?.exports?.tn?.get)?.tn;
 
 const quest = [...questsMod.quests.values()].find((x) => x.id === questId);
 const isDesktopApp = typeof DiscordNative !== 'undefined';
