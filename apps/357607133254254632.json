@@ -4,8 +4,13 @@
     ],
     "executables": [
         {
+            "is_launcher": true,
+            "name": "dead by daylight/deadbydaylight.exe",
+            "os": "win32"
+        },
+        {
             "is_launcher": false,
-            "name": "deadbydaylight-egs-shipping.exe",
+            "name": "deadbydaylight-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -14,21 +19,8 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "dead by daylight/deadbydaylight.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "deadbydaylight-win64-shipping.exe",
-<<<<<<< HEAD
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "deadbydaylight-egs-shipping.exe",
-=======
->>>>>>> 47a443bda42ef05c5e2eac01f46c68decba87dc1
             "os": "win32"
         }
     ],

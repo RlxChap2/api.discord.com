@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Starcraft 2",
-        "Starcraft II"
+        "Starcraft II",
+        "Starcraft 2"
     ],
     "executables": [
         {
@@ -11,26 +11,18 @@
         },
         {
             "is_launcher": false,
+            "name": "sc2.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "starcraft ii.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "sc2_x64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-<<<<<<< HEAD
             "name": "sc2.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-=======
->>>>>>> 47a443bda42ef05c5e2eac01f46c68decba87dc1
-            "name": "sc2.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
