@@ -1,167 +1,127 @@
-let _mods;
-webpackChunkdiscord_app.push([[Symbol()], {}, (r) => (_mods = r.c)]);
+const step = 2;
+/**
+ * @description
+ * Constructs the full Discord Quest ID by combining multiple fragments.
+ * Each part represents a slice of the full ID to hide or obfuscate the final value.
+ *
+ * Example:
+ *   https://discord.com/quests/1391877646987821198
+ *                                |    |    |    |   |
+ *                                |    |    |    |   └── frag  = '198'
+ *                                |    |    |    └───── bin2  = '7821'
+ *                                |    |    └────────── bin1  = '4698'
+ *                                |    └─────────────── hash2 = 8776
+ *                                └──────────────────── hash1 = 1391
+ *
+ * Final ID = hash1 + hash2 + bin1 + bin2 + frag
+ *          = "1234567812345678910"
+ *
+ * @version 1.0.0
+ * @date 2025-07-18
+ */
+
+const hash1 = 1234,
+    hash2 = 5678;
+const bin1 = '1234',
+    bin2 = '5678';
+const frag = '910';
+const questId = `${hash1}${hash2}${bin1}${bin2}${frag}`;
+
+delete window.$;
+
+const wpModules = webpackChunkdiscord_app.push([[Symbol()], {}, (r) => r.c]);
 webpackChunkdiscord_app.pop();
 
-let findByProps = (...props) => {
-    for (let m of Object.values(_mods)) {
-        try {
-            if (!m.exports || m.exports === window) continue;
-            if (props.every((x) => m.exports?.[x])) return m.exports;
+const getModule = (fn) => Object.values(wpModules).find(fn)?.exports;
 
-            for (let ex in m.exports) {
-                if (props.every((x) => m.exports?.[ex]?.[x])) return m.exports[ex];
-            }
-        } catch {}
-    }
-};
+const streamMod = getModule((m) => m?.Z?.__proto__?.getStreamerActiveStreamMetadata)?.Z;
+const gamesMod = getModule((m) => m?.ZP?.getRunningGames)?.ZP;
+const questsMod = getModule((m) => m?.Z?.__proto__?.getQuest)?.Z;
+const threadsMod = getModule((m) => m?.Z?.__proto__?.getAllThreadsForParent)?.Z;
+const guildMod = getModule((m) => m?.ZP?.getSFWDefaultChannel)?.ZP;
+const flushMod = getModule((m) => m?.Z?.__proto__?.flushWaitQueue)?.Z;
+const questStore = getModule((m) => m?.tn?.get)?.tn;
 
-let ASS, RGS, QS, XS, FD, api;
-if (
-  window.GLOBAL_ENV.SENTRY_TAGS.buildId ===
-  "366c746173a6ca0a801e9f4a4d7b6745e6de45d4"
-) {
-  ASS = findByProps('getStreamerActiveStreamMetadata').getStreamerActiveStreamMetadata;
-  RGS = findByProps('getRunningGames').getRunningGames;
-  QS = findByProps('getQuest').getQuest;
-  XS = findByProps('getGuildExperiments').getGuildExperiments;
-  FD = findByProps('flushWaitQueue').flushWaitQueue;
-  api = findByProps('getAPIBaseURL').HTTP;
-} else {
-  ASS = findByProps('Z', 'getStreamerActiveStreamMetadata').Z.getStreamerActiveStreamMetadata;
-  RGS = findByProps('ZP', 'getRunningGames').ZP.getRunningGames;
-  QS = findByProps('Z', 'getQuest').Z.getQuest;
-  XS = findByProps('Z', 'getGuildExperiments').Z.getGuildExperiments;
-  FD = findByProps('Z', 'flushWaitQueue').Z.flushWaitQueue;
-  api = findByProps('tn', 'get').tn;
+const quest = [...questsMod.quests.values()].find((x) => x.id === questId);
+const isDesktopApp = typeof DiscordNative !== 'undefined';
+
+if (!quest) {
+    console.log('No active tasks found or the task timer has expired.');
 }
 
-const crr = 2;
-const qnn = parseInt(crr * 623 + 34 + 6 + 22 + 5 + 2 + 3 + 1) + 7;
-const kgg = parseInt(qnn * 5.5 - 3929 - 207 + 11 + 4398 - 754 - 6000 - 300 + 19 + 5 + 6409);
-const hee = parseInt(qnn * 4.3 + 982 + 2899 - 6441 + 39 + 6047 - 100 - 10 - 1612);
-const cr2 = parseInt(qnn * 7 + 392 - 2635 - 1142 - 4358 - 726 + 7571 - 1750 + 100 - 1 + 937);
-const qoo = "186";
-let qt = [...QS.quests.values()].find(
-  (x) =>
-    x.id == 
-      qnn.toString() +
-        kgg.toString() +
-        hee.toString() +
-        cr2.toString() +
-        qoo.toString() &&
-    x.userStatus?.enrolledAt &&
-    !x.userStatus?.completedAt &&
-    new Date(x.config.expiresAt).getTime() > Date.now()
-);
+const publicId = Math.floor(Math.random() * 30000) + 1000;
+const appId = quest.config.application.id;
+const appName = quest.config.application.name;
+const taskType = 'WATCH_VIDEO';
+const targetTime = quest.config.taskConfigV2.tasks[taskType].target;
 
-let ipp = true;
-if (!ipp) {
-  console.log("السكربت ما يشتغل على المتصفح ، لازم تشغله من التطبيق...");
-} else if (!qt) {
-  console.log("لازم تسوي Accept للكويست من User Settings -> Gift Inventory");
-} else {
-  const pid = Math.floor(Math.random() * 30000) + 1000;
-  let aId, ane, snd, sndd, cpy;
-  if (qt.config.configVersion === 1) {
-    aId = qt.config.applicationId;
-    ane = qt.config.applicationName;
-    snd = qt.config.streamDurationRequirementMinutes * 60;
-    sndd = qt.userStatus?.streamProgressSeconds ?? 0;
-    cpy = qt.config.variants.includes(2);
-  } else if (qt.config.configVersion === 2) {
-    aId = qt.config.application.id;
-    ane = qt.config.application.name;
-    cpy =
-      XS.getUserExperimentBucket("2024-04_quest_playtime_task") > 0 &&
-      qt.config.taskConfig.tasks["PLAY_ON_DESKTOP"];
-    const taskName = cpy ? "PLAY_ON_DESKTOP" : "STREAM_ON_DESKTOP";
-    snd = qt.config.taskConfig.tasks[taskName].target;
-    sndd = qt.userStatus?.progress?.[taskName]?.value ?? 0;
-  }
-  
-  if (cpy) {
-    api
-      .get({ url: `/applications/public?application_ids=${aId}` })
-      .then((res) => {
-        const ada = res.body[0];
-        const exe = ada.executables
-          .find((x) => x.os === "win32")
-          .name.replace(">", "");
-        const gs = RGS.getRunningGames();
-        const fge = {
-          cmdLine: `C:\\Program Files\\${ada.name}\\${exe}`,
-          exe,
-          exePath: `c:/program files/${ada.name.toLowerCase()}/${exe}`,
-          hidden: false,
-          isLauncher: false,
-          id: aId,
-          name: ada.name,
-          pid: pid,
-          pidPath: [pid],
-          processName: ada.name,
-          start: Date.now(),
-        };
-        gs.push(fge);
-        FD.dispatch({
-          type: "RUNNING_GAMES_CHANGE",
-          removed: [],
-          added: [fge],
-          games: gs,
-        });
-        
-        let fn = (data) => {
-          let pgs =
-            qt.config.configVersion === 1
-              ? data.userStatus.streamProgressSeconds
-              : Math.floor(data.userStatus.progress.PLAY_ON_DESKTOP.value);
-          console.log(`Quest progress: ${pgs}/${snd}`);
-          if (pgs >= snd) {
-            console.log("Quest completed!");
-            const idx = gs.indexOf(fge);
-            if (idx > -1) {
-              gs.splice(idx, 1);
-              FD.dispatch({
-                type: "RUNNING_GAMES_CHANGE",
-                removed: [fge],
+const currentProgress = quest.userStatus?.progress?.[taskType]?.value ?? 0;
+
+if (!isDesktopApp) {
+    console.log('This task only works in the Discord desktop app. Please run the code there.');
+}
+
+flushMod.get({ url: `/applications/public?application_ids=${appId}` }).then((res) => {
+    const appData = res.body[0];
+    const exeName = appData.executables.find((x) => x.os === 'win32').name.replace('>', '');
+
+    const fakeGame = {
+        cmdLine: `C:\\Program Files\\${appData.name}\\${exeName}`,
+        exePath: `c:/program files/${appData.name.toLowerCase()}/${exeName}`,
+        executablesFinder: exeName,
+        hidden: false,
+        isLauncher: false,
+        id: aId,
+        name: appData.name,
+        pid: pid,
+        pidPath: [pid],
+        processName: appData.name,
+        start: Date.now(),
+    };
+
+    const originalGames = gamesMod.getRunningGames();
+    const fakeGamesList = [fakeGame];
+
+    const originalGetRunningGames = gamesMod.getRunningGames;
+    const originalGetGameForPID = gamesMod.getGameForPID;
+
+    gamesMod.getRunningGames = () => fakeGamesList;
+    gamesMod.getGameForPID = (pid) => fakeGamesList.find((x) => x.pid === pid);
+
+    flushMod.dispatch({
+        type: 'RUNNING_GAMES_CHANGE',
+        removed: originalGames,
+        added: [fakeGame],
+        games: fakeGamesList,
+    });
+
+    const heartbeatHandler = (data) => {
+        const progress =
+            quest.config.configVersion === 1
+                ? data.userStatus.streamProgressSeconds
+                : Math.floor(data.userStatus.progress.PLAY_ON_DESKTOP.value);
+
+        console.log(`Progress: ${progress}/${targetTime}`);
+
+        if (progress >= targetTime) {
+            console.log('Task completed successfully!');
+
+            gamesMod.getRunningGames = originalGetRunningGames;
+            gamesMod.getGameForPID = originalGetGameForPID;
+
+            flushMod.dispatch({
+                type: 'RUNNING_GAMES_CHANGE',
+                removed: [fakeGame],
                 added: [],
                 games: [],
-              });
-            }
-            FD.unsubscribe("QUESTS_SEND_HEARTBEAT_SUCCESS", fn);
-          }
-        };
-        FD.subscribe("QUESTS_SEND_HEARTBEAT_SUCCESS", fn);
-        console.log(
-          `تم تزييف لعبتك إلى ${ane}. انتظر لمده ${Math.ceil(
-            (snd - sndd) / 60
-          )} دقائق.`
-        );
-      });
-  } else {
-    let realFunc = ASS.getStreamerActiveStreamMetadata;
-    ASS.getStreamerActiveStreamMetadata = () => ({
-      id: aId,
-      pid,
-      sourceName: null,
-    });
-    let fn = (data) => {
-      let pgs =
-        qt.config.configVersion === 1
-          ? data.userStatus.streamProgressSeconds
-          : Math.floor(data.userStatus.progress.STREAM_ON_DESKTOP.value);
-      console.log(`Quest progress: ${pgs}/${snd}`);
-      if (pgs >= snd) {
-        console.log("Quest completed!");
-        ASS.getStreamerActiveStreamMetadata = realFunc;
-        FD.unsubscribe("QUESTS_SEND_HEARTBEAT_SUCCESS", fn);
-      }
+            });
+
+            flushMod.unsubscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', heartbeatHandler);
+        }
     };
-    FD.subscribe("QUESTS_SEND_HEARTBEAT_SUCCESS", fn);
+
+    flushMod.subscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', heartbeatHandler);
     console.log(
-      `تم تزييف لعبتك إلى ${ane}. انتظر لمده ${Math.ceil(
-        (snd - sndd) / 60
-      )} دقائق.`
+        `Simulated game for ${appName}. Estimated time left: ${Math.ceil((targetTime - currentProgress) / 60)} minutes.`
     );
-    console.log("تذكر يجب إن يكون هناك شخص واحد على الأقل داخل الفويس.");
-  }
-}
+});

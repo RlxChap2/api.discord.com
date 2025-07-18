@@ -1,5 +1,4 @@
-let _mods;
-webpackChunkdiscord_app.push([[Symbol()], {}, (r) => (_mods = r.c)]);
+let _mods = webpackChunkdiscord_app.push([[Symbol()], {}, (r) => r.c]);
 webpackChunkdiscord_app.pop();
 
 let findByProps = (...props) => {
@@ -9,7 +8,11 @@ let findByProps = (...props) => {
             if (props.every((x) => m.exports?.[x])) return m.exports;
 
             for (let ex in m.exports) {
-                if (props.every((x) => m.exports?.[ex]?.[x])) return m.exports[ex];
+                if (
+                    props.every((x) => m.exports?.[ex]?.[x]) &&
+                    m.exports[ex][Symbol.toStringTag] !== 'IntlMessagesProxy'
+                )
+                    return m.exports[ex];
             }
         } catch {}
     }
