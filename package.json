@@ -10,13 +10,15 @@
     "scripts": {
         "start": "node index.js",
         "logger": "node logger.js",
-        "push": "git add . && git commit -m \"(Fixed) Quest Error IntlMessagesProxy Err\" && git push"
+        "push": "git add . && git commit -m \"(Fixed) Quest Error Config Notfound/Not a function && (Added) Auto Search plugin for Quests && (Added) Compile for minify the code\" && git push",
+        "compile": "node compile.js"
     },
     "keywords": [],
     "author": "RlxChap2",
     "license": "MIT",
     "dependencies": {
         "@faker-js/faker": "^9.6.0",
+        "axios": "^1.10.0",
         "faker": "^6.6.6",
         "lodash": "^4.17.21"
     }
