@@ -3,6 +3,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "starbound.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "starbound_opengl.exe",
             "os": "win32"
         },
@@ -10,11 +15,6 @@
             "is_launcher": false,
             "name": "starbound.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "starbound.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
