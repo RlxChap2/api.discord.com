@@ -5,6 +5,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "dota2.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "osx64/dota2.app",
             "os": "darwin"
         },
@@ -12,11 +17,6 @@
             "is_launcher": false,
             "name": "dota_osx.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "dota2.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
