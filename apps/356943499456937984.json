@@ -5,8 +5,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria/terraria.exe",
-            "os": "win32"
+            "name": "terraria.bin.x86",
+            "os": "linux"
+        },
+        {
+            "is_launcher": false,
+            "name": "terraria.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -15,13 +20,8 @@
         },
         {
             "is_launcher": false,
-            "name": "terraria.bin.x86",
-            "os": "linux"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria.app",
-            "os": "darwin"
+            "name": "terraria/terraria.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
