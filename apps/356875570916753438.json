@@ -5,9 +5,10 @@
     ],
     "executables": [
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
+            "name": ">java",
+            "os": "darwin"
         },
         {
             "arguments": "net.minecraft.client.main.Main",
@@ -26,10 +27,9 @@
             "os": "win32"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": "minecraft.windows.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
