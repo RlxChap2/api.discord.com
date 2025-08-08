@@ -4,8 +4,8 @@
     ],
     "executables": [
         {
-            "is_launcher": false,
-            "name": "spellcraft-staging/game/run/tap.exe",
+            "is_launcher": true,
+            "name": "spellcraft-live.exe",
             "os": "win32"
         },
         {
@@ -14,18 +14,8 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "spellcraft-live.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "spellcraft dev (staging)/spellcraft.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "v0/spellcraft.exe",
             "os": "win32"
         },
         {
@@ -40,12 +30,22 @@
         },
         {
             "is_launcher": false,
-            "name": "spellcraft-gamelab/game/run/tap.exe",
+            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
+            "name": "spellcraft-staging/game/run/tap.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "v0/spellcraft.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft-gamelab/game/run/tap.exe",
             "os": "win32"
         }
     ],
@@ -57,5 +57,8 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [
+        "Action",
+        "Fantasy"
+    ]
 }

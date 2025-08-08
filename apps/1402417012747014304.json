@@ -5,11 +5,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "grb_upp.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "ghost recon breakpoint/grb.exe",
             "os": "win32"
         },
@@ -22,6 +17,11 @@
             "is_launcher": false,
             "name": "grb_vulkan.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "grb_upp.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -32,5 +32,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [
+        "Action",
+        "Stealth",
+        "Open world",
+        "Warfare"
+    ]
 }
