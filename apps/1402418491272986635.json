@@ -11,9 +11,10 @@
             "os": "win32"
         },
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "content/minecraft.exe",
-            "os": "win32"
+            "name": ">java",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -22,14 +23,13 @@
         },
         {
             "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "name": "content/minecraft.exe",
             "os": "win32"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
