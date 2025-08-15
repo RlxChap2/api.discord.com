@@ -28,12 +28,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "_ptr_/wow.exe",
+                "name": "_beta_/wow-64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "_retail_/wow-64.exe",
+                "name": "_ptr_/wow.exe",
                 "os": "win32"
             },
             {
@@ -43,7 +43,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "_beta_/wow.exe",
+                "name": "_ptr_/wow-64.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "_retail_/wow-64.exe",
                 "os": "win32"
             },
             {
@@ -53,12 +58,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "_ptr_/wow-64.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "_beta_/wow-64.exe",
+                "name": "_beta_/wow.exe",
                 "os": "win32"
             }
         ],
@@ -82,13 +82,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "hearthstone.app",
-                "os": "darwin"
+                "name": "hearthstone.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "hearthstone.exe",
-                "os": "win32"
+                "name": "hearthstone.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -110,11 +110,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dota_osx.app",
-                "os": "darwin"
-            },
-            {
-                "is_launcher": false,
                 "name": "osx64/dota2.app",
                 "os": "darwin"
             },
@@ -122,6 +117,11 @@
                 "is_launcher": false,
                 "name": "dota2.exe",
                 "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dota_osx.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -140,15 +140,10 @@
     },
     {
         "aliases": [
-            "Tom Clancy's Rainbow Six? Siege",
-            "Tom Clancy's Rainbow Six Siege"
+            "Tom Clancy's Rainbow Six Siege",
+            "Tom Clancy's Rainbow Six? Siege"
         ],
         "executables": [
-            {
-                "is_launcher": false,
-                "name": "rainbowsixgame.exe",
-                "os": "win32"
-            },
             {
                 "is_launcher": false,
                 "name": "tom clancy's rainbow six siege/rainbowsix_vulkan.exe",
@@ -156,7 +151,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "rainbowsix_be.exe",
+                "name": "rainbowsixgame.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "tom clancy's rainbow six siege/rainbowsix.exe",
                 "os": "win32"
             },
             {
@@ -166,7 +166,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "tom clancy's rainbow six siege/rainbowsix.exe",
+                "name": "rainbowsix_be.exe",
                 "os": "win32"
             }
         ],
@@ -219,13 +219,13 @@
             },
             {
                 "is_launcher": false,
-                "name": "heroes.app",
-                "os": "darwin"
+                "name": "heroesofthestorm_x64.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "heroesofthestorm_x64.exe",
-                "os": "win32"
+                "name": "heroes.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
@@ -253,8 +253,9 @@
         ],
         "executables": [
             {
+                "arguments": "-game garrysmod",
                 "is_launcher": false,
-                "name": "bin/gmad.exe",
+                "name": "hl2.exe",
                 "os": "win32"
             },
             {
@@ -264,9 +265,13 @@
                 "os": "darwin"
             },
             {
-                "arguments": "-game garrysmod",
                 "is_launcher": false,
-                "name": "hl2.exe",
+                "name": "win64/gmod.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "bin/gmad.exe",
                 "os": "win32"
             },
             {
@@ -279,11 +284,6 @@
                 "arguments": "-game garrysmod",
                 "is_launcher": false,
                 "name": "garrysmod/hl2.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win64/gmod.exe",
                 "os": "win32"
             }
         ],
@@ -328,22 +328,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/shootergame_be.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win64/shootergameserver.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "shootergame_be.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "shootergame.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/shootergame_be.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/shootergameserver.exe",
                 "os": "win32"
             }
         ],
@@ -369,7 +369,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "path of exile/pathofexile.exe",
+                "name": "poe/pathofexile.exe",
                 "os": "win32"
             },
             {
@@ -379,7 +379,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "path of exile/pathofexile_x64steam.exe",
+                "name": "path of exile taiwan/pathofexile.exe",
                 "os": "win32"
             },
             {
@@ -389,12 +389,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "path of exile taiwan/pathofexile.exe",
+                "name": "path of exile/pathofexile_x64steam.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "poe/pathofexile.exe",
+                "name": "path of exile/pathofexile.exe",
                 "os": "win32"
             },
             {
@@ -428,14 +428,14 @@
             {
                 "arguments": "-game tf",
                 "is_launcher": false,
-                "name": "hl2tf.exe",
-                "os": "win32"
+                "name": ">hl2_osx",
+                "os": "darwin"
             },
             {
                 "arguments": "-game tf",
                 "is_launcher": false,
-                "name": ">hl2_osx",
-                "os": "darwin"
+                "name": "hl2tf.exe",
+                "os": "win32"
             },
             {
                 "arguments": "-game tf",
@@ -464,8 +464,8 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "final fantasy xiv.app",
-                "os": "darwin"
+                "name": "ffxiv.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
@@ -474,8 +474,8 @@
             },
             {
                 "is_launcher": false,
-                "name": "ffxiv.exe",
-                "os": "win32"
+                "name": "final fantasy xiv.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
@@ -505,12 +505,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "geometrydash.exe",
+                "name": "geometry dash/geometrydash.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "geometry dash/geometrydash.exe",
+                "name": "geometrydash.exe",
                 "os": "win32"
             }
         ],
@@ -560,13 +560,13 @@
             },
             {
                 "is_launcher": false,
-                "name": "brawlhalla.app",
-                "os": "darwin"
+                "name": "brawlhalla/brawlhallagame.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "brawlhalla/brawlhallagame.exe",
-                "os": "win32"
+                "name": "brawlhalla.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
@@ -715,6 +715,17 @@
         ],
         "executables": [
             {
+                "is_launcher": false,
+                "name": "bin/l4d2_workshop_manager.exe",
+                "os": "win32"
+            },
+            {
+                "arguments": "-game left4dead2",
+                "is_launcher": false,
+                "name": ">hl2_osx",
+                "os": "darwin"
+            },
+            {
                 "arguments": "-game left4dead2",
                 "is_launcher": false,
                 "name": "left 4 dead 2/left4dead2.exe",
@@ -725,17 +736,6 @@
                 "is_launcher": false,
                 "name": "left4dead2.exe",
                 "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "bin/l4d2_workshop_manager.exe",
-                "os": "win32"
-            },
-            {
-                "arguments": "-game left4dead2",
-                "is_launcher": false,
-                "name": ">hl2_osx",
-                "os": "darwin"
             }
         ],
         "hook": true,
@@ -777,13 +777,13 @@
     {
         "aliases": [
             "RuneScape 3",
-            "RuneScape Launcher 2.2.4",
-            "Old School RuneScape"
+            "Old School RuneScape",
+            "RuneScape Launcher 2.2.4"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "osbuddy.exe",
+                "name": "swiftkit-rs.exe",
                 "os": "win32"
             },
             {
@@ -793,22 +793,22 @@
             },
             {
                 "is_launcher": false,
-                "name": "swiftkit-rs.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "runescape.app",
                 "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "jagexcache/jagexlauncher/bin/jagexlauncher.exe",
+                "name": "osbuddy.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "runescape.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "jagexcache/jagexlauncher/bin/jagexlauncher.exe",
                 "os": "win32"
             }
         ],
@@ -834,13 +834,8 @@
         ],
         "executables": [
             {
-                "is_launcher": true,
-                "name": "dead by daylight/deadbydaylight.exe",
-                "os": "win32"
-            },
-            {
                 "is_launcher": false,
-                "name": "deadbydaylight-win64-shipping.exe",
+                "name": "deadbydaylight-egs-shipping.exe",
                 "os": "win32"
             },
             {
@@ -849,8 +844,13 @@
                 "os": "win32"
             },
             {
+                "is_launcher": true,
+                "name": "dead by daylight/deadbydaylight.exe",
+                "os": "win32"
+            },
+            {
                 "is_launcher": false,
-                "name": "deadbydaylight-egs-shipping.exe",
+                "name": "deadbydaylight-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -929,8 +929,8 @@
             },
             {
                 "is_launcher": false,
-                "name": "the binding of isaac rebirth.app",
-                "os": "darwin"
+                "name": "isaacitempooleditor/itempooleditor.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
@@ -939,8 +939,8 @@
             },
             {
                 "is_launcher": false,
-                "name": "isaacitempooleditor/itempooleditor.exe",
-                "os": "win32"
+                "name": "the binding of isaac rebirth.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -1005,12 +1005,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "hoi4.exe",
+                "name": "hearts of iron iv/hoi4.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "hearts of iron iv/hoi4.exe",
+                "name": "hoi4.exe",
                 "os": "win32"
             }
         ],
@@ -1112,13 +1112,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "factorio.app",
-                "os": "darwin"
+                "name": "factorio.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "factorio.exe",
-                "os": "win32"
+                "name": "factorio.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -1179,13 +1179,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "sc2.app",
-                "os": "darwin"
+                "name": "sc2.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "starcraft ii.exe",
-                "os": "win32"
+                "name": "sc2.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
@@ -1194,7 +1194,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "sc2.exe",
+                "name": "starcraft ii.exe",
                 "os": "win32"
             }
         ],
@@ -1214,8 +1214,8 @@
     },
     {
         "aliases": [
-            "Skyrim",
-            "Skyrim - Legendary Edition"
+            "Skyrim - Legendary Edition",
+            "Skyrim"
         ],
         "executables": [
             {
@@ -1230,12 +1230,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "tesv.exe",
+                "name": "skyrimlauncher.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "skyrimlauncher.exe",
+                "name": "tesv.exe",
                 "os": "win32"
             }
         ],
@@ -1285,12 +1285,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "don't starve together/bin/dontstarve.exe",
+                "name": "don't starve together/bin/dontstarve_steam.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "don't starve together/bin/dontstarve_steam.exe",
+                "name": "don't starve together/bin/dontstarve.exe",
                 "os": "win32"
             }
         ],
@@ -1387,17 +1387,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ts4.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "ts4_x64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "ts4_dx9_x64.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "ts4.exe",
                 "os": "win32"
             },
             {
@@ -1459,12 +1459,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "stardew valley/stardew valley.exe",
+                "name": "stardew valley.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "stardew valley.exe",
+                "name": "stardew valley/stardew valley.exe",
                 "os": "win32"
             }
         ],
@@ -1485,19 +1485,19 @@
     },
     {
         "aliases": [
+            "Dark Souls III",
             "DARK SOULS™ III",
-            "DARK SOULS III",
-            "Dark Souls III"
+            "DARK SOULS III"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "game/darksoulsiii.exe",
+                "name": "darksoulsiii.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "darksoulsiii.exe",
+                "name": "game/darksoulsiii.exe",
                 "os": "win32"
             }
         ],
@@ -1643,14 +1643,14 @@
             {
                 "arguments": "-game hl2",
                 "is_launcher": false,
-                "name": ">hl2_osx",
-                "os": "darwin"
+                "name": "hl2hl2.exe",
+                "os": "win32"
             },
             {
                 "arguments": "-game hl2",
                 "is_launcher": false,
-                "name": "hl2hl2.exe",
-                "os": "win32"
+                "name": ">hl2_osx",
+                "os": "darwin"
             },
             {
                 "arguments": "-game hl2",
@@ -1675,9 +1675,9 @@
     },
     {
         "aliases": [
-            "Battlefield 4™",
             "Battlefiled 4 CTE",
-            "Battlefield 4™ (64 bit)"
+            "Battlefield 4™ (64 bit)",
+            "Battlefield 4™"
         ],
         "executables": [
             {
@@ -1730,7 +1730,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "guild wars 2 64-bit.app",
+                "name": "gw2.app",
                 "os": "darwin"
             },
             {
@@ -1745,7 +1745,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "gw2.app",
+                "name": "guild wars 2 64-bit.app",
                 "os": "darwin"
             }
         ],
@@ -1973,13 +1973,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "eu4.exe",
-                "os": "win32"
+                "name": "eu4.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "eu4.app",
-                "os": "darwin"
+                "name": "eu4.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -2024,12 +2024,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "robocraft.exe",
+                "name": "robocraftclient.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "robocraftclient.exe",
+                "name": "robocraft.exe",
                 "os": "win32"
             }
         ],
@@ -2096,13 +2096,13 @@
         ],
         "executables": [
             {
-                "is_launcher": false,
-                "name": "7daystodie.exe",
+                "is_launcher": true,
+                "name": "7daystodie_eac.exe",
                 "os": "win32"
             },
             {
-                "is_launcher": true,
-                "name": "7daystodie_eac.exe",
+                "is_launcher": false,
+                "name": "7daystodie.exe",
                 "os": "win32"
             }
         ],
@@ -2325,9 +2325,9 @@
     },
     {
         "aliases": [
-            "STAR WARS™ Battlefront™",
             "STAR WARS Battlefront",
-            "Star Wars Battlefront"
+            "Star Wars Battlefront",
+            "STAR WARS™ Battlefront™"
         ],
         "executables": [
             {
@@ -2353,7 +2353,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mountblade warband/battlesizer.exe",
+                "name": "mountblade warband/mb_warband_old.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "wse/wseloader.exe",
                 "os": "win32"
             },
             {
@@ -2363,17 +2368,12 @@
             },
             {
                 "is_launcher": false,
+                "name": "mountblade warband/battlesizer.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "mountblade warband/binkplay.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "mountblade warband/mb_warband_old.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "wse/wseloader.exe",
                 "os": "win32"
             }
         ],
@@ -2396,8 +2396,8 @@
     },
     {
         "aliases": [
-            "STAR WARS™: The Old Republic™",
-            "Star Wars: The Old Republic"
+            "Star Wars: The Old Republic",
+            "STAR WARS™: The Old Republic™"
         ],
         "executables": [
             {
@@ -2426,12 +2426,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "planetside2_x64.exe",
+                "name": "planetside2_x86.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "planetside2_x86.exe",
+                "name": "planetside2_x64.exe",
                 "os": "win32"
             }
         ],
@@ -2478,17 +2478,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "installers/pbsvc.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "codwaw.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "codwawmp.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "installers/pbsvc.exe",
                 "os": "win32"
             }
         ],
@@ -2604,7 +2604,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "elitedangerous64.exe",
+                "name": "elitedangerous.exe",
                 "os": "win32"
             },
             {
@@ -2614,7 +2614,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "elitedangerous.exe",
+                "name": "elitedangerous64.exe",
                 "os": "win32"
             }
         ],
@@ -2688,17 +2688,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "aok hd.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "age2_x1.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "empires2.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "aok hd.exe",
                 "os": "win32"
             }
         ],
@@ -2719,13 +2719,13 @@
         "aliases": [],
         "executables": [
             {
-                "is_launcher": true,
-                "name": "evelauncher.exe",
+                "is_launcher": false,
+                "name": "exefile.exe",
                 "os": "win32"
             },
             {
-                "is_launcher": false,
-                "name": "exefile.exe",
+                "is_launcher": true,
+                "name": "evelauncher.exe",
                 "os": "win32"
             }
         ],
@@ -2818,12 +2818,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "beamng.drive.x64.exe",
+                "name": "beamng.drive.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "beamng.drive.exe",
+                "name": "beamng.drive.x64.exe",
                 "os": "win32"
             }
         ],
@@ -2870,22 +2870,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "launcher/bethesda.net_launcher.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "game/client/eso64.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "game/client/eso.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "bethesda.net_launcher.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "launcher/bethesda.net_launcher.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "game/client/eso64.exe",
                 "os": "win32"
             }
         ],
@@ -3046,17 +3046,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "db xenoverse 2/xv2ins.exe",
+                "name": "xv2ins/xv2ins.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "db xenoverse 2/xv2skilcreat.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "db xenoverse 2/xv2characreat.exe",
                 "os": "win32"
             },
             {
@@ -3071,7 +3066,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "xv2ins/xv2ins.exe",
+                "name": "db xenoverse 2/xv2ins.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "db xenoverse 2/xv2characreat.exe",
                 "os": "win32"
             }
         ],
@@ -3310,13 +3310,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "huniepop.app",
-                "os": "darwin"
+                "name": "huniepop.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "huniepop.exe",
-                "os": "win32"
+                "name": "huniepop.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -3364,12 +3364,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "nierautomata.exe",
+                "name": "nierautomata/naiom-gui.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "nierautomata/naiom-gui.exe",
+                "name": "nierautomata.exe",
                 "os": "win32"
             }
         ],
@@ -3556,12 +3556,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "sonic2app.exe",
+                "name": "sonic adventure 2/sa2modmanager.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "sonic adventure 2/sa2modmanager.exe",
+                "name": "sonic2app.exe",
                 "os": "win32"
             }
         ],
@@ -3724,8 +3724,8 @@
     },
     {
         "aliases": [
-            "ASTRONEER Early Access",
-            "Astroneer"
+            "Astroneer",
+            "ASTRONEER Early Access"
         ],
         "executables": [
             {
@@ -3799,11 +3799,11 @@
     },
     {
         "aliases": [
-            "Tom Clancy's Ghost Recon? Wildlands",
             "Tom Clancy's Ghost Recon: Wildlands",
-            "Tom Clancys Ghost Recon: Wildlands",
+            "Tom Clancy's Ghost Recon? Wildlands",
+            "Tom Clancys Ghost Recon® Wildlands",
             "Tom Clancy's Ghost Recon® Wildlands",
-            "Tom Clancys Ghost Recon® Wildlands"
+            "Tom Clancys Ghost Recon: Wildlands"
         ],
         "executables": [
             {
@@ -3876,12 +3876,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ksp_x64.exe",
+                "name": "ksp.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ksp.exe",
+                "name": "ksp_x64.exe",
                 "os": "win32"
             }
         ],
@@ -4047,12 +4047,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "naruto shippuden ultimate ninja storm 4/x360ce_x64.exe",
+                "name": "naruto shippuden ultimate ninja storm 4/x360ce.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "naruto shippuden ultimate ninja storm 4/x360ce.exe",
+                "name": "naruto shippuden ultimate ninja storm 4/x360ce_x64.exe",
                 "os": "win32"
             }
         ],
@@ -4617,12 +4617,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "pcars.exe",
+                "name": "pcars64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "pcars64.exe",
+                "name": "pcars.exe",
                 "os": "win32"
             }
         ],
@@ -4687,7 +4687,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "roblox.exe",
+                "name": "robloxplayerbeta.exe",
                 "os": "win32"
             },
             {
@@ -4697,7 +4697,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "robloxplayerbeta.exe",
+                "name": "roblox.exe",
                 "os": "win32"
             }
         ],
@@ -4872,12 +4872,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dayofinfamy.exe",
+                "name": "dayofinfamy_be.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dayofinfamy_be.exe",
+                "name": "dayofinfamy.exe",
                 "os": "win32"
             }
         ],
@@ -4926,12 +4926,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "darkest.exe",
+                "name": "_windows/darkest.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "_windows/darkest.exe",
+                "name": "darkest.exe",
                 "os": "win32"
             }
         ],
@@ -5046,18 +5046,18 @@
     },
     {
         "aliases": [
-            "H1Z1 LaunchPad",
-            "H1Z1 Launcher"
+            "H1Z1 Launcher",
+            "H1Z1 LaunchPad"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "h1z1/h1z1_be.exe",
+                "name": "h1z1/h1z1.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "h1z1/h1z1.exe",
+                "name": "h1z1/h1z1_be.exe",
                 "os": "win32"
             }
         ],
@@ -5245,12 +5245,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dayz.exe",
+                "name": "dayz/dayzuninstaller.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dayz/dayzuninstaller.exe",
+                "name": "dayz.exe",
                 "os": "win32"
             },
             {
@@ -5503,13 +5503,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "gunsoficarusonline.app",
-                "os": "darwin"
+                "name": "gunsoficarusonline.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "gunsoficarusonline.exe",
-                "os": "win32"
+                "name": "gunsoficarusonline.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -5591,8 +5591,8 @@
         "aliases": [],
         "executables": [
             {
-                "is_launcher": false,
-                "name": "vrchat/start_protected_game.exe",
+                "is_launcher": true,
+                "name": "vrchat/launch.exe",
                 "os": "win32"
             },
             {
@@ -5601,8 +5601,8 @@
                 "os": "win32"
             },
             {
-                "is_launcher": true,
-                "name": "vrchat/launch.exe",
+                "is_launcher": false,
+                "name": "vrchat/start_protected_game.exe",
                 "os": "win32"
             }
         ],
@@ -5825,12 +5825,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dontstarve_steam.exe",
+                "name": "dontstarve.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dontstarve.exe",
+                "name": "dontstarve_steam.exe",
                 "os": "win32"
             }
         ],
@@ -5938,18 +5938,18 @@
     },
     {
         "aliases": [
-            "Neverwinter",
-            "Neverwinter Online"
+            "Neverwinter Online",
+            "Neverwinter"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "neverwinter/live/gameclient.exe",
+                "name": "neverwinter.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "neverwinter.exe",
+                "name": "neverwinter/live/gameclient.exe",
                 "os": "win32"
             }
         ],
@@ -5971,12 +5971,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "tibia/bin/client.exe",
+                "name": "tibia.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "tibia.exe",
+                "name": "tibia/bin/client.exe",
                 "os": "win32"
             }
         ],
@@ -6206,8 +6206,8 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "binding_of_isaac.exe",
-                "os": "win32"
+                "name": "isaac.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
@@ -6216,8 +6216,8 @@
             },
             {
                 "is_launcher": false,
-                "name": "isaac.app",
-                "os": "darwin"
+                "name": "binding_of_isaac.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -6511,13 +6511,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "doki doki literature club.app",
-                "os": "darwin"
+                "name": "ddlc.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ddlc.exe",
-                "os": "win32"
+                "name": "doki doki literature club.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -6581,11 +6581,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "warcraft iii.app",
-                "os": "darwin"
-            },
-            {
-                "is_launcher": false,
                 "name": "warcraft iii/frozen throne.exe",
                 "os": "win32"
             },
@@ -6596,13 +6591,18 @@
             },
             {
                 "is_launcher": false,
+                "name": "war3.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "warcraft iii.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "war3.exe",
-                "os": "win32"
+                "name": "warcraft iii.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -7032,12 +7032,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "for honor/forhonor.exe",
+                "name": "forhonor.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "forhonor.exe",
+                "name": "for honor/forhonor.exe",
                 "os": "win32"
             }
         ],
@@ -7097,8 +7097,8 @@
     },
     {
         "aliases": [
-            "LEGO? The Hobbit?",
-            "LEGO - The Hobbit"
+            "LEGO - The Hobbit",
+            "LEGO? The Hobbit?"
         ],
         "executables": [
             {
@@ -7258,8 +7258,8 @@
     },
     {
         "aliases": [
-            "Rocksmith® 2014 Edition - Remastered",
-            "Rocksmith2014"
+            "Rocksmith2014",
+            "Rocksmith® 2014 Edition - Remastered"
         ],
         "executables": [
             {
@@ -7792,12 +7792,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "spacegame-win64-shipping.exe",
+                "name": "fractured space.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "fractured space.exe",
+                "name": "spacegame-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -7891,13 +7891,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "shovelknight.app",
-                "os": "darwin"
+                "name": "shovelknight.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "shovelknight.exe",
-                "os": "win32"
+                "name": "shovelknight.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -8024,12 +8024,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "deadislandriptidegame.exe",
+                "name": "deadislandgame_x86_rwdi.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "deadislandgame_x86_rwdi.exe",
+                "name": "deadislandriptidegame.exe",
                 "os": "win32"
             }
         ],
@@ -8141,12 +8141,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "metro2033.exe",
+                "name": "metro 2033 redux/metro.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "metro 2033 redux/metro.exe",
+                "name": "metro2033.exe",
                 "os": "win32"
             }
         ],
@@ -9134,12 +9134,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "princeofpersia_launcher.exe",
+                "name": "prince of persia/launcher/launcher.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "prince of persia/launcher/launcher.exe",
+                "name": "princeofpersia_launcher.exe",
                 "os": "win32"
             }
         ],
@@ -9359,12 +9359,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "europa1400gold.exe",
+                "name": "europa1400gold_tl.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "europa1400gold_tl.exe",
+                "name": "europa1400gold.exe",
                 "os": "win32"
             }
         ],
@@ -9386,12 +9386,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "homesick/binaries/win64/udk.exe",
+                "name": "homesick/binaries/win32/udk.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "homesick/binaries/win32/udk.exe",
+                "name": "homesick/binaries/win64/udk.exe",
                 "os": "win32"
             }
         ],
@@ -9941,8 +9941,8 @@
     },
     {
         "aliases": [
-            "Shooting Stars",
-            "ShootingStars.exe"
+            "ShootingStars.exe",
+            "Shooting Stars"
         ],
         "executables": [
             {
@@ -10498,12 +10498,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "justice_league_vr_the_complete_experience-1.0.0-htcvive-release.exe",
+                "name": "justice_league_vr_the_complete_experience-1.0.1-htcvive-release.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "justice_league_vr_the_complete_experience-1.0.1-htcvive-release.exe",
+                "name": "justice_league_vr_the_complete_experience-1.0.0-htcvive-release.exe",
                 "os": "win32"
             }
         ],
@@ -10519,8 +10519,8 @@
     },
     {
         "aliases": [
-            "South Park: The Stick of Truth",
-            "South Park™: The Stick of Truth™"
+            "South Park™: The Stick of Truth™",
+            "South Park: The Stick of Truth"
         ],
         "executables": [
             {
@@ -10642,12 +10642,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "superhot.exe",
+                "name": "superhot/sh.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "superhot/sh.exe",
+                "name": "superhot.exe",
                 "os": "win32"
             }
         ],
@@ -11445,8 +11445,8 @@
     },
     {
         "aliases": [
-            "HellBlade",
-            "Hellblade: Senua's Sacrifice"
+            "Hellblade: Senua's Sacrifice",
+            "HellBlade"
         ],
         "executables": [
             {
@@ -11772,12 +11772,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "tormentorxpunisher.exe",
+                "name": "tormentorxpunishergit.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "tormentorxpunishergit.exe",
+                "name": "tormentorxpunisher.exe",
                 "os": "win32"
             }
         ],
@@ -11793,8 +11793,8 @@
     },
     {
         "aliases": [
-            "Assassin's Creed Chronicles India",
-            "Assassin?s Creed? Chronicles: India"
+            "Assassin?s Creed? Chronicles: India",
+            "Assassin's Creed Chronicles India"
         ],
         "executables": [
             {
@@ -12128,12 +12128,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dungeon defenders 2/dundef2/binaries/win64/dundefgame.exe",
+                "name": "dungeon defenders 2/dundef2/binaries/win32/dundefgame.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dungeon defenders 2/dundef2/binaries/win32/dundefgame.exe",
+                "name": "dungeon defenders 2/dundef2/binaries/win32/dungeondefenders.exe",
                 "os": "win32"
             },
             {
@@ -12143,7 +12143,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "dungeon defenders 2/dundef2/binaries/win32/dungeondefenders.exe",
+                "name": "dungeon defenders 2/dundef2/binaries/win64/dundefgame.exe",
                 "os": "win32"
             }
         ],
@@ -12211,12 +12211,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "age3.exe",
+                "name": "age3y.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "age3y.exe",
+                "name": "age3.exe",
                 "os": "win32"
             }
         ],
@@ -12364,17 +12364,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "benchmarks/benchmark_output.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "shogun2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "total war shogun 2/modmanager.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "benchmarks/benchmark_output.exe",
                 "os": "win32"
             },
             {
@@ -12651,12 +12651,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mowas_2.exe",
+                "name": "mowas2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "mowas2.exe",
+                "name": "mowas_2.exe",
                 "os": "win32"
             }
         ],
@@ -12679,12 +12679,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "the darwin project/darwin.exe",
+                "name": "darwin-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "darwin-win64-shipping.exe",
+                "name": "the darwin project/darwin.exe",
                 "os": "win32"
             }
         ],
@@ -12799,17 +12799,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "assettocorsa/jsgme.exe",
+                "name": "server/acservermanager.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "editor/kseditor.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "assettocorsa/content manager.exe",
+                "name": "assettocorsa.exe",
                 "os": "win32"
             },
             {
@@ -12819,17 +12814,22 @@
             },
             {
                 "is_launcher": false,
-                "name": "server/acservermanager.exe",
+                "name": "editor/kseditor.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "assettocorsa/jsgme.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "assettocorsa/content manager.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "assettocorsa/acshowroom.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "assettocorsa.exe",
                 "os": "win32"
             }
         ],
@@ -13136,17 +13136,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "sniperelite4_dx11.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "sniperelite4_dx12.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "sniperelite4.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "sniperelite4_dx11.exe",
                 "os": "win32"
             },
             {
@@ -13529,12 +13529,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "system/paradiselost.exe",
+                "name": "postal2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "postal2.exe",
+                "name": "system/paradiselost.exe",
                 "os": "win32"
             }
         ],
@@ -13738,12 +13738,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "witcher.exe",
+                "name": "the witcher enhanced edition/benioku.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "the witcher enhanced edition/benioku.exe",
+                "name": "witcher.exe",
                 "os": "win32"
             }
         ],
@@ -13783,19 +13783,19 @@
     },
     {
         "aliases": [
+            "Need for Speed: Most Wanted",
             "Need for Speed: Most Wanted (2012)",
-            "Need for Speed: Most Wanted (2005)",
-            "Need for Speed: Most Wanted"
+            "Need for Speed: Most Wanted (2005)"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "need for speed - most wanted/speed.exe",
+                "name": "nfs13.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "nfs13.exe",
+                "name": "need for speed - most wanted/speed.exe",
                 "os": "win32"
             }
         ],
@@ -13942,12 +13942,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "client_tos.exe",
+                "name": "release/client_tos_x64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "release/client_tos_x64.exe",
+                "name": "client_tos.exe",
                 "os": "win32"
             }
         ],
@@ -13965,10 +13965,15 @@
     },
     {
         "aliases": [
-            "Star Wars Jedi Knight",
-            "STAR WARS™ Jedi Knight: Jedi Academy™"
+            "STAR WARS™ Jedi Knight: Jedi Academy™",
+            "Star Wars Jedi Knight"
         ],
         "executables": [
+            {
+                "is_launcher": false,
+                "name": "jamp.exe",
+                "os": "win32"
+            },
             {
                 "is_launcher": false,
                 "name": "gamedata/movieduels.x86.exe",
@@ -13977,11 +13982,6 @@
             {
                 "is_launcher": false,
                 "name": "jasp.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "jamp.exe",
                 "os": "win32"
             },
             {
@@ -14132,12 +14132,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "blackops.exe",
+                "name": "blackopsmp.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "blackopsmp.exe",
+                "name": "blackops.exe",
                 "os": "win32"
             }
         ],
@@ -14234,17 +14234,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "divide_and_conquer/large address aware.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "ss6.3/ss_setup.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "medieval2.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "divide_and_conquer/large address aware.exe",
                 "os": "win32"
             }
         ],
@@ -14383,13 +14383,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wakfu.app",
-                "os": "darwin"
+                "name": "wakfu.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "wakfu.exe",
-                "os": "win32"
+                "name": "wakfu.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -14498,12 +14498,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "aura kingdom/launcher.exe",
+                "name": "aura kingdom/_launcher.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "aura kingdom/_launcher.exe",
+                "name": "aura kingdom/launcher.exe",
                 "os": "win32"
             }
         ],
@@ -14582,12 +14582,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "sweaw.exe",
+                "name": "starwarsg.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "starwarsg.exe",
+                "name": "sweaw.exe",
                 "os": "win32"
             }
         ],
@@ -15702,11 +15702,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "star trek online/live/x86/gameclient.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "star trek online/live/x64/gameclient.exe",
                 "os": "win32"
             },
@@ -15718,6 +15713,11 @@
             {
                 "is_launcher": false,
                 "name": "star trek online.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "star trek online/live/x86/gameclient.exe",
                 "os": "win32"
             }
         ],
@@ -15743,42 +15743,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "unification_bugfix/unification configurator 1.0.2.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "dawn of war soulstorm/dow mod manager 1.3.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "unification_bugfix/unification_configurator_1.0.0.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "dawn of war soulstorm/dow mod manager v2.3.2.2.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "dawn of war soulstorm/graphicsconfig.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "dawn of war soulstorm/tyranidsuninstall.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "dawn of war soulstorm/dow mod manager v2.1.6.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "dawn of war soulstorm/dow mod manager v2.1.3.exe",
                 "os": "win32"
             },
             {
@@ -15793,17 +15758,32 @@
             },
             {
                 "is_launcher": false,
-                "name": "dawn of war soulstorm/dow mod manager v1.52.exe",
+                "name": "dawn of war soulstorm/dow mod manager v2.1.6.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dawn of war soulstorm/dow mod manager v1.4.exe",
+                "name": "dawn of war soulstorm/dow mod manager v2.1.3.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "unification_bugfix/unification configurator 1.0.2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "dawn of war soulstorm/dow mod manager v2.1.9.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dawn of war soulstorm/dow mod manager v2.3.2.2.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dawn of war soulstorm/4gb_patch.exe",
                 "os": "win32"
             },
             {
@@ -15818,7 +15798,27 @@
             },
             {
                 "is_launcher": false,
-                "name": "dawn of war soulstorm/4gb_patch.exe",
+                "name": "dawn of war soulstorm/dow mod manager v1.4.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dawn of war soulstorm/graphicsconfig.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dawn of war soulstorm/dow mod manager v1.52.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dawn of war soulstorm/tyranidsuninstall.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "dawn of war soulstorm/dow mod manager 1.3.exe",
                 "os": "win32"
             }
         ],
@@ -15994,13 +15994,13 @@
     },
     {
         "aliases": [
-            "Dark Souls",
-            "DARK SOULS™: REMASTERED"
+            "DARK SOULS™: REMASTERED",
+            "Dark Souls"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dark souls remastered/enemyrandomizer.exe",
+                "name": "darksoulsremastered.exe",
                 "os": "win32"
             },
             {
@@ -16015,7 +16015,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "darksoulsremastered.exe",
+                "name": "dark souls remastered/enemyrandomizer.exe",
                 "os": "win32"
             }
         ],
@@ -16148,12 +16148,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mirrorsedge.exe",
+                "name": "physx/physx_systemsoftware.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "physx/physx_systemsoftware.exe",
+                "name": "mirrorsedge.exe",
                 "os": "win32"
             }
         ],
@@ -16329,12 +16329,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "theescapists.exe",
+                "name": "the escapists/theescapists_eur.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "the escapists/theescapists_eur.exe",
+                "name": "theescapists.exe",
                 "os": "win32"
             }
         ],
@@ -16382,22 +16382,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "daorigins.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "bin_ship/daoriginsconfig.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "bin_ship/daupdater.exe",
+                "name": "daorigins.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "redist/dauservicesetup_steam.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "bin_ship/daupdater.exe",
                 "os": "win32"
             }
         ],
@@ -16523,18 +16523,18 @@
     },
     {
         "aliases": [
-            "Morrowind Launcher",
-            "The Elder Scrolls III: Morrowind"
+            "The Elder Scrolls III: Morrowind",
+            "Morrowind Launcher"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "morrowind/moinstaller.exe",
+                "name": "mlox/mlox.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "morrowind.exe",
+                "name": "morrowind/mgexegui.exe",
                 "os": "win32"
             },
             {
@@ -16544,12 +16544,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "mlox/mlox.exe",
+                "name": "morrowind.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "morrowind/mgexegui.exe",
+                "name": "morrowind/moinstaller.exe",
                 "os": "win32"
             }
         ],
@@ -16613,12 +16613,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mechwarrioronline.exe",
+                "name": "mwoclient.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "mwoclient.exe",
+                "name": "mechwarrioronline.exe",
                 "os": "win32"
             }
         ],
@@ -16850,12 +16850,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "eseaclientsteam.exe",
+                "name": "eseaclient.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "eseaclient.exe",
+                "name": "eseaclientsteam.exe",
                 "os": "win32"
             }
         ],
@@ -17358,12 +17358,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "punkbuster/pbsvc_bc2.exe",
+                "name": "bfbc2game.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "bfbc2game.exe",
+                "name": "punkbuster/pbsvc_bc2.exe",
                 "os": "win32"
             }
         ],
@@ -17433,13 +17433,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "teeworlds.app",
-                "os": "darwin"
+                "name": "teeworlds.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "teeworlds.exe",
-                "os": "win32"
+                "name": "teeworlds.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -17461,12 +17461,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "physx/physx_8.10.29_systemsoftware.exe",
+                "name": "moonbasealphagame.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "moonbasealphagame.exe",
+                "name": "physx/physx_8.10.29_systemsoftware.exe",
                 "os": "win32"
             }
         ],
@@ -17548,12 +17548,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/secretshop.exe",
+                "name": "thelab.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "thelab.exe",
+                "name": "win64/secretshop.exe",
                 "os": "win32"
             }
         ],
@@ -17574,13 +17574,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "citra-qt.app",
-                "os": "darwin"
+                "name": "citra-qt.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "citra-qt.exe",
-                "os": "win32"
+                "name": "citra-qt.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -17646,12 +17646,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "orcsmustdie2.exe",
+                "name": "installer/vcredist_x86.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "installer/vcredist_x86.exe",
+                "name": "orcsmustdie2.exe",
                 "os": "win32"
             }
         ],
@@ -17963,12 +17963,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "gta-vc.exe",
+                "name": "gta--vc.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "gta--vc.exe",
+                "name": "gta-vc.exe",
                 "os": "win32"
             }
         ],
@@ -17994,12 +17994,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dmlauncher.exe",
+                "name": "digimon masters online - steam/updatemanager.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "digimon masters online - steam/updatemanager.exe",
+                "name": "dmlauncher.exe",
                 "os": "win32"
             },
             {
@@ -18310,17 +18310,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "rift.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "rift/glyphclientapp.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "rift_x64.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "rift.exe",
                 "os": "win32"
             }
         ],
@@ -18612,17 +18612,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "recroom.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "recroom_release.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "recroom/recroom.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "recroom.exe",
                 "os": "win32"
             }
         ],
@@ -18711,13 +18711,13 @@
     },
     {
         "aliases": [
-            "Fallout 3 GOTY edition",
-            "Fallout 3 - Game of the Year Edition"
+            "Fallout 3 - Game of the Year Edition",
+            "Fallout 3 GOTY edition"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "fallout3.exe",
+                "name": "fallout 3 goty/fallout3 - garden of eden creation kit.exe",
                 "os": "win32"
             },
             {
@@ -18737,7 +18737,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "fallout 3 goty/fallout3 - garden of eden creation kit.exe",
+                "name": "fallout3.exe",
                 "os": "win32"
             }
         ],
@@ -18759,8 +18759,8 @@
     },
     {
         "aliases": [
-            "RUNNING WITH RIFLES",
-            "Running with Rifles"
+            "Running with Rifles",
+            "RUNNING WITH RIFLES"
         ],
         "executables": [
             {
@@ -19141,7 +19141,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "arma 2 operation arrowhead/arma2oa.exe",
+                "name": "arma2oa_be.exe",
                 "os": "win32"
             },
             {
@@ -19151,12 +19151,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "pmc/datacachepreprocessor.exe",
+                "name": "arma 2 operation arrowhead/arma2oa.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "arma2oa_be.exe",
+                "name": "pmc/datacachepreprocessor.exe",
                 "os": "win32"
             }
         ],
@@ -19327,12 +19327,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "stalker call of pripyat/stalker-cop.exe",
+                "name": "stalker call of pripyat/bin/xrengine.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "stalker call of pripyat/bin/xrengine.exe",
+                "name": "stalker call of pripyat/stalker-cop.exe",
                 "os": "win32"
             }
         ],
@@ -19433,12 +19433,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "aagame.exe",
+                "name": "binaries/pbsvc_pg.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "binaries/pbsvc_pg.exe",
+                "name": "aagame.exe",
                 "os": "win32"
             }
         ],
@@ -19639,12 +19639,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "lsgame_be.exe",
+                "name": "win32/lsgame.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win32/lsgame.exe",
+                "name": "lsgame_be.exe",
                 "os": "win32"
             }
         ],
@@ -19662,18 +19662,18 @@
     },
     {
         "aliases": [
-            "S.K.I.L.L. - Special Force 2",
-            "Special Force 2 SEA"
+            "Special Force 2 SEA",
+            "S.K.I.L.L. - Special Force 2"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "skill/dfufg.exe",
+                "name": "skill/dfubg.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "skill/dfubg.exe",
+                "name": "games/specialforce2/binaries/win32/sf2.exe",
                 "os": "win32"
             },
             {
@@ -19683,7 +19683,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "games/specialforce2/binaries/win32/sf2.exe",
+                "name": "skill/dfufg.exe",
                 "os": "win32"
             }
         ],
@@ -19931,12 +19931,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "retail/injustice2.exe",
+                "name": "injustice2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "injustice2.exe",
+                "name": "retail/injustice2.exe",
                 "os": "win32"
             }
         ],
@@ -20125,22 +20125,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "victoria2.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "victoria 2/vcredist_x86.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "movies/binkplay.exe",
+                "name": "victoria 2/v2game.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "victoria 2/v2game.exe",
+                "name": "victoria2.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "movies/binkplay.exe",
                 "os": "win32"
             }
         ],
@@ -20272,12 +20272,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "quakelive.exe",
+                "name": "quakelive_steam.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "quakelive_steam.exe",
+                "name": "quakelive.exe",
                 "os": "win32"
             }
         ],
@@ -20868,18 +20868,18 @@
     },
     {
         "aliases": [
-            "Need for Speed: Hot Pursuit",
-            "Need for Speed(TM) Hot Pursuit"
+            "Need for Speed(TM) Hot Pursuit",
+            "Need for Speed: Hot Pursuit"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "need for speed hot pursuit/configtool.exe",
+                "name": "nfs11.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "nfs11.exe",
+                "name": "need for speed hot pursuit/configtool.exe",
                 "os": "win32"
             }
         ],
@@ -20960,12 +20960,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "railworks.exe",
+                "name": "install/physx_9.10.0513_systemsoftware.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "install/physx_9.10.0513_systemsoftware.exe",
+                "name": "railworks.exe",
                 "os": "win32"
             }
         ],
@@ -21094,12 +21094,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/outlast2.exe",
+                "name": "outlast2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "outlast2.exe",
+                "name": "win64/outlast2.exe",
                 "os": "win32"
             }
         ],
@@ -21213,12 +21213,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "iracingsim.exe",
+                "name": "iracingsim64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "iracingsim64.exe",
+                "name": "iracingsim.exe",
                 "os": "win32"
             }
         ],
@@ -21526,12 +21526,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "pirate.exe",
+                "name": "pirate101.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "pirate101.exe",
+                "name": "pirate.exe",
                 "os": "win32"
             }
         ],
@@ -21680,12 +21680,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "l2.exe",
+                "name": "lineageii.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "lineageii.exe",
+                "name": "l2.exe",
                 "os": "win32"
             }
         ],
@@ -22117,12 +22117,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "iw7_ship.exe",
+                "name": "call of duty - infinite warfare/iw7_ship.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "call of duty - infinite warfare/iw7_ship.exe",
+                "name": "iw7_ship.exe",
                 "os": "win32"
             }
         ],
@@ -22752,12 +22752,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "devimaycry4.exe",
+                "name": "devilmaycry4_dx9.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "devilmaycry4_dx9.exe",
+                "name": "devimaycry4.exe",
                 "os": "win32"
             },
             {
@@ -22811,12 +22811,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "lordsofthefallen.exe",
+                "name": "lords of the fallen/lotf2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "lords of the fallen/lotf2.exe",
+                "name": "lordsofthefallen.exe",
                 "os": "win32"
             }
         ],
@@ -23046,12 +23046,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dawn of war dark crusade/darkcrusade.exe",
+                "name": "dawn of war dark crusade/graphicsconfig.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dawn of war dark crusade/graphicsconfig.exe",
+                "name": "dawn of war dark crusade/darkcrusade.exe",
                 "os": "win32"
             }
         ],
@@ -23160,13 +23160,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "cardhunter.app",
-                "os": "darwin"
+                "name": "cardhunter.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "cardhunter.exe",
-                "os": "win32"
+                "name": "cardhunter.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -23347,12 +23347,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "crashbandicootnsanetrilogy.exe",
+                "name": "crash bandicoot - n sane trilogy/crashbandicootnsanetrilogy.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "crash bandicoot - n sane trilogy/crashbandicootnsanetrilogy.exe",
+                "name": "crashbandicootnsanetrilogy.exe",
                 "os": "win32"
             }
         ],
@@ -23376,12 +23376,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ionbranch.exe",
+                "name": "ionbranch_be.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ionbranch_be.exe",
+                "name": "ionbranch.exe",
                 "os": "win32"
             }
         ],
@@ -23792,12 +23792,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "command and conquer red alert 3/ra3.exe",
+                "name": "ra3ep1.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ra3ep1.exe",
+                "name": "command and conquer red alert 3/ra3.exe",
                 "os": "win32"
             }
         ],
@@ -24185,12 +24185,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dawn of war gold/w40k.exe",
+                "name": "dawn of war gold/graphicsconfig.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dawn of war gold/graphicsconfig.exe",
+                "name": "dawn of war gold/w40k.exe",
                 "os": "win32"
             }
         ],
@@ -24501,12 +24501,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "fallout2hr.exe",
+                "name": "fallout2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "fallout2.exe",
+                "name": "fallout2hr.exe",
                 "os": "win32"
             }
         ],
@@ -25065,12 +25065,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "spacemarine.exe",
+                "name": "warhammer 40,000 space marine/bssndrpt.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "warhammer 40,000 space marine/bssndrpt.exe",
+                "name": "spacemarine.exe",
                 "os": "win32"
             }
         ],
@@ -25094,12 +25094,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/insurgencyclient-win64-test.exe",
+                "name": "insurgencyclient-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "insurgencyclient-win64-shipping.exe",
+                "name": "win64/insurgencyclient-win64-test.exe",
                 "os": "win32"
             },
             {
@@ -25133,12 +25133,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "onward.exe",
+                "name": "onward/onward.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "onward/onward.exe",
+                "name": "onward.exe",
                 "os": "win32"
             }
         ],
@@ -25229,12 +25229,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "call of duty 4/iw3mp.exe",
+                "name": "iw3mp.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "iw3mp.exe",
+                "name": "call of duty 4/iw3mp.exe",
                 "os": "win32"
             },
             {
@@ -25314,13 +25314,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "throneoflies.exe",
-                "os": "win32"
+                "name": "throneoflies.x86",
+                "os": "linux"
             },
             {
                 "is_launcher": false,
-                "name": "throneoflies.x86",
-                "os": "linux"
+                "name": "throneoflies.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -25639,17 +25639,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "shock2.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "system shock2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "ss2/ss2.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "shock2.exe",
                 "os": "win32"
             }
         ],
@@ -25717,8 +25717,8 @@
     },
     {
         "aliases": [
-            "Call of Duty: Black Ops 4",
-            "Call of Duty: Black Ops IIII"
+            "Call of Duty: Black Ops IIII",
+            "Call of Duty: Black Ops 4"
         ],
         "executables": [
             {
@@ -26151,12 +26151,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/abzugame-win64-shipping.exe",
+                "name": "abzugame-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "abzugame-win64-shipping.exe",
+                "name": "win64/abzugame-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -26221,7 +26221,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "darkest hour.exe",
+                "name": "darkest hourkr.exe",
                 "os": "win32"
             },
             {
@@ -26231,7 +26231,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "darkest hourkr.exe",
+                "name": "darkest hour.exe",
                 "os": "win32"
             }
         ],
@@ -26278,7 +26278,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "hoi3_tfh_kor.exe",
+                "name": "hoi3.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "hoi3game.exe",
                 "os": "win32"
             },
             {
@@ -26288,12 +26293,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "hoi3.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "hoi3game.exe",
+                "name": "hoi3_tfh_kor.exe",
                 "os": "win32"
             }
         ],
@@ -26426,16 +26426,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "battlegrounds_cc.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "swgbg.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "battlegrounds.exe",
                 "os": "win32"
             },
@@ -26446,12 +26436,22 @@
             },
             {
                 "is_launcher": false,
-                "name": "swgbwide_x1.exe",
+                "name": "battlegrounds_cc.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "battlegrounds_x2.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "swgbwide_x1.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "swgbg.exe",
                 "os": "win32"
             }
         ],
@@ -26578,12 +26578,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "jk2sp.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "jk2mp.exe",
+                "name": "jk2mvmp_x86.exe",
                 "os": "win32"
             },
             {
@@ -26593,7 +26588,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "jk2mvmp_x86.exe",
+                "name": "jk2mp.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "jk2sp.exe",
                 "os": "win32"
             }
         ],
@@ -27019,12 +27019,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "foxgame-win32-shipping.exe",
+                "name": "win32/foxgame-win32-shipping_be.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win32/foxgame-win32-shipping_be.exe",
+                "name": "foxgame-win32-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -27217,13 +27217,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "studyinsteampunk.exe",
-                "os": "win32"
+                "name": "a study in steampunk choice by gaslight.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "a study in steampunk choice by gaslight.app",
-                "os": "darwin"
+                "name": "studyinsteampunk.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -27284,12 +27284,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ageofconandx10.exe",
+                "name": "ageofconan.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ageofconan.exe",
+                "name": "ageofconandx10.exe",
                 "os": "win32"
             }
         ],
@@ -27360,13 +27360,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "albion-online.exe",
-                "os": "win32"
+                "name": "albion-online.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "albion-online.app",
-                "os": "darwin"
+                "name": "albion-online.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -27970,12 +27970,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "cod2sp_s.exe",
+                "name": "cod2mp_s.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "cod2mp_s.exe",
+                "name": "cod2sp_s.exe",
                 "os": "win32"
             }
         ],
@@ -27998,12 +27998,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "coj_dx10.exe",
+                "name": "coj.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "coj.exe",
+                "name": "coj_dx10.exe",
                 "os": "win32"
             }
         ],
@@ -28257,12 +28257,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "csdsteambuild.exe",
+                "name": "csdgogbuild.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "csdgogbuild.exe",
+                "name": "csdsteambuild.exe",
                 "os": "win32"
             }
         ],
@@ -28286,12 +28286,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "creationkit32.exe",
+                "name": "creationkit.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "creationkit.exe",
+                "name": "creationkit32.exe",
                 "os": "win32"
             }
         ],
@@ -28750,12 +28750,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "diablo ii/game.exe",
+                "name": "diablo ii.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "diablo ii.exe",
+                "name": "diablo ii/game.exe",
                 "os": "win32"
             }
         ],
@@ -28777,17 +28777,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "diadraempty154lw.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "diadraempty154plus.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "diadraempty.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "diadraempty154lw.exe",
                 "os": "win32"
             }
         ],
@@ -29025,12 +29025,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dropzonesteamclient_x32_rel.exe",
+                "name": "dropzone/bin/juggernautclient_x32_rel.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dropzone/bin/juggernautclient_x32_rel.exe",
+                "name": "dropzonesteamclient_x32_rel.exe",
                 "os": "win32"
             }
         ],
@@ -29144,13 +29144,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "dustforce.app",
-                "os": "darwin"
+                "name": "dustforce.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "dustforce.exe",
-                "os": "win32"
+                "name": "dustforce.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -29365,7 +29365,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ff8_fr.exe",
+                "name": "ff8_en.exe",
                 "os": "win32"
             },
             {
@@ -29375,7 +29375,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "ff8_en.exe",
+                "name": "ff8_fr.exe",
                 "os": "win32"
             }
         ],
@@ -29647,12 +29647,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "frontier.exe",
+                "name": "frontier/client.jar",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "frontier/client.jar",
+                "name": "frontier.exe",
                 "os": "win32"
             }
         ],
@@ -30013,13 +30013,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "hate plus.app",
-                "os": "darwin"
+                "name": "hate plus.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "hate plus.exe",
-                "os": "win32"
+                "name": "hate plus.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -30594,12 +30594,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "marvelheroes2015.exe",
+                "name": "marvelheroesomega.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "marvelheroesomega.exe",
+                "name": "marvelheroes2015.exe",
                 "os": "win32"
             }
         ],
@@ -30793,18 +30793,18 @@
     },
     {
         "aliases": [
-            "Assassin's Creed Odyssey",
-            "Assassin's Creed: Odyssey"
+            "Assassin's Creed: Odyssey",
+            "Assassin's Creed Odyssey"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "vcredist/vc_redist.x64.exe",
+                "name": "acodyssey.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "acodyssey.exe",
+                "name": "vcredist/vc_redist.x64.exe",
                 "os": "win32"
             }
         ],
@@ -31089,12 +31089,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ns3fb.exe",
+                "name": "nsuns3.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "nsuns3.exe",
+                "name": "ns3fb.exe",
                 "os": "win32"
             }
         ],
@@ -31299,8 +31299,8 @@
     },
     {
         "aliases": [
-            "ONI",
-            "Oni"
+            "Oni",
+            "ONI"
         ],
         "executables": [
             {
@@ -31310,12 +31310,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "oni.exe",
+                "name": "ae/oni.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ae/oni.exe",
+                "name": "oni.exe",
                 "os": "win32"
             }
         ],
@@ -31358,12 +31358,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "peggleextreme/popcapgame1.exe",
+                "name": "peggleextreme.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "peggleextreme.exe",
+                "name": "peggleextreme/popcapgame1.exe",
                 "os": "win32"
             }
         ],
@@ -31506,12 +31506,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "plantsvszombies.exe",
+                "name": "plants vs. zombies/popcapgame1.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "plants vs. zombies/popcapgame1.exe",
+                "name": "plantsvszombies.exe",
                 "os": "win32"
             }
         ],
@@ -31637,12 +31637,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "prime world/castle/castle.exe",
+                "name": "pw_game.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "pw_game.exe",
+                "name": "prime world/castle/castle.exe",
                 "os": "win32"
             }
         ],
@@ -31860,12 +31860,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "rvgl.exe",
+                "name": "revolt.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "revolt.exe",
+                "name": "rvgl.exe",
                 "os": "win32"
             }
         ],
@@ -32771,12 +32771,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "shantaecurse.exe",
+                "name": "shantae and the pirate's curse.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "shantae and the pirate's curse.exe",
+                "name": "shantaecurse.exe",
                 "os": "win32"
             }
         ],
@@ -32847,13 +32847,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "sinarun.app",
-                "os": "darwin"
+                "name": "sinarun.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "sinarun.exe",
-                "os": "win32"
+                "name": "sinarun.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -32871,12 +32871,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "slime ccg.exe",
+                "name": "los-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "los-win64-shipping.exe",
+                "name": "slime ccg.exe",
                 "os": "win32"
             }
         ],
@@ -33106,12 +33106,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "steins;gate/game.exe",
+                "name": "steinsgate.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "steinsgate.exe",
+                "name": "steins;gate/game.exe",
                 "os": "win32"
             }
         ],
@@ -33334,8 +33334,8 @@
     },
     {
         "aliases": [
-            "Swat 4",
-            "Swat 4: The Stetchkov Syndicate"
+            "Swat 4: The Stetchkov Syndicate",
+            "Swat 4"
         ],
         "executables": [
             {
@@ -33452,12 +33452,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "tales from the borderlands/borderlands.exe",
+                "name": "b24f49f9-d7fe-40b6-8f4d-65b0c6bf6a6b/borderlands.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "b24f49f9-d7fe-40b6-8f4d-65b0c6bf6a6b/borderlands.exe",
+                "name": "tales from the borderlands/borderlands.exe",
                 "os": "win32"
             }
         ],
@@ -33499,18 +33499,13 @@
     },
     {
         "aliases": [
-            "Tales of Monkey Island: Chapter 5 - Rise of the Pirate God",
+            "Tales of Monkey Island: Chapter 2 - The Siege of Spinner Cay",
             "Tales of Monkey Island: Chapter 1 - Launch of the Screaming Narwhal",
+            "Tales of Monkey Island: Chapter 5 - Rise of the Pirate God",
             "Tales of Monkey Island: Chapter 3 - Lair of the Leviathan",
-            "Tales of Monkey Island: Chapter 4 - The Trial and Execution of Guybrush Threepwood",
-            "Tales of Monkey Island: Chapter 2 - The Siege of Spinner Cay"
+            "Tales of Monkey Island: Chapter 4 - The Trial and Execution of Guybrush Threepwood"
         ],
         "executables": [
-            {
-                "is_launcher": false,
-                "name": "monkeyisland102.exe",
-                "os": "win32"
-            },
             {
                 "is_launcher": false,
                 "name": "monkeyisland103.exe",
@@ -33524,6 +33519,11 @@
             {
                 "is_launcher": false,
                 "name": "monkeyisland104.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "monkeyisland102.exe",
                 "os": "win32"
             },
             {
@@ -33688,12 +33688,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "oblivion.exe",
+                "name": "oblivion/oblivion.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "oblivion/oblivion.exe",
+                "name": "oblivion.exe",
                 "os": "win32"
             }
         ],
@@ -33736,8 +33736,8 @@
     },
     {
         "aliases": [
-            "The King Of Fighters 2002 Unlimited Match",
-            "The King of Fighters 2002 Unlimited Match"
+            "The King of Fighters 2002 Unlimited Match",
+            "The King Of Fighters 2002 Unlimited Match"
         ],
         "executables": [
             {
@@ -33826,7 +33826,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "thesecretworld.exe",
+                "name": "secretworldlegendsdx11.exe",
                 "os": "win32"
             },
             {
@@ -33836,7 +33836,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "secretworldlegendsdx11.exe",
+                "name": "thesecretworld.exe",
                 "os": "win32"
             },
             {
@@ -34374,12 +34374,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "warsow_x86.exe",
+                "name": "warsow_x64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "warsow_x64.exe",
+                "name": "warsow_x86.exe",
                 "os": "win32"
             }
         ],
@@ -34446,7 +34446,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wolfoldblood_x64.exe",
+                "name": "wolfoldblood_x32.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "wolfenstein the old blood/wolfoldblood_x64.exe",
                 "os": "win32"
             },
             {
@@ -34456,12 +34461,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "wolfoldblood_x32.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "wolfenstein the old blood/wolfoldblood_x64.exe",
+                "name": "wolfoldblood_x64.exe",
                 "os": "win32"
             }
         ],
@@ -34487,12 +34487,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wonderwickets-release.exe",
+                "name": "wonder wickets.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "wonder wickets.exe",
+                "name": "wonderwickets-release.exe",
                 "os": "win32"
             }
         ],
@@ -34849,8 +34849,8 @@
     },
     {
         "aliases": [
-            "Blackshot SEA",
-            "BlackShot SEA"
+            "BlackShot SEA",
+            "Blackshot SEA"
         ],
         "executables": [
             {
@@ -35276,12 +35276,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "desertsofkharak32.exe",
+                "name": "desertsofkharak64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "desertsofkharak64.exe",
+                "name": "desertsofkharak32.exe",
                 "os": "win32"
             }
         ],
@@ -35979,13 +35979,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mtga.app",
-                "os": "darwin"
+                "name": "mtga.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "mtga.exe",
-                "os": "win32"
+                "name": "mtga.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -36598,12 +36598,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "pcsx2.exe",
+                "name": "pcsx2-r5875.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "pcsx2-r5875.exe",
+                "name": "pcsx2.exe",
                 "os": "win32"
             }
         ],
@@ -36857,12 +36857,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "shadowcomplex-win32.exe",
+                "name": "shadowcomplex-win32-egl.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "shadowcomplex-win32-egl.exe",
+                "name": "shadowcomplex-win32.exe",
                 "os": "win32"
             }
         ],
@@ -37216,12 +37216,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th11e.exe",
+                "name": "th11.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th11.exe",
+                "name": "th11e.exe",
                 "os": "win32"
             }
         ],
@@ -37264,12 +37264,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th123e.exe",
+                "name": "th123.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th123.exe",
+                "name": "th123e.exe",
                 "os": "win32"
             }
         ],
@@ -37288,12 +37288,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th125e.exe",
+                "name": "th125.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th125.exe",
+                "name": "th125e.exe",
                 "os": "win32"
             }
         ],
@@ -37312,12 +37312,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th128.exe",
+                "name": "th128e.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th128e.exe",
+                "name": "th128.exe",
                 "os": "win32"
             }
         ],
@@ -37336,12 +37336,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th13.exe",
+                "name": "th13e.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th13e.exe",
+                "name": "th13.exe",
                 "os": "win32"
             }
         ],
@@ -37360,12 +37360,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th135e.exe",
+                "name": "th135.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th135.exe",
+                "name": "th135e.exe",
                 "os": "win32"
             }
         ],
@@ -37384,12 +37384,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th14e.exe",
+                "name": "th14.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th14.exe",
+                "name": "th14e.exe",
                 "os": "win32"
             }
         ],
@@ -37408,12 +37408,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th143.exe",
+                "name": "th143e.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th143e.exe",
+                "name": "th143.exe",
                 "os": "win32"
             }
         ],
@@ -37456,12 +37456,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th15.exe",
+                "name": "th15e.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th15e.exe",
+                "name": "th15.exe",
                 "os": "win32"
             }
         ],
@@ -37499,12 +37499,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th07.exe",
+                "name": "th07e.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th07e.exe",
+                "name": "th07.exe",
                 "os": "win32"
             }
         ],
@@ -37523,12 +37523,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th075e.exe",
+                "name": "th075.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th075.exe",
+                "name": "th075e.exe",
                 "os": "win32"
             }
         ],
@@ -37595,12 +37595,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "th095e.exe",
+                "name": "th095.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "th095.exe",
+                "name": "th095e.exe",
                 "os": "win32"
             }
         ],
@@ -37665,12 +37665,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ed6_win.exe",
+                "name": "ed6_win_dx9.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ed6_win_dx9.exe",
+                "name": "ed6_win.exe",
                 "os": "win32"
             }
         ],
@@ -37723,13 +37723,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "va-11 hall-a/runner\"",
-                "os": "linux"
+                "name": "va-11 hall a.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "va-11 hall a.exe",
-                "os": "win32"
+                "name": "va-11 hall-a/runner\"",
+                "os": "linux"
             }
         ],
         "hook": true,
@@ -37792,13 +37792,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ygopro.app",
-                "os": "darwin"
+                "name": "ygopro_vs.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ygopro_vs.exe",
-                "os": "win32"
+                "name": "ygopro.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -38134,17 +38134,17 @@
             },
             {
                 "is_launcher": false,
+                "name": "apex legends/r5apex.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "apex/r5apex_dx12.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "r5apex_dx12.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "apex legends/r5apex.exe",
                 "os": "win32"
             }
         ],
@@ -38359,9 +38359,9 @@
     },
     {
         "aliases": [
-            "Fall Guys",
+            "糖豆人：終極淘汰賽",
             "Fall Guys: Ultimate Knockout",
-            "糖豆人：終極淘汰賽"
+            "Fall Guys"
         ],
         "executables": [
             {
@@ -38470,12 +38470,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "x64/cyberpunk2077.exe",
+                "name": "cyberpunk2077.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "cyberpunk2077.exe",
+                "name": "x64/cyberpunk2077.exe",
                 "os": "win32"
             }
         ],
@@ -38496,9 +38496,9 @@
     },
     {
         "aliases": [
-            "STAR WARS™ Battlefront™",
             "STAR WARS Battlefront",
-            "Star Wars Battlefront"
+            "Star Wars Battlefront",
+            "STAR WARS™ Battlefront™"
         ],
         "executables": [
             {
@@ -38726,12 +38726,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "snap.exe",
+                "name": "marvel snap/snap.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "marvel snap/snap.exe",
+                "name": "snap.exe",
                 "os": "win32"
             }
         ],
@@ -38776,11 +38776,11 @@
     },
     {
         "aliases": [
+            "ホグワーツ・レガシー",
             "霍格華茲的傳承",
-            "Хогвартс. Наследие",
             "Hogwarts Legacy",
             "Hogwarts Legacy : L'Héritage de Poudlard",
-            "ホグワーツ・レガシー"
+            "Хогвартс. Наследие"
         ],
         "executables": [
             {
@@ -39045,22 +39045,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "tmodloader/tmodloader.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "6.0.0/dotnet.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "launchutils/busybox64.exe",
+                "name": "tmodloader/tmodloader64bit.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "tmodloader/tmodloader64bit.exe",
+                "name": "tmodloader/tmodloader.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "launchutils/busybox64.exe",
                 "os": "win32"
             }
         ],
@@ -68046,13 +68046,13 @@
         "aliases": [],
         "executables": [
             {
-                "is_launcher": false,
-                "name": "squad - public testing/squadgame/binaries/win64/squadgame.exe",
+                "is_launcher": true,
+                "name": "squad - public testing/squad_launcher.exe",
                 "os": "win32"
             },
             {
-                "is_launcher": true,
-                "name": "squad - public testing/squad_launcher.exe",
+                "is_launcher": false,
+                "name": "squad - public testing/squadgame/binaries/win64/squadgame.exe",
                 "os": "win32"
             }
         ],
@@ -76265,12 +76265,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "a plague tale requiem/aplaguetalerequiem_x64.exe",
+                "name": "aplaguetalerequiem/aplaguetalerequiem_x64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "aplaguetalerequiem/aplaguetalerequiem_x64.exe",
+                "name": "a plague tale requiem/aplaguetalerequiem_x64.exe",
                 "os": "win32"
             }
         ],
@@ -112397,12 +112397,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "card shark demo/card_shark.exe",
+                "name": "card shark/card_shark.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "card shark/card_shark.exe",
+                "name": "card shark demo/card_shark.exe",
                 "os": "win32"
             }
         ],
@@ -141662,8 +141662,8 @@
     {
         "aliases": [
             "DAVE THE DIVER",
-            "데이브 더 다이버",
-            "デイヴ・ザ・ダイバー"
+            "デイヴ・ザ・ダイバー",
+            "데이브 더 다이버"
         ],
         "executables": [
             {
@@ -141760,9 +141760,9 @@
     },
     {
         "aliases": [
-            "動物園之星",
             "プラネット ズー",
-            "플래닛 주"
+            "플래닛 주",
+            "動物園之星"
         ],
         "executables": [
             {
@@ -141923,8 +141923,8 @@
     },
     {
         "aliases": [
-            "RESIDENT EVIL 2 / BIOHAZARD RE:2",
-            "BIOHAZARD RE:2"
+            "BIOHAZARD RE:2",
+            "RESIDENT EVIL 2 / BIOHAZARD RE:2"
         ],
         "executables": [
             {
@@ -142306,8 +142306,8 @@
     },
     {
         "aliases": [
-            "Scavengers",
-            "Scavengers Playtest"
+            "Scavengers Playtest",
+            "Scavengers"
         ],
         "executables": [
             {
@@ -142541,8 +142541,8 @@
     },
     {
         "aliases": [
-            "Counter-Strike Nexon: Studio",
-            "Counter-Strike Nexon: Zombies"
+            "Counter-Strike Nexon: Zombies",
+            "Counter-Strike Nexon: Studio"
         ],
         "executables": [
             {
@@ -142569,12 +142569,12 @@
     },
     {
         "aliases": [
-            "Shop Titans: создавай и строй",
-            "Shop Titans: Crie e Construa",
-            "Shop Titans: Üret ve İnşa Et",
             "Shop Titans: Crear y Construye",
             "Shop Titans : Craft et Créer",
-            "Shop Titans: Craft & Bauen"
+            "Shop Titans: Üret ve İnşa Et",
+            "Shop Titans: создавай и строй",
+            "Shop Titans: Craft & Bauen",
+            "Shop Titans: Crie e Construa"
         ],
         "executables": [
             {
@@ -142828,12 +142828,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "knockout city/knockoutcity.exe",
+                "name": "knockoutcity/knockoutcity.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "knockoutcity/knockoutcity.exe",
+                "name": "knockout city/knockoutcity.exe",
                 "os": "win32"
             }
         ],
@@ -143118,8 +143118,8 @@
     {
         "aliases": [
             "Craftopia",
-            "Craftopia / 始世樂土",
-            "Craftopia / クラフトピア"
+            "Craftopia / クラフトピア",
+            "Craftopia / 始世樂土"
         ],
         "executables": [
             {
@@ -143261,8 +143261,8 @@
     },
     {
         "aliases": [
-            "Sally Face",
-            "Sally Face - Episode One"
+            "Sally Face - Episode One",
+            "Sally Face"
         ],
         "executables": [
             {
@@ -143307,8 +143307,8 @@
     },
     {
         "aliases": [
-            "ONE PIECE海賊無雙4",
-            "원피스 해적무쌍 4"
+            "원피스 해적무쌍 4",
+            "ONE PIECE海賊無雙4"
         ],
         "executables": [
             {
@@ -143475,8 +143475,8 @@
     },
     {
         "aliases": [
-            "Spiritfarer®: Farewell Edition",
-            "Spiritfarer®: Edição Farewell"
+            "Spiritfarer®: Edição Farewell",
+            "Spiritfarer®: Farewell Edition"
         ],
         "executables": [
             {
@@ -143500,8 +143500,8 @@
     },
     {
         "aliases": [
-            "토치라이트:인피니트",
-            "火炬之光：無限"
+            "火炬之光：無限",
+            "토치라이트:인피니트"
         ],
         "executables": [
             {
@@ -143660,8 +143660,8 @@
     },
     {
         "aliases": [
-            "Mafia II: Edycja Ostateczna",
-            "Mafia II: Definitivní edice"
+            "Mafia II: Definitivní edice",
+            "Mafia II: Edycja Ostateczna"
         ],
         "executables": [
             {
@@ -143938,8 +143938,8 @@
     },
     {
         "aliases": [
-            "Pixel Studio for pixel art",
-            "Pixel Studio - best pixel art editor"
+            "Pixel Studio - best pixel art editor",
+            "Pixel Studio for pixel art"
         ],
         "executables": [
             {
@@ -144217,8 +144217,8 @@
     },
     {
         "aliases": [
-            "There is no game : Wrong dimension",
-            "There is no game: Wrong dimension"
+            "There is no game: Wrong dimension",
+            "There is no game : Wrong dimension"
         ],
         "executables": [
             {
@@ -144293,37 +144293,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "common/tanki online.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "tanki online/tanki online.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "tanki online5/tanki online.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "tanki online5/tanki onlinet.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "gtanki online.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "tanki online — копия/tanki online.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "tanki online.exe",
+                "name": "tanki online/tanki online.exe",
                 "os": "win32"
             },
             {
@@ -144334,6 +144309,31 @@
             {
                 "is_launcher": false,
                 "name": "backup/tanki online.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "tanki online5/tanki onlinet.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "common/tanki online.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "tanki online5/tanki online.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "tanki online — копия/tanki online.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "tanki online.exe",
                 "os": "win32"
             }
         ],
@@ -145388,8 +145388,8 @@
     },
     {
         "aliases": [
-            "Gravewood High Multiplayer",
-            "グレイブウッド・ハイ Gravewood High Multiplayer"
+            "グレイブウッド・ハイ Gravewood High Multiplayer",
+            "Gravewood High Multiplayer"
         ],
         "executables": [
             {
@@ -145984,8 +145984,8 @@
     },
     {
         "aliases": [
-            "Furry Love",
-            "Пушистая Любовь"
+            "Пушистая Любовь",
+            "Furry Love"
         ],
         "executables": [
             {
@@ -150941,12 +150941,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "bin/bg3.exe",
+                "name": "bin/bg3_dx11.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "bin/bg3_dx11.exe",
+                "name": "bin/bg3.exe",
                 "os": "win32"
             }
         ],
@@ -152583,12 +152583,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "combat arms the classic/gameguard.des",
+                "name": "combat arms the classic/engine_be.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "combat arms the classic/engine_be.exe",
+                "name": "combat arms the classic/gameguard.des",
                 "os": "win32"
             }
         ],
@@ -153096,9 +153096,9 @@
     },
     {
         "aliases": [
-            "Need for Speed Heat MULTi2 - ElAmigos version 1.0",
+            "Need for Speed Heat",
             "Need for Speed™ Heat",
-            "Need for Speed Heat"
+            "Need for Speed Heat MULTi2 - ElAmigos version 1.0"
         ],
         "executables": [
             {
@@ -153177,12 +153177,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "f1 2020/f1_2020.exe",
+                "name": "f1 2020/f1_2020_dx12.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "f1 2020/f1_2020_dx12.exe",
+                "name": "f1 2020/f1_2020.exe",
                 "os": "win32"
             }
         ],
@@ -153732,12 +153732,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "fivenightsatfreddys4/halloweenedition.exe",
+                "name": "fivenightsatfreddys4/fivenightsatfreddys4.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "fivenightsatfreddys4/fivenightsatfreddys4.exe",
+                "name": "fivenightsatfreddys4/halloweenedition.exe",
                 "os": "win32"
             }
         ],
@@ -153901,8 +153901,8 @@
     },
     {
         "aliases": [
-            "Kill It With Fire",
             "Kill It With Fire: HEATWAVE",
+            "Kill It With Fire",
             "Kill It With Fire: IGNITION"
         ],
         "executables": [
@@ -154004,12 +154004,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "stormworks/stormworks64.exe",
+                "name": "stormworks/stormworks.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "stormworks/stormworks.exe",
+                "name": "stormworks/stormworks64.exe",
                 "os": "win32"
             }
         ],
@@ -154128,20 +154128,20 @@
     },
     {
         "aliases": [
-            "KovaaK's",
             "KovaaK 2.0: The Meta",
-            "KovaaK's FPS Aim Trainer",
-            "KovaaK 2.0"
+            "KovaaK's",
+            "KovaaK 2.0",
+            "KovaaK's FPS Aim Trainer"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "fpsaimtrainer/fpsaimtrainer.exe",
+                "name": "win64/fpsaimtrainer-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/fpsaimtrainer-win64-shipping.exe",
+                "name": "fpsaimtrainer/fpsaimtrainer.exe",
                 "os": "win32"
             }
         ],
@@ -154372,12 +154372,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "release/homeworldrm.exe",
+                "name": "releaseeos/homeworldrm.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "releaseeos/homeworldrm.exe",
+                "name": "release/homeworldrm.exe",
                 "os": "win32"
             }
         ],
@@ -154573,12 +154573,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "unbeatable [white label]/unbeatable [white label].exe",
+                "name": "unbeatable/unbeatable [white label].exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "unbeatable/unbeatable [white label].exe",
+                "name": "unbeatable [white label]/unbeatable [white label].exe",
                 "os": "win32"
             }
         ],
@@ -154600,12 +154600,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "call of duty ghosts/iw6sp64_ship.exe",
+                "name": "call of duty ghosts/iw6mp64_ship.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "call of duty ghosts/iw6mp64_ship.exe",
+                "name": "call of duty ghosts/iw6sp64_ship.exe",
                 "os": "win32"
             }
         ],
@@ -154867,12 +154867,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "fifa 19/fifa19.exe",
+                "name": "fifa19/fifa19.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "fifa19/fifa19.exe",
+                "name": "fifa 19/fifa19.exe",
                 "os": "win32"
             }
         ],
@@ -155556,9 +155556,9 @@
     },
     {
         "aliases": [
-            "MovieStarPlanet 1.0.8 sürümü",
+            "MovieStarPlanet (wersja 1.0.8)",
             "MovieStarPlanet version 1.0.8",
-            "MovieStarPlanet (wersja 1.0.8)"
+            "MovieStarPlanet 1.0.8 sürümü"
         ],
         "executables": [
             {
@@ -156666,8 +156666,8 @@
     },
     {
         "aliases": [
-            "Gas Station Simulator",
-            "Gas Station Simulator: Prologue - Early Days"
+            "Gas Station Simulator: Prologue - Early Days",
+            "Gas Station Simulator"
         ],
         "executables": [
             {
@@ -156789,12 +156789,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mafia definitive edition/mafiadefinitiveedition.exe",
+                "name": "mafia - definitive edition/mafiadefinitiveedition.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "mafia - definitive edition/mafiadefinitiveedition.exe",
+                "name": "mafia definitive edition/mafiadefinitiveedition.exe",
                 "os": "win32"
             }
         ],
@@ -157893,12 +157893,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/osclient.exe",
+                "name": "old school runescape/client/osclient.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "old school runescape/client/osclient.exe",
+                "name": "win64/osclient.exe",
                 "os": "win32"
             }
         ],
@@ -160284,8 +160284,8 @@
     },
     {
         "aliases": [
-            "Resident Evil 3",
-            "RESIDENT EVIL 3"
+            "RESIDENT EVIL 3",
+            "Resident Evil 3"
         ],
         "executables": [
             {
@@ -160495,18 +160495,18 @@
     },
     {
         "aliases": [
-            "Palworld / 幻獸帕魯",
-            "Palworld / パルワールド"
+            "Palworld / パルワールド",
+            "Palworld / 幻獸帕魯"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wingdk/palworld-wingdk-shipping.exe",
+                "name": "win64/palworld-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/palworld-win64-shipping.exe",
+                "name": "wingdk/palworld-wingdk-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -171164,22 +171164,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wutheringwaves.app",
-                "os": "darwin"
-            },
-            {
-                "is_launcher": false,
                 "name": "wuthering waves.app",
                 "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "wuthering waves.exe",
-                "os": "win32"
+                "name": "wutheringwaves.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
                 "name": "wuthering waves game/client/binaries/win64/client-win64-shipping.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "wuthering waves.exe",
                 "os": "win32"
             }
         ],
@@ -171287,12 +171287,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "legend of edda pegasus/client.exe",
+                "name": "legend of edda pegasus/launcher.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "legend of edda pegasus/launcher.exe",
+                "name": "legend of edda pegasus/client.exe",
                 "os": "win32"
             }
         ],
@@ -173915,28 +173915,13 @@
     },
     {
         "aliases": [
-            "SUPERVIVE Demo",
-            "Loki"
+            "Loki",
+            "SUPERVIVE Demo"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "loki-win64-shipping.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "loki/loki.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win64/supervive-win64-shipping.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win64/loki.exe",
+                "name": "supervive-win64-shipping.exe",
                 "os": "win32"
             },
             {
@@ -173951,7 +173936,22 @@
             },
             {
                 "is_launcher": false,
-                "name": "supervive-win64-shipping.exe",
+                "name": "loki-win64-shipping.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/loki.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "loki/loki.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/supervive-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -176021,22 +176021,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "arma reforger experimental/armareforger_be.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "arma reforger/armareforger_be.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "arma reforger experimental/armareforgersteam_experimental.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
+                "name": "arma reforger experimental/armareforger_be.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "arma reforger/armareforgersteam.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "arma reforger/armareforger_be.exe",
                 "os": "win32"
             }
         ],
@@ -176856,18 +176856,18 @@
     },
     {
         "aliases": [
-            "Skull and Bones (Open Beta)",
-            "Skull and Bones"
+            "Skull and Bones",
+            "Skull and Bones (Open Beta)"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "skull and bones (open beta)/skullandbones.exe",
+                "name": "skull and bones/skullandbones.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "skull and bones/skullandbones.exe",
+                "name": "skull and bones (open beta)/skullandbones.exe",
                 "os": "win32"
             }
         ],
@@ -179976,7 +179976,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "final fantasy xvi/ffxvi.exe",
+                "name": "finalfantasyxvi/ffxvi.exe",
                 "os": "win32"
             },
             {
@@ -179986,7 +179986,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "finalfantasyxvi/ffxvi.exe",
+                "name": "final fantasy xvi/ffxvi.exe",
                 "os": "win32"
             },
             {
@@ -185919,7 +185919,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "call of duty hq/cod.exe",
+                "name": "sp24/sp24-cod.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "call of duty/content/cod.exe",
                 "os": "win32"
             },
             {
@@ -185929,12 +185934,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "sp24/sp24-cod.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "call of duty/content/cod.exe",
+                "name": "call of duty hq/cod.exe",
                 "os": "win32"
             }
         ],
@@ -187795,12 +187795,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "marvelrivals/marvelrivals_launcher.exe",
+                "name": "win64/marvel-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/marvel-win64-shipping.exe",
+                "name": "marvelrivals/marvelrivals_launcher.exe",
                 "os": "win32"
             }
         ],
@@ -187905,18 +187905,13 @@
     },
     {
         "aliases": [
-            "Delta Force Demo",
-            "Delta Force"
+            "Delta Force",
+            "Delta Force Demo"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "deltaforceclient.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "launcher/df_launcher.exe",
+                "name": "df_garena/deltaforceclient.exe",
                 "os": "win32"
             },
             {
@@ -187926,12 +187921,17 @@
             },
             {
                 "is_launcher": false,
-                "name": "df_garena/deltaforceclient.exe",
+                "name": "launcher/df_launcher_global.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "launcher/df_launcher_global.exe",
+                "name": "deltaforceclient.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "launcher/df_launcher.exe",
                 "os": "win32"
             }
         ],
@@ -191262,12 +191262,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "pathofexile2/pathofexileegs.exe",
+                "name": "path of exile 2/pathofexile.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "path of exile 2/pathofexile.exe",
+                "name": "path of exile 2/pathofexile_x64.exe",
                 "os": "win32"
             },
             {
@@ -191282,7 +191282,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "path of exile 2/pathofexile_x64.exe",
+                "name": "pathofexile2/pathofexileegs.exe",
                 "os": "win32"
             },
             {
@@ -193034,6 +193034,21 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts hd 1.5+2.5 remix.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts hd 1.5+2.5 launcher.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "kingdom hearts -hd 1.5+2.5 remix-/waittitleproject.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts birth by sleep final mix.exe",
                 "os": "win32"
             },
@@ -193044,27 +193059,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "kingdom hearts -hd 1.5+2.5 remix-/waittitleproject.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts ii final mix.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts final mix.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts hd 1.5+2.5 remix.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "kingdom hearts -hd 1.5+2.5 remix-/kingdom hearts hd 1.5+2.5 launcher.exe",
                 "os": "win32"
             }
         ],
@@ -193191,12 +193191,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ea sports fc 25/fc25_trial.exe",
+                "name": "ea sports fc 25/fc25.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ea sports fc 25/fc25.exe",
+                "name": "ea sports fc 25/fc25_trial.exe",
                 "os": "win32"
             }
         ],
@@ -194622,12 +194622,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/avowed-win64-shipping.exe",
+                "name": "wingdk/avowed-wingdk-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "wingdk/avowed-wingdk-shipping.exe",
+                "name": "win64/avowed-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -195201,16 +195201,6 @@
         ],
         "executables": [
             {
-                "is_launcher": false,
-                "name": "win64/dunesandbox-win64-test.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win64/dunesandbox_be.exe",
-                "os": "win32"
-            },
-            {
                 "is_launcher": true,
                 "name": "launcher/funcomlauncher.exe",
                 "os": "win32"
@@ -195222,7 +195212,17 @@
             },
             {
                 "is_launcher": false,
+                "name": "win64/dunesandbox-win64-test.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "duneawakening/dunesandbox.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/dunesandbox_be.exe",
                 "os": "win32"
             }
         ],
@@ -196421,8 +196421,8 @@
     },
     {
         "aliases": [
-            "FragPunk",
-            "test"
+            "test",
+            "FragPunk"
         ],
         "executables": [
             {
@@ -201356,12 +201356,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wingdk/sandfall-wingdk-shipping.exe",
+                "name": "win64/sandfall-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/sandfall-win64-shipping.exe",
+                "name": "wingdk/sandfall-wingdk-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -202962,12 +202962,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "abyssonline/abyss.exe",
+                "name": "win64/abyss-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/abyss-win64-shipping.exe",
+                "name": "abyssonline/abyss.exe",
                 "os": "win32"
             }
         ],
@@ -206530,13 +206530,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "halcyondive.app",
-                "os": "darwin"
+                "name": "starlight revolver demo/halcyondive.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "starlight revolver demo/halcyondive.exe",
-                "os": "win32"
+                "name": "halcyondive.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -211913,12 +211913,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wingdk/grounded2-wingdk-shipping.exe",
+                "name": "wingrts/grounded2-wingrts-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "wingrts/grounded2-wingrts-shipping.exe",
+                "name": "wingdk/grounded2-wingdk-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -213456,12 +213456,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "borderlands/borderlands.exe",
+                "name": "binaries/borderlands.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "binaries/borderlands.exe",
+                "name": "borderlands/borderlands.exe",
                 "os": "win32"
             }
         ],
@@ -213484,12 +213484,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "1914-1918 series.exe",
+                "name": "verdun.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "verdun.exe",
+                "name": "1914-1918 series.exe",
                 "os": "win32"
             }
         ],
@@ -213586,17 +213586,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mabinogi.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "mabinogi/client.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "mabinogi/nxsteam.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "mabinogi.exe",
                 "os": "win32"
             },
             {
@@ -213877,12 +213877,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ffr.exe",
+                "name": "r3air.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "r3air.exe",
+                "name": "ffr.exe",
                 "os": "win32"
             }
         ],
@@ -214264,12 +214264,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wurm online/wurmlauncher64.exe",
+                "name": "wurmlauncher64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "wurmlauncher64.exe",
+                "name": "wurm online/wurmlauncher64.exe",
                 "os": "win32"
             }
         ],
@@ -214509,12 +214509,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "unturned.exe",
+                "name": "unturned_be.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "unturned_be.exe",
+                "name": "unturned.exe",
                 "os": "win32"
             }
         ],
@@ -214574,6 +214574,11 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "starbound.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "starbound_opengl.exe",
                 "os": "win32"
             },
@@ -214581,11 +214586,6 @@
                 "is_launcher": false,
                 "name": "starbound.app",
                 "os": "darwin"
-            },
-            {
-                "is_launcher": false,
-                "name": "starbound.exe",
-                "os": "win32"
             }
         ],
         "hook": true,
@@ -215187,12 +215187,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "system shock.exe",
+                "name": "sshock.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "sshock.exe",
+                "name": "system shock.exe",
                 "os": "win32"
             }
         ],
@@ -215342,8 +215342,8 @@
     },
     {
         "aliases": [
-            "Darksiders II Deathinitive Edition",
-            "Darksiders 2"
+            "Darksiders 2",
+            "Darksiders II Deathinitive Edition"
         ],
         "executables": [
             {
@@ -215671,11 +215671,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "csgo_osx64",
-                "os": "darwin"
-            },
-            {
-                "is_launcher": false,
                 "name": "csgo_linux64",
                 "os": "linux"
             },
@@ -215683,6 +215678,11 @@
                 "is_launcher": false,
                 "name": "csgo.exe",
                 "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "csgo_osx64",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -215728,11 +215728,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "factorygamesteam-win64-shipping.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "win64/factorygame-win64-shipping.exe",
                 "os": "win32"
             },
@@ -215744,6 +215739,11 @@
             {
                 "is_launcher": false,
                 "name": "factorygameegs-win64-shipping.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "factorygamesteam-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -215964,8 +215964,8 @@
     },
     {
         "aliases": [
-            "Battle Chasers Nightwar",
-            "Battle Chasers: Night War"
+            "Battle Chasers: Night War",
+            "Battle Chasers Nightwar"
         ],
         "executables": [
             {
@@ -216076,12 +216076,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "subnauticazero/subnauticazero.exe",
+                "name": "subnauticazero.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "subnauticazero.exe",
+                "name": "subnauticazero/subnauticazero.exe",
                 "os": "win32"
             }
         ],
@@ -216150,12 +216150,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "grb_vulkan.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "grb.exe",
+                "name": "grb_upp.exe",
                 "os": "win32"
             },
             {
@@ -216165,7 +216160,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "grb_upp.exe",
+                "name": "grb.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "grb_vulkan.exe",
                 "os": "win32"
             }
         ],
@@ -216191,7 +216191,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "new world/newworldlauncher.exe",
+                "name": "newworldlauncher.exe",
                 "os": "win32"
             },
             {
@@ -216201,7 +216201,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "newworldlauncher.exe",
+                "name": "new world/newworldlauncher.exe",
                 "os": "win32"
             },
             {
@@ -216230,12 +216230,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "gurrah-win64-shipping.exe",
+                "name": "gurrah.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "gurrah.exe",
+                "name": "gurrah-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -216363,12 +216363,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "bloodstainedrotn-win64-shipping.exe",
+                "name": "win64/bloodstainedrotn-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/bloodstainedrotn-win64-shipping.exe",
+                "name": "bloodstainedrotn-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -216393,12 +216393,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "llblaze/llblaze.exe",
+                "name": "llblaze.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "llblaze.exe",
+                "name": "llblaze/llblaze.exe",
                 "os": "win32"
             }
         ],
@@ -216421,12 +216421,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mordhau-win64-shipping.exe",
+                "name": "win64/mordhau-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/mordhau-win64-shipping.exe",
+                "name": "mordhau-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -216450,12 +216450,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "underlords.exe",
+                "name": "win64/underlords.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/underlords.exe",
+                "name": "underlords.exe",
                 "os": "win32"
             }
         ],
@@ -216507,17 +216507,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "control/control_dx11.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "control_dx11.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "control_dx12.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "control/control_dx11.exe",
                 "os": "win32"
             }
         ],
@@ -216544,17 +216544,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "staxel.client.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "staxel.steamlauncher.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "staxel.modmanager.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "staxel.client.exe",
                 "os": "win32"
             }
         ],
@@ -216575,12 +216575,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ddnet/ddnet.exe",
+                "name": "ddnet/ddnet-server.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "ddnet/ddnet-server.exe",
+                "name": "ddnet/ddnet.exe",
                 "os": "win32"
             }
         ],
@@ -216604,17 +216604,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "darkfall_roa.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "data/darkfall.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "darkfall roa/data/darkfall.exe",
+                "name": "darkfall roa/darkfall_roa.exe",
                 "os": "win32"
             },
             {
@@ -216624,7 +216619,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "darkfall roa/darkfall_roa.exe",
+                "name": "darkfall roa/data/darkfall.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "darkfall_roa.exe",
                 "os": "win32"
             },
             {
@@ -216657,13 +216657,13 @@
             },
             {
                 "is_launcher": false,
-                "name": "move or die/love/linux32/love",
-                "os": "linux"
+                "name": "move or die/love/win/love.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "move or die/love/win/love.exe",
-                "os": "win32"
+                "name": "move or die/love/linux32/love",
+                "os": "linux"
             }
         ],
         "hook": true,
@@ -216682,18 +216682,18 @@
     },
     {
         "aliases": [
-            "STAR WARS Jedi - Fallen Order™",
-            "STAR WARS Jedi: Fallen Order™"
+            "STAR WARS Jedi: Fallen Order™",
+            "STAR WARS Jedi - Fallen Order™"
         ],
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/starwarsjedifallenorder.exe",
+                "name": "starwarsjedifallenorder.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "starwarsjedifallenorder.exe",
+                "name": "win64/starwarsjedifallenorder.exe",
                 "os": "win32"
             }
         ],
@@ -216717,33 +216717,8 @@
         ],
         "executables": [
             {
-                "is_launcher": true,
-                "name": "spellcraft-live.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "spellcraft-staging/game/run/tap.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": true,
-                "name": "spellcraft-staging.exe",
-                "os": "win32"
-            },
-            {
                 "is_launcher": false,
                 "name": "spellcraft-gamelab/game/run/tap.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": true,
-                "name": "spellcraft-gamelab.exe",
                 "os": "win32"
             },
             {
@@ -216754,6 +216729,31 @@
             {
                 "is_launcher": false,
                 "name": "v0/spellcraft.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": true,
+                "name": "spellcraft-staging.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "spellcraft-staging/game/run/tap.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": true,
+                "name": "spellcraft-live.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": true,
+                "name": "spellcraft-gamelab.exe",
                 "os": "win32"
             },
             {
@@ -216819,14 +216819,14 @@
     },
     {
         "aliases": [
-            "Eternal Return: Black Survival",
-            "永恆輪迴",
-            "ブラックサバイバル: 永遠回帰",
-            "블랙서바이벌: 영원회귀",
-            "Eternal Return",
-            "이터널 리턴",
             "エターナルリターン",
-            "永恆輪迴: 黑色倖存者"
+            "Eternal Return: Black Survival",
+            "Eternal Return",
+            "블랙서바이벌: 영원회귀",
+            "이터널 리턴",
+            "永恆輪迴: 黑色倖存者",
+            "ブラックサバイバル: 永遠回帰",
+            "永恆輪迴"
         ],
         "executables": [
             {
@@ -216883,12 +216883,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "payday2_win32_release.exe",
+                "name": "payday 2/payday2_win32_release_vr.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "payday 2/payday2_win32_release_vr.exe",
+                "name": "payday2_win32_release.exe",
                 "os": "win32"
             }
         ],
@@ -216922,13 +216922,13 @@
             },
             {
                 "is_launcher": false,
-                "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
-                "os": "win32"
+                "name": "trine.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "trine.app",
-                "os": "darwin"
+                "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -216951,12 +216951,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "hatintimegame.exe",
+                "name": "binaries/modmanager.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "binaries/modmanager.exe",
+                "name": "hatintimegame.exe",
                 "os": "win32"
             }
         ],
@@ -216980,12 +216980,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "hunt showdown/hunt.exe",
+                "name": "win_x64/huntgame.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win_x64/huntgame.exe",
+                "name": "hunt showdown/hunt.exe",
                 "os": "win32"
             }
         ],
@@ -217006,12 +217006,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "crosscode-beta.exe",
+                "name": "crosscode/crosscode.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "crosscode/crosscode.exe",
+                "name": "crosscode-beta.exe",
                 "os": "win32"
             }
         ],
@@ -217056,17 +217056,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "win32/xcomgame.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "xcomew.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "xcomgame.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win32/xcomgame.exe",
                 "os": "win32"
             }
         ],
@@ -217137,12 +217137,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "gears5.exe",
+                "name": "steam/gears5.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "steam/gears5.exe",
+                "name": "gears5.exe",
                 "os": "win32"
             }
         ],
@@ -217182,8 +217182,8 @@
     },
     {
         "aliases": [
-            "Call of Duty: WWII - Multiplayer",
-            "Call of Duty: WWII"
+            "Call of Duty: WWII",
+            "Call of Duty: WWII - Multiplayer"
         ],
         "executables": [
             {
@@ -217287,22 +217287,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wingdk/sotgame.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "content/seaofthieves.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/sotgame.exe",
+                "name": "wingdk/sotgame.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "sotgame.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/sotgame.exe",
                 "os": "win32"
             }
         ],
@@ -217346,12 +217346,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "risk of rain 2.exe",
+                "name": "risk of rain 2/risk of rain 2.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "risk of rain 2/risk of rain 2.exe",
+                "name": "risk of rain 2.exe",
                 "os": "win32"
             }
         ],
@@ -217504,7 +217504,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "realm royale/binaries/win64/realmeac.exe",
+                "name": "realm royale/binaries/win64/realm.exe",
                 "os": "win32"
             },
             {
@@ -217514,7 +217514,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "realm royale/binaries/win64/realm.exe",
+                "name": "realm royale/binaries/win64/realmeac.exe",
                 "os": "win32"
             }
         ],
@@ -217614,12 +217614,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "aoede_s.exe",
+                "name": "age of empires - definitive edition/aoede_s.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "age of empires - definitive edition/aoede_s.exe",
+                "name": "aoede_s.exe",
                 "os": "win32"
             }
         ],
@@ -217639,9 +217639,9 @@
     },
     {
         "aliases": [
-            "Divinity: Original Sin 2",
+            "Divinity Original Sin 2",
             "Divinity - Original Sin 2",
-            "Divinity Original Sin 2"
+            "Divinity: Original Sin 2"
         ],
         "executables": [
             {
@@ -217672,8 +217672,8 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "wz2100.app",
-                "os": "darwin"
+                "name": "wz2100.exe",
+                "os": "win32"
             },
             {
                 "is_launcher": false,
@@ -217682,8 +217682,8 @@
             },
             {
                 "is_launcher": false,
-                "name": "wz2100.exe",
-                "os": "win32"
+                "name": "wz2100.app",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -217888,13 +217888,13 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "osu!.exe",
-                "os": "win32"
+                "name": "osu!.app",
+                "os": "darwin"
             },
             {
                 "is_launcher": false,
-                "name": "osu!.app",
-                "os": "darwin"
+                "name": "osu!.exe",
+                "os": "win32"
             }
         ],
         "hook": true,
@@ -217943,12 +217943,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "heroes & generals/hng_be.exe",
+                "name": "heroesandgeneralsdesktop.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "heroesandgeneralsdesktop.exe",
+                "name": "heroes & generals/hng_be.exe",
                 "os": "win32"
             }
         ],
@@ -217993,12 +217993,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "zoneue4-win64-shipping.exe",
+                "name": "win64/zoneue4-win64-shipping.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/zoneue4-win64-shipping.exe",
+                "name": "zoneue4-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -218023,12 +218023,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "aoe2de_s.exe",
+                "name": "aoe2de/aoe2de_s.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "aoe2de/aoe2de_s.exe",
+                "name": "aoe2de_s.exe",
                 "os": "win32"
             },
             {
@@ -218127,22 +218127,22 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "terraria.app",
-                "os": "darwin"
-            },
-            {
-                "is_launcher": false,
-                "name": "terraria.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "terraria.bin.x86",
                 "os": "linux"
             },
             {
                 "is_launcher": false,
                 "name": "terraria/terraria.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "terraria.app",
+                "os": "darwin"
+            },
+            {
+                "is_launcher": false,
+                "name": "terraria.exe",
                 "os": "win32"
             }
         ],
@@ -218195,12 +218195,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "blackdesert32.exe",
+                "name": "blackdesert64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "blackdesert64.exe",
+                "name": "blackdesert32.exe",
                 "os": "win32"
             }
         ],
@@ -218249,16 +218249,6 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "pubglite/pubg lite.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "pubglite/launcher_updater.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "pubglite/launcher.exe",
                 "os": "win32"
             },
@@ -218269,12 +218259,22 @@
             },
             {
                 "is_launcher": false,
-                "name": "pubglite-win64-shipping.exe",
+                "name": "pubglite/pubg lite.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "pubglite/launcher_updater.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "pubglite.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "pubglite-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -218339,12 +218339,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "ds.exe",
+                "name": "death stranding/ds.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "death stranding/ds.exe",
+                "name": "ds.exe",
                 "os": "win32"
             }
         ],
@@ -218423,17 +218423,17 @@
             },
             {
                 "is_launcher": false,
+                "name": "among us - copy/among us.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
                 "name": "among us - tou/among us.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "among us/among us.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "among us - copy/among us.exe",
                 "os": "win32"
             }
         ],
@@ -218504,12 +218504,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "call of duty hq/cod22/cod22-cod.exe",
+                "name": "_retail_/sp22/sp22-cod.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "call of duty hq/sp22/sp22-cod.exe",
+                "name": "call of duty hq/cod22/cod22-cod.exe",
                 "os": "win32"
             },
             {
@@ -218519,7 +218519,7 @@
             },
             {
                 "is_launcher": false,
-                "name": "_retail_/sp22/sp22-cod.exe",
+                "name": "call of duty hq/sp22/sp22-cod.exe",
                 "os": "win32"
             }
         ],
@@ -218562,12 +218562,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "mp23/mp23-cod.exe",
+                "name": "cod23/cod23-cod.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "cod23/cod23-cod.exe",
+                "name": "mp23/mp23-cod.exe",
                 "os": "win32"
             },
             {
@@ -218689,12 +218689,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "gtaiv/playgtaiv.exe",
+                "name": "gtaiv.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "gtaiv.exe",
+                "name": "gtaiv/playgtaiv.exe",
                 "os": "win32"
             }
         ],
@@ -218758,12 +218758,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "bloons adventure time td/btdadventuretime.exe",
+                "name": "btdadventuretime.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "btdadventuretime.exe",
+                "name": "bloons adventure time td/btdadventuretime.exe",
                 "os": "win32"
             }
         ],
@@ -218847,12 +218847,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "bloons td battles/battles-win.exe",
+                "name": "battles-win.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "battles-win.exe",
+                "name": "bloons td battles/battles-win.exe",
                 "os": "win32"
             }
         ],
@@ -218877,12 +218877,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "warframe.exe",
+                "name": "warframe.x64.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "warframe.x64.exe",
+                "name": "warframe.exe",
                 "os": "win32"
             }
         ],
@@ -218940,12 +218940,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "postscriptum.exe",
+                "name": "win64/postscriptum.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "win64/postscriptum.exe",
+                "name": "postscriptum.exe",
                 "os": "win32"
             }
         ],
@@ -219034,17 +219034,17 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "bin64release/game.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "gamecenter/bin32release/game.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
                 "name": "warface/bin32release/game.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "bin64release/game.exe",
                 "os": "win32"
             }
         ],
@@ -219128,12 +219128,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "win64/prometheus-win64-shipping.exe",
+                "name": "prometheus/prometheus.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "prometheus/prometheus.exe",
+                "name": "win64/prometheus-win64-shipping.exe",
                 "os": "win32"
             }
         ],
@@ -219156,12 +219156,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "grandchase.exe",
+                "name": "grandchase/grandchase.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "grandchase/grandchase.exe",
+                "name": "grandchase.exe",
                 "os": "win32"
             }
         ],
@@ -219218,7 +219218,17 @@
         "executables": [
             {
                 "is_launcher": false,
+                "name": "leagueoflegends.app",
+                "os": "darwin"
+            },
+            {
+                "is_launcher": false,
                 "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "league of legends.exe",
                 "os": "win32"
             },
             {
@@ -219230,16 +219240,6 @@
                 "is_launcher": true,
                 "name": "leagueclientux.exe",
                 "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "league of legends.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "leagueoflegends.app",
-                "os": "darwin"
             },
             {
                 "is_launcher": false,
@@ -219367,12 +219367,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "battlefield 6 event/bf6event.exe",
+                "name": "bf6event.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "bf6event.exe",
+                "name": "battlefield 6 event/bf6event.exe",
                 "os": "win32"
             }
         ],
@@ -220165,19 +220165,13 @@
         ],
         "executables": [
             {
-                "arguments": "net.minecraft.client.main.Main",
                 "is_launcher": false,
-                "name": ">java",
-                "os": "darwin"
-            },
-            {
-                "is_launcher": false,
-                "name": "minecraft.windows.exe",
+                "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "content/minecraft.exe",
+                "name": "minecraft.windows.exe",
                 "os": "win32"
             },
             {
@@ -220188,8 +220182,14 @@
             },
             {
                 "is_launcher": false,
-                "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+                "name": "content/minecraft.exe",
                 "os": "win32"
+            },
+            {
+                "arguments": "net.minecraft.client.main.Main",
+                "is_launcher": false,
+                "name": ">java",
+                "os": "darwin"
             }
         ],
         "hook": true,
@@ -220255,32 +220255,12 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "grand theft auto v/gta5.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "grand theft auto v/fivem.exe",
                 "os": "win32"
             },
             {
                 "is_launcher": false,
-                "name": "subprocess/fivem_gtaprocess.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "lspdfr/lspdfr configurator.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
                 "name": "gta5.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "grand theft auto v/ragepluginhook.exe",
                 "os": "win32"
             },
             {
@@ -220291,6 +220271,26 @@
             {
                 "is_launcher": false,
                 "name": "installers/social-club-setup.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "lspdfr/lspdfr configurator.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "subprocess/fivem_gtaprocess.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "grand theft auto v/ragepluginhook.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "grand theft auto v/gta5.exe",
                 "os": "win32"
             }
         ],
@@ -220317,12 +220317,7 @@
         "executables": [
             {
                 "is_launcher": false,
-                "name": "tslgame.exe",
-                "os": "win32"
-            },
-            {
-                "is_launcher": false,
-                "name": "win64/tslgame_be.exe",
+                "name": "tslgame_be.exe",
                 "os": "win32"
             },
             {
@@ -220337,7 +220332,12 @@
             },
             {
                 "is_launcher": false,
-                "name": "tslgame_be.exe",
+                "name": "tslgame.exe",
+                "os": "win32"
+            },
+            {
+                "is_launcher": false,
+                "name": "win64/tslgame_be.exe",
                 "os": "win32"
             }
         ],
