@@ -5,12 +5,7 @@
     "executables": [
         {
             "is_launcher": true,
-            "name": "spellcraft-live.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": true,
-            "name": "spellcraft-gamelab.exe",
+            "name": "spellcraft-staging.exe",
             "os": "win32"
         },
         {
@@ -20,7 +15,12 @@
         },
         {
             "is_launcher": true,
-            "name": "spellcraft-staging.exe",
+            "name": "spellcraft-live.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft dev (staging)/spellcraft.exe",
             "os": "win32"
         },
         {
@@ -35,12 +35,12 @@
         },
         {
             "is_launcher": false,
-            "name": "spellcraft dev (staging)/spellcraft.exe",
+            "name": "spellcraft-gamelab/game/run/tap.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "spellcraft-gamelab/game/run/tap.exe",
+            "is_launcher": true,
+            "name": "spellcraft-gamelab.exe",
             "os": "win32"
         },
         {
