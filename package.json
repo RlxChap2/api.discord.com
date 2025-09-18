@@ -10,16 +10,17 @@
     "scripts": {
         "start": "node index.js",
         "logger": "node logger.js",
-        "push": "git add . && git commit -m \"(Added) New QuestId && (Fixed) webpack apps\" && git push",
+        "push": "git add . && git commit -m \"(Added) New QuestId && (Fixed) webpack apps && (Fixed) Vulnerability Packages\" && git push",
         "compile": "node compile.js"
     },
     "keywords": [],
     "author": "RlxChap2",
     "license": "MIT",
     "dependencies": {
-        "@faker-js/faker": "^9.6.0",
-        "axios": "^1.10.0",
-        "faker": "^6.6.6",
+        "@faker-js/faker": "^9.9.0",
+        "axios": "^1.12.2",
+        "faker": "^5.5.3",
+        "loadsh": "^0.0.4",
         "lodash": "^4.17.21"
     }
 }

@@ -20,11 +20,11 @@ const step = 2;
  * @date 2025-07-18
  */
 
-const hash1 = 1399,
-    hash2 = 8616;
-const bin1 = '4907',
-    bin2 = '4159';
-const frag = '777';
+const hash1 = 1415,
+    hash2 = 4478;
+const bin1 = '1108',
+    bin2 = '8060';
+const frag = '426';
 const questId = `${hash1}${hash2}${bin1}${bin2}${frag}`;
 
 delete window.$;
