@@ -13,8 +13,7 @@
         "snippets": "node snippets.js",
         "push": "npm run snippets && git add . && git commit -m \"(New) Deploy workflow \" && git push",
         "compile": "node compile.js",
-        "docs:build": "cd docs && npm run build",
-        "docs:deploy": "gh-pages -d docs/.vitepress/dist"
+        "docs:build": "cd docs && npm run build"
     },
     "keywords": [],
     "author": "RlxChap2",
@@ -25,8 +24,5 @@
         "faker": "^5.5.3",
         "loadsh": "^0.0.4",
         "lodash": "^4.17.21"
-    },
-    "devDependencies": {
-        "gh-pages": "^6.3.0"
     }
 }
