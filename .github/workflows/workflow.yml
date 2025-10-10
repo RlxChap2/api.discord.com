@@ -35,6 +35,10 @@ jobs:
             - name: Run logger.js
               run: npm run logger
 
+            # Run the snippets script
+            - name: Run snippets.js
+              run: npm run snippets
+
             # Commit and push changes if there are any changes
             - name: Commit and Push changes
               run: |

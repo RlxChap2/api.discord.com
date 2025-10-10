@@ -10,8 +10,11 @@
     "scripts": {
         "start": "node index.js",
         "logger": "node logger.js",
-        "push": "git add . && git commit -m \"(Updated) Security Informations\" && git push",
-        "compile": "node compile.js"
+        "snippets": "node snippets.js",
+        "push": "npm run snippets && git add . && git commit -m \"(New) Website Documentation\" && git push",
+        "compile": "node compile.js",
+        "docs:build": "cd docs && npm run build",
+        "docs:deploy": "gh-pages -d docs/.vitepress/dist"
     },
     "keywords": [],
     "author": "RlxChap2",
