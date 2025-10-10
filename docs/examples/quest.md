@@ -2,4 +2,4 @@
 
 This is a **quest** code snippet.
 
-<<< ../snippets/Quest.js
+<<< @/snippets/Quest.js
