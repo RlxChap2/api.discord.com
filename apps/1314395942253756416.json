@@ -1,12 +1,22 @@
 {
     "aliases": [
-        "マーベル・ライバルズ",
-        "Marvel Rivals"
+        "Marvel Rivals",
+        "マーベル・ライバルズ"
     ],
     "executables": [
         {
             "is_launcher": false,
             "name": "marvelrivals/marvelrivals_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/marvel-win64-test.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/marvel.exe",
             "os": "win32"
         },
         {
@@ -21,7 +31,7 @@
     "name": "Marvel Rivals",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action"
