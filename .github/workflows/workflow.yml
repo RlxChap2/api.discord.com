@@ -6,7 +6,7 @@ on:
             - main # Triggers on push to the main branch
     workflow_dispatch: # Allows manual triggering via the GitHub UI
     schedule:
-        - cron: '0 0 * * 0'
+        - cron: '0 */3 * * *'
 
 jobs:
     run-index:
