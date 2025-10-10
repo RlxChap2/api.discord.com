@@ -6,7 +6,8 @@ Only the latest version of this educational project receives security updates. W
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.2.x   | :white_check_mark: |
+| 1.3.x   | :white_check_mark: |
+| < 1.2.x | :x:                |
 | < 1.0   | :x:                |
 
 ## Reporting a Vulnerability
@@ -21,34 +22,37 @@ If you discover a vulnerability in OUR IMPLEMENTATION:
 2. Email security reports to: [support@mrhrs.xyz] (enable PGP encryption if available)
 3. Include detailed reproduction steps and impact analysis
 4. We will:
-   - Acknowledge receipt within 48 hours
-   - Provide regular status updates
-   - Release patches after thorough validation
+    - Acknowledge receipt within 48 hours
+    - Provide regular status updates
+    - Release patches after thorough validation
 
 ### Response Expectations
 
-- **Initial Response:** <48 hours
-- **Public Disclosure:** Coordinated with reporter
-- **Critical Fixes:** Patched within 72 hours of verification
-- **Non-critical Fixes:** Addressed in next scheduled release
+-   **Initial Response:** < 48 hours
+-   **Public Disclosure:** Coordinated with reporter
+-   **Critical Fixes:** Patched within 72 hours of verification
+-   **Non-critical Fixes:** Addressed in next scheduled release
 
 ### Scope Limitations
 
 This policy only covers vulnerabilities in:
-- Our data handling implementation
-- Educational content generation code
-- Authentication/authorization flows
+
+-   Our data handling implementation
+-   Educational content generation code
+-   Authentication/authorization flows
 
 Excluded from scope:
-- Theoretical vulnerabilities without proof-of-concept
-- Discord platform/server-related issues
-- Social engineering attacks
+
+-   Theoretical vulnerabilities without proof-of-concept
+-   Discord platform/server-related issues
+-   Social engineering attacks
 
 ## Compliance Notes
 
 This project maintains:
-- Strict adherence to Discord API rate limits
-- Data minimization practices (only stores essential educational materials)
-- Regular audits of data processing activities
+
+-   Strict adherence to Discord API rate limits
+-   Data minimization practices (only stores essential educational materials)
+-   Regular audits of data processing activities
 
 All security updates will prioritize maintaining compliance with Discord's Developer Terms of Service and applicable data protection regulations (GDPR, CCPA, etc.).
