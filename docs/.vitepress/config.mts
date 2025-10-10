@@ -1,14 +1,6 @@
 import { defineConfig } from 'vitepress';
-import path from 'path';
 
 export default defineConfig({
-    vite: {
-        resolve: {
-            alias: {
-                '@snippets': path.resolve(process.cwd(), 'snippets'),
-            },
-        },
-    },
     base: '/api.discord.com/',
     title: 'Gathering Discord API',
     description: "Explore and master Discord's client-side API using webpackChunkdiscord_app snippets",

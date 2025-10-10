@@ -11,7 +11,7 @@
         "start": "node index.js",
         "logger": "node logger.js",
         "snippets": "node snippets.js",
-        "push": "npm run snippets && git add . && git commit -m \"(New) Deploy workflow \" && git push",
+        "push": "npm run snippets && git add . && git commit -m \"(Fixed && Added) New Web documentation\" && git push",
         "compile": "node compile.js",
         "docs:build": "cd docs && npm run build"
     },
