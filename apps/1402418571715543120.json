@@ -5,12 +5,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bloonstd6.exe",
-            "os": "win32"
+            "name": "bloonstd6/bloonstd6.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "cleaner/cleaner-btd6.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "bloonstd6.exe",
             "os": "win32"
         },
         {
@@ -25,7 +30,7 @@
     "name": "Bloons TD 6",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action",
