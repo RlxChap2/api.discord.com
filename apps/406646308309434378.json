@@ -3,6 +3,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "isaac.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "isaac.exe",
             "os": "win32"
         },
@@ -10,11 +15,6 @@
             "is_launcher": false,
             "name": "binding_of_isaac.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaac.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
