@@ -3,7 +3,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "wingdk/discovery-d.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "win64/discovery.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "wingdk/discovery-e.exe",
             "os": "win32"
         }
     ],
@@ -13,7 +23,7 @@
     "name": "THE FINALS",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action"
