@@ -2,6 +2,7 @@
     "aliases": [
         "GWENT: The Witcher Card Game"
     ],
+    "cover_image_hash": "4a6dced2b5ea2229e0310cfef845fafa",
     "executables": [
         {
             "is_launcher": false,
@@ -12,6 +13,12 @@
     "hook": true,
     "icon_hash": "0f43f8c89240039f9d5630d999f146d0",
     "id": "1402416769486032967",
+    "linked_applications": [
+        {
+            "id": "406643974183452681",
+            "type": 1
+        }
+    ],
     "name": "GWENT: The Witcher Card Game",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -19,5 +26,19 @@
     "overlay_warn": false,
     "themes": [
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1284410"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA08213_00"
+        },
+        {
+            "distributor": "gog",
+            "id": null
+        }
     ]
 }

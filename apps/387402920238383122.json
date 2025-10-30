@@ -2,21 +2,23 @@
     "aliases": [
         "Elsword"
     ],
+    "cover_image_hash": "a04e88077d79ec56217c9e19eb9bd517",
     "executables": [
         {
             "is_launcher": false,
-            "name": "elsword.exe",
+            "name": "data/x2.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "data/x2.exe",
+            "name": "elsword.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "c1e602d7c0ff6c284a17829a9e98e1e8",
     "id": "387402920238383122",
+    "linked_applications": [],
     "name": "Elsword",
     "overlay": true,
     "overlay_compatibility_hook": true,
@@ -25,5 +27,11 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "237310"
+        }
     ]
 }

@@ -1,14 +1,10 @@
 {
     "aliases": [],
+    "cover_image_hash": "d1dc87306f3217b3c58d4962720aca8b",
     "executables": [
         {
             "is_launcher": false,
-            "name": "star trek online.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "star trek online/live/x64/gameclient.exe",
+            "name": "star trek online/live/x86/gameclient.exe",
             "os": "win32"
         },
         {
@@ -18,13 +14,19 @@
         },
         {
             "is_launcher": false,
-            "name": "star trek online/live/x86/gameclient.exe",
+            "name": "star trek online/live/x64/gameclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "star trek online.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "4b3bfeedad2d43b64dcee75b625539b4",
     "id": "448384255131779073",
+    "linked_applications": [],
     "name": "Star Trek Online",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -34,5 +36,15 @@
         "Action",
         "Science fiction",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "06A97980AAC14FDFB914EF603A113792"
+        },
+        {
+            "distributor": "steam",
+            "id": "9900"
+        }
     ]
 }

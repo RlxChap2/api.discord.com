@@ -2,15 +2,11 @@
     "aliases": [
         "Arma 2: Operation Arrowhead"
     ],
+    "cover_image_hash": "80e4237657103290ce2bc28118b6f7ca",
     "executables": [
         {
             "is_launcher": false,
-            "name": "arma2oa_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "baf/datacachepreprocessor.exe",
+            "name": "pmc/datacachepreprocessor.exe",
             "os": "win32"
         },
         {
@@ -20,13 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "pmc/datacachepreprocessor.exe",
+            "name": "arma2oa_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "baf/datacachepreprocessor.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "3dacdae6900b5eb0890ca72b300265e1",
     "id": "451546514943377438",
+    "linked_applications": [],
     "name": "Arma 2: Operation Arrowhead",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -35,5 +37,11 @@
     "themes": [
         "Action",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "33930"
+        }
     ]
 }

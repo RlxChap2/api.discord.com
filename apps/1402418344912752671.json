@@ -2,11 +2,17 @@
     "aliases": [
         "Terraria"
     ],
+    "cover_image_hash": "7cfbdeb7c505f9440335efc5e5ff1517",
     "executables": [
         {
             "is_launcher": false,
             "name": "terraria.bin.x86",
             "os": "linux"
+        },
+        {
+            "is_launcher": false,
+            "name": "terraria.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -17,16 +23,17 @@
             "is_launcher": false,
             "name": "terraria/terraria.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "4c3c185abc0dfb4cb1ec5612de4d7366",
     "id": "1402418344912752671",
+    "linked_applications": [
+        {
+            "id": "356943499456937984",
+            "type": 1
+        }
+    ],
     "name": "Terraria",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -40,5 +47,11 @@
         "Survival",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "105600"
+        }
     ]
 }

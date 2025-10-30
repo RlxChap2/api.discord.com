@@ -2,10 +2,16 @@
     "aliases": [
         "New World"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
             "name": "newworldlauncher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "new world/newworldlauncher.exe",
             "os": "win32"
         },
         {
@@ -17,16 +23,17 @@
             "is_launcher": false,
             "name": "bin64/newworld.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "new world/newworldlauncher.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "e53fac6bebee68e171701973688d4bb3",
     "id": "1402417014731182143",
+    "linked_applications": [
+        {
+            "id": "892480701583204422",
+            "type": 1
+        }
+    ],
     "name": "New World",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -35,5 +42,23 @@
     "themes": [
         "Action",
         "Sandbox"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1063730"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P9QG255Z8WC"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NZXV2K8KGJN"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA07398_00"
+        }
     ]
 }

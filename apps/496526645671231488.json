@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": "bac03ad2bf99767fed7533e89a7ab689",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "albion-online.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "albion-online.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "albion-online.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "d02f9a9e52c633a16ca27750eaa08553",
     "id": "496526645671231488",
+    "linked_applications": [],
     "name": "Albion Online",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,15 @@
         "Fantasy",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "72520902FC594621B6DAA5A6217B4EE7"
+        },
+        {
+            "distributor": "steam",
+            "id": "761890"
+        }
     ]
 }

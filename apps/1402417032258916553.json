@@ -2,15 +2,16 @@
     "aliases": [
         "CONTROL"
     ],
+    "cover_image_hash": "da595947c4db7334c860c8aca5a83d09",
     "executables": [
         {
             "is_launcher": false,
-            "name": "control/control_dx11.exe",
+            "name": "control_dx11.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "control_dx11.exe",
+            "name": "control/control_dx11.exe",
             "os": "win32"
         },
         {
@@ -22,6 +23,12 @@
     "hook": true,
     "icon_hash": "6ce4ec16083fc0b2a5c778dece82b3fc",
     "id": "1402417032258916553",
+    "linked_applications": [
+        {
+            "id": "620758922940383242",
+            "type": 1
+        }
+    ],
     "name": "Control",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -33,5 +40,27 @@
         "Science fiction",
         "Horror",
         "Thriller"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9P4D0K92BM7V"
+        },
+        {
+            "distributor": "steam",
+            "id": "870780"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01949_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA11461_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P2WJCRJBMRM"
+        }
     ]
 }

@@ -2,21 +2,28 @@
     "aliases": [
         "Bloons TD Battles"
     ],
+    "cover_image_hash": "5b5a71dd658a9dcf38c7a5b76aa7c1e2",
     "executables": [
         {
             "is_launcher": false,
-            "name": "bloons td battles/battles-win.exe",
+            "name": "battles-win.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "battles-win.exe",
+            "name": "bloons td battles/battles-win.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "5b5a71dd658a9dcf38c7a5b76aa7c1e2",
     "id": "1402418576278950038",
+    "linked_applications": [
+        {
+            "id": "363427491995713536",
+            "type": 1
+        }
+    ],
     "name": "Bloons TD Battles",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -26,5 +33,15 @@
         "Action",
         "Sandbox",
         "Kids"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": null
+        },
+        {
+            "distributor": "steam",
+            "id": "444640"
+        }
     ]
 }

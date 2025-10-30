@@ -2,12 +2,8 @@
     "aliases": [
         "Digimon Masters Online"
     ],
+    "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "dmlauncher.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "digimon masters online - steam/updatemanager.exe",
@@ -17,11 +13,17 @@
             "is_launcher": false,
             "name": "digimon masters online - steam/gdmo.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "dmlauncher.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "f774d2f8c1eb8a0f721592fabefc47e4",
     "id": "451544305509859328",
+    "linked_applications": [],
     "name": "Digimon Masters Online",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -29,5 +31,11 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "537180"
+        }
     ]
 }

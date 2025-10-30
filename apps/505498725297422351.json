@@ -2,21 +2,23 @@
     "aliases": [
         "Rosenkreuzstilette Grollschwert"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "rks.exe",
+            "name": "rks_e.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rks_e.exe",
+            "name": "rks.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "47be7eadb5eb6d2a070e45cefeaef9b5",
     "id": "505498725297422351",
+    "linked_applications": [],
     "name": "Rosenkreuzstilette",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "564150"
+        }
     ]
 }

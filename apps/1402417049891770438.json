@@ -1,8 +1,9 @@
 {
     "aliases": [
-        "Darkfall Rise of Agon",
-        "Rise of Agon"
+        "Rise of Agon",
+        "Darkfall Rise of Agon"
     ],
+    "cover_image_hash": "c881aac74aa7082e605ff1ea22349188",
     "executables": [
         {
             "is_launcher": false,
@@ -16,7 +17,7 @@
         },
         {
             "is_launcher": false,
-            "name": "darkfallroa/darkfall_roa.exe",
+            "name": "data/darkfall.exe",
             "os": "win32"
         },
         {
@@ -26,18 +27,24 @@
         },
         {
             "is_launcher": false,
-            "name": "data/darkfall.exe",
+            "name": "darkfall.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "darkfall.exe",
+            "name": "darkfallroa/darkfall_roa.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "cdf4527a9e821d67f680eaa3e60d3270",
     "id": "1402417049891770438",
+    "linked_applications": [
+        {
+            "id": "505498499043819520",
+            "type": 1
+        }
+    ],
     "name": "Rise of Agon",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -47,5 +54,6 @@
         "Action",
         "Fantasy",
         "Sandbox"
-    ]
+    ],
+    "third_party_skus": []
 }

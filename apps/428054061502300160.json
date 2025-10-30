@@ -1,9 +1,15 @@
 {
     "aliases": [
-        "Star Wars Jedi Knight",
-        "STAR WARS™ Jedi Knight: Jedi Academy™"
+        "STAR WARS™ Jedi Knight: Jedi Academy™",
+        "Star Wars Jedi Knight"
     ],
+    "cover_image_hash": "c7faefe1866afdd9322850916f5d4ceb",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "jasp.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "gamedata/movieduels.x86.exe",
@@ -18,16 +24,12 @@
             "is_launcher": false,
             "name": "jamp.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "jasp.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "fd7f0533bb3b5c8ac0778074dd1b8baf",
     "id": "428054061502300160",
+    "linked_applications": [],
     "name": "STAR WARS™ Jedi Knight: Jedi Academy™",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,5 +38,23 @@
     "themes": [
         "Action",
         "Science fiction"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA17811_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "6020"
+        },
+        {
+            "distributor": "xbox",
+            "id": "66ACD000-77FE-1000-9115-D80242560838"
+        },
+        {
+            "distributor": "discord",
+            "id": "492359223028482049"
+        }
     ]
 }

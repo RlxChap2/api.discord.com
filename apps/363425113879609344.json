@@ -1,23 +1,25 @@
 {
     "aliases": [
-        "Metal Gear Online 3",
-        "Metal Gear Solid V: The Phantom Pain"
+        "Metal Gear Solid V: The Phantom Pain",
+        "Metal Gear Online 3"
     ],
+    "cover_image_hash": "a296a036c21fe5b7fe7f6c5a48b51d0a",
     "executables": [
         {
             "is_launcher": false,
-            "name": "mgsvmgo.exe",
+            "name": "mgsvtpp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "mgsvtpp.exe",
+            "name": "mgsvmgo.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "a8d4bf90e06d6f78b278de54f4174d65",
     "id": "363425113879609344",
+    "linked_applications": [],
     "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -29,5 +31,19 @@
         "Historical",
         "Stealth",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA01140_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C253HWJP0L18"
+        },
+        {
+            "distributor": "steam",
+            "id": "287700"
+        }
     ]
 }

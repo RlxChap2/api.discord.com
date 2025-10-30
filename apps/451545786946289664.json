@@ -1,23 +1,25 @@
 {
     "aliases": [
-        "RUNNING WITH RIFLES",
-        "Running with Rifles"
+        "Running with Rifles",
+        "RUNNING WITH RIFLES"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "runningwithrifles/rwr_config.exe",
+            "name": "rwr_game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rwr_game.exe",
+            "name": "runningwithrifles/rwr_config.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "f12a5b97a8e3c80b65506ea58b8dc875",
     "id": "451545786946289664",
+    "linked_applications": [],
     "name": "RUNNING WITH RIFLES",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -26,5 +28,11 @@
     "themes": [
         "Action",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "270150"
+        }
     ]
 }

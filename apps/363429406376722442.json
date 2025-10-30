@@ -2,21 +2,23 @@
     "aliases": [
         "Kerbal Space Programme"
     ],
+    "cover_image_hash": "b223dcfeae273cc1d246c1c7cae3e507",
     "executables": [
         {
             "is_launcher": false,
-            "name": "ksp.exe",
+            "name": "ksp_x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "ksp_x64.exe",
+            "name": "ksp.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "740c9d93b022699c2cf55af48a076734",
     "id": "363429406376722442",
+    "linked_applications": [],
     "name": "Kerbal Space Program",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -27,5 +29,15 @@
         "Sandbox",
         "Educational",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "CA0530B485754032BE50CB6F27BE0C2C"
+        },
+        {
+            "distributor": "steam",
+            "id": "220200"
+        }
     ]
 }

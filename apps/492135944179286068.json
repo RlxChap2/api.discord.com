@@ -2,6 +2,7 @@
     "aliases": [
         "Star Wars Jedi Knight II"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
@@ -15,22 +16,33 @@
         },
         {
             "is_launcher": false,
-            "name": "jk2mvmp_x64.exe",
+            "name": "jk2mp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "jk2mp.exe",
+            "name": "jk2mvmp_x64.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "c7d676e2c8e20dc68d5351747f6d95c3",
     "id": "492135944179286068",
+    "linked_applications": [],
     "name": "STAR WARS™ Jedi Knight II: Jedi Outcast™",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "discord",
+            "id": "492429111680303114"
+        },
+        {
+            "distributor": "steam",
+            "id": "6030"
+        }
+    ]
 }

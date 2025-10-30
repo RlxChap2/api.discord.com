@@ -2,21 +2,23 @@
     "aliases": [
         "Planetside 2"
     ],
+    "cover_image_hash": "1157790362702b34b3a2440155362679",
     "executables": [
         {
             "is_launcher": false,
-            "name": "planetside2_x86.exe",
+            "name": "planetside2_x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "planetside2_x64.exe",
+            "name": "planetside2_x86.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "dbf4eb4c8b31033dd269c35a8ba3544d",
     "id": "363412528308682752",
+    "linked_applications": [],
     "name": "PlanetSide 2",
     "overlay": true,
     "overlay_compatibility_hook": true,
@@ -26,5 +28,15 @@
         "Action",
         "Science fiction",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "218230"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA02219_00"
+        }
     ]
 }

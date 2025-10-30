@@ -2,6 +2,7 @@
     "aliases": [
         "The Elder Scrolls Online: Tamriel Unlimited"
     ],
+    "cover_image_hash": "3dae4f91f5fa9e16116b5e6d0182ed09",
     "executables": [
         {
             "is_launcher": false,
@@ -10,7 +11,7 @@
         },
         {
             "is_launcher": false,
-            "name": "launcher/bethesda.net_launcher.exe",
+            "name": "game/client/eso64.exe",
             "os": "win32"
         },
         {
@@ -20,13 +21,14 @@
         },
         {
             "is_launcher": false,
-            "name": "game/client/eso64.exe",
+            "name": "launcher/bethesda.net_launcher.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "008b72e1eee966e10a5962413daa582f",
     "id": "363413894602948608",
+    "linked_applications": [],
     "name": "The Elder Scrolls Online: Tamriel Unlimited",
     "overlay": true,
     "overlay_compatibility_hook": true,
@@ -36,5 +38,23 @@
         "Action",
         "Fantasy",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA00132_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BPWXCL17ZZJG"
+        },
+        {
+            "distributor": "epic",
+            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+        },
+        {
+            "distributor": "steam",
+            "id": "306130"
+        }
     ]
 }

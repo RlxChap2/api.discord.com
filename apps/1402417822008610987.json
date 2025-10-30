@@ -2,15 +2,11 @@
     "aliases": [
         "Trine"
     ],
+    "cover_image_hash": "fdce17de02df4743f981aa32e6bf820f",
     "executables": [
         {
             "is_launcher": false,
-            "name": "trine1_32bit.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "trine.exe",
+            "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
             "os": "win32"
         },
         {
@@ -20,13 +16,24 @@
         },
         {
             "is_launcher": false,
-            "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
+            "name": "trine.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "trine1_32bit.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "0cf966c347621aeacc626048632b4241",
     "id": "1402417822008610987",
+    "linked_applications": [
+        {
+            "id": "489705172453425173",
+            "type": 1
+        }
+    ],
     "name": "Trine Enchanted Edition",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -35,5 +42,15 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "35700"
+        },
+        {
+            "distributor": "discord",
+            "id": "494709638487343107"
+        }
     ]
 }

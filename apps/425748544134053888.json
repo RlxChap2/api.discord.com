@@ -2,21 +2,23 @@
     "aliases": [
         "Far Cry 3"
     ],
+    "cover_image_hash": "326accfd323b45989d3f3228c090f746",
     "executables": [
         {
             "is_launcher": false,
-            "name": "farcry3_d3d11.exe",
+            "name": "farcry3.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "farcry3.exe",
+            "name": "farcry3_d3d11.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "80220e06769d9fcfc188e17898f0e609",
     "id": "425748544134053888",
+    "linked_applications": [],
     "name": "Far Cry® 3",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -28,5 +30,19 @@
         "Stealth",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "220240"
+        },
+        {
+            "distributor": "epic",
+            "id": "HELLEBORE"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA10357_00"
+        }
     ]
 }

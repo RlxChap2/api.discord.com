@@ -1,20 +1,27 @@
 {
     "aliases": [],
+    "cover_image_hash": "23442740ba685ba6c9285ade610fba85",
     "executables": [
         {
             "is_launcher": false,
-            "name": "game/haloinfinite.exe",
+            "name": "halo infinite/haloinfinite.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "halo infinite/haloinfinite.exe",
+            "name": "game/haloinfinite.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "23442740ba685ba6c9285ade610fba85",
     "id": "1402416946796036258",
+    "linked_applications": [
+        {
+            "id": "770314100885422095",
+            "type": 1
+        }
+    ],
     "name": "Halo Infinite",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -25,5 +32,19 @@
         "Science fiction",
         "Open world",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1240440"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NP1P1WFS0LB"
+        },
+        {
+            "distributor": "steam",
+            "id": "1708091"
+        }
     ]
 }

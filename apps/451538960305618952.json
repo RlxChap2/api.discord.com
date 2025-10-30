@@ -2,15 +2,11 @@
     "aliases": [
         "Dragon Age: Origins - Ultimate Edition"
     ],
+    "cover_image_hash": "beb37121510e8e1f52bfeb7b584bbf35",
     "executables": [
         {
             "is_launcher": false,
-            "name": "daorigins.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "bin_ship/daoriginsconfig.exe",
+            "name": "bin_ship/daupdater.exe",
             "os": "win32"
         },
         {
@@ -20,13 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "bin_ship/daupdater.exe",
+            "name": "bin_ship/daoriginsconfig.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "daorigins.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "3bf7b03128d756d9e00f3f3f98c9d1b2",
     "id": "451538960305618952",
+    "linked_applications": [],
     "name": "Dragon Age: Origins - Ultimate Edition",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,5 +38,15 @@
         "Action",
         "Fantasy",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "47810"
+        },
+        {
+            "distributor": "epic",
+            "id": "AA0BF256813A423F8705093D696065B4"
+        }
     ]
 }

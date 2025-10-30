@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": "f78de57f885d46e66e6bc427f5f47332",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "hearthstone.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "hearthstone.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "hearthstone.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "584d496943e719a759906563442d2a87",
     "id": "356875890958925834",
+    "linked_applications": [],
     "name": "Hearthstone",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -22,5 +24,11 @@
     "overlay_warn": false,
     "themes": [
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "battlenet",
+            "id": null
+        }
     ]
 }

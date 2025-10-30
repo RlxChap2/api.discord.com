@@ -2,15 +2,11 @@
     "aliases": [
         "Dungeon Defenders 2"
     ],
+    "cover_image_hash": "81308f1e0fd607af62dc28a116ce75d4",
     "executables": [
         {
             "is_launcher": false,
-            "name": "dungeon defenders 2/dundef2/binaries/win32/dundefgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "dungeon defenders 2/dundef2/binaries/win64/dungeondefenders.exe",
+            "name": "dungeon defenders 2/dundef2/binaries/win32/dungeondefenders.exe",
             "os": "win32"
         },
         {
@@ -20,13 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "dungeon defenders 2/dundef2/binaries/win32/dungeondefenders.exe",
+            "name": "dungeon defenders 2/dundef2/binaries/win32/dundefgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "dungeon defenders 2/dundef2/binaries/win64/dungeondefenders.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "238dfd7cc5c0421b02565717cf5f19a0",
     "id": "425748090889175050",
+    "linked_applications": [],
     "name": "Dungeon Defenders II",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -34,5 +36,11 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "236110"
+        }
     ]
 }

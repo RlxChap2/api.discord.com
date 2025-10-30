@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": "911a1c8caf6c637992e1c31a27c72f2f",
     "executables": [
         {
             "is_launcher": false,
-            "name": "quakelive.exe",
+            "name": "quakelive_steam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "quakelive_steam.exe",
+            "name": "quakelive.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "d2f1b81937ea9f3e217659377994056b",
     "id": "451553710275821568",
+    "linked_applications": [],
     "name": "Quake Live",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,5 +25,11 @@
     "themes": [
         "Action",
         "Science fiction"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "282440"
+        }
     ]
 }

@@ -2,21 +2,28 @@
     "aliases": [
         "Swords of Gurrah"
     ],
+    "cover_image_hash": "5e345394650b16f97235a85fd63df1ac",
     "executables": [
         {
             "is_launcher": false,
-            "name": "gurrah.exe",
+            "name": "gurrah-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gurrah-win64-shipping.exe",
+            "name": "gurrah.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "5e345394650b16f97235a85fd63df1ac",
     "id": "1402417016031412295",
+    "linked_applications": [
+        {
+            "id": "597860020935327787",
+            "type": 1
+        }
+    ],
     "name": "Swords of Gurrah",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +31,11 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "833090"
+        }
     ]
 }

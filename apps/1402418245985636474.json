@@ -2,10 +2,11 @@
     "aliases": [
         "Heroes & Generals"
     ],
+    "cover_image_hash": "0e2e80a049ab7970146f35671360babb",
     "executables": [
         {
             "is_launcher": false,
-            "name": "heroesandgeneralsdesktop.exe",
+            "name": "hng.exe",
             "os": "win32"
         },
         {
@@ -15,13 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "hng.exe",
+            "name": "heroesandgeneralsdesktop.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "e39d23612b9e6fa2071fe91a7331cf73",
     "id": "1402418245985636474",
+    "linked_applications": [
+        {
+            "id": "550277544025522176",
+            "type": 1
+        }
+    ],
     "name": "Heroes & Generals WWII",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -30,5 +37,11 @@
     "themes": [
         "Action",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "227940"
+        }
     ]
 }

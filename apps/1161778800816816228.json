@@ -2,21 +2,23 @@
     "aliases": [
         "The Isle"
     ],
+    "cover_image_hash": "bfa0c180495ad769c37630ef51026d9a",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/theisleclient-win64-shipping.exe",
+            "name": "win64/theisle-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/theisle-win64-shipping.exe",
+            "name": "win64/theisleclient-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "271abbf3838ae90f35a83729267380c4",
     "id": "1161778800816816228",
+    "linked_applications": [],
     "name": "The Isle",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -27,5 +29,11 @@
         "Horror",
         "Survival",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "376210"
+        }
     ]
 }

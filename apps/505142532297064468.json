@@ -2,21 +2,23 @@
     "aliases": [
         "Magic the Gathering Arena"
     ],
+    "cover_image_hash": "d3f2fae27a56dbc171979240f9e8e713",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "mtga.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "mtga.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "mtga.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "fa51a2322c5a1678cb0442ae3c6b4a9f",
     "id": "505142532297064468",
+    "linked_applications": [],
     "name": "MTGArena",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,15 @@
     "overlay_warn": false,
     "themes": [
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "2141910"
+        },
+        {
+            "distributor": "epic",
+            "id": "5FDCC0DC67294AF3BE740F362BD976FD"
+        }
     ]
 }

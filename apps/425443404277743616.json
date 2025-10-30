@@ -2,21 +2,23 @@
     "aliases": [
         "Civilization Beyond Earth"
     ],
+    "cover_image_hash": "b10b8069026eefcfe4d5a868f3f65fa4",
     "executables": [
         {
             "is_launcher": false,
-            "name": "civilizationbe_dx11.exe",
+            "name": "civilizationbe_mantle.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "civilizationbe_mantle.exe",
+            "name": "civilizationbe_dx11.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "73cc4e99c51f9e77e640ff83f8979eb6",
     "id": "425443404277743616",
+    "linked_applications": [],
     "name": "Sid Meier's Civilization: Beyond Earth",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "themes": [
         "Science fiction",
         "4X (explore, expand, exploit, and exterminate)"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "65980"
+        }
     ]
 }

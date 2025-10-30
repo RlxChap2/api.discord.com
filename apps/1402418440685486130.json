@@ -2,17 +2,8 @@
     "aliases": [
         "Among Us"
     ],
+    "cover_image_hash": "6b05f8bebdb9740a1d56569916f8c56a",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "among us - kopie/among us.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "among us - tou/among us.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "among us - copy/among us.exe",
@@ -20,13 +11,29 @@
         },
         {
             "is_launcher": false,
+            "name": "among us - kopie/among us.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "among us/among us.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "among us - tou/among us.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "e6cf30ebdaf6e657f636f391b29f06f8",
     "id": "1402418440685486130",
+    "linked_applications": [
+        {
+            "id": "477175586805252107",
+            "type": 1
+        }
+    ],
     "name": "Among Us",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -37,5 +44,23 @@
         "Survival",
         "Stealth",
         "Party"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "33956BCB55D4452D8C47E16B94E294BD"
+        },
+        {
+            "distributor": "steam",
+            "id": "945360"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA03595_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NG07QJNK38J"
+        }
     ]
 }

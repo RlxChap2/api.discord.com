@@ -2,10 +2,11 @@
     "aliases": [
         "Rift"
     ],
+    "cover_image_hash": "754453cf0079446d07072605018414b5",
     "executables": [
         {
             "is_launcher": false,
-            "name": "rift.exe",
+            "name": "rift/glyphclientapp.exe",
             "os": "win32"
         },
         {
@@ -15,17 +16,24 @@
         },
         {
             "is_launcher": false,
-            "name": "rift/glyphclientapp.exe",
+            "name": "rift.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "fb77c8d9933c2259d20e4465c413384d",
     "id": "451544729763446784",
+    "linked_applications": [],
     "name": "RIFT",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "39120"
+        }
+    ]
 }

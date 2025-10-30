@@ -1,14 +1,10 @@
 {
     "aliases": [
-        "Call of Duty: Modern Warfare II",
-        "Call of Duty®: Modern Warfare® II"
+        "Call of Duty®: Modern Warfare® II",
+        "Call of Duty: Modern Warfare II"
     ],
+    "cover_image_hash": "78d3b21caf0f954b3bc0cdc6c829cdf4",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "call of duty hq/cod22/cod22-cod.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "_retail_/cod22/cod22-cod.exe",
@@ -21,6 +17,11 @@
         },
         {
             "is_launcher": false,
+            "name": "call of duty hq/cod22/cod22-cod.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "_retail_/sp22/sp22-cod.exe",
             "os": "win32"
         }
@@ -28,6 +29,12 @@
     "hook": true,
     "icon_hash": "78d3b21caf0f954b3bc0cdc6c829cdf4",
     "id": "1402418473128427573",
+    "linked_applications": [
+        {
+            "id": "982316905262120990",
+            "type": 1
+        }
+    ],
     "name": "Call of Duty®: Modern Warfare® II",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,5 +43,11 @@
     "themes": [
         "Action",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1938090"
+        }
     ]
 }

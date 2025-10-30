@@ -1,12 +1,23 @@
 {
     "aliases": [
-        "Tom Clancy's Rainbow Six? Siege",
-        "Tom Clancy's Rainbow Six Siege"
+        "Tom Clancy's Rainbow Six Siege",
+        "Tom Clancy's Rainbow Six? Siege"
     ],
+    "cover_image_hash": "d574f856173c840dcc671085e0b92fe1",
     "executables": [
         {
             "is_launcher": false,
             "name": "rainbowsix_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "rainbowsixgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tom clancy's rainbow six siege/rainbowsix.exe",
             "os": "win32"
         },
         {
@@ -18,25 +29,58 @@
             "is_launcher": false,
             "name": "tom clancy's rainbow six siege/rainbowsix_vulkan.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tom clancy's rainbow six siege/rainbowsix.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "rainbowsixgame.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "554af7ef210877b5f04fd1b727a3746e",
     "id": "356876590342340608",
+    "linked_applications": [],
     "name": "Tom Clancy's Rainbow Six Siege X",
     "overlay": true,
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9N1VMR3CFL3T"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MSPKPMH7DZ1"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PB3RHWXB9MR"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PBH7HWC5C26"
+        },
+        {
+            "distributor": "steam",
+            "id": "359550"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA01800_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01396_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "CARNATION"
+        },
+        {
+            "distributor": "uplay",
+            "id": "635"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P131WBLG8L8"
+        }
+    ]
 }

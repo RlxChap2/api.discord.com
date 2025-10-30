@@ -3,21 +3,23 @@
         "Palworld / 幻獸帕魯",
         "Palworld / パルワールド"
     ],
+    "cover_image_hash": "ca52a92a11c578b1ee8e64ed71029511",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/palworld-win64-shipping.exe",
+            "name": "wingdk/palworld-wingdk-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "wingdk/palworld-wingdk-shipping.exe",
+            "name": "win64/palworld-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "f2039761488809de552d44ebc6739ffe",
     "id": "1197827812623650866",
+    "linked_applications": [],
     "name": "Palworld",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -28,5 +30,11 @@
         "Survival",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1623730"
+        }
     ]
 }

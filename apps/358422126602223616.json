@@ -2,21 +2,23 @@
     "aliases": [
         "Factorio: Space Age"
     ],
+    "cover_image_hash": "bb8ee0d81c184d839ae5b38c274adf01",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "factorio.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "factorio.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "factorio.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "7624a1d91d9828ed2f2dc3510bbe09e6",
     "id": "358422126602223616",
+    "linked_applications": [],
     "name": "Factorio",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -26,5 +28,11 @@
         "Science fiction",
         "Survival",
         "Sandbox"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "427520"
+        }
     ]
 }

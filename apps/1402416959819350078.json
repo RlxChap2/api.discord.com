@@ -2,15 +2,16 @@
     "aliases": [
         "Satisfactory"
     ],
+    "cover_image_hash": "5888318ea101dabdd2719f9776ddc31e",
     "executables": [
         {
             "is_launcher": false,
-            "name": "factorygame-win64-shipping.exe",
+            "name": "win64/factorygame-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/factorygame-win64-shipping.exe",
+            "name": "factorygamesteam-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -20,13 +21,19 @@
         },
         {
             "is_launcher": false,
-            "name": "factorygamesteam-win64-shipping.exe",
+            "name": "factorygame-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "46458690d1a768ab927cb2e8b9baeb93",
     "id": "1402416959819350078",
+    "linked_applications": [
+        {
+            "id": "572456126872944651",
+            "type": 1
+        }
+    ],
     "name": "Satisfactory",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,5 +43,23 @@
         "Science fiction",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "CRAB"
+        },
+        {
+            "distributor": "igdb",
+            "id": "90558"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NPR2CG6S95Q"
+        },
+        {
+            "distributor": "steam",
+            "id": "526870"
+        }
     ]
 }

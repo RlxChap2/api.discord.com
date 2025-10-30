@@ -2,7 +2,13 @@
     "aliases": [
         "Total War: MEDIEVAL II - Definitive Edition"
     ],
+    "cover_image_hash": "73ccef99ee53227208109d2771dd0982",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "ss6.3/ss_setup.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "medieval2.exe",
@@ -12,16 +18,12 @@
             "is_launcher": false,
             "name": "divide_and_conquer/large address aware.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "ss6.3/ss_setup.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "90c633e84bcb94ca9fd8a48b82e9cefd",
     "id": "428057046701572106",
+    "linked_applications": [],
     "name": "Medieval II: Total War",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -30,5 +32,11 @@
     "themes": [
         "Historical",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "4700"
+        }
     ]
 }

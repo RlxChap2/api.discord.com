@@ -2,21 +2,28 @@
     "aliases": [
         "Grand Chase"
     ],
+    "cover_image_hash": "5dcf54d5ea2578029d0465b312e8f41f",
     "executables": [
         {
             "is_launcher": false,
-            "name": "grandchase/grandchase.exe",
+            "name": "grandchase.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "grandchase.exe",
+            "name": "grandchase/grandchase.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "c5231a378521e48981ca3c3aab033ad7",
     "id": "1402418691425177610",
+    "linked_applications": [
+        {
+            "id": "1124351755291996271",
+            "type": 1
+        }
+    ],
     "name": "GrandChase",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +31,19 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "304270"
+        },
+        {
+            "distributor": "epic",
+            "id": "7973EE6548AB4863A815A208F8721F4F"
+        },
+        {
+            "distributor": "steam",
+            "id": "985810"
+        }
     ]
 }

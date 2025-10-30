@@ -3,12 +3,8 @@
         "DARK SOULS™: REMASTERED",
         "Dark Souls"
     ],
+    "cover_image_hash": "2876564f9d1ed3b989e504ebbeaaba4d",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "dark souls remastered/darksoulsitemrandomizer.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "darksoulsremastered.exe",
@@ -16,18 +12,24 @@
         },
         {
             "is_launcher": false,
-            "name": "dark souls remastered/enemyrandomizer.exe",
+            "name": "darksouls.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "darksouls.exe",
+            "name": "dark souls remastered/darksoulsitemrandomizer.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "dark souls remastered/enemyrandomizer.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "91714be659c1549773ad86618cff4607",
     "id": "449738622619353088",
+    "linked_applications": [],
     "name": "DARK SOULS™: REMASTERED",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,5 +38,11 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "570940"
+        }
     ]
 }

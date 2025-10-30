@@ -2,21 +2,23 @@
     "aliases": [
         "Guns of Icarus - Online"
     ],
+    "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "gunsoficarusonline.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "gunsoficarusonline.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "gunsoficarusonline.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "56b5c75edc1e27c056febccd706881e8",
     "id": "390293569832878098",
+    "linked_applications": [],
     "name": "Guns of Icarus Online",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -26,5 +28,11 @@
         "Action",
         "Fantasy",
         "Historical"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "209080"
+        }
     ]
 }

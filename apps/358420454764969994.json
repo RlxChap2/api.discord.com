@@ -2,7 +2,23 @@
     "aliases": [
         "The Binding of Isaac: Rebirth"
     ],
+    "cover_image_hash": "29d9c545f0d317921f6b2701aa31072b",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "isaacanimationeditor/isaacanimationeditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "the binding of isaac rebirth.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "isaac-ng.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "roomeditor/roomeditor.exe",
@@ -12,26 +28,12 @@
             "is_launcher": false,
             "name": "isaacitempooleditor/itempooleditor.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaacanimationeditor/isaacanimationeditor.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaac-ng.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "the binding of isaac rebirth.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "1a139909cb5344dee95688dfedf728d8",
     "id": "358420454764969994",
+    "linked_applications": [],
     "name": "The Binding of Isaac: Rebirth",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -42,5 +44,15 @@
         "Fantasy",
         "Horror",
         "Comedy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "BQD45PQR4F4J"
+        },
+        {
+            "distributor": "steam",
+            "id": "250900"
+        }
     ]
 }

@@ -2,21 +2,23 @@
     "aliases": [
         "SMITE 2"
     ],
+    "cover_image_hash": "2fc362d3a01dbe3b87da84f95fdfccd7",
     "executables": [
         {
             "is_launcher": false,
-            "name": "windows/hemingway.exe",
+            "name": "win64/hemingway-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/hemingway-win64-shipping.exe",
+            "name": "windows/hemingway.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "2b5959d1597a3a9a34e7f3119094ae95",
     "id": "1334654007884517509",
+    "linked_applications": [],
     "name": "SMITE 2",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,19 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "2437170"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NV8W1KJSQLL"
+        },
+        {
+            "distributor": "epic",
+            "id": "16ED9F15B1B449CCB59CB610B13DF5B8"
+        }
     ]
 }

@@ -2,21 +2,23 @@
     "aliases": [
         "BATTALION: Legacy"
     ],
+    "cover_image_hash": "78188af2b8fab158650bd682c5557ed6",
     "executables": [
         {
             "is_launcher": false,
-            "name": "battalion.exe",
+            "name": "win64/battalionclient-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/battalionclient-win64-shipping.exe",
+            "name": "battalion.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "9d6f9d56c53499964dc5aebc9697a3de",
     "id": "419271532087607296",
+    "linked_applications": [],
     "name": "BATTALION 1944",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -26,5 +28,11 @@
         "Action",
         "Historical",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "489940"
+        }
     ]
 }

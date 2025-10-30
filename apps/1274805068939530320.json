@@ -2,21 +2,23 @@
     "aliases": [
         "HANS"
     ],
+    "cover_image_hash": "e557e2f0bc4bf8840f2a681a86a24022",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/hans-win64-shipping.exe",
+            "name": "hans/hans.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "hans/hans.exe",
+            "name": "win64/hans-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "aadcdaf34af7bb29e346aed86e54522f",
     "id": "1274805068939530320",
+    "linked_applications": [],
     "name": "HANS",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -27,5 +29,11 @@
         "Fantasy",
         "Horror",
         "Comedy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "2616420"
+        }
     ]
 }

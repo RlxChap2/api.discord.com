@@ -2,21 +2,28 @@
     "aliases": [
         "Dota Underlords"
     ],
+    "cover_image_hash": "62d97a278ee622fa2d74224b8cba7ae6",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/underlords.exe",
+            "name": "underlords.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "underlords.exe",
+            "name": "win64/underlords.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "3a4d16d61504c9a8b2cd3f66de7b1cd2",
     "id": "1402417029490938006",
+    "linked_applications": [
+        {
+            "id": "592976500802846750",
+            "type": 1
+        }
+    ],
     "name": "Dota Underlords",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +31,11 @@
     "overlay_warn": false,
     "themes": [
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1046930"
+        }
     ]
 }

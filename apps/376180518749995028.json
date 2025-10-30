@@ -3,21 +3,23 @@
         "DarkestDungeon",
         "Darkest Dungeon®"
     ],
+    "cover_image_hash": "50623032a30ca259747ba2eec03646cc",
     "executables": [
         {
             "is_launcher": false,
-            "name": "darkest.exe",
+            "name": "_windows/darkest.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "_windows/darkest.exe",
+            "name": "darkest.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "5cc0dece8f3a151b90a9feb5b95613fa",
     "id": "376180518749995028",
+    "linked_applications": [],
     "name": "Darkest Dungeon",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -28,5 +30,19 @@
         "Horror",
         "Historical",
         "Mystery"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "BXKVN6G9C5WJ"
+        },
+        {
+            "distributor": "steam",
+            "id": "262060"
+        },
+        {
+            "distributor": "epic",
+            "id": "21916C391AE4425D8F6CCE2382AEBD0C"
+        }
     ]
 }

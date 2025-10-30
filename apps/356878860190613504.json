@@ -1,15 +1,16 @@
 {
     "aliases": [],
+    "cover_image_hash": "ac7e8b44935ef2c714f221e88b4e348f",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "heroes.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "heroesofthestorm.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "heroes.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -25,6 +26,7 @@
     "hook": true,
     "icon_hash": "7b3bc9037909ab14917accca8c6fb8c1",
     "id": "356878860190613504",
+    "linked_applications": [],
     "name": "Heroes of the Storm",
     "overlay": true,
     "overlay_compatibility_hook": true,
@@ -34,5 +36,11 @@
         "Action",
         "Fantasy",
         "Science fiction"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "battlenet",
+            "id": null
+        }
     ]
 }

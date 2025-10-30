@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": "eada64910aedc2157ce8e19ba36b4f5e",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "undertale.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "undertale.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "undertale.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "99ec17659fe44ba31ab007b85fd2454c",
     "id": "363409849859571722",
+    "linked_applications": [],
     "name": "Undertale",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,19 @@
         "Horror",
         "Comedy",
         "Drama"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9PJGGX9XJXPB"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA08801_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "391540"
+        }
     ]
 }

@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "shatteredskies.exe",
+            "name": "shatteredskies/lms.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "shatteredskies/lms.exe",
+            "name": "shatteredskies.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "95e4aacd32fd9642f1a3fa9640ca0a77",
     "id": "504033280149159986",
+    "linked_applications": [],
     "name": "Shattered Skies",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
         "Survival",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "447500"
+        }
     ]
 }

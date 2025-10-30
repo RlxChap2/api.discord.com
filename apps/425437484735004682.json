@@ -2,7 +2,13 @@
     "aliases": [
         "F.E.A.R."
     ],
+    "cover_image_hash": "c746247ee9b9fa1d03aa5428cbefa1f2",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "fearxp.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "fear.exe",
@@ -12,20 +18,22 @@
             "is_launcher": false,
             "name": "fearxp2/fearxp2.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "fearxp.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "af77eebc7437a63c53969dc197eed6b6",
     "id": "425437484735004682",
+    "linked_applications": [],
     "name": "F.E.A.R.",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "21090"
+        }
+    ]
 }

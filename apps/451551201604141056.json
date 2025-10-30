@@ -2,21 +2,23 @@
     "aliases": [
         "Injustice™ 2"
     ],
+    "cover_image_hash": "d55c0346ae24d4919b063251b4285449",
     "executables": [
         {
             "is_launcher": false,
-            "name": "retail/injustice2.exe",
+            "name": "injustice2.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "injustice2.exe",
+            "name": "retail/injustice2.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "8ec333a3b9f370f282d216a751467556",
     "id": "451551201604141056",
+    "linked_applications": [],
     "name": "Injustice™ 2",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,15 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "discord",
+            "id": "492165204889567232"
+        },
+        {
+            "distributor": "steam",
+            "id": "627270"
+        }
     ]
 }

@@ -2,15 +2,11 @@
     "aliases": [
         "Dead by Daylight"
     ],
+    "cover_image_hash": "dfe69a62ea01994e21b7a83e8c557684",
     "executables": [
         {
             "is_launcher": false,
             "name": "deadbydaylight-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": true,
-            "name": "deadbydaylight.exe",
             "os": "win32"
         },
         {
@@ -22,11 +18,17 @@
             "is_launcher": true,
             "name": "dead by daylight/deadbydaylight.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": true,
+            "name": "deadbydaylight.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "64e7623c9af49f2e7dc7048df16b1013",
     "id": "357607133254254632",
+    "linked_applications": [],
     "name": "Dead by Daylight",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -37,5 +39,19 @@
         "Horror",
         "Survival",
         "Stealth"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "18866"
+        },
+        {
+            "distributor": "epic",
+            "id": "611482B8586142CDA48A0786EB8A127C"
+        },
+        {
+            "distributor": "steam",
+            "id": "381210"
+        }
     ]
 }

@@ -2,25 +2,11 @@
     "aliases": [
         "Path of Exile"
     ],
+    "cover_image_hash": "a2487ac99d19778d2e9650bf52324736",
     "executables": [
         {
             "is_launcher": false,
-            "name": "poe/pathofexile.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "流亡黯道/pathofexilesteam.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "path of exile/pathofexilesteam.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "pathofexile/pathofexileegs.exe",
             "os": "win32"
         },
         {
@@ -30,23 +16,39 @@
         },
         {
             "is_launcher": false,
-            "name": "path of exile/pathofexile_x64steam.exe",
+            "name": "path of exile taiwan/pathofexile.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "path of exile taiwan/pathofexile.exe",
+            "name": "pathofexile/pathofexileegs.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "path of exile/pathofexilesteam.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "path of exile/pathofexile_x64steam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "path of exile/pathofexile_x64.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "poe/pathofexile.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "1f162572c3123655e42c615b18074ff3",
     "id": "356888453796986880",
+    "linked_applications": [],
     "name": "Path of Exile",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -56,5 +58,23 @@
         "Action",
         "Fantasy",
         "Horror"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "238960"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BZL0234XFMQ5"
+        },
+        {
+            "distributor": "igdb",
+            "id": "1911"
+        },
+        {
+            "distributor": "epic",
+            "id": "7AD5508D382E46228056F1D1A0189AE2"
+        }
     ]
 }

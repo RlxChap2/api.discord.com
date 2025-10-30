@@ -2,21 +2,23 @@
     "aliases": [
         "Grav"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "caggame-win64-shipping.exe",
+            "name": "caggameserver.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "caggameserver.exe",
+            "name": "caggame-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "cf7f3b8eb445c590cdc9c933a0352491",
     "id": "496771913280913424",
+    "linked_applications": [],
     "name": "GRAV",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -27,5 +29,11 @@
         "Science fiction",
         "Survival",
         "Sandbox"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "332500"
+        }
     ]
 }

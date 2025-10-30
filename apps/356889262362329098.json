@@ -2,6 +2,7 @@
     "aliases": [
         "FINAL FANTASY XIV - A Realm Reborn"
     ],
+    "cover_image_hash": "d1149150b90a6c86c694787bfb25325b",
     "executables": [
         {
             "is_launcher": false,
@@ -10,13 +11,13 @@
         },
         {
             "is_launcher": false,
-            "name": "ffxiv_dx11.exe",
-            "os": "win32"
+            "name": "final fantasy xiv.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "final fantasy xiv.app",
-            "os": "darwin"
+            "name": "ffxiv_dx11.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -27,6 +28,7 @@
     "hook": true,
     "icon_hash": "8fbbc6725f295195c8dd4f390ccd8611",
     "id": "356889262362329098",
+    "linked_applications": [],
     "name": "FINAL FANTASY XIV Online",
     "overlay": true,
     "overlay_compatibility_hook": true,
@@ -37,5 +39,19 @@
         "Fantasy",
         "Drama",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "386"
+        },
+        {
+            "distributor": "steam",
+            "id": "39210"
+        },
+        {
+            "distributor": "steam",
+            "id": "262342"
+        }
     ]
 }

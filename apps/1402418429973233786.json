@@ -2,21 +2,28 @@
     "aliases": [
         "DEATH STRANDING"
     ],
+    "cover_image_hash": "622d2efcd6e443fcabb575314157e12c",
     "executables": [
         {
             "is_launcher": false,
-            "name": "ds.exe",
+            "name": "death stranding/ds.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "death stranding/ds.exe",
+            "name": "ds.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "77f9e2c5032821bcec1a9772e8b09c77",
     "id": "1402418429973233786",
+    "linked_applications": [
+        {
+            "id": "734286565114904586",
+            "type": 1
+        }
+    ],
     "name": "DEATH STRANDING",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -28,5 +35,31 @@
         "Survival",
         "Stealth",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9NQGN8TGNT8P"
+        },
+        {
+            "distributor": "epic",
+            "id": "0A9E3C5AB6684506BD624A849CA0CF39"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01969_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "1850570"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA11260_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "1190460"
+        }
     ]
 }

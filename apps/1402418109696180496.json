@@ -1,20 +1,27 @@
 {
     "aliases": [],
+    "cover_image_hash": "bb9580d326f62e8e7c3f676ad24d6f02",
     "executables": [
         {
             "is_launcher": false,
-            "name": "killer queen black.exe",
+            "name": "killer queen black/killerqueenx.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "killer queen black/killerqueenx.exe",
+            "name": "killer queen black.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "b147c31bd44517f384d9648593ca6b19",
     "id": "1402418109696180496",
+    "linked_applications": [
+        {
+            "id": "492144146040094722",
+            "type": 1
+        }
+    ],
     "name": "Killer Queen Black",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,5 +30,15 @@
     "themes": [
         "Action",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "663670"
+        },
+        {
+            "distributor": "discord",
+            "id": "492373500997402624"
+        }
     ]
 }

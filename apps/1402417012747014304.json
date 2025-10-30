@@ -2,10 +2,11 @@
     "aliases": [
         "Ghost Recon Breakpoint"
     ],
+    "cover_image_hash": "436feb813d4342cb66661496b910bac5",
     "executables": [
         {
             "is_launcher": false,
-            "name": "grb_vulkan.exe",
+            "name": "ghost recon breakpoint/grb.exe",
             "os": "win32"
         },
         {
@@ -15,18 +16,24 @@
         },
         {
             "is_launcher": false,
-            "name": "grb_upp.exe",
+            "name": "grb_vulkan.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "ghost recon breakpoint/grb.exe",
+            "name": "grb_upp.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "0ee1fd43adce86543ae8c9ab1189aa5d",
     "id": "1402417012747014304",
+    "linked_applications": [
+        {
+            "id": "540120593576493057",
+            "type": 1
+        }
+    ],
     "name": "Ghost Recon Breakpoint",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -37,5 +44,27 @@
         "Stealth",
         "Open world",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "2DBD2F64ABDC4BBAB077424D5C85E01B"
+        },
+        {
+            "distributor": "steam",
+            "id": "2231380"
+        },
+        {
+            "distributor": "uplay",
+            "id": "11903"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14405_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N60PDBXC0MB"
+        }
     ]
 }

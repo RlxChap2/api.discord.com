@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": "f66eef8dfb01ea19e5a7803782c386ec",
     "executables": [
         {
             "is_launcher": false,
-            "name": "rebelgalaxysteam.exe",
+            "name": "rebelgalaxygog.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rebelgalaxygog.exe",
+            "name": "rebelgalaxysteam.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "442c043208bcfb227c9a3d6b7b677456",
     "id": "425441408242155530",
+    "linked_applications": [],
     "name": "Rebel Galaxy",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,19 @@
         "Science fiction",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "290300"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
+        },
+        {
+            "distributor": "epic",
+            "id": "WEAVER"
+        }
     ]
 }

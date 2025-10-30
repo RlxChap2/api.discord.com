@@ -3,12 +3,8 @@
         "Skyrim - Legendary Edition",
         "Skyrim"
     ],
+    "cover_image_hash": "d1d7b7a650ffdbdf5532caba3dbee291",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "skyrim special edition/skyrimselauncher.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "skyrimlauncher.exe",
@@ -16,22 +12,34 @@
         },
         {
             "is_launcher": false,
-            "name": "tesv_original.exe",
+            "name": "skyrim special edition/skyrimselauncher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "tesv.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tesv_original.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "05e8f8b49eb61bb6f4a97c77c1d7fbdb",
     "id": "359507724196773888",
+    "linked_applications": [],
     "name": "The Elder Scrolls V: Skyrim",
     "overlay": true,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "72850"
+        }
+    ]
 }

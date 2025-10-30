@@ -1,23 +1,25 @@
 {
     "aliases": [
-        "FragPunk",
-        "test"
+        "test",
+        "FragPunk"
     ],
+    "cover_image_hash": "ecfc37539b5ed614432ec5f548ad9c8f",
     "executables": [
         {
             "is_launcher": false,
-            "name": "fragpunk.exe",
+            "name": "win64/fragpunk.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/fragpunk.exe",
+            "name": "fragpunk.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "9203f8f2ccfe116647fe8e7d9bcb529e",
     "id": "1346600025110614026",
+    "linked_applications": [],
     "name": "FragPunk",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,23 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "0D2E23CBEACC43A085345B3E565A3114"
+        },
+        {
+            "distributor": "steam",
+            "id": "2943650"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA26492_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MW715J1P29D"
+        }
     ]
 }

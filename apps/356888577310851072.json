@@ -1,6 +1,13 @@
 {
     "aliases": [],
+    "cover_image_hash": "b014b48438889995cf21dc38ef1cdd44",
     "executables": [
+        {
+            "arguments": "-game tf",
+            "is_launcher": false,
+            "name": ">hl2.exe",
+            "os": "win32"
+        },
         {
             "arguments": "-game tf",
             "is_launcher": false,
@@ -12,17 +19,12 @@
             "is_launcher": false,
             "name": ">hl2_osx",
             "os": "darwin"
-        },
-        {
-            "arguments": "-game tf",
-            "is_launcher": false,
-            "name": ">hl2.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "dfc652a5b75879148779dc2865270f87",
     "id": "356888577310851072",
+    "linked_applications": [],
     "name": "Team Fortress 2",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -31,5 +33,11 @@
     "themes": [
         "Action",
         "Comedy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "440"
+        }
     ]
 }

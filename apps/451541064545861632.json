@@ -3,21 +3,23 @@
         "Batman: Arkham City",
         "Batman: Arkham City GOTY"
     ],
+    "cover_image_hash": "ff88e0cf2afc919b3d22ce3712793c4c",
     "executables": [
         {
             "is_launcher": false,
-            "name": "batmanac.exe",
+            "name": "setup/vcredist_x86.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "setup/vcredist_x86.exe",
+            "name": "batmanac.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "586e24dd7f5b3ce54371981c5954ffda",
     "id": "451541064545861632",
+    "linked_applications": [],
     "name": "Batman: Arkham City GOTY",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -27,5 +29,15 @@
         "Action",
         "Stealth",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "40C34BEA9CD0460589C867F6A7246342"
+        },
+        {
+            "distributor": "steam",
+            "id": "200260"
+        }
     ]
 }

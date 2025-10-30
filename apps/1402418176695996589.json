@@ -1,11 +1,7 @@
 {
     "aliases": [],
+    "cover_image_hash": "afcb26f23ae1f44c6d091fccfd908f71",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "wz2100.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "wz2100.app",
@@ -15,11 +11,22 @@
             "is_launcher": false,
             "name": "warzone2100.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "wz2100.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "d45341872e8f7aec8ab37a2dbd60c35a",
     "id": "1402418176695996589",
+    "linked_applications": [
+        {
+            "id": "505520727521361941",
+            "type": 1
+        }
+    ],
     "name": "Warzone 2100",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -27,5 +34,11 @@
     "overlay_warn": false,
     "themes": [
         "Science fiction"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1241950"
+        }
     ]
 }

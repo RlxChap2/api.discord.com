@@ -2,6 +2,7 @@
     "aliases": [
         "Call of Duty 4: Modern Warfare"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
@@ -10,18 +11,19 @@
         },
         {
             "is_launcher": false,
-            "name": "call of duty 4/iw3mp.exe",
+            "name": "iw3mp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "iw3mp.exe",
+            "name": "call of duty 4/iw3mp.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "8e608881762ba5e864cd5bbe02711ddd",
     "id": "486763816944795658",
+    "linked_applications": [],
     "name": "Call of Duty 4: Modern Warfare",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -31,5 +33,11 @@
         "Action",
         "Stealth",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "7940"
+        }
     ]
 }

@@ -2,21 +2,23 @@
     "aliases": [
         "Warhammer 40,000: Space Marine - Anniversary Edition"
     ],
+    "cover_image_hash": "96585d380faa2805b7ef5d18331692ca",
     "executables": [
         {
             "is_launcher": false,
-            "name": "warhammer 40,000 space marine/bssndrpt.exe",
+            "name": "spacemarine.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "spacemarine.exe",
+            "name": "warhammer 40,000 space marine/bssndrpt.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "82ad5f9673951ef688f0a89a20ccd42c",
     "id": "484789228761514004",
+    "linked_applications": [],
     "name": "Warhammer 40,000: Space Marine",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "themes": [
         "Action",
         "Science fiction"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "55150"
+        }
     ]
 }

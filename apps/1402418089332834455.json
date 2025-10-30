@@ -2,21 +2,28 @@
     "aliases": [
         "Halo: The Master Chief Collection"
     ],
+    "cover_image_hash": "bd2291283b812f6a2582710bd825977c",
     "executables": [
         {
             "is_launcher": false,
-            "name": "mcc-win64-shipping.exe",
+            "name": "win64/mcc-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/mcc-win64-shipping.exe",
+            "name": "mcc-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "ff7a10e901e755280a7c14dfb50a7224",
     "id": "1402418089332834455",
+    "linked_applications": [
+        {
+            "id": "653432003798106122",
+            "type": 1
+        }
+    ],
     "name": "Halo: The Master Chief Collection",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -26,5 +33,11 @@
         "Action",
         "Science fiction",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "976730"
+        }
     ]
 }

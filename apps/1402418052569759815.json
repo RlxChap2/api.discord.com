@@ -2,21 +2,28 @@
     "aliases": [
         "Gears 5"
     ],
+    "cover_image_hash": "e56826ddb19a2e3d90bcc1dfe15f2a95",
     "executables": [
         {
             "is_launcher": false,
-            "name": "steam/gears5.exe",
+            "name": "gears5.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gears5.exe",
+            "name": "steam/gears5.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "13dcc442669b8f2c5e8d5ee912cc969c",
     "id": "1402418052569759815",
+    "linked_applications": [
+        {
+            "id": "620685135066693642",
+            "type": 1
+        }
+    ],
     "name": "Gears 5",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +32,15 @@
     "themes": [
         "Action",
         "Science fiction"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1097840"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C2KDNLT2H7DM"
+        }
     ]
 }

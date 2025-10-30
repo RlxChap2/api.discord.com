@@ -2,21 +2,23 @@
     "aliases": [
         "Europa Universalis 4"
     ],
+    "cover_image_hash": "2acc6b39cafbe94e37a6e720f9eef136",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "eu4.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "eu4.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "eu4.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "79893ca103b029442f0ef3938aac5696",
     "id": "363409417632481280",
+    "linked_applications": [],
     "name": "Europa Universalis IV",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -26,5 +28,15 @@
         "Fantasy",
         "Historical",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "80D3AEB1D7C3434981E0BCBC47700A83"
+        },
+        {
+            "distributor": "steam",
+            "id": "236850"
+        }
     ]
 }

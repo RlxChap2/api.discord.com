@@ -2,11 +2,12 @@
     "aliases": [
         "Counter-Strike Global Offensive"
     ],
+    "cover_image_hash": "c94f3f7c7586b5fb1afe7fe2c6dbf550",
     "executables": [
         {
             "is_launcher": false,
-            "name": "csgo_osx64.app",
-            "os": "darwin"
+            "name": "csgo_linux64",
+            "os": "linux"
         },
         {
             "is_launcher": false,
@@ -15,13 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "csgo_linux64",
-            "os": "linux"
+            "name": "csgo_osx64.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "782a3bb612c6f1b3f7deed554935f361",
     "id": "1402416952713941106",
+    "linked_applications": [
+        {
+            "id": "356875057940791296",
+            "type": 1
+        }
+    ],
     "name": "Counter-Strike: Global Offensive",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -30,5 +37,6 @@
     "themes": [
         "Action",
         "Warfare"
-    ]
+    ],
+    "third_party_skus": []
 }

@@ -2,20 +2,11 @@
     "aliases": [
         "World of Warcraft™"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "_retail_/wow-64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "_ptr_/wow.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "_retail_/wow.exe",
+            "name": "_ptr_/wow-64.exe",
             "os": "win32"
         },
         {
@@ -25,23 +16,34 @@
         },
         {
             "is_launcher": false,
-            "name": "world of warcraft.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
             "name": "_beta_/wow.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "_ptr_/wow-64.exe",
+            "name": "world of warcraft.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "_retail_/wow.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "_retail_/wow-64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "_ptr_/wow.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "fc92f820c44e72085dc6205e5e746850",
     "id": "356875762940379136",
+    "linked_applications": [],
     "name": "World of Warcraft",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -52,5 +54,15 @@
         "Fantasy",
         "Open world",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "battlenet",
+            "id": null
+        },
+        {
+            "distributor": "battlenet",
+            "id": "WoW"
+        }
     ]
 }

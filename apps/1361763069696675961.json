@@ -2,21 +2,23 @@
     "aliases": [
         "RuneScape: Dragonwilds"
     ],
+    "cover_image_hash": "7fcdaacb0b0331cdf13382d981ffb56e",
     "executables": [
         {
             "is_launcher": false,
-            "name": "rsdragonwilds/epiconlineservicesinstaller.exe",
+            "name": "win64/rsdragonwilds-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/rsdragonwilds-win64-shipping.exe",
+            "name": "rsdragonwilds/epiconlineservicesinstaller.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "d0a0570d0253915fb08bda5b77603098",
     "id": "1361763069696675961",
+    "linked_applications": [],
     "name": "RuneScape: Dragonwilds",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "themes": [
         "Action",
         "Survival"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1374490"
+        }
     ]
 }

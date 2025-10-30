@@ -1,14 +1,15 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "hoi3_tfh.exe",
+            "name": "hoi3game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "hoi3game.exe",
+            "name": "hoi3.exe",
             "os": "win32"
         },
         {
@@ -18,13 +19,14 @@
         },
         {
             "is_launcher": false,
-            "name": "hoi3.exe",
+            "name": "hoi3_tfh.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "b088017a67047f6669ab10aa61d3a5c8",
     "id": "492118503508279316",
+    "linked_applications": [],
     "name": "Hearts of Iron III",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -32,5 +34,19 @@
     "overlay_warn": false,
     "themes": [
         "Historical"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "25890"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
+        },
+        {
+            "distributor": "discord",
+            "id": "492142950487293983"
+        }
     ]
 }

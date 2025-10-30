@@ -2,20 +2,11 @@
     "aliases": [
         "Spellcraft"
     ],
+    "cover_image_hash": "6e018ba6b632385031697110947e3286",
     "executables": [
         {
             "is_launcher": false,
-            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "v0/spellcraft.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "spellcraft dev (staging)/spellcraft.exe",
             "os": "win32"
         },
         {
@@ -29,13 +20,23 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "spellcraft-gamelab.exe",
+            "is_launcher": false,
+            "name": "spellcraft dev (staging)/spellcraft.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft-gamelab/game/run/tap.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
             "os": "win32"
         },
         {
             "is_launcher": true,
-            "name": "spellcraft-live.exe",
+            "name": "spellcraft-gamelab.exe",
             "os": "win32"
         },
         {
@@ -44,14 +45,20 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "spellcraft-gamelab/game/run/tap.exe",
+            "is_launcher": true,
+            "name": "spellcraft-live.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "ef90e16572f07655d5074e8f5cd0803f",
     "id": "1402417128568524821",
+    "linked_applications": [
+        {
+            "id": "760174052760354875",
+            "type": 1
+        }
+    ],
     "name": "Spellcraft",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -60,5 +67,11 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1806210"
+        }
     ]
 }

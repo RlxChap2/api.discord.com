@@ -1,24 +1,32 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "squad - public testing/squadgame/binaries/win64/squadgame.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": true,
             "name": "squad - public testing/squad_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "squad - public testing/squadgame/binaries/win64/squadgame.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "5c79e5bf9d6b43d347f71567e6c8d318",
     "id": "1124354325716676679",
+    "linked_applications": [],
     "name": "Squad - Public Testing",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "774941"
+        }
+    ]
 }

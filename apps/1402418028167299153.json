@@ -2,6 +2,7 @@
     "aliases": [
         "XCOM: Enemy Unknown"
     ],
+    "cover_image_hash": "38278b067d04246b8c02ccb69020ddad",
     "executables": [
         {
             "is_launcher": false,
@@ -10,18 +11,24 @@
         },
         {
             "is_launcher": false,
-            "name": "xcomgame.exe",
+            "name": "xcomew.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "xcomew.exe",
+            "name": "xcomgame.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "558efa50d4a7f10b42ce0ff60006b5fb",
     "id": "1402418028167299153",
+    "linked_applications": [
+        {
+            "id": "488856269382483979",
+            "type": 1
+        }
+    ],
     "name": "XCOM Enemy Unknown",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -31,5 +38,15 @@
         "Action",
         "Science fiction",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "discord",
+            "id": "491375713253982219"
+        },
+        {
+            "distributor": "steam",
+            "id": "200510"
+        }
     ]
 }

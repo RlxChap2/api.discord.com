@@ -3,21 +3,23 @@
         "Rising Storm/Red Orchestra 2 Multiplayer",
         "Rising Storm/Red Orchestra 2"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "windows/pbsvc_hos.exe",
+            "name": "rogame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rogame.exe",
+            "name": "windows/pbsvc_hos.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "66465cbbd1081b093a637f28145e37b9",
     "id": "425777721159974922",
+    "linked_applications": [],
     "name": "Rising Storm/Red Orchestra 2 Multiplayer",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "35450"
+        }
     ]
 }

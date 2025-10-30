@@ -2,21 +2,28 @@
     "aliases": [
         "MORDHAU"
     ],
+    "cover_image_hash": "718adf90caf4ad5fd1c9de67885f803d",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/mordhau-win64-shipping.exe",
+            "name": "mordhau-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "mordhau-win64-shipping.exe",
+            "name": "win64/mordhau-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "ca732f9bf6364da1afffa1c8a7eb3dd0",
     "id": "1402417028207218738",
+    "linked_applications": [
+        {
+            "id": "575412499399180288",
+            "type": 1
+        }
+    ],
     "name": "MORDHAU",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +32,39 @@
     "themes": [
         "Action",
         "Historical"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9N7F4FQJLWD9"
+        },
+        {
+            "distributor": "steam",
+            "id": "629760"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N2J4X8FWXHH"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA07432_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PP6C21NFP4Z"
+        },
+        {
+            "distributor": "epic",
+            "id": "2BDA08F9230144A19E98373CC4A6AC2D"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N0PXW8HH8RG"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA42180_00"
+        }
     ]
 }

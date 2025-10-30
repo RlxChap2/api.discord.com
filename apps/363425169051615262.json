@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "huniepop.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "huniepop.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "huniepop.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "7b10572839d1bcbb017d5bce629e3ae1",
     "id": "363425169051615262",
+    "linked_applications": [],
     "name": "HuniePop",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
         "Comedy",
         "Erotic",
         "Romance"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "339800"
+        }
     ]
 }

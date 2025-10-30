@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "landmark64.exe",
+            "name": "landmark/launchpad.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "landmark/launchpad.exe",
+            "name": "landmark64.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "3629e6a5f8ec545a679be15d2fb5f4a6",
     "id": "496846777023070218",
+    "linked_applications": [],
     "name": "Landmark",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,11 @@
         "Fantasy",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "297810"
+        }
     ]
 }

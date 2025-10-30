@@ -2,10 +2,11 @@
     "aliases": [
         "The Sims™ 4"
     ],
+    "cover_image_hash": "3352370fccf51703f6c4904884ac13a2",
     "executables": [
         {
             "is_launcher": false,
-            "name": "ts4.exe",
+            "name": "ts4_x64.exe",
             "os": "win32"
         },
         {
@@ -15,18 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "ts4_x64.exe",
+            "name": "ts4_dx9_x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "ts4_dx9_x64.exe",
+            "name": "ts4.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "912bd1dd19dfd2ef3b0191985f942a40",
     "id": "359509007423242240",
+    "linked_applications": [],
     "name": "The Sims 4",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -38,5 +40,19 @@
         "Comedy",
         "Sandbox",
         "Romance"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "3212"
+        },
+        {
+            "distributor": "steam",
+            "id": "1222670"
+        },
+        {
+            "distributor": "epic",
+            "id": "2A14CF8A83B149919A2399504E5686A6"
+        }
     ]
 }

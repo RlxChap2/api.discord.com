@@ -3,7 +3,13 @@
         "Starcraft II",
         "Starcraft 2"
     ],
+    "cover_image_hash": "a3a95050e47c11a9f5621bef1d55a23b",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "sc2.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "sc2.app",
@@ -16,11 +22,6 @@
         },
         {
             "is_launcher": false,
-            "name": "sc2.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "sc2_x64.exe",
             "os": "win32"
         }
@@ -28,6 +29,7 @@
     "hook": true,
     "icon_hash": "ba12a43bee663d2a3b06a583bc80f4bf",
     "id": "358425800766128128",
+    "linked_applications": [],
     "name": "StarCraft II",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -37,5 +39,11 @@
         "Action",
         "Science fiction",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "battlenet",
+            "id": null
+        }
     ]
 }

@@ -2,21 +2,23 @@
     "aliases": [
         "Onward"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "onward.exe",
+            "name": "onward/onward.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "onward/onward.exe",
+            "name": "onward.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "25a4dbcefc1826e24b770977d575303b",
     "id": "484938446268268564",
+    "linked_applications": [],
     "name": "Onward",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "themes": [
         "Action",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "496240"
+        }
     ]
 }

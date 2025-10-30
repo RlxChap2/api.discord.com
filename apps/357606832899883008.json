@@ -1,13 +1,14 @@
 {
     "aliases": [
+        "Old School RuneScape",
         "RuneScape Launcher 2.2.4",
-        "RuneScape 3",
-        "Old School RuneScape"
+        "RuneScape 3"
     ],
+    "cover_image_hash": "fcc56f041c0f93f71fd5504513940057",
     "executables": [
         {
             "is_launcher": false,
-            "name": "runescape.exe",
+            "name": "jagexcache/jagexlauncher/bin/jagexlauncher.exe",
             "os": "win32"
         },
         {
@@ -17,13 +18,13 @@
         },
         {
             "is_launcher": false,
-            "name": "runescape.app",
-            "os": "darwin"
+            "name": "osbuddy64.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "osbuddy64.exe",
-            "os": "win32"
+            "name": "runescape.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -32,13 +33,14 @@
         },
         {
             "is_launcher": false,
-            "name": "jagexcache/jagexlauncher/bin/jagexlauncher.exe",
+            "name": "runescape.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "337ce51307d4580001d1ab60706dda8a",
     "id": "357606832899883008",
+    "linked_applications": [],
     "name": "RuneScape",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -50,5 +52,11 @@
         "Business",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "1343400"
+        }
     ]
 }

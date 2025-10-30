@@ -1,23 +1,25 @@
 {
     "aliases": [
-        "Assassin's Creed Odyssey",
-        "Assassin's Creed: Odyssey"
+        "Assassin's Creed: Odyssey",
+        "Assassin's Creed Odyssey"
     ],
+    "cover_image_hash": "9ef66a635126a1dad1afbdca71bcb08b",
     "executables": [
         {
             "is_launcher": false,
-            "name": "acodyssey.exe",
+            "name": "vcredist/vc_redist.x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "vcredist/vc_redist.x64.exe",
+            "name": "acodyssey.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "7e8926a9de441adc0d78cda2df1fc490",
     "id": "497898978466070528",
+    "linked_applications": [],
     "name": "Assassin's Creed Odyssey",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -28,5 +30,39 @@
         "Historical",
         "Stealth",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA09311_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BNF5Q9ZSD84Z"
+        },
+        {
+            "distributor": "uplay",
+            "id": "5059"
+        },
+        {
+            "distributor": "epic",
+            "id": "CLARY"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C3LC9H239V2W"
+        },
+        {
+            "distributor": "steam",
+            "id": "812140"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BW9TWC8L4JCS"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BRQGNR1PZHP4"
+        }
     ]
 }

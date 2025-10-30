@@ -2,21 +2,23 @@
     "aliases": [
         "Shovel knight"
     ],
+    "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "shovelknight.app",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "shovelknight.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "shovelknight.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
     "icon_hash": "16e0044c533a8a0fb0a57d6d236fea59",
     "id": "425441726736629760",
+    "linked_applications": [],
     "name": "Shovel Knight",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -26,5 +28,15 @@
         "Action",
         "Fantasy",
         "Comedy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "250760"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
+        }
     ]
 }

@@ -3,7 +3,13 @@
         "Tree of Savior (English Ver.)",
         "Tree of Savior"
     ],
+    "cover_image_hash": null,
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "release/client_tos_x64.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "client_tos.exe",
@@ -13,16 +19,12 @@
             "is_launcher": false,
             "name": "patch/updater_downloader.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "release/client_tos_x64.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "8d7c55f7c7da3e752b58fd291ec33b5f",
     "id": "428053768630960128",
+    "linked_applications": [],
     "name": "Tree of Savior (English Ver.)",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -30,5 +32,11 @@
     "overlay_warn": false,
     "themes": [
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "372000"
+        }
     ]
 }

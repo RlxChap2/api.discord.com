@@ -2,21 +2,23 @@
     "aliases": [
         "Shadow Complex"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "shadowcomplex-win32-egl.exe",
+            "name": "shadowcomplex-win32.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "shadowcomplex-win32.exe",
+            "name": "shadowcomplex-win32-egl.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "29a97185209b211a5cfa56bd7e538421",
     "id": "505500036214292545",
+    "linked_applications": [],
     "name": "Shadow Complex Remastered",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,15 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "Viper"
+        },
+        {
+            "distributor": "steam",
+            "id": "385560"
+        }
     ]
 }

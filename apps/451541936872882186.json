@@ -2,21 +2,23 @@
     "aliases": [
         "Moonbase Alpha"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "moonbasealphagame.exe",
+            "name": "physx/physx_8.10.29_systemsoftware.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "physx/physx_8.10.29_systemsoftware.exe",
+            "name": "moonbasealphagame.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "eadaf56af761b2456cf875114c1bcfec",
     "id": "451541936872882186",
+    "linked_applications": [],
     "name": "Moonbase Alpha",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,11 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "39000"
+        }
     ]
 }

@@ -2,27 +2,17 @@
     "aliases": [
         "Garry's Mod"
     ],
+    "cover_image_hash": "02eb5f55d5fe6445158c9492f309c1cb",
     "executables": [
-        {
-            "arguments": "-game garrysmod",
-            "is_launcher": false,
-            "name": "garrysmod/hl2.exe",
-            "os": "win32"
-        },
-        {
-            "arguments": "-game garrysmod",
-            "is_launcher": false,
-            "name": "hl2.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "win64/gmod.exe",
             "os": "win32"
         },
         {
+            "arguments": "-game garrysmod",
             "is_launcher": false,
-            "name": "bin/gmad.exe",
+            "name": "garrysmod/hl2.exe",
             "os": "win32"
         },
         {
@@ -34,13 +24,25 @@
         {
             "arguments": "-game garrysmod",
             "is_launcher": false,
+            "name": "hl2.exe",
+            "os": "win32"
+        },
+        {
+            "arguments": "-game garrysmod",
+            "is_launcher": false,
             "name": ">hl2.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "bin/gmad.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "ade1008d735a1a134693b15ce02d79a8",
     "id": "356879032584896512",
+    "linked_applications": [],
     "name": "Garry's Mod",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -48,5 +50,11 @@
     "overlay_warn": false,
     "themes": [
         "Sandbox"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "4000"
+        }
     ]
 }

@@ -1,17 +1,13 @@
 {
     "aliases": [
-        "PUBG",
-        "PUBG: BATTLEGROUNDS"
+        "PUBG: BATTLEGROUNDS",
+        "PUBG"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/tslgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tslgame.exe",
+            "name": "win64/tslgame_uc.exe",
             "os": "win32"
         },
         {
@@ -26,13 +22,24 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/tslgame_uc.exe",
+            "name": "win64/tslgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tslgame.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "f8d60c2d38ebd3cd183ca6fad58c9be6",
     "id": "1402418717781921935",
+    "linked_applications": [
+        {
+            "id": "356873622985506820",
+            "type": 1
+        }
+    ],
     "name": "PLAYERUNKNOWN'S BATTLEGROUNDS",
     "overlay": true,
     "overlay_compatibility_hook": true,
@@ -41,5 +48,11 @@
     "themes": [
         "Action",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "578080"
+        }
     ]
 }

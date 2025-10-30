@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "cargocommander.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "cargocommander.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "cargocommander.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "ebe961e1ea44c7e894f17292f1757460",
     "id": "496547754680647690",
+    "linked_applications": [],
     "name": "Cargo Commander",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,11 @@
         "Action",
         "Science fiction",
         "Survival"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "220460"
+        }
     ]
 }

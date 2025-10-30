@@ -1,12 +1,13 @@
 {
     "aliases": [
-        "ONI",
-        "Oni"
+        "Oni",
+        "ONI"
     ],
+    "cover_image_hash": "59c4da1253fefc19246551d082c68a6c",
     "executables": [
         {
             "is_launcher": false,
-            "name": "oni/oni.exe",
+            "name": "ae/oni.exe",
             "os": "win32"
         },
         {
@@ -16,17 +17,28 @@
         },
         {
             "is_launcher": false,
-            "name": "ae/oni.exe",
+            "name": "oni/oni.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "a92fddb2f2b4649fed931fe98d9eb7cc",
     "id": "498979842277113857",
+    "linked_applications": [],
     "name": "ONI : Road to be the Mightiest Oni",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": []
+    "themes": [],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "2101190"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA09794_00"
+        }
+    ]
 }

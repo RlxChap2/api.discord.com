@@ -2,10 +2,11 @@
     "aliases": [
         "Mount & Blade: Warband"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "mountblade warband/battlesizer.exe",
+            "name": "mountblade warband/mb_warband.exe",
             "os": "win32"
         },
         {
@@ -15,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "wse/wseloader.exe",
+            "name": "mountblade warband/battlesizer.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "mountblade warband/mb_warband.exe",
+            "name": "wse/wseloader.exe",
             "os": "win32"
         },
         {
@@ -32,6 +33,7 @@
     "hook": true,
     "icon_hash": "bf9835d3663bfe8a0c70860ee0340689",
     "id": "363412302998929418",
+    "linked_applications": [],
     "name": "Mount & Blade: Warband",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -44,5 +46,11 @@
         "Sandbox",
         "Open world",
         "4X (explore, expand, exploit, and exterminate)"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "48700"
+        }
     ]
 }

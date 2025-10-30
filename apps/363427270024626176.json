@@ -2,15 +2,11 @@
     "aliases": [
         "Call of Duty: Black Ops II - Multiplayer"
     ],
+    "cover_image_hash": "cbeb9ca93dfaaa25e0e1486367bed2c7",
     "executables": [
         {
             "is_launcher": false,
-            "name": "t6mp.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "t6sp.exe",
+            "name": "call of duty black ops ii/t6mp.exe",
             "os": "win32"
         },
         {
@@ -20,13 +16,19 @@
         },
         {
             "is_launcher": false,
-            "name": "call of duty black ops ii/t6mp.exe",
+            "name": "t6sp.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "t6mp.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "0d320e70ad7c00bf2273ecaa1547b69a",
     "id": "363427270024626176",
+    "linked_applications": [],
     "name": "Call of Duty: Black Ops II",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,5 +38,15 @@
         "Action",
         "Science fiction",
         "Warfare"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "202990"
+        },
+        {
+            "distributor": "steam",
+            "id": "202970"
+        }
     ]
 }

@@ -1,20 +1,22 @@
 {
     "aliases": [],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "supraball/binaries/win64/udk.exe",
+            "name": "supraball/binaries/win32/udk.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "supraball/binaries/win32/udk.exe",
+            "name": "supraball/binaries/win64/udk.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "7ba268107d821db4abe1291dc18d7613",
     "id": "451546491866316800",
+    "linked_applications": [],
     "name": "Supraball",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,5 +25,11 @@
     "themes": [
         "Action",
         "Comedy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "321400"
+        }
     ]
 }

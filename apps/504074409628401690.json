@@ -2,15 +2,16 @@
     "aliases": [
         "The Elder Scrolls IV: Oblivion"
     ],
+    "cover_image_hash": "025d9c5a8c112d71f0d93b9b10735bf5",
     "executables": [
         {
             "is_launcher": false,
-            "name": "oblivion.exe",
+            "name": "oblivion/obse_loader.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "oblivion/obse_loader.exe",
+            "name": "oblivion.exe",
             "os": "win32"
         },
         {
@@ -22,6 +23,7 @@
     "hook": true,
     "icon_hash": "022b2e346ba2e255104f532696075a33",
     "id": "504074409628401690",
+    "linked_applications": [],
     "name": "The Elder Scrolls IV: Oblivion",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -33,5 +35,19 @@
         "Historical",
         "Sandbox",
         "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "C5K89TFLSV19"
+        },
+        {
+            "distributor": "steam",
+            "id": "22330"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
+        }
     ]
 }

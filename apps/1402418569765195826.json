@@ -2,21 +2,28 @@
     "aliases": [
         "Bloons Adventure Time TD"
     ],
+    "cover_image_hash": "516d2a9ab85b64c98396d12f01bedd4e",
     "executables": [
         {
             "is_launcher": false,
-            "name": "btdadventuretime.exe",
+            "name": "bloons adventure time td/btdadventuretime.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bloons adventure time td/btdadventuretime.exe",
+            "name": "btdadventuretime.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "defb5cd73e306f914904a1eaf8ada56b",
     "id": "1402418569765195826",
+    "linked_applications": [
+        {
+            "id": "614448244260339712",
+            "type": 1
+        }
+    ],
     "name": "Bloons Adventure Time TD",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +32,15 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "979060"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.ninjakiwi.btdadventuretime"
+        }
     ]
 }

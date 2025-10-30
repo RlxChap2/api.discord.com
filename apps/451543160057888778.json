@@ -2,21 +2,23 @@
     "aliases": [
         "Orcs Must Die! 2"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "orcsmustdie2.exe",
+            "name": "installer/vcredist_x86.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "installer/vcredist_x86.exe",
+            "name": "orcsmustdie2.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "835dd3a49f67ecb5a61f9b3cddc03eb7",
     "id": "451543160057888778",
+    "linked_applications": [],
     "name": "Orcs Must Die! 2",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,5 +27,11 @@
     "themes": [
         "Action",
         "Fantasy"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "201790"
+        }
     ]
 }

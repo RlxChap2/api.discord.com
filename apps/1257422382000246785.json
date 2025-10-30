@@ -1,14 +1,10 @@
 {
     "aliases": [
-        "Loki",
-        "SUPERVIVE Demo"
+        "SUPERVIVE Demo",
+        "Loki"
     ],
+    "cover_image_hash": "590bf11534a999b24c0e47d7c87dddbc",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "loki-win64-shipping.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "loki.exe",
@@ -17,6 +13,16 @@
         {
             "is_launcher": false,
             "name": "supervive-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/supervive-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/loki.exe",
             "os": "win32"
         },
         {
@@ -31,18 +37,14 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/supervive-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/loki.exe",
+            "name": "loki-win64-shipping.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "9338e8e50ff1cf5ef6b9aeb61e3427cd",
     "id": "1257422382000246785",
+    "linked_applications": [],
     "name": "SUPERVIVE",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -52,5 +54,19 @@
         "Action",
         "Fantasy",
         "Sandbox"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "255078"
+        },
+        {
+            "distributor": "steam",
+            "id": "3152030"
+        },
+        {
+            "distributor": "steam",
+            "id": "1283700"
+        }
     ]
 }

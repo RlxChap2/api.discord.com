@@ -2,21 +2,23 @@
     "aliases": [
         "Cabal Online"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "cabalmain.exe",
+            "name": "cabal.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "cabal.exe",
+            "name": "cabalmain.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "21093efcaf975262356a83372ad072f4",
     "id": "496544716997918750",
+    "linked_applications": [],
     "name": "CABAL Online",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,11 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "253490"
+        }
     ]
 }

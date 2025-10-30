@@ -2,21 +2,23 @@
     "aliases": [
         "Orcs Must Die! Unchained"
     ],
+    "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/spitfiregame.exe",
+            "name": "spitfiredashboard.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "spitfiredashboard.exe",
+            "name": "win64/spitfiregame.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "f963ae45d8924b8598067feabb4a44d3",
     "id": "451554260262322176",
+    "linked_applications": [],
     "name": "Orcs Must Die!",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,5 +26,15 @@
     "overlay_warn": false,
     "themes": [
         "Action"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "discord",
+            "id": "498980730869645329"
+        },
+        {
+            "distributor": "steam",
+            "id": "427270"
+        }
     ]
 }

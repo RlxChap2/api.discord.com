@@ -3,7 +3,14 @@
         "Minecraft Launcher",
         "Minecraft Windows 10 Edition"
     ],
+    "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">java",
+            "os": "darwin"
+        },
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
@@ -11,10 +18,9 @@
             "os": "win32"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": "minecraft.windows.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -25,16 +31,17 @@
             "is_launcher": false,
             "name": "content/minecraft.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "166fbad351ecdd02d11a3b464748f66b",
     "id": "1402418491272986635",
+    "linked_applications": [
+        {
+            "id": "356875570916753438",
+            "type": 1
+        }
+    ],
     "name": "Minecraft",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -48,5 +55,23 @@
         "Kids",
         "Open world",
         "4X (explore, expand, exploit, and exterminate)"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "microsoft",
+            "id": ""
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA17221_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00744_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MVXMVT8ZKWC"
+        }
     ]
 }
