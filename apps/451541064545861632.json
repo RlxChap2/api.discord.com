@@ -1,18 +1,18 @@
 {
     "aliases": [
-        "Batman: Arkham City",
-        "Batman: Arkham City GOTY"
+        "Batman: Arkham City GOTY",
+        "Batman: Arkham City"
     ],
     "cover_image_hash": "ff88e0cf2afc919b3d22ce3712793c4c",
     "executables": [
         {
             "is_launcher": false,
-            "name": "batmanac.exe",
+            "name": "setup/vcredist_x86.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "setup/vcredist_x86.exe",
+            "name": "batmanac.exe",
             "os": "win32"
         }
     ],
@@ -32,12 +32,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "200260"
-        },
-        {
             "distributor": "epic",
             "id": "40C34BEA9CD0460589C867F6A7246342"
+        },
+        {
+            "distributor": "steam",
+            "id": "200260"
         }
     ]
 }
