@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "wingdk/sandfall-wingdk-shipping.exe",
+            "name": "win64/sandfall-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/sandfall-win64-shipping.exe",
+            "name": "wingdk/sandfall-wingdk-shipping.exe",
             "os": "win32"
         }
     ],
@@ -28,12 +28,8 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1903340"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9N2VXS6JVJW9"
+            "distributor": "epic",
+            "id": "FD04AF72EA0F437AAD3A15ACD9ED5508"
         },
         {
             "distributor": "playstation",
@@ -44,8 +40,12 @@
             "id": "9PPT8K6GQHRZ"
         },
         {
-            "distributor": "epic",
-            "id": "FD04AF72EA0F437AAD3A15ACD9ED5508"
+            "distributor": "xbox",
+            "id": "9N2VXS6JVJW9"
+        },
+        {
+            "distributor": "steam",
+            "id": "1903340"
         }
     ]
 }
