@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "thedivision.exe",
+            "name": "the division.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "the division.exe",
+            "name": "thedivision.exe",
             "os": "win32"
         }
     ],
@@ -32,12 +32,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "CUSA01810_00"
-        },
-        {
             "distributor": "xbox",
             "id": "BP9JL0BT2QQ0"
+        },
+        {
+            "distributor": "uplay",
+            "id": "568"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA01810_00"
         },
         {
             "distributor": "epic",
@@ -50,10 +54,6 @@
         {
             "distributor": "uplay",
             "id": null
-        },
-        {
-            "distributor": "uplay",
-            "id": "568"
         }
     ]
 }

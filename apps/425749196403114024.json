@@ -1,10 +1,15 @@
 {
     "aliases": [
-        "Total War: Shogun 2",
-        "Total War: SHOGUN 2"
+        "Total War: SHOGUN 2",
+        "Total War: Shogun 2"
     ],
     "cover_image_hash": "103964a37468b4c61e32d45249627b05",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "shogun2.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "redist/vcredist_x86-sp1.exe",
@@ -18,11 +23,6 @@
         {
             "is_launcher": false,
             "name": "benchmarks/benchmark_output.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "shogun2.exe",
             "os": "win32"
         }
     ],
@@ -42,11 +42,11 @@
     "third_party_skus": [
         {
             "distributor": "steam",
-            "id": "34330"
+            "id": "201270"
         },
         {
             "distributor": "steam",
-            "id": "201270"
+            "id": "34330"
         }
     ]
 }
