@@ -1,18 +1,18 @@
 {
     "aliases": [
-        "STAR WARS Jedi: Fallen Order™",
-        "STAR WARS Jedi - Fallen Order™"
+        "STAR WARS Jedi - Fallen Order™",
+        "STAR WARS Jedi: Fallen Order™"
     ],
     "cover_image_hash": "e79f962f56ab5a2ff7e9bc10d9d66b51",
     "executables": [
         {
             "is_launcher": false,
-            "name": "starwarsjedifallenorder.exe",
+            "name": "win64/starwarsjedifallenorder.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/starwarsjedifallenorder.exe",
+            "name": "starwarsjedifallenorder.exe",
             "os": "win32"
         }
     ],
@@ -37,16 +37,12 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "origin",
+            "id": ""
+        },
+        {
             "distributor": "epic",
             "id": "E509C16D53714B13BA8E393966507255"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MWB0Z2Q8X3G"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA02198_00"
         },
         {
             "distributor": "steam",
@@ -57,8 +53,12 @@
             "id": "C2CSDTSCBZ0C"
         },
         {
-            "distributor": "origin",
-            "id": ""
+            "distributor": "xbox",
+            "id": "9MWB0Z2Q8X3G"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA02198_00"
         }
     ]
 }
