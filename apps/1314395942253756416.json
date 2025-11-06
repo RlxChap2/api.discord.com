@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "マーベル・ライバルズ",
-        "Marvel Rivals"
+        "Marvel Rivals",
+        "マーベル・ライバルズ"
     ],
     "cover_image_hash": "82de497fdfbbf96f9378b7af0282d5ea",
     "executables": [
@@ -12,17 +12,17 @@
         },
         {
             "is_launcher": false,
+            "name": "win64/marvel.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "win64/marvel-win64-test.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "marvelrivals/marvelrivals_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/marvel.exe",
             "os": "win32"
         }
     ],
@@ -45,12 +45,8 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2767030"
-        },
-        {
-            "distributor": "epic",
-            "id": "38E211CED4E448A5A653A8D1E13FEF18"
+            "distributor": "playstation",
+            "id": "PPSA21669_00"
         },
         {
             "distributor": "xbox",
@@ -65,8 +61,12 @@
             "id": "294041"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA21669_00"
+            "distributor": "epic",
+            "id": "38E211CED4E448A5A653A8D1E13FEF18"
+        },
+        {
+            "distributor": "steam",
+            "id": "2767030"
         }
     ]
 }
