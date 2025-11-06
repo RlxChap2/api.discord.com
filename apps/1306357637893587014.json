@@ -6,11 +6,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "sp24/sp24-cod.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "call of duty hq/cod.exe",
             "os": "win32"
         },
@@ -23,12 +18,22 @@
             "is_launcher": false,
             "name": "call of duty/_retail_/cod.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "sp24/sp24-cod.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "ac74b58c929f6d38cba8300c7f632217",
     "id": "1306357637893587014",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1268288214112931932",
+            "type": 1
+        }
+    ],
     "name": "Black Ops 6",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -44,16 +49,16 @@
             "id": "9PF528M6CRHQ"
         },
         {
-            "distributor": "battlenet",
-            "id": ""
+            "distributor": "steam",
+            "id": "2933620"
         },
         {
             "distributor": "xbox",
             "id": "9PNKSTGVNPJH"
         },
         {
-            "distributor": "steam",
-            "id": "2933620"
+            "distributor": "battlenet",
+            "id": ""
         }
     ]
 }
