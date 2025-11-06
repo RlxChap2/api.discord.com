@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "2012/vcredist_x86.exe",
+            "name": "apb.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "apb.exe",
+            "is_launcher": true,
+            "name": "apblauncher.exe",
             "os": "win32"
         }
     ],
@@ -22,7 +22,7 @@
     "name": "APB Reloaded",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action",
@@ -30,16 +30,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "C1HZV4PRZ39K"
+        },
+        {
             "distributor": "playstation",
             "id": "CUSA01444_00"
         },
         {
             "distributor": "steam",
             "id": "113400"
-        },
-        {
-            "distributor": "xbox",
-            "id": "C1HZV4PRZ39K"
         }
     ]
 }
