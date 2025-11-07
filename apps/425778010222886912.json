@@ -6,22 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "assettocorsa.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "server/acservermanager.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "assettocorsa/content manager.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "assettocorsa/jsgme.exe",
+            "name": "server/acservermanager.exe",
             "os": "win32"
         },
         {
@@ -36,7 +26,17 @@
         },
         {
             "is_launcher": false,
+            "name": "assettocorsa/jsgme.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "assettocorsa/acshowroom.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "assettocorsa.exe",
             "os": "win32"
         }
     ],
@@ -54,12 +54,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "C27H5T4HD4WW"
-        },
-        {
             "distributor": "steam",
             "id": "244210"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C27H5T4HD4WW"
         }
     ]
 }

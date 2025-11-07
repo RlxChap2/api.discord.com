@@ -4,17 +4,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "sotgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "win64/sotgame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "wingdk/sotgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "sotgame.exe",
             "os": "win32"
         },
         {
@@ -44,12 +44,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PCD5S0DMF5Z"
-        },
-        {
             "distributor": "playstation",
             "id": "PPSA17669_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PCD5S0DMF5Z"
         }
     ]
 }
