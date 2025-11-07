@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "control_dx11.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "control/control_dx11.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "control_dx12.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "control_dx11.exe",
             "os": "win32"
         }
     ],
@@ -43,12 +43,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9P2WJCRJBMRM"
+            "distributor": "playstation",
+            "id": "CUSA11461_00"
         },
         {
             "distributor": "xbox",
             "id": "9P4D0K92BM7V"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P2WJCRJBMRM"
         },
         {
             "distributor": "playstation",
@@ -57,10 +61,6 @@
         {
             "distributor": "steam",
             "id": "870780"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA11461_00"
         }
     ]
 }
