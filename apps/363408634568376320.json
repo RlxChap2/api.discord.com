@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "olgame.exe",
-            "os": "win32"
+            "name": "outlast.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "outlast.app",
-            "os": "darwin"
+            "name": "olgame.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -31,10 +31,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BP3GH4D3HP2H"
-        },
-        {
             "distributor": "epic",
             "id": "78F42129096D4233BCCC527733DEBFBD"
         },
@@ -45,6 +41,10 @@
         {
             "distributor": "playstation",
             "id": "CUSA00325_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BP3GH4D3HP2H"
         }
     ]
 }
