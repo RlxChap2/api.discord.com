@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "bin/bg3_dx11.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "bin/bg3.exe",
             "os": "win32"
         },
         {
             "is_launcher": true,
             "name": "larilauncher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "bin/bg3_dx11.exe",
             "os": "win32"
         }
     ],
@@ -36,7 +36,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9N4WFSL71XXZ"
+            "id": "9ND58LQTG09T"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA14001_00"
         },
         {
             "distributor": "steam",
@@ -44,11 +48,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9ND58LQTG09T"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA14001_00"
+            "id": "9N4WFSL71XXZ"
         }
     ]
 }
