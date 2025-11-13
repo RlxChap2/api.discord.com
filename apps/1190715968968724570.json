@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "lego2kdrive/lego2kdrive.exe",
+            "name": "win64/lego2kdrive-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/lego2kdrive-win64-shipping.exe",
+            "name": "lego2kdrive/lego2kdrive.exe",
             "os": "win32"
         }
     ],
@@ -30,8 +30,20 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "PPSA04048_00"
+        },
+        {
             "distributor": "xbox",
             "id": "9PNH6BGC71FP"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NQKB8NZTGKK"
+        },
+        {
+            "distributor": "steam",
+            "id": "1451810"
         },
         {
             "distributor": "epic",
@@ -39,7 +51,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NQKB8NZTGKK"
+            "id": "9NLTSH03F6BV"
         },
         {
             "distributor": "playstation",
@@ -47,19 +59,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NLTSH03F6BV"
-        },
-        {
-            "distributor": "steam",
-            "id": "1451810"
-        },
-        {
-            "distributor": "xbox",
             "id": "9P64SQC33RN"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA04048_00"
         }
     ]
 }
