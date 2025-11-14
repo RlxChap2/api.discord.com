@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "mp23/mp23-cod.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "cod23/cod23-cod.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "sp23/sp23-cod.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "mp23/mp23-cod.exe",
             "os": "win32"
         }
     ],
@@ -35,5 +35,10 @@
     "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [],
-    "third_party_skus": []
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "0"
+        }
+    ]
 }
