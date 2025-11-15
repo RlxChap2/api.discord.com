@@ -7,7 +7,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "df_garena/deltaforceclient.exe",
+            "name": "launcher/df_launcher_global.exe",
             "os": "win32"
         },
         {
@@ -17,17 +17,17 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/deltaforceclient-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "launcher/df_launcher_global.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "launcher/df_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "df_garena/deltaforceclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/deltaforceclient-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -46,12 +46,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9NRMZXGKP4NM"
-        },
-        {
             "distributor": "playstation",
             "id": "PPSA28881_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NRMZXGKP4NM"
         },
         {
             "distributor": "igdb",
