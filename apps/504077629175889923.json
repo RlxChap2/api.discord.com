@@ -4,6 +4,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "secretworldlegends.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "thesecretworlddx11.exe",
             "os": "win32"
         },
@@ -15,11 +20,6 @@
         {
             "is_launcher": false,
             "name": "secretworldlegendsdx11.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "secretworldlegends.exe",
             "os": "win32"
         }
     ],
@@ -41,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "215280"
-        },
-        {
             "distributor": "origin",
             "id": ""
+        },
+        {
+            "distributor": "steam",
+            "id": "215280"
         }
     ]
 }
