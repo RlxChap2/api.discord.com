@@ -7,6 +7,16 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "content/minecraft.exe",
             "os": "win32"
         },
@@ -21,16 +31,6 @@
             "is_launcher": false,
             "name": ">java",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
@@ -62,16 +62,16 @@
             "id": "CUSA00744_00"
         },
         {
+            "distributor": "playstation",
+            "id": "PPSA17221_00"
+        },
+        {
             "distributor": "microsoft",
             "id": ""
         },
         {
             "distributor": "xbox",
             "id": "9MVXMVT8ZKWC"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA17221_00"
         }
     ]
 }
