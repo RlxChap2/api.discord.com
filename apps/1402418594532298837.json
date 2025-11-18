@@ -10,13 +10,13 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "rust.exe",
+            "is_launcher": false,
+            "name": "rustclient.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "rustclient.exe",
+            "is_launcher": true,
+            "name": "rust.exe",
             "os": "win32"
         }
     ],
@@ -43,6 +43,7 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
+<<<<<<< HEAD
             "id": "9PJVJ4WF031H"
         },
         {
@@ -52,10 +53,21 @@
         {
             "distributor": "xbox",
             "id": "BRPVTJKWHBR7"
+=======
+            "id": "9P0LR428JQH9"
+        },
+        {
+            "distributor": "steam",
+            "id": "252490"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         },
         {
             "distributor": "xbox",
-            "id": "9P0LR428JQH9"
+            "id": "9NVZHMNWGKF5"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PJVJ4WF031H"
         },
         {
             "distributor": "xbox",
@@ -63,11 +75,23 @@
         },
         {
             "distributor": "playstation",
+<<<<<<< HEAD
             "id": "CUSA14296_00"
         },
         {
             "distributor": "steam",
             "id": "252490"
+=======
+            "id": "PPSA24616_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14296_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BRPVTJKWHBR7"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         }
     ]
 }

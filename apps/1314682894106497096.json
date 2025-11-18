@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Delta Force Demo",
-        "Delta Force"
+        "Delta Force",
+        "Delta Force Demo"
     ],
     "cover_image_hash": "f3430d803784f5f42365eefbe8d89add",
     "executables": [
@@ -12,12 +12,26 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/deltaforceclient-win64-shipping.exe",
+            "name": "launcher/df_launcher_global.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
+<<<<<<< HEAD
             "name": "launcher/df_launcher_global.exe",
+=======
+            "name": "launcher/df_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "df_garena/deltaforceclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/deltaforceclient-win64-shipping.exe",
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
             "os": "win32"
         },
         {
@@ -50,8 +64,13 @@
             "id": "2507950"
         },
         {
+<<<<<<< HEAD
             "distributor": "playstation",
             "id": "PPSA28881_00"
+=======
+            "distributor": "igdb",
+            "id": "262186"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         },
         {
             "distributor": "igdb",
@@ -64,6 +83,13 @@
         {
             "distributor": "epic",
             "id": "3E2C28241611405AA231308A39BEE638"
+<<<<<<< HEAD
+=======
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA28881_00"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         }
     ]
 }

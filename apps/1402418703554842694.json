@@ -6,8 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
+<<<<<<< HEAD
             "name": "fortniteclient-win64-shipping.exe",
             "os": "win32"
+=======
+            "name": "fortniteclient-mac-shipping.app",
+            "os": "darwin"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         },
         {
             "is_launcher": true,
@@ -15,9 +20,9 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "fortniteclient-mac-shipping.app",
-            "os": "darwin"
+            "is_launcher": true,
+            "name": "fortniteclient-win64-shipping_eac_eos.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -43,15 +48,19 @@
     "third_party_skus": [
         {
             "distributor": "epic",
+<<<<<<< HEAD
             "id": "fn"
         },
         {
             "distributor": "xbox",
             "id": "BRD01SWKX9WS"
+=======
+            "id": "Fortnite"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         },
         {
             "distributor": "xbox",
-            "id": "BT5P2X999VH2"
+            "id": "BRD01SWKX9WS"
         },
         {
             "distributor": "xbox",
@@ -63,6 +72,21 @@
         },
         {
             "distributor": "xbox",
+            "id": "BXWNX8ST04JS"
+        },
+        {
+            "distributor": "xbox",
+<<<<<<< HEAD
+            "id": "9NM62SDWFBBG"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N84B8L89PDW"
+=======
+            "id": "BT5P2X999VH2"
+        },
+        {
+            "distributor": "xbox",
             "id": "9MW1TQ8MNZ1G"
         },
         {
@@ -70,16 +94,22 @@
             "id": "9NM62SDWFBBG"
         },
         {
-            "distributor": "xbox",
-            "id": "9N84B8L89PDW"
+            "distributor": "epic",
+            "id": "fn"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         },
         {
             "distributor": "playstation",
             "id": "EXPDGL0000000000"
         },
         {
+<<<<<<< HEAD
             "distributor": "epic",
             "id": "Fortnite"
+=======
+            "distributor": "playstation",
+            "id": "PPSA01922_00"
+>>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         }
     ]
 }
