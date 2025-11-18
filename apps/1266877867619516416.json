@@ -6,7 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "arma reforger/armareforgersteam.exe",
+            "name": "arma reforger experimental/armareforgersteam_experimental.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "arma reforger/armareforger_be.exe",
             "os": "win32"
         },
         {
@@ -16,12 +21,7 @@
         },
         {
             "is_launcher": false,
-            "name": "arma reforger experimental/armareforgersteam_experimental.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "arma reforger/armareforger_be.exe",
+            "name": "arma reforger/armareforgersteam.exe",
             "os": "win32"
         }
     ],
@@ -42,20 +42,20 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA24605_00"
-        },
-        {
-            "distributor": "igdb",
-            "id": "201789"
+            "distributor": "xbox",
+            "id": "9NKCKD1WNDQ0"
         },
         {
             "distributor": "steam",
             "id": "1874880"
         },
         {
-            "distributor": "xbox",
-            "id": "9NKCKD1WNDQ0"
+            "distributor": "igdb",
+            "id": "201789"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA24605_00"
         }
     ]
 }
