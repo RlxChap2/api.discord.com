@@ -11,16 +11,17 @@
         "start": "node index.js",
         "logger": "node logger.js",
         "snippets": "node snippets.js",
-        "push": "npm run snippets && git add . && git commit -m \"(Fixed && Added) New Web documentation\" && git push",
+        "push": "npm run snippets && git add . && git commit -m \"(Fixed && Added) Apps & contents\" && git push",
         "compile": "node compile.js",
-        "docs:build": "cd docs && npm run build"
+        "docs:build": "cd docs && npm run build",
+        "docs:dev": "cd docs && npm run dev"
     },
     "keywords": [],
     "author": "RlxChap2",
     "license": "MIT",
     "dependencies": {
         "@faker-js/faker": "^9.9.0",
-        "axios": "^1.12.2",
+        "axios": "^1.13.2",
         "faker": "^5.5.3",
         "loadsh": "^0.0.4",
         "lodash": "^4.17.21"
