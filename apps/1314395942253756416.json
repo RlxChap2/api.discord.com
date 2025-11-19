@@ -7,40 +7,23 @@
     "executables": [
         {
             "is_launcher": false,
-<<<<<<< HEAD
             "name": "marvelrivals/marvelrivals_launcher.exe",
-=======
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "win64/marvel-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "marvelrivals/marvelrivals_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/marvel-win64-test.exe",
->>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "win64/marvel.exe",
             "os": "win32"
-<<<<<<< HEAD
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/marvel-win64-shipping.exe",
-            "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "win64/marvel-win64-test.exe",
             "os": "win32"
-=======
->>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
         }
     ],
     "hook": true,
@@ -62,13 +45,18 @@
     ],
     "third_party_skus": [
         {
-<<<<<<< HEAD
-=======
+            "distributor": "xbox",
+            "id": "9N8PMW7QMD3D"
+        },
+        {
             "distributor": "playstation",
             "id": "CUSA55048_00"
         },
         {
->>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
+            "distributor": "steam",
+            "id": "2767030"
+        },
+        {
             "distributor": "playstation",
             "id": "PPSA21669_00"
         },
@@ -79,22 +67,6 @@
         {
             "distributor": "igdb",
             "id": "294041"
-        },
-        {
-            "distributor": "steam",
-            "id": "2767030"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9N8PMW7QMD3D"
-        },
-        {
-            "distributor": "igdb",
-            "id": "294041"
-        },
-        {
-            "distributor": "epic",
-            "id": "38E211CED4E448A5A653A8D1E13FEF18"
         }
     ]
 }

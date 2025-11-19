@@ -7,7 +7,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/supervive-win64-shipping.exe",
+            "name": "loki.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "supervive.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "loki/loki.exe",
             "os": "win32"
         },
         {
@@ -17,39 +27,12 @@
         },
         {
             "is_launcher": false,
-<<<<<<< HEAD
-            "name": "loki/loki.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-=======
->>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
-            "name": "loki.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-<<<<<<< HEAD
-            "name": "supervive-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "supervive.exe",
-=======
-            "name": "loki/loki.exe",
->>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
+            "name": "win64/supervive-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "win64/loki.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "supervive.exe",
             "os": "win32"
         },
         {
@@ -75,15 +58,15 @@
     "third_party_skus": [
         {
             "distributor": "steam",
-            "id": "3152030"
-        },
-        {
-            "distributor": "steam",
             "id": "1283700"
         },
         {
             "distributor": "igdb",
             "id": "255078"
+        },
+        {
+            "distributor": "steam",
+            "id": "3152030"
         }
     ]
 }

@@ -6,28 +6,23 @@
     "executables": [
         {
             "is_launcher": false,
-<<<<<<< HEAD
-            "name": "boot/ffxivboot.exe",
-            "os": "win32"
-=======
-            "name": "final fantasy xiv.app",
-            "os": "darwin"
->>>>>>> b1e10f77f9f78d9268b9cf13ef3b6952f557f50a
-        },
-        {
-            "is_launcher": false,
-            "name": "ffxiv.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "ffxiv_dx11.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
+            "name": "boot/ffxivboot.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "ffxiv.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "final fantasy xiv.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -51,12 +46,12 @@
             "id": "262342"
         },
         {
-            "distributor": "steam",
-            "id": "39210"
-        },
-        {
             "distributor": "igdb",
             "id": "386"
+        },
+        {
+            "distributor": "steam",
+            "id": "39210"
         }
     ]
 }
