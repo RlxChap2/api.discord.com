@@ -6,13 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bloonstd6/bloonstd6.exe",
+            "name": "bloonstd6.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bloonstd6/bloonstd6.app",
-            "os": "darwin"
+            "name": "bloonstd6/bloonstd6.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -21,8 +21,8 @@
         },
         {
             "is_launcher": false,
-            "name": "bloonstd6.exe",
-            "os": "win32"
+            "name": "bloonstd6/bloonstd6.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -45,14 +45,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "CUSA29953_00"
-        },
-        {
-            "distributor": "epic",
-            "id": "6A8DFA6E441E4F2F9048A98776C6077D"
-        },
-        {
             "distributor": "steam",
             "id": "960090"
         },
@@ -63,6 +55,14 @@
         {
             "distributor": "google_play",
             "id": "com.ninjakiwi.bloonstd6"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA29953_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "6A8DFA6E441E4F2F9048A98776C6077D"
         }
     ]
 }
