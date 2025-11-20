@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "realm royale/binaries/win64/realm.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "realm royale/binaries/win64/realmeac.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "realm royale/realmbootstrapper.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "realm royale/binaries/win64/realm.exe",
             "os": "win32"
         }
     ],
@@ -40,12 +40,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "813820"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA13105_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "813820"
         },
         {
             "distributor": "epic",
