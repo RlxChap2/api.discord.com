@@ -5,6 +5,11 @@
     "cover_image_hash": "c955686b21d731c72d178aed83188269",
     "executables": [
         {
+            "is_launcher": true,
+            "name": "rust.exe",
+            "os": "win32"
+        },
+        {
             "is_launcher": false,
             "name": "rustclient.exe",
             "os": "win32"
@@ -12,11 +17,6 @@
         {
             "is_launcher": false,
             "name": "rust/rustclient.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": true,
-            "name": "rust.exe",
             "os": "win32"
         }
     ],
@@ -42,6 +42,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "CUSA14296_00"
+        },
+        {
             "distributor": "xbox",
             "id": "BRPVTJKWHBR7"
         },
@@ -51,11 +55,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NVZHMNWGKF5"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14296_00"
+            "id": "9PJVJ4WF031H"
         },
         {
             "distributor": "xbox",
@@ -67,7 +67,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PJVJ4WF031H"
+            "id": "9NVZHMNWGKF5"
         }
     ]
 }
