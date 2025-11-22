@@ -11,11 +11,6 @@
         },
         {
             "is_launcher": false,
-            "name": "cleaner/cleaner-btd6.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "bloonstd6.exe",
             "os": "win32"
         },
@@ -23,6 +18,11 @@
             "is_launcher": false,
             "name": "bloonstd6/bloonstd6.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "cleaner/cleaner-btd6.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -53,16 +53,16 @@
             "id": "com.ninjakiwi.bloonstd6"
         },
         {
+            "distributor": "playstation",
+            "id": "CUSA29953_00"
+        },
+        {
             "distributor": "xbox",
             "id": "9PHKZ9XT6F85"
         },
         {
             "distributor": "steam",
             "id": "960090"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA29953_00"
         }
     ]
 }
