@@ -4,11 +4,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bpsr/bpsr_steam.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "bpsr.exe",
             "os": "win32"
         },
@@ -20,6 +15,11 @@
         {
             "is_launcher": false,
             "name": "blueprotocolstarresolw5ks/bpsr_epic.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "bpsr/bpsr_steam.exe",
             "os": "win32"
         }
     ],
@@ -39,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "3681810"
-        },
-        {
             "distributor": "epic",
             "id": "1FA6D3090390423EB8BF033E265727F7"
+        },
+        {
+            "distributor": "steam",
+            "id": "3681810"
         }
     ]
 }
