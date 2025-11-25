@@ -1,10 +1,15 @@
 {
     "aliases": [
-        "PUBG: BATTLEGROUNDS",
-        "PUBG"
+        "PUBG",
+        "PUBG: BATTLEGROUNDS"
     ],
     "cover_image_hash": null,
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "win64/tslgame_be.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "win64/tslgame.exe",
@@ -17,17 +22,12 @@
         },
         {
             "is_launcher": false,
-            "name": "tslgame_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/tslgame_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "tslgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tslgame_be.exe",
             "os": "win32"
         }
     ],
