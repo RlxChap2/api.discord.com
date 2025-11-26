@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/hemingway-win64-shipping.exe",
+            "name": "windows/hemingway.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "windows/hemingway.exe",
+            "name": "win64/hemingway-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -30,16 +30,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "epic",
+            "id": "16ED9F15B1B449CCB59CB610B13DF5B8"
+        },
+        {
             "distributor": "xbox",
             "id": "9NV8W1KJSQLL"
         },
         {
             "distributor": "steam",
             "id": "2437170"
-        },
-        {
-            "distributor": "epic",
-            "id": "16ED9F15B1B449CCB59CB610B13DF5B8"
         }
     ]
 }

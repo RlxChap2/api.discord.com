@@ -6,12 +6,6 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
-            "arguments": "net.minecraft.client.main.Main",
-            "is_launcher": false,
-            "name": ">javaw.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "minecraft.windows.exe",
             "os": "win32"
@@ -24,13 +18,19 @@
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": ">javaw.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "content/minecraft.exe",
             "os": "win32"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">java",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -58,12 +58,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA17221_00"
-        },
-        {
             "distributor": "microsoft",
             "id": ""
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA17221_00"
         },
         {
             "distributor": "playstation",
