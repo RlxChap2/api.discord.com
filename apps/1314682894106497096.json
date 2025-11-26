@@ -1,18 +1,13 @@
 {
     "aliases": [
-        "Delta Force Demo",
-        "Delta Force"
+        "Delta Force",
+        "Delta Force Demo"
     ],
     "cover_image_hash": "f3430d803784f5f42365eefbe8d89add",
     "executables": [
         {
             "is_launcher": false,
-            "name": "deltaforceclient.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "df_garena/deltaforceclient.exe",
+            "name": "launcher/df_launcher.exe",
             "os": "win32"
         },
         {
@@ -22,12 +17,17 @@
         },
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher_global.exe",
+            "name": "df_garena/deltaforceclient.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher.exe",
+            "name": "deltaforceclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "launcher/df_launcher_global.exe",
             "os": "win32"
         }
     ],
@@ -46,10 +46,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2507950"
-        },
-        {
             "distributor": "epic",
             "id": "3E2C28241611405AA231308A39BEE638"
         },
@@ -58,12 +54,16 @@
             "id": "9NRMZXGKP4NM"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA28881_00"
-        },
-        {
             "distributor": "igdb",
             "id": "262186"
+        },
+        {
+            "distributor": "steam",
+            "id": "2507950"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA28881_00"
         }
     ]
 }
