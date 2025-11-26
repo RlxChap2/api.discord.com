@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "albion-online.exe",
-            "os": "win32"
+            "name": "albion-online.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "albion-online.app",
-            "os": "darwin"
+            "name": "albion-online.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -29,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "761890"
-        },
-        {
             "distributor": "epic",
             "id": "72520902FC594621B6DAA5A6217B4EE7"
+        },
+        {
+            "distributor": "steam",
+            "id": "761890"
         }
     ]
 }
