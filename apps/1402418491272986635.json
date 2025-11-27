@@ -1,18 +1,14 @@
 {
     "aliases": [
-        "Minecraft Windows 10 Edition",
-        "Minecraft Launcher"
+        "Minecraft Launcher",
+        "Minecraft Windows 10 Edition"
     ],
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "content/minecraft.exe",
+            "name": ">javaw.exe",
             "os": "win32"
         },
         {
@@ -23,14 +19,18 @@
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
+            "name": ">java",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
             "os": "win32"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": "content/minecraft.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -62,16 +62,16 @@
             "id": ""
         },
         {
-            "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
+            "distributor": "playstation",
+            "id": "CUSA00744_00"
         },
         {
             "distributor": "playstation",
             "id": "PPSA17221_00"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA00744_00"
+            "distributor": "xbox",
+            "id": "9MVXMVT8ZKWC"
         }
     ]
 }
