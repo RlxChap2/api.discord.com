@@ -7,11 +7,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "content/minecraft.exe",
             "os": "win32"
         },
@@ -31,6 +26,11 @@
             "is_launcher": false,
             "name": ">java",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -58,10 +58,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
             "distributor": "playstation",
             "id": "PPSA17221_00"
         },
@@ -72,6 +68,10 @@
         {
             "distributor": "playstation",
             "id": "CUSA00744_00"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         }
     ]
 }
