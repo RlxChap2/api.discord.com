@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "wuthering waves game/client/binaries/win64/client-win64-shipping.exe",
-            "os": "win32"
+            "name": "wuthering waves.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "wuthering waves.exe",
+            "name": "wuthering waves game/client/binaries/win64/client-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -21,8 +21,8 @@
         },
         {
             "is_launcher": false,
-            "name": "wuthering waves.app",
-            "os": "darwin"
+            "name": "wuthering waves.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -42,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "3513350"
-        },
-        {
             "distributor": "playstation",
             "id": "PPSA24686_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "3513350"
         },
         {
             "distributor": "epic",
