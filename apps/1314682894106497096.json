@@ -7,12 +7,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher_global.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/deltaforceclient-win64-shipping.exe",
+            "name": "launcher/df_launcher.exe",
             "os": "win32"
         },
         {
@@ -22,7 +17,12 @@
         },
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher.exe",
+            "name": "launcher/df_launcher_global.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/deltaforceclient-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -46,10 +46,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA28881_00"
-        },
-        {
             "distributor": "igdb",
             "id": "262186"
         },
@@ -60,6 +56,10 @@
         {
             "distributor": "epic",
             "id": "3E2C28241611405AA231308A39BEE638"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA28881_00"
         },
         {
             "distributor": "xbox",
