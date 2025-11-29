@@ -6,13 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "shovelknight.app",
-            "os": "darwin"
+            "name": "shovelknight.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "shovelknight.exe",
-            "os": "win32"
+            "name": "shovelknight.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -31,12 +31,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "250760"
-        },
-        {
             "distributor": "gog",
             "id": ""
+        },
+        {
+            "distributor": "steam",
+            "id": "250760"
         }
     ]
 }
