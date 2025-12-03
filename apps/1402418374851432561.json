@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "blackdesert32.exe",
+            "name": "blackdesert64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "blackdesert64.exe",
+            "name": "blackdesert32.exe",
             "os": "win32"
         }
     ],
@@ -36,8 +36,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "582660"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA15233_00"
+        },
+        {
             "distributor": "xbox",
-            "id": "9NFQD2R68GLM"
+            "id": "9NHTKF1ZQRJZ"
         },
         {
             "distributor": "playstation",
@@ -45,19 +53,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NHTKF1ZQRJZ"
+            "id": "9NFQD2R68GLM"
         },
         {
             "distributor": "xbox",
             "id": "9NR5VK93WWJT"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA15233_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "582660"
         }
     ]
 }
