@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "bin/bg3.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "bin/bg3_dx11.exe",
             "os": "win32"
         },
         {
             "is_launcher": true,
             "name": "larilauncher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "bin/bg3.exe",
             "os": "win32"
         }
     ],
@@ -35,12 +35,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1086940"
-        },
-        {
             "distributor": "xbox",
             "id": "9ND58LQTG09T"
+        },
+        {
+            "distributor": "steam",
+            "id": "1086940"
         },
         {
             "distributor": "xbox",
