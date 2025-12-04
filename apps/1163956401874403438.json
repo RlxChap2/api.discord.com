@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64_shipping_client/taleworlds.mountandblade.launcher.exe",
+            "name": "win64_shipping_client/bannerlord.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64_shipping_client/bannerlord.exe",
+            "name": "win64_shipping_client/taleworlds.mountandblade.launcher.exe",
             "os": "win32"
         }
     ],
@@ -32,7 +32,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9PDHWZ7X3P03"
+            "id": "9NZ0HMKM3LML"
+        },
+        {
+            "distributor": "steam",
+            "id": "261550"
         },
         {
             "distributor": "playstation",
@@ -43,16 +47,12 @@
             "id": "AEAC94C7A11048758064B82F8F8D20ED"
         },
         {
+            "distributor": "xbox",
+            "id": "9PDHWZ7X3P03"
+        },
+        {
             "distributor": "playstation",
             "id": "PPSA04136_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NZ0HMKM3LML"
-        },
-        {
-            "distributor": "steam",
-            "id": "261550"
         }
     ]
 }
