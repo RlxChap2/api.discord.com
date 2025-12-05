@@ -6,12 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/insurgencyclient-win64-test.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "sandstorm/insurgencyeac.exe",
+            "name": "sandstorm_beta/insurgencyeac.exe",
             "os": "win32"
         },
         {
@@ -21,7 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "sandstorm_beta/insurgencyeac.exe",
+            "name": "sandstorm/insurgencyeac.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/insurgencyclient-win64-test.exe",
             "os": "win32"
         }
     ],
@@ -40,8 +40,36 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "581320"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PLNHWHWD86B"
+        },
+        {
             "distributor": "playstation",
             "id": "CUSA07674_00"
+        },
+        {
+            "distributor": "discord",
+            "id": "489925702590660628"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C46KTZB9HK8B"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NZVSLGBVV0J"
+        },
+        {
+            "distributor": "steam",
+            "id": "934233"
+        },
+        {
+            "distributor": "epic",
+            "id": "94CEC4802E954A6C9579E29E8B817F3A"
         },
         {
             "distributor": "steam",
@@ -53,39 +81,11 @@
         },
         {
             "distributor": "steam",
-            "id": "581320"
-        },
-        {
-            "distributor": "discord",
-            "id": "489925702590660628"
-        },
-        {
-            "distributor": "steam",
             "id": "632434"
         },
         {
             "distributor": "xbox",
-            "id": "C46KTZB9HK8B"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NZVSLGBVV0J"
-        },
-        {
-            "distributor": "epic",
-            "id": "94CEC4802E954A6C9579E29E8B817F3A"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PLNHWHWD86B"
-        },
-        {
-            "distributor": "xbox",
             "id": "9PC4D6P2HRQK"
-        },
-        {
-            "distributor": "steam",
-            "id": "934233"
         }
     ]
 }
