@@ -1,18 +1,13 @@
 {
     "aliases": [
-        "Star Wars Jedi Knight",
-        "STAR WARS™ Jedi Knight: Jedi Academy™"
+        "STAR WARS™ Jedi Knight: Jedi Academy™",
+        "Star Wars Jedi Knight"
     ],
     "cover_image_hash": "c7faefe1866afdd9322850916f5d4ceb",
     "executables": [
         {
             "is_launcher": false,
-            "name": "jediacademy.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "jamp.exe",
+            "name": "jasp.exe",
             "os": "win32"
         },
         {
@@ -22,7 +17,12 @@
         },
         {
             "is_launcher": false,
-            "name": "jasp.exe",
+            "name": "jediacademy.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "jamp.exe",
             "os": "win32"
         }
     ],
@@ -41,6 +41,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "66ACD000-77FE-1000-9115-D80242560838"
+        },
+        {
             "distributor": "steam",
             "id": "6020"
         },
@@ -51,10 +55,6 @@
         {
             "distributor": "playstation",
             "id": "CUSA17811_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "66ACD000-77FE-1000-9115-D80242560838"
         }
     ]
 }
