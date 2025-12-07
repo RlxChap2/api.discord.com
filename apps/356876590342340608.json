@@ -7,7 +7,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "rainbowsix.exe",
+            "name": "rainbowsixgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "rainbowsix_be.exe",
             "os": "win32"
         },
         {
@@ -22,12 +27,7 @@
         },
         {
             "is_launcher": false,
-            "name": "rainbowsixgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "rainbowsix_be.exe",
+            "name": "rainbowsix.exe",
             "os": "win32"
         }
     ],
@@ -43,20 +43,32 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "CARNATION"
-        },
-        {
             "distributor": "xbox",
-            "id": "9PB3RHWXB9MR"
+            "id": "9PBH7HWC5C26"
         },
         {
             "distributor": "playstation",
             "id": "CUSA01800_00"
         },
         {
+            "distributor": "playstation",
+            "id": "PPSA01396_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P131WBLG8L8"
+        },
+        {
             "distributor": "xbox",
             "id": "9N1VMR3CFL3T"
+        },
+        {
+            "distributor": "uplay",
+            "id": "635"
+        },
+        {
+            "distributor": "epic",
+            "id": "CARNATION"
         },
         {
             "distributor": "steam",
@@ -64,23 +76,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PBH7HWC5C26"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA01396_00"
-        },
-        {
-            "distributor": "uplay",
-            "id": "635"
-        },
-        {
-            "distributor": "xbox",
             "id": "9MSPKPMH7DZ1"
         },
         {
             "distributor": "xbox",
-            "id": "9P131WBLG8L8"
+            "id": "9PB3RHWXB9MR"
         }
     ]
 }
