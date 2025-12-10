@@ -6,11 +6,6 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "content/minecraft.exe",
-            "os": "win32"
-        },
-        {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
             "name": ">java",
@@ -22,6 +17,11 @@
             "os": "win32"
         },
         {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
+        },
+        {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
             "name": ">javaw.exe",
@@ -29,7 +29,7 @@
         },
         {
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
+            "name": "content/minecraft.exe",
             "os": "win32"
         }
     ],
