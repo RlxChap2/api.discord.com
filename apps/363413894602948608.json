@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "launcher/bethesda.net_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "game/client/eso.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "bethesda.net_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "launcher/bethesda.net_launcher.exe",
             "os": "win32"
         },
         {
@@ -41,6 +41,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "epic",
+            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+        },
+        {
             "distributor": "xbox",
             "id": "BPWXCL17ZZJG"
         },
@@ -51,10 +55,6 @@
         {
             "distributor": "steam",
             "id": "306130"
-        },
-        {
-            "distributor": "epic",
-            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
         }
     ]
 }
