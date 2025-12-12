@@ -6,6 +6,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "win64/shootergame_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "shootergame.exe",
             "os": "win32"
         },
@@ -17,11 +22,6 @@
         {
             "is_launcher": false,
             "name": "win64/shootergameserver.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/shootergame_be.exe",
             "os": "win32"
         }
     ],
@@ -46,6 +46,10 @@
             "id": "4462"
         },
         {
+            "distributor": "playstation",
+            "id": "CUSA06676_00"
+        },
+        {
             "distributor": "xbox",
             "id": "BNBLC4ZGFNKB"
         },
@@ -56,10 +60,6 @@
         {
             "distributor": "steam",
             "id": "346110"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA06676_00"
         }
     ]
 }
