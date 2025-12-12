@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/abzugame-win64-shipping.exe",
+            "name": "abzugame-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "abzugame-win64-shipping.exe",
+            "name": "win64/abzugame-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -31,14 +31,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "384190"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BQ2307M831ZG"
-        },
-        {
             "distributor": "epic",
             "id": "7AF7476FF9EB4A8D9CD9D6486224DE76"
         },
@@ -47,8 +39,16 @@
             "id": "492134997591851023"
         },
         {
+            "distributor": "steam",
+            "id": "384190"
+        },
+        {
             "distributor": "playstation",
             "id": "CUSA03349_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BQ2307M831ZG"
         }
     ]
 }
