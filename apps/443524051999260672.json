@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "conansandbox.exe",
+            "name": "conansandbox_be.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "conansandbox_be.exe",
+            "name": "conansandbox.exe",
             "os": "win32"
         }
     ],
@@ -30,6 +30,14 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "9P0VC8VRT9NP"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C2X6ZCNKN2WR"
+        },
+        {
             "distributor": "epic",
             "id": "CONANEXILES"
         },
@@ -38,16 +46,8 @@
             "id": "440900"
         },
         {
-            "distributor": "xbox",
-            "id": "C2X6ZCNKN2WR"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA10608_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9P0VC8VRT9NP"
         }
     ]
 }
