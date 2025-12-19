@@ -6,12 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "editor/kseditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "assettocorsa/content manager.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "assettocorsa.exe",
+            "name": "assettocorsa/acs.exe",
             "os": "win32"
         },
         {
@@ -26,17 +31,12 @@
         },
         {
             "is_launcher": false,
+            "name": "assettocorsa.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "server/acservermanager.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "assettocorsa/acs.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "editor/kseditor.exe",
             "os": "win32"
         }
     ],
@@ -63,7 +63,23 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA01830_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA12835_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA07602_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "5750"
+        },
+        {
+            "distributor": "steam",
+            "id": "244210"
         },
         {
             "distributor": "xbox",
@@ -72,22 +88,6 @@
         {
             "distributor": "playstation",
             "id": "CUSA01797_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07602_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "244210"
-        },
-        {
-            "distributor": "gdco",
-            "id": "5750"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA01830_00"
         }
     ]
 }
