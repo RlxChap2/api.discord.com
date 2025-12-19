@@ -1,20 +1,10 @@
 {
     "aliases": [
-        "Marvel Rivals",
-        "マーベル・ライバルズ"
+        "マーベル・ライバルズ",
+        "Marvel Rivals"
     ],
     "cover_image_hash": "f81757f73dbfe149683fe443b74fce91",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "win64/marvel.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/marvel-win64-shipping.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "win64/marvel-win64-test.exe",
@@ -23,6 +13,16 @@
         {
             "is_launcher": false,
             "name": "marvelrivals/marvelrivals_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/marvel.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/marvel-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -46,15 +46,7 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "PPSA21669_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "2767030"
-        },
-        {
-            "distributor": "gdco",
-            "id": "10951752"
+            "id": "CUSA55048_00"
         },
         {
             "distributor": "xbox",
@@ -65,16 +57,24 @@
             "id": "38E211CED4E448A5A653A8D1E13FEF18"
         },
         {
+            "distributor": "steam",
+            "id": "2767030"
+        },
+        {
             "distributor": "xbox",
             "id": "9PFHZQ95WL4J"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA21669_00"
         },
         {
             "distributor": "igdb",
             "id": "294041"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA55048_00"
+            "distributor": "gdco",
+            "id": "10951752"
         }
     ]
 }

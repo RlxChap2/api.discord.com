@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "trine2_32bit.exe",
-            "os": "win32"
+            "name": "trine2.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "trine2.app",
-            "os": "darwin"
+            "name": "trine2_32bit.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -33,12 +33,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "discord",
-            "id": "494707599611265024"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA00234_00"
+        },
+        {
+            "distributor": "discord",
+            "id": "494707599611265024"
         },
         {
             "distributor": "steam",
