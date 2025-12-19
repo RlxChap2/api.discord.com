@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "dayz/dayzuninstaller.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "dayz_x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "dayz.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "dayz/dayzuninstaller.exe",
             "os": "win32"
         }
     ],
@@ -41,8 +41,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "221100"
+        },
+        {
             "distributor": "gdco",
             "id": "20120"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BSR9NLHVF1KL"
         },
         {
             "distributor": "xbox",
@@ -50,19 +58,11 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA05645_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "221100"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA15510_00"
         },
         {
-            "distributor": "xbox",
-            "id": "BSR9NLHVF1KL"
+            "distributor": "playstation",
+            "id": "CUSA05645_00"
         }
     ]
 }
