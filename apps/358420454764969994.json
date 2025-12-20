@@ -6,7 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "roomeditor/roomeditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "isaac-ng.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "isaacitempooleditor/itempooleditor.exe",
             "os": "win32"
         },
         {
@@ -18,16 +28,6 @@
             "is_launcher": false,
             "name": "the binding of isaac rebirth.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "roomeditor/roomeditor.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaacitempooleditor/itempooleditor.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
@@ -48,18 +48,6 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "CUSA10195_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "250900"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07845_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA03228_00"
         },
         {
@@ -67,16 +55,28 @@
             "id": "CUSA00792_00"
         },
         {
-            "distributor": "xbox",
-            "id": "BQD45PQR4F4J"
+            "distributor": "playstation",
+            "id": "CUSA01344_00"
         },
         {
             "distributor": "gdco",
             "id": "89630"
         },
         {
+            "distributor": "xbox",
+            "id": "BQD45PQR4F4J"
+        },
+        {
+            "distributor": "steam",
+            "id": "250900"
+        },
+        {
             "distributor": "playstation",
-            "id": "CUSA01344_00"
+            "id": "CUSA10195_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA07845_00"
         }
     ]
 }
