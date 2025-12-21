@@ -6,17 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "roomeditor/roomeditor.exe",
-            "os": "win32"
+            "name": "the binding of isaac rebirth.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "isaacanimationeditor/isaacanimationeditor.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaac-ng.exe",
             "os": "win32"
         },
         {
@@ -26,8 +21,13 @@
         },
         {
             "is_launcher": false,
-            "name": "the binding of isaac rebirth.app",
-            "os": "darwin"
+            "name": "isaac-ng.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "roomeditor/roomeditor.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -46,6 +46,14 @@
         "Comedy"
     ],
     "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA01344_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA07845_00"
+        },
         {
             "distributor": "playstation",
             "id": "CUSA00792_00"
@@ -69,14 +77,6 @@
         {
             "distributor": "playstation",
             "id": "CUSA03228_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA01344_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07845_00"
         }
     ]
 }
