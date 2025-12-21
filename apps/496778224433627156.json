@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "hawkengame-win32-shipping.exe",
+            "name": "hawkengame-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "hawkengame-win64-shipping.exe",
+            "name": "hawkengame-win32-shipping.exe",
             "os": "win32"
         }
     ],
@@ -30,16 +30,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "271290"
-        },
-        {
             "distributor": "gdco",
             "id": "132300"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA04210_00"
+            "distributor": "steam",
+            "id": "271290"
         },
         {
             "distributor": "playstation",
@@ -48,6 +44,10 @@
         {
             "distributor": "xbox",
             "id": "C1JXWJR46913"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA04210_00"
         }
     ]
 }
