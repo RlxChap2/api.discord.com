@@ -6,7 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "shootergame.exe",
+            "name": "win64/shootergameserver.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "shootergame_be.exe",
             "os": "win32"
         },
         {
@@ -16,12 +21,7 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "shootergame_be.exe",
+            "name": "shootergame.exe",
             "os": "win32"
         }
     ],
@@ -46,12 +46,8 @@
             "id": "CUSA08806_00"
         },
         {
-            "distributor": "steam",
-            "id": "346110"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH52XC6"
+            "distributor": "gdco",
+            "id": "5080"
         },
         {
             "distributor": "xbox",
@@ -59,23 +55,27 @@
         },
         {
             "distributor": "steam",
-            "id": "4462"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA06676_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA06782_00"
+            "id": "346110"
         },
         {
             "distributor": "epic",
             "id": "ARK"
         },
         {
-            "distributor": "gdco",
-            "id": "5080"
+            "distributor": "xbox",
+            "id": "9NBLGGH52XC6"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA06676_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "4462"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA06782_00"
         }
     ]
 }
