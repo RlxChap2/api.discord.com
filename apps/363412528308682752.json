@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "planetside2_x64.exe",
+            "name": "planetside2_x86.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "planetside2_x86.exe",
+            "name": "planetside2_x64.exe",
             "os": "win32"
         }
     ],
@@ -31,10 +31,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "66324"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA02219_00"
         },
@@ -45,6 +41,10 @@
         {
             "distributor": "steam",
             "id": "218230"
+        },
+        {
+            "distributor": "gdco",
+            "id": "66324"
         }
     ]
 }
