@@ -1,10 +1,15 @@
 {
     "aliases": [
-        "Tom Clancy's Rainbow Six? Siege",
-        "Tom Clancy's Rainbow Six Siege"
+        "Tom Clancy's Rainbow Six Siege",
+        "Tom Clancy's Rainbow Six? Siege"
     ],
     "cover_image_hash": "d574f856173c840dcc671085e0b92fe1",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "rainbowsixgame.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "rainbowsix_be.exe",
@@ -12,7 +17,7 @@
         },
         {
             "is_launcher": false,
-            "name": "tom clancy's rainbow six siege/rainbowsix.exe",
+            "name": "rainbowsix.exe",
             "os": "win32"
         },
         {
@@ -22,12 +27,7 @@
         },
         {
             "is_launcher": false,
-            "name": "rainbowsixgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "rainbowsix.exe",
+            "name": "tom clancy's rainbow six siege/rainbowsix.exe",
             "os": "win32"
         }
     ],
@@ -43,40 +43,20 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PB3RHWXB9MR"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA01401_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9P131WBLG8L8"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA02368_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA01397_00"
-        },
-        {
             "distributor": "gdco",
-            "id": "11071687"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA25419_00"
+            "id": "97006"
         },
         {
             "distributor": "xbox",
             "id": "C12T09DSVP8J"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA01396_00"
+            "distributor": "uplay",
+            "id": "635"
+        },
+        {
+            "distributor": "epic",
+            "id": "CARNATION"
         },
         {
             "distributor": "xbox",
@@ -87,32 +67,44 @@
             "id": "9N1VMR3CFL3T"
         },
         {
-            "distributor": "gdco",
-            "id": "97006"
+            "distributor": "playstation",
+            "id": "CUSA02368_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P131WBLG8L8"
         },
         {
             "distributor": "playstation",
             "id": "CUSA01800_00"
         },
         {
+            "distributor": "gdco",
+            "id": "11071687"
+        },
+        {
             "distributor": "playstation",
-            "id": "PPSA25418_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "359550"
-        },
-        {
-            "distributor": "epic",
-            "id": "CARNATION"
-        },
-        {
-            "distributor": "uplay",
-            "id": "635"
+            "id": "PPSA01401_00"
         },
         {
             "distributor": "playstation",
             "id": "PPSA25420_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA25419_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01397_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01660_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "359550"
         },
         {
             "distributor": "xbox",
@@ -120,7 +112,15 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA01660_00"
+            "id": "PPSA25418_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01396_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PB3RHWXB9MR"
         }
     ]
 }
