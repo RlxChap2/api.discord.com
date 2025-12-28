@@ -6,13 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "robloxplayerbeta.exe",
-            "os": "win32"
+            "name": "roblox.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "roblox.app",
-            "os": "darwin"
+            "name": "robloxplayerbeta.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -37,14 +37,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PMF91N3LZ3M"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA06122_00"
-        },
-        {
             "distributor": "gdco",
             "id": "161372"
         },
@@ -54,7 +46,15 @@
         },
         {
             "distributor": "xbox",
+            "id": "9PMF91N3LZ3M"
+        },
+        {
+            "distributor": "xbox",
             "id": "BQ1TN1T79V9K"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA06122_00"
         }
     ]
 }
