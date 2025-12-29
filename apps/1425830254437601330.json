@@ -4,6 +4,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "bpsr/bpsr_steam.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "blue protocol star resonance/blue protocol star resonance.exe",
             "os": "win32"
         },
@@ -16,11 +21,6 @@
             "is_launcher": false,
             "name": "bpsr.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "bpsr/bpsr_steam.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
@@ -32,7 +32,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Open world"
+    ],
     "third_party_skus": [
         {
             "distributor": "epic",
