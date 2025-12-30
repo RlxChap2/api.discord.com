@@ -5,8 +5,18 @@
     "cover_image_hash": "8b667352f0a9d9579d09367cc61fdd89",
     "executables": [
         {
+            "is_launcher": true,
+            "name": "leagueclientux.exe",
+            "os": "win32"
+        },
+        {
             "is_launcher": false,
-            "name": "garenalolth/gamedata/apps/lolth/lolex.exe",
+            "name": "league of legends.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
             "os": "win32"
         },
         {
@@ -16,8 +26,8 @@
         },
         {
             "is_launcher": false,
-            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
-            "os": "win32"
+            "name": "lollauncher.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -26,18 +36,8 @@
         },
         {
             "is_launcher": false,
-            "name": "league of legends.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": true,
-            "name": "leagueclientux.exe",
+            "name": "garenalolth/gamedata/apps/lolth/lolex.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "lollauncher.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
@@ -54,10 +54,7 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Fantasy"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "epic",

@@ -6,9 +6,19 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
+            "is_launcher": false,
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
+        },
+        {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
+            "name": ">java",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
             "os": "win32"
         },
         {
@@ -17,20 +27,10 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": ">javaw.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -47,23 +47,15 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Fantasy",
-        "Survival",
-        "Sandbox",
-        "Kids",
-        "Open world",
-        "4X (explore, expand, exploit, and exterminate)"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
+            "id": "9PJ8266BHFWN"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA00265_00"
+            "id": "CUSA44267_00"
         },
         {
             "distributor": "xbox",
@@ -71,19 +63,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA00744_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA44267_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA17221_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
+            "id": "CUSA17401_00"
         },
         {
             "distributor": "gdco",
@@ -91,11 +71,15 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PJ8266BHFWN"
+            "id": "9WZDNCRDZSBB"
         },
         {
             "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
+            "id": "9NBLGGH2JHXJ"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA17221_00"
         },
         {
             "distributor": "xbox",
@@ -103,19 +87,27 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
-        },
-        {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA17401_00"
+            "id": "9MVXMVT8ZKWC"
         },
         {
             "distributor": "playstation",
             "id": "CUSA17382_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00744_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00265_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGW18NPBZV5"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         }
     ]
 }

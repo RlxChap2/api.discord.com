@@ -7,17 +7,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "tslgame_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/tslgame_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "tslgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tslgame_be.exe",
             "os": "win32"
         },
         {
@@ -28,6 +23,11 @@
         {
             "is_launcher": false,
             "name": "win64/tslgame_uc.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/tslgame_be.exe",
             "os": "win32"
         }
     ],
@@ -45,30 +45,15 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Warfare"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "CUSA14391_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA27363_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14085_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA27367_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA14380_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14391_00"
         },
         {
             "distributor": "epic",
@@ -76,19 +61,31 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA14081_00"
+            "id": "PPSA27367_00"
         },
         {
             "distributor": "gdco",
             "id": "68348"
         },
         {
+            "distributor": "steam",
+            "id": "578080"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA27363_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14081_00"
+        },
+        {
             "distributor": "xbox",
             "id": "C0MN5DN8KR3F"
         },
         {
-            "distributor": "steam",
-            "id": "578080"
+            "distributor": "playstation",
+            "id": "CUSA14085_00"
         }
     ]
 }

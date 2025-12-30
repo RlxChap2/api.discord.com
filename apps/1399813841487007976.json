@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "wingrts/grounded2-wingrts-shipping.exe",
+            "name": "wingdk/grounded2-wingdk-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "wingdk/grounded2-wingdk-shipping.exe",
+            "name": "wingrts/grounded2-wingrts-shipping.exe",
             "os": "win32"
         }
     ],
@@ -24,22 +24,19 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Survival"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "steam",
             "id": "2661300"
         },
         {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
             "distributor": "xbox",
             "id": "$29.99"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         }
     ]
 }
