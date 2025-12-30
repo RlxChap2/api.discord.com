@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "iracingsim.exe",
+            "name": "iracingsim64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "iracingsim64.exe",
+            "name": "iracingsim.exe",
             "os": "win32"
         }
     ],
@@ -24,15 +24,17 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Non-fiction"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "steam",
-            "id": "266410"
-        },
         {
             "distributor": "epic",
             "id": "1D3E38B5E921433CAFFBBEF89E265517"
+        },
+        {
+            "distributor": "steam",
+            "id": "266410"
         }
     ]
 }

@@ -11,21 +11,6 @@
         },
         {
             "is_launcher": false,
-            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "league of legends.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": true,
-            "name": "leagueclientux.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "league of legends.exe",
             "os": "win32"
         },
@@ -36,8 +21,23 @@
         },
         {
             "is_launcher": false,
+            "name": "league of legends.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "leagueoflegends.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": true,
+            "name": "leagueclientux.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -54,7 +54,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy"
+    ],
     "third_party_skus": [
         {
             "distributor": "epic",

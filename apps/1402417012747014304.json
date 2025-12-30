@@ -6,12 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "ghost recon breakpoint/grb.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "grb.exe",
+            "name": "grb_upp.exe",
             "os": "win32"
         },
         {
@@ -21,7 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "grb_upp.exe",
+            "name": "grb.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ghost recon breakpoint/grb.exe",
             "os": "win32"
         }
     ],
@@ -39,7 +39,12 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Stealth",
+        "Open world",
+        "Warfare"
+    ],
     "third_party_skus": [
         {
             "distributor": "playstation",
@@ -54,12 +59,12 @@
             "id": "2DBD2F64ABDC4BBAB077424D5C85E01B"
         },
         {
-            "distributor": "steam",
-            "id": "2231380"
-        },
-        {
             "distributor": "xbox",
             "id": "9N60PDBXC0MB"
+        },
+        {
+            "distributor": "steam",
+            "id": "2231380"
         }
     ]
 }

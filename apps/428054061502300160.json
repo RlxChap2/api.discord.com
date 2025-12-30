@@ -1,20 +1,10 @@
 {
     "aliases": [
-        "Star Wars Jedi Knight",
-        "STAR WARS™ Jedi Knight: Jedi Academy™"
+        "STAR WARS™ Jedi Knight: Jedi Academy™",
+        "Star Wars Jedi Knight"
     ],
     "cover_image_hash": "c7faefe1866afdd9322850916f5d4ceb",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "jasp.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "gamedata/movieduels.x86.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "jamp.exe",
@@ -23,6 +13,16 @@
         {
             "is_launcher": false,
             "name": "jediacademy.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "jasp.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "gamedata/movieduels.x86.exe",
             "os": "win32"
         }
     ],
@@ -35,34 +35,19 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Science fiction"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "6020"
-        },
-        {
             "distributor": "playstation",
-            "id": "CUSA17820_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA26743_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "66ACD000-77FE-1000-9115-D80242560838"
+            "id": "CUSA17811_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA26744_00"
         },
         {
-            "distributor": "gdco",
-            "id": "84536"
+            "distributor": "xbox",
+            "id": "66ACD000-77FE-1000-9115-D80242560838"
         },
         {
             "distributor": "discord",
@@ -70,7 +55,19 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA17811_00"
+            "id": "CUSA17820_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "6020"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA26743_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "84536"
         }
     ]
 }

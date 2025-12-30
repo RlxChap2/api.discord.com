@@ -11,12 +11,12 @@
         },
         {
             "is_launcher": false,
-            "name": "unturned.exe",
+            "name": "unturned_be.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "unturned_be.exe",
+            "name": "unturned.exe",
             "os": "win32"
         }
     ],
@@ -34,23 +34,28 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival",
+        "Open world"
+    ],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "101342"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA19101_00"
+            "distributor": "steam",
+            "id": "304930"
         },
         {
             "distributor": "playstation",
             "id": "CUSA19287_00"
         },
         {
-            "distributor": "steam",
-            "id": "304930"
+            "distributor": "playstation",
+            "id": "CUSA19101_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "101342"
         },
         {
             "distributor": "xbox",
