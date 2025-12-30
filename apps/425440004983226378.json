@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "future soldier dx11.exe",
+            "name": "future soldier.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "future soldier.exe",
+            "name": "future soldier dx11.exe",
             "os": "win32"
         }
     ],
@@ -24,15 +24,18 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "xbox",
-            "id": "C20W5LX41N6M"
-        },
         {
             "distributor": "steam",
             "id": "212630"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C20W5LX41N6M"
         },
         {
             "distributor": "epic",

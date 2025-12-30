@@ -1,18 +1,18 @@
 {
     "aliases": [
-        "Phantasy Star Online 2 New Genesis",
-        "Phantasy Star Online 2"
+        "Phantasy Star Online 2",
+        "Phantasy Star Online 2 New Genesis"
     ],
     "cover_image_hash": "0eaf5ac2801f3e2902f5cf4c54a29533",
     "executables": [
         {
             "is_launcher": false,
-            "name": "pso2_bin/gameguard.des",
+            "name": "pso2.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "pso2.exe",
+            "name": "pso2_bin/gameguard.des",
             "os": "win32"
         }
     ],
@@ -25,7 +25,12 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Science fiction",
+        "Sandbox"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

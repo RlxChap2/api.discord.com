@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/outlast2.exe",
+            "name": "outlast2.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "outlast2.exe",
+            "name": "win64/outlast2.exe",
             "os": "win32"
         }
     ],
@@ -24,27 +24,28 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival",
+        "Mystery"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "gdco",
-            "id": "63537"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA06623_00"
-        },
         {
             "distributor": "steam",
             "id": "414700"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA06633_00"
+            "id": "CUSA06623_00"
         },
         {
             "distributor": "xbox",
             "id": "BZVPNM21TCJC"
+        },
+        {
+            "distributor": "gdco",
+            "id": "63537"
         },
         {
             "distributor": "xbox",
@@ -53,6 +54,10 @@
         {
             "distributor": "epic",
             "id": "E3E1DBEEDE5A471C9932EDB2F7B99F51"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA06633_00"
         }
     ]
 }

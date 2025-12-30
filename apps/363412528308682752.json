@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "planetside2_x86.exe",
+            "name": "planetside2_x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "planetside2_x64.exe",
+            "name": "planetside2_x86.exe",
             "os": "win32"
         }
     ],
@@ -24,7 +24,11 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Open world"
+    ],
     "third_party_skus": [
         {
             "distributor": "playstation",
@@ -35,12 +39,12 @@
             "id": "218230"
         },
         {
-            "distributor": "gdco",
-            "id": "66324"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA02055_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "66324"
         }
     ]
 }

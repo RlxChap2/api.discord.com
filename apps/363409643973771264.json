@@ -5,13 +5,13 @@
     "cover_image_hash": "009942361613209456f41656d69fe76a",
     "executables": [
         {
-            "is_launcher": true,
-            "name": "7daystodie_eac.exe",
+            "is_launcher": false,
+            "name": "7daystodie.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "7daystodie.exe",
+            "is_launcher": true,
+            "name": "7daystodie_eac.exe",
             "os": "win32"
         }
     ],
@@ -29,15 +29,33 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA03455_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA16644_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "251570"
+        },
         {
             "distributor": "gdco",
             "id": "761"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA16644_00"
+            "distributor": "gdco",
+            "id": "10974673"
         },
         {
             "distributor": "playstation",
@@ -46,18 +64,6 @@
         {
             "distributor": "xbox",
             "id": "BRL7GC0GP1BM"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA03455_00"
-        },
-        {
-            "distributor": "gdco",
-            "id": "10974673"
-        },
-        {
-            "distributor": "steam",
-            "id": "251570"
         },
         {
             "distributor": "playstation",

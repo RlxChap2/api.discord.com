@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "_beta_/wow.exe",
+            "name": "_retail_/wow-64.exe",
             "os": "win32"
         },
         {
@@ -16,18 +16,18 @@
         },
         {
             "is_launcher": false,
-            "name": "_retail_/wow-64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "_ptr_/wow.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "_beta_/wow-64.exe",
+            "name": "_beta_/wow.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "world of warcraft.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -36,8 +36,8 @@
         },
         {
             "is_launcher": false,
-            "name": "world of warcraft.app",
-            "os": "darwin"
+            "name": "_beta_/wow-64.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -49,7 +49,12 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Open world",
+        "Warfare"
+    ],
     "third_party_skus": [
         {
             "distributor": "battlenet",
