@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "디아블로 III",
-        "Diablo 3"
+        "Diablo 3",
+        "디아블로 III"
     ],
     "cover_image_hash": null,
     "executables": [
@@ -12,13 +12,13 @@
         },
         {
             "is_launcher": false,
-            "name": "diablo iii64.exe",
-            "os": "win32"
+            "name": "diablo iii.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "diablo iii.app",
-            "os": "darwin"
+            "name": "diablo iii64.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -30,19 +30,15 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Fantasy",
-        "Horror"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "battlenet",
-            "id": "D3"
+            "id": null
         },
         {
             "distributor": "battlenet",
-            "id": null
+            "id": "D3"
         }
     ]
 }

@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "crysis64.exe",
+            "name": "crysis.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "crysis.exe",
+            "name": "crysis64.exe",
             "os": "win32"
         }
     ],
@@ -24,15 +24,20 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Stealth",
+        "Open world"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "gog",
-            "id": ""
-        },
         {
             "distributor": "steam",
             "id": "17300"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
         }
     ]
 }

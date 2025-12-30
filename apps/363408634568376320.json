@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "olgame.exe",
-            "os": "win32"
+            "name": "outlast.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "outlast.app",
-            "os": "darwin"
+            "name": "olgame.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -22,27 +22,29 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival",
+        "Stealth",
+        "Mystery"
+    ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "238320"
+            "distributor": "gdco",
+            "id": "63536"
         },
         {
             "distributor": "epic",
             "id": "78F42129096D4233BCCC527733DEBFBD"
         },
         {
-            "distributor": "gdco",
-            "id": "63536"
+            "distributor": "playstation",
+            "id": "CUSA07742_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA00409_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07742_00"
         },
         {
             "distributor": "xbox",
@@ -51,6 +53,10 @@
         {
             "distributor": "playstation",
             "id": "CUSA00325_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "238320"
         }
     ]
 }

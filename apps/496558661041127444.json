@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "csdsteambuild.exe",
+            "name": "csdgogbuild.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "csdgogbuild.exe",
+            "name": "csdsteambuild.exe",
             "os": "win32"
         }
     ],
@@ -22,23 +22,16 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Comedy",
+        "Business",
+        "Kids"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "playstation",
-            "id": "PPSA20068_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA20067_00"
-        },
         {
             "distributor": "gdco",
             "id": "16928"
-        },
-        {
-            "distributor": "gog",
-            "id": ""
         },
         {
             "distributor": "xbox",
@@ -50,11 +43,23 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA46410_00"
+            "id": "PPSA20068_00"
         },
         {
             "distributor": "steam",
             "id": "247020"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA46410_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA20067_00"
         }
     ]
 }

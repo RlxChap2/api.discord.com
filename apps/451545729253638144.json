@@ -7,17 +7,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "fallout 3 goty/fose_loader.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "fallout 3 goty/fallout3 - garden of eden creation kit.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "fallout 3 goty/4gb_patch.exe",
             "os": "win32"
         },
         {
@@ -27,7 +17,17 @@
         },
         {
             "is_launcher": false,
+            "name": "fallout 3 goty/4gb_patch.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "fallout 3 goty/games for windows live disabler.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "fallout 3 goty/fose_loader.exe",
             "os": "win32"
         }
     ],
@@ -40,8 +40,18 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Survival",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "21892"
+        },
         {
             "distributor": "steam",
             "id": "22370"
@@ -49,10 +59,6 @@
         {
             "distributor": "epic",
             "id": "FA702D34A37248BA98FB17F680C085E3"
-        },
-        {
-            "distributor": "igdb",
-            "id": "21892"
         }
     ]
 }

@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "spitfiredashboard.exe",
+            "name": "win64/spitfiregame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/spitfiregame.exe",
+            "name": "spitfiredashboard.exe",
             "os": "win32"
         }
     ],
@@ -24,7 +24,9 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action"
+    ],
     "third_party_skus": [
         {
             "distributor": "discord",
