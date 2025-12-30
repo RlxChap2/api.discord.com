@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "stalker call of pripyat/stalker-cop.exe",
+            "name": "stalker call of pripyat/bin/xrengine.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "stalker call of pripyat/bin/xrengine.exe",
+            "name": "stalker call of pripyat/stalker-cop.exe",
             "os": "win32"
         }
     ],
@@ -22,15 +22,7 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Science fiction",
-        "Horror",
-        "Survival",
-        "Stealth",
-        "Sandbox",
-        "Open world"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "steam",
@@ -38,7 +30,19 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA43979_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PJ1XG10FRW1"
+        },
+        {
+            "distributor": "playstation",
             "id": "PPSA21732_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "83813"
         },
         {
             "distributor": "playstation",
@@ -47,18 +51,6 @@
         {
             "distributor": "playstation",
             "id": "CUSA43978_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PJ1XG10FRW1"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA43979_00"
-        },
-        {
-            "distributor": "gdco",
-            "id": "83813"
         }
     ]
 }

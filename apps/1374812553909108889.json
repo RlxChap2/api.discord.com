@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "splitgate 2 playtest/launcher.exe",
+            "name": "win64/portalwars2client-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/portalwars2client-win64-shipping.exe",
+            "name": "splitgate 2 playtest/launcher.exe",
             "os": "win32"
         },
         {
@@ -29,22 +29,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Science fiction"
-    ],
+    "themes": [],
     "third_party_skus": [
-        {
-            "distributor": "gdco",
-            "id": "10973259"
-        },
         {
             "distributor": "xbox",
             "id": "9PF5Q1B0FHSL"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA46892_00"
         },
         {
             "distributor": "epic",
@@ -56,7 +45,15 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA46892_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "PPSA20608_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "10973259"
         }
     ]
 }
