@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "getting over it/gettingoverit.exe",
-            "os": "win32"
+            "name": "getting over it/gettingoverit.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "getting over it/gettingoverit.app",
-            "os": "darwin"
+            "name": "getting over it/gettingoverit.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -22,7 +22,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Horror",
+        "Comedy"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

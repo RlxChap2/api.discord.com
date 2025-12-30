@@ -13,6 +13,11 @@
         },
         {
             "is_launcher": false,
+            "name": "runescape.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "osbuddy.exe",
             "os": "win32"
         },
@@ -25,11 +30,6 @@
             "is_launcher": false,
             "name": "osbuddy64.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "runescape.app",
-            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -46,7 +46,13 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Business",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

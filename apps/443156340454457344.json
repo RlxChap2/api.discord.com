@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "farcry5.exe",
+            "name": "gamelauncher/uplayinstaller.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gamelauncher/uplayinstaller.exe",
+            "name": "farcry5.exe",
             "os": "win32"
         }
     ],
@@ -24,39 +24,23 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Survival",
+        "Open world"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "epic",
-            "id": "CORIANDER"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA05848_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA05849_00"
-        },
         {
             "distributor": "xbox",
             "id": "9MVQXW1RJVCN"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA05847_00"
+            "id": "CUSA05849_00"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA08761_00"
-        },
-        {
-            "distributor": "gdco",
-            "id": "32299"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA08750_00"
+            "id": "CUSA05863_00"
         },
         {
             "distributor": "steam",
@@ -64,15 +48,35 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA05904_00"
+            "id": "CUSA08750_00"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA05863_00"
+            "id": "CUSA05847_00"
         },
         {
             "distributor": "xbox",
             "id": "BR7X7MVBBQKM"
+        },
+        {
+            "distributor": "gdco",
+            "id": "32299"
+        },
+        {
+            "distributor": "epic",
+            "id": "CORIANDER"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA05904_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA05848_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA08761_00"
         }
     ]
 }

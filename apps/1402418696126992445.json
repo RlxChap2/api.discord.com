@@ -5,8 +5,13 @@
     "cover_image_hash": "8b667352f0a9d9579d09367cc61fdd89",
     "executables": [
         {
-            "is_launcher": true,
-            "name": "leagueclientux.exe",
+            "is_launcher": false,
+            "name": "garenalolth/gamedata/apps/lolth/lolex.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
             "os": "win32"
         },
         {
@@ -15,8 +20,8 @@
             "os": "darwin"
         },
         {
-            "is_launcher": false,
-            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
+            "is_launcher": true,
+            "name": "leagueclientux.exe",
             "os": "win32"
         },
         {
@@ -33,11 +38,6 @@
             "is_launcher": false,
             "name": "leagueoflegends.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "garenalolth/gamedata/apps/lolth/lolex.exe",
-            "os": "win32"
         }
     ],
     "hook": true,

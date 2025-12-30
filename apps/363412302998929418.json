@@ -6,12 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "mountblade warband/mb_warband_old.exe",
+            "name": "mountblade warband/binkplay.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "mountblade warband/mb_warband.exe",
+            "name": "wse/wseloader.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "mountblade warband/mb_warband_old.exe",
             "os": "win32"
         },
         {
@@ -21,12 +26,7 @@
         },
         {
             "is_launcher": false,
-            "name": "mountblade warband/binkplay.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "wse/wseloader.exe",
+            "name": "mountblade warband/mb_warband.exe",
             "os": "win32"
         }
     ],
@@ -39,7 +39,14 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Historical",
+        "Sandbox",
+        "Open world",
+        "4X (explore, expand, exploit, and exterminate)"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

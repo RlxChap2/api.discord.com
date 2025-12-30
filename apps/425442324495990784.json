@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "metro 2033 redux/metro.exe",
+            "name": "metro2033.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "metro2033.exe",
+            "name": "metro 2033 redux/metro.exe",
             "os": "win32"
         }
     ],
@@ -24,8 +24,20 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Horror",
+        "Thriller",
+        "Survival",
+        "Stealth",
+        "Warfare"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "286690"
+        },
         {
             "distributor": "epic",
             "id": "PETUNIA"
@@ -33,10 +45,6 @@
         {
             "distributor": "discord",
             "id": "489228147942883328"
-        },
-        {
-            "distributor": "steam",
-            "id": "286690"
         }
     ]
 }
