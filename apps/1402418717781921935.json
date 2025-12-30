@@ -7,12 +7,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "tslgame_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "tslgame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "tslgame_be.exe",
+            "name": "win64/tslgame_uc.exe",
             "os": "win32"
         },
         {
@@ -23,11 +28,6 @@
         {
             "is_launcher": false,
             "name": "win64/tslgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/tslgame_uc.exe",
             "os": "win32"
         }
     ],
@@ -51,6 +51,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "CUSA14380_00"
+        },
+        {
             "distributor": "gdco",
             "id": "68348"
         },
@@ -64,11 +68,19 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA27367_00"
+            "id": "PPSA27363_00"
         },
         {
             "distributor": "xbox",
             "id": "C0MN5DN8KR3F"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA27367_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "EB99EE4694474E8DA0B05A8AB391825C"
         },
         {
             "distributor": "steam",
@@ -76,19 +88,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA27363_00"
-        },
-        {
-            "distributor": "epic",
-            "id": "EB99EE4694474E8DA0B05A8AB391825C"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA14081_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14380_00"
         }
     ]
 }

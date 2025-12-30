@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "reus.app",
-            "os": "darwin"
+            "name": "reus.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "reus.exe",
-            "os": "win32"
+            "name": "reus.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -25,12 +25,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "gog",
-            "id": ""
-        },
-        {
             "distributor": "steam",
             "id": "222730"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
         }
     ]
 }
