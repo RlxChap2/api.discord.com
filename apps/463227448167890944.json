@@ -6,22 +6,22 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "devilmaycry4_dx9.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "devilmaycry4specialedition.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "devimaycry4.exe",
+            "name": "devilmaycry4_dx9.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "devilmaycry4_dx10.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "devimaycry4.exe",
             "os": "win32"
         }
     ],
@@ -34,7 +34,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Horror"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

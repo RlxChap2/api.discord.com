@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "terraria.bin.x86",
             "os": "linux"
         },
         {
             "is_launcher": false,
             "name": "terraria/terraria.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "terraria.exe",
             "os": "win32"
         },
         {
@@ -39,7 +39,15 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Science fiction",
+        "Horror",
+        "Survival",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

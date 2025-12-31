@@ -9,13 +9,13 @@
         },
         {
             "is_launcher": false,
-            "name": "starbound_opengl.exe",
-            "os": "win32"
+            "name": "starbound.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "starbound.app",
-            "os": "darwin"
+            "name": "starbound_opengl.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -32,19 +32,20 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Survival",
+        "Sandbox"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "xbox",
-            "id": "9PK7BFMB3ZNJ"
-        },
         {
             "distributor": "gdco",
             "id": "83861"
         },
         {
-            "distributor": "xbox",
-            "id": "9MTSBWPWPQVQ"
+            "distributor": "discord",
+            "id": "471033751535616000"
         },
         {
             "distributor": "steam",
@@ -55,8 +56,12 @@
             "id": "9PD5W1TZ6GWC"
         },
         {
-            "distributor": "discord",
-            "id": "471033751535616000"
+            "distributor": "xbox",
+            "id": "9PK7BFMB3ZNJ"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MTSBWPWPQVQ"
         }
     ]
 }

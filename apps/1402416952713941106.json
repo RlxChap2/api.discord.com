@@ -6,6 +6,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "csgo.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "csgo_linux64",
             "os": "linux"
         },
@@ -13,11 +18,6 @@
             "is_launcher": false,
             "name": "csgo_osx64.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "csgo.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
@@ -34,6 +34,9 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 1,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Warfare"
+    ],
     "third_party_skus": []
 }

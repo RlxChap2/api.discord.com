@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "warframe.x64.exe",
+            "name": "warframe.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "warframe.exe",
+            "name": "warframe.x64.exe",
             "os": "win32"
         }
     ],
@@ -29,8 +29,19 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "CUSA00106_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA02323_00"
+        },
         {
             "distributor": "gdco",
             "id": "103936"
@@ -40,12 +51,20 @@
             "id": "BPS3XF74B9V1"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA01639_00"
+            "distributor": "steam",
+            "id": "230410"
+        },
+        {
+            "distributor": "discord",
+            "id": "494959992483348480"
         },
         {
             "distributor": "playstation",
-            "id": "PPSA02323_00"
+            "id": "CUSA00080_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01980_00"
         },
         {
             "distributor": "playstation",
@@ -57,23 +76,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA00080_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA01980_00"
-        },
-        {
-            "distributor": "discord",
-            "id": "494959992483348480"
-        },
-        {
-            "distributor": "steam",
-            "id": "230410"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00106_00"
+            "id": "CUSA01639_00"
         }
     ]
 }

@@ -6,12 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "path of exile/pathofexile.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "path of exile/pathofexile_x64steam.exe",
+            "name": "path of exile taiwan/pathofexile.exe",
             "os": "win32"
         },
         {
@@ -21,7 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "path of exile/pathofexilesteam.exe",
+            "name": "path of exile/pathofexile_x64steam.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "path of exile/pathofexile.exe",
             "os": "win32"
         },
         {
@@ -36,12 +36,12 @@
         },
         {
             "is_launcher": false,
-            "name": "流亡黯道/pathofexilesteam.exe",
+            "name": "path of exile/pathofexilesteam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "path of exile taiwan/pathofexile.exe",
+            "name": "流亡黯道/pathofexilesteam.exe",
             "os": "win32"
         }
     ],
@@ -54,7 +54,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Horror"
+    ],
     "third_party_skus": [
         {
             "distributor": "epic",
