@@ -7,13 +7,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "diablo iii.app",
-            "os": "darwin"
+            "name": "diablo iii.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "diablo iii.exe",
-            "os": "win32"
+            "name": "diablo iii.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -30,7 +30,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Horror"
+    ],
     "third_party_skus": [
         {
             "distributor": "battlenet",
