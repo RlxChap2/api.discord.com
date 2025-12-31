@@ -6,11 +6,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "trine.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "trine.app",
             "os": "darwin"
         },
@@ -22,6 +17,11 @@
         {
             "is_launcher": false,
             "name": "trine1_32bit.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "trine.exe",
             "os": "win32"
         }
     ],
@@ -42,12 +42,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "discord",
-            "id": "494709638487343107"
-        },
-        {
             "distributor": "steam",
             "id": "35700"
+        },
+        {
+            "distributor": "discord",
+            "id": "494709638487343107"
         }
     ]
 }
