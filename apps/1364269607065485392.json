@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/oblivionremastered-win64-shipping.exe",
+            "name": "wingdk/oblivionremastered-wingdk-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "wingdk/oblivionremastered-wingdk-shipping.exe",
+            "name": "win64/oblivionremastered-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -24,15 +24,20 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "gdco",
+            "id": "11060481"
+        },
         {
             "distributor": "xbox",
             "id": "9NF62X1QH3CM"
-        },
-        {
-            "distributor": "steam",
-            "id": "2623190"
         },
         {
             "distributor": "playstation",
@@ -43,16 +48,16 @@
             "id": ""
         },
         {
+            "distributor": "playstation",
+            "id": "PPSA21203_00"
+        },
+        {
             "distributor": "xbox",
             "id": "9NQR437K7PQH"
         },
         {
-            "distributor": "gdco",
-            "id": "11060481"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA21203_00"
+            "distributor": "steam",
+            "id": "2623190"
         }
     ]
 }

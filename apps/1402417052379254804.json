@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "move or die/love/linux32/love",
-            "os": "linux"
+            "name": "move or die/love/win/love.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "move or die/love/win/love.exe",
-            "os": "win32"
+            "name": "move or die/love/linux32/love",
+            "os": "linux"
         },
         {
             "is_launcher": false,
@@ -32,19 +32,23 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Comedy",
+        "Party"
+    ],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "58045"
+            "distributor": "playstation",
+            "id": "CUSA33708_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA06408_00"
         },
         {
-            "distributor": "steam",
-            "id": "323850"
+            "distributor": "gdco",
+            "id": "58045"
         },
         {
             "distributor": "playstation",
@@ -59,8 +63,8 @@
             "id": "CUSA03410_00"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA33708_00"
+            "distributor": "steam",
+            "id": "323850"
         }
     ]
 }

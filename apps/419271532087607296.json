@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/battalionclient-win64-shipping.exe",
+            "name": "battalion.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "battalion.exe",
+            "name": "win64/battalionclient-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -24,7 +24,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Historical",
+        "Warfare"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",
