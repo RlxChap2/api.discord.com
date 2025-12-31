@@ -6,6 +6,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "roomeditor/roomeditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "isaacanimationeditor/isaacanimationeditor.exe",
             "os": "win32"
         },
@@ -16,18 +21,13 @@
         },
         {
             "is_launcher": false,
-            "name": "roomeditor/roomeditor.exe",
-            "os": "win32"
+            "name": "the binding of isaac rebirth.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "isaac-ng.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "the binding of isaac rebirth.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
@@ -42,28 +42,8 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "CUSA01344_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07845_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA03228_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BQD45PQR4F4J"
-        },
-        {
             "distributor": "gdco",
             "id": "89630"
-        },
-        {
-            "distributor": "steam",
-            "id": "250900"
         },
         {
             "distributor": "playstation",
@@ -71,7 +51,27 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA01344_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA10195_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA03228_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA07845_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BQD45PQR4F4J"
+        },
+        {
+            "distributor": "steam",
+            "id": "250900"
         }
     ]
 }
