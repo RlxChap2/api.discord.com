@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
+            "name": "win64/shootergame_be.exe",
             "os": "win32"
         },
         {
@@ -16,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "shootergame_be.exe",
+            "name": "win64/shootergameserver.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/shootergame_be.exe",
+            "name": "shootergame_be.exe",
             "os": "win32"
         }
     ],
@@ -34,35 +34,20 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Survival",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "steam",
-            "id": "346110"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA08806_00"
-        },
         {
             "distributor": "playstation",
             "id": "CUSA06676_00"
         },
         {
             "distributor": "steam",
-            "id": "4462"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BNBLC4ZGFNKB"
-        },
-        {
-            "distributor": "epic",
-            "id": "ARK"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH52XC6"
+            "id": "346110"
         },
         {
             "distributor": "gdco",
@@ -71,6 +56,26 @@
         {
             "distributor": "playstation",
             "id": "CUSA06782_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "4462"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH52XC6"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BNBLC4ZGFNKB"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA08806_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "ARK"
         }
     ]
 }
