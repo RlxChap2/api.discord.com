@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "rks.exe",
+            "name": "rks_e.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rks_e.exe",
+            "name": "rks.exe",
             "os": "win32"
         }
     ],
@@ -24,7 +24,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",
