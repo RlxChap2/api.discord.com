@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/spectreclient-win64-shipping.exe",
+            "name": "win64/spectreclient_be.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/spectreclient_be.exe",
+            "name": "win64/spectreclient-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -24,19 +24,8 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Science fiction"
-    ],
+    "themes": [],
     "third_party_skus": [
-        {
-            "distributor": "gdco",
-            "id": "10976179"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA09838_00"
-        },
         {
             "distributor": "igdb",
             "id": "311967"
@@ -46,8 +35,16 @@
             "id": "2641470"
         },
         {
+            "distributor": "playstation",
+            "id": "PPSA09838_00"
+        },
+        {
             "distributor": "xbox",
             "id": "9PM7WSSRW9DF"
+        },
+        {
+            "distributor": "gdco",
+            "id": "10976179"
         }
     ]
 }
