@@ -10,14 +10,14 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "fortniteclient-mac-shipping.app",
-            "os": "darwin"
-        },
-        {
             "is_launcher": true,
             "name": "fortniteclient-win64-shipping_eac_eos.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "fortniteclient-mac-shipping.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -37,32 +37,20 @@
     "themes": [],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "BXWNX8ST04JS"
+        },
+        {
             "distributor": "gdco",
             "id": "132146"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MW1TQ8MNZ1G"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07669_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BT5P2X999VH2"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BRD01SWKX9WS"
         },
         {
             "distributor": "xbox",
             "id": "9NM62SDWFBBG"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA01922_00"
+            "distributor": "epic",
+            "id": "fn"
         },
         {
             "distributor": "epic",
@@ -70,15 +58,31 @@
         },
         {
             "distributor": "xbox",
-            "id": "BXWNX8ST04JS"
+            "id": "9MW1TQ8MNZ1G"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BT5P2X999VH2"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA17471_00"
+            "id": "PPSA01922_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BRD01SWKX9WS"
         },
         {
             "distributor": "playstation",
             "id": "CUSA07022_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01923_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA07669_00"
         },
         {
             "distributor": "playstation",
@@ -90,11 +94,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA01923_00"
-        },
-        {
-            "distributor": "epic",
-            "id": "fn"
+            "id": "CUSA17471_00"
         }
     ]
 }
