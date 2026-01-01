@@ -11,17 +11,17 @@
         },
         {
             "is_launcher": false,
-            "name": "ghost recon breakpoint/grb.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "grb.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "grb_upp.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ghost recon breakpoint/grb.exe",
             "os": "win32"
         }
     ],
@@ -39,13 +39,12 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Stealth",
-        "Open world",
-        "Warfare"
-    ],
+    "themes": [],
     "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "2231380"
+        },
         {
             "distributor": "uplay",
             "id": "11903"
@@ -61,10 +60,6 @@
         {
             "distributor": "epic",
             "id": "2DBD2F64ABDC4BBAB077424D5C85E01B"
-        },
-        {
-            "distributor": "steam",
-            "id": "2231380"
         }
     ]
 }

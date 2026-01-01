@@ -6,13 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "avalonlords.app",
-            "os": "darwin"
+            "name": "avalonlords.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "avalonlords.exe",
-            "os": "win32"
+            "name": "avalonlords.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -24,10 +24,7 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Historical"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "steam",

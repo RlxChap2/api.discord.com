@@ -6,22 +6,22 @@
     "executables": [
         {
             "is_launcher": true,
-            "name": "deadbydaylight.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": true,
             "name": "dead by daylight/deadbydaylight.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "deadbydaylight-egs-shipping.exe",
+            "is_launcher": true,
+            "name": "deadbydaylight.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "deadbydaylight-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "deadbydaylight-egs-shipping.exe",
             "os": "win32"
         }
     ],
@@ -37,16 +37,16 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "381210"
-        },
-        {
             "distributor": "epic",
             "id": "611482B8586142CDA48A0786EB8A127C"
         },
         {
             "distributor": "igdb",
             "id": "18866"
+        },
+        {
+            "distributor": "steam",
+            "id": "381210"
         }
     ]
 }
