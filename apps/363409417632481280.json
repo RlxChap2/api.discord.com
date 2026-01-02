@@ -6,13 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "eu4.app",
-            "os": "darwin"
+            "name": "eu4.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "eu4.exe",
-            "os": "win32"
+            "name": "eu4.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -27,12 +27,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "80D3AEB1D7C3434981E0BCBC47700A83"
-        },
-        {
             "distributor": "steam",
             "id": "236850"
+        },
+        {
+            "distributor": "epic",
+            "id": "80D3AEB1D7C3434981E0BCBC47700A83"
         }
     ]
 }
