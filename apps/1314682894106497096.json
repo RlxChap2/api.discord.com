@@ -1,15 +1,10 @@
 {
     "aliases": [
-        "Delta Force Demo",
-        "Delta Force"
+        "Delta Force",
+        "Delta Force Demo"
     ],
     "cover_image_hash": "f3430d803784f5f42365eefbe8d89add",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "deltaforceclient.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "df_garena/deltaforceclient.exe",
@@ -29,6 +24,11 @@
             "is_launcher": false,
             "name": "launcher/df_launcher.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "deltaforceclient.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -43,12 +43,24 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2507950"
+            "distributor": "playstation",
+            "id": "PPSA28884_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA31391_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA28881_00"
         },
         {
             "distributor": "gdco",
             "id": "99991879"
+        },
+        {
+            "distributor": "steam",
+            "id": "2507950"
         },
         {
             "distributor": "xbox",
@@ -60,27 +72,15 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA28884_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA28881_00"
-        },
-        {
-            "distributor": "igdb",
-            "id": "262186"
+            "id": "PPSA28882_00"
         },
         {
             "distributor": "playstation",
             "id": "PPSA28883_00"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA28882_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA31391_00"
+            "distributor": "igdb",
+            "id": "262186"
         }
     ]
 }
