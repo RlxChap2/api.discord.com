@@ -6,22 +6,22 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "launcher/bethesda.net_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "bethesda.net_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "game/client/eso.exe",
+            "name": "launcher/bethesda.net_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "game/client/eso64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "game/client/eso.exe",
             "os": "win32"
         }
     ],
@@ -37,24 +37,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BPWXCL17ZZJG"
-        },
-        {
             "distributor": "steam",
             "id": "306130"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA02017_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA02018_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00086_00"
+            "distributor": "epic",
+            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
         },
         {
             "distributor": "gdco",
@@ -65,12 +53,24 @@
             "id": "CUSA01514_00"
         },
         {
-            "distributor": "epic",
-            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+            "distributor": "playstation",
+            "id": "PPSA02018_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA00132_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BPWXCL17ZZJG"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA02017_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00086_00"
         }
     ]
 }
