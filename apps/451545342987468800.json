@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "recroom.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "recroom/recroom.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "recroom_release.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "recroom.exe",
             "os": "win32"
         }
     ],
@@ -32,8 +32,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA05532_00"
+            "distributor": "gdco",
+            "id": "70237"
+        },
+        {
+            "distributor": "steam",
+            "id": "471710"
         },
         {
             "distributor": "playstation",
@@ -45,23 +49,19 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA08481_00"
+            "id": "PPSA05532_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA09539_00"
         },
         {
-            "distributor": "steam",
-            "id": "471710"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA14469_00"
         },
         {
-            "distributor": "gdco",
-            "id": "70237"
+            "distributor": "playstation",
+            "id": "CUSA08481_00"
         }
     ]
 }
