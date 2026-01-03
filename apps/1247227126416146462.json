@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "wuthering waves game/client/binaries/win64/client-win64-shipping.exe",
+            "name": "wuthering waves.exe",
             "os": "win32"
         },
         {
@@ -16,13 +16,13 @@
         },
         {
             "is_launcher": false,
-            "name": "wuthering waves.exe",
-            "os": "win32"
+            "name": "wutheringwaves.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "wutheringwaves.app",
-            "os": "darwin"
+            "name": "wuthering waves game/client/binaries/win64/client-win64-shipping.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -37,10 +37,6 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "11041612"
-        },
-        {
             "distributor": "epic",
             "id": "E885327CE4414509BFF4C10757F88334"
         },
@@ -51,6 +47,10 @@
         {
             "distributor": "steam",
             "id": "3513350"
+        },
+        {
+            "distributor": "gdco",
+            "id": "11041612"
         }
     ]
 }
