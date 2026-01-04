@@ -1,10 +1,15 @@
 {
     "aliases": [
-        "Loki",
-        "SUPERVIVE Demo"
+        "SUPERVIVE Demo",
+        "Loki"
     ],
     "cover_image_hash": "590bf11534a999b24c0e47d7c87dddbc",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "loki/loki.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "loki-win64-shipping.exe",
@@ -13,11 +18,6 @@
         {
             "is_launcher": false,
             "name": "loki.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "loki/loki.exe",
             "os": "win32"
         },
         {
@@ -32,12 +32,12 @@
         },
         {
             "is_launcher": false,
-            "name": "supervive-win64-shipping.exe",
+            "name": "supervive.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "supervive.exe",
+            "name": "supervive-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -57,12 +57,12 @@
             "id": "1283700"
         },
         {
-            "distributor": "igdb",
-            "id": "255078"
-        },
-        {
             "distributor": "steam",
             "id": "3152030"
+        },
+        {
+            "distributor": "igdb",
+            "id": "255078"
         }
     ]
 }

@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "hollow knight silksong/hollow knight silksong.exe",
-            "os": "win32"
+            "name": "hollow knight silksong.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "hollow knight silksong.app",
-            "os": "darwin"
+            "name": "hollow knight silksong/hollow knight silksong.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -26,11 +26,7 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "PPSA12544_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "1030300"
+            "id": "CUSA39420_00"
         },
         {
             "distributor": "xbox",
@@ -42,7 +38,11 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA39420_00"
+            "id": "PPSA12544_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "1030300"
         }
     ]
 }
