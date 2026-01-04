@@ -6,7 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "final fantasy xvi demo/ffxvi_demo.exe",
+            "name": "final fantasy xvi/ffxvi.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "finalfantasyxvi_demo/ffxvi_demo.exe",
             "os": "win32"
         },
         {
@@ -16,12 +21,7 @@
         },
         {
             "is_launcher": false,
-            "name": "final fantasy xvi/ffxvi.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "finalfantasyxvi_demo/ffxvi_demo.exe",
+            "name": "final fantasy xvi demo/ffxvi_demo.exe",
             "os": "win32"
         }
     ],
@@ -37,16 +37,20 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2515020"
+            "distributor": "xbox",
+            "id": "9PNN223H8MLZ"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA10664_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "845587CB91E54CE6B682D4C9975C8B07"
         },
         {
             "distributor": "gdco",
             "id": "10110569"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA10665_00"
         },
         {
             "distributor": "playstation",
@@ -57,12 +61,8 @@
             "id": "PPSA08030_00"
         },
         {
-            "distributor": "xbox",
-            "id": "9PNN223H8MLZ"
-        },
-        {
-            "distributor": "epic",
-            "id": "845587CB91E54CE6B682D4C9975C8B07"
+            "distributor": "steam",
+            "id": "2515020"
         },
         {
             "distributor": "steam",
@@ -70,7 +70,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA10664_00"
+            "id": "PPSA10665_00"
         }
     ]
 }
