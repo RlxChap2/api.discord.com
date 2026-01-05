@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bin_ship/daoriginsconfig.exe",
+            "name": "bin_ship/daupdater.exe",
             "os": "win32"
         },
         {
@@ -16,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "bin_ship/daupdater.exe",
+            "name": "redist/dauservicesetup_steam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "redist/dauservicesetup_steam.exe",
+            "name": "bin_ship/daoriginsconfig.exe",
             "os": "win32"
         }
     ],
@@ -37,12 +37,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "47810"
-        },
-        {
             "distributor": "epic",
             "id": "AA0BF256813A423F8705093D696065B4"
+        },
+        {
+            "distributor": "steam",
+            "id": "47810"
         }
     ]
 }
