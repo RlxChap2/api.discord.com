@@ -6,8 +6,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "roblox.app",
-            "os": "darwin"
+            "name": "roblox.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -16,8 +16,8 @@
         },
         {
             "is_launcher": false,
-            "name": "roblox.exe",
-            "os": "win32"
+            "name": "roblox.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -32,16 +32,16 @@
     "themes": [],
     "third_party_skus": [
         {
+            "distributor": "gdco",
+            "id": "161372"
+        },
+        {
             "distributor": "xbox",
             "id": "9NBLGGGZM6WM"
         },
         {
             "distributor": "xbox",
             "id": "BQ1TN1T79V9K"
-        },
-        {
-            "distributor": "gdco",
-            "id": "161372"
         },
         {
             "distributor": "playstation",
