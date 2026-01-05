@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "game/client/eso.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "launcher/bethesda.net_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "bethesda.net_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "game/client/eso.exe",
             "os": "win32"
         },
         {
@@ -38,11 +38,19 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "CUSA00086_00"
+            "id": "CUSA01514_00"
         },
         {
             "distributor": "playstation",
-            "id": "PPSA02018_00"
+            "id": "CUSA00086_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "90410"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA02017_00"
         },
         {
             "distributor": "epic",
@@ -53,16 +61,8 @@
             "id": "CUSA00132_00"
         },
         {
-            "distributor": "gdco",
-            "id": "90410"
-        },
-        {
             "distributor": "xbox",
             "id": "BPWXCL17ZZJG"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA02017_00"
         },
         {
             "distributor": "steam",
@@ -70,7 +70,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA01514_00"
+            "id": "PPSA02018_00"
         }
     ]
 }
