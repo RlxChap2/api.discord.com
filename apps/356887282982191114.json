@@ -6,6 +6,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "win64/shootergameserver.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "shootergame_be.exe",
             "os": "win32"
         },
@@ -17,11 +22,6 @@
         {
             "is_launcher": false,
             "name": "win64/shootergame_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
             "os": "win32"
         }
     ],
@@ -37,20 +37,24 @@
     "themes": [],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "CUSA06782_00"
+        },
+        {
             "distributor": "xbox",
-            "id": "9NBLGGH52XC6"
+            "id": "BNBLC4ZGFNKB"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA06676_00"
         },
         {
             "distributor": "steam",
             "id": "346110"
         },
         {
-            "distributor": "steam",
-            "id": "4462"
-        },
-        {
-            "distributor": "gdco",
-            "id": "5080"
+            "distributor": "xbox",
+            "id": "9NBLGGH52XC6"
         },
         {
             "distributor": "playstation",
@@ -61,16 +65,12 @@
             "id": "ARK"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA06782_00"
+            "distributor": "steam",
+            "id": "4462"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA06676_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BNBLC4ZGFNKB"
+            "distributor": "gdco",
+            "id": "5080"
         }
     ]
 }
