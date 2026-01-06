@@ -6,11 +6,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "splitgate 2/launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "splitgate 2 playtest/launcher.exe",
             "os": "win32"
         },
@@ -18,16 +13,26 @@
             "is_launcher": false,
             "name": "win64/portalwars2client-win64-shipping.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "splitgate 2/launcher.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "f6b304dd6b2994160d70499d6c098620",
     "id": "1374812553909108889",
-    "linked_applications": [],
-    "name": "Splitgate 2",
+    "linked_applications": [
+        {
+            "id": "1146136170363879454",
+            "type": 2
+        }
+    ],
+    "name": "SPLITGATE Arena Reloaded",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action",
@@ -35,24 +40,24 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "7C5BE037103C457A92FFC6E0D911BE2E"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PF5Q1B0FHSL"
-        },
-        {
             "distributor": "playstation",
             "id": "PPSA20608_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "10973259"
         },
         {
             "distributor": "steam",
             "id": "2918300"
         },
         {
-            "distributor": "gdco",
-            "id": "10973259"
+            "distributor": "epic",
+            "id": "7C5BE037103C457A92FFC6E0D911BE2E"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PF5Q1B0FHSL"
         },
         {
             "distributor": "playstation",
