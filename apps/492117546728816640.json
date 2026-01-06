@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "eu3.exe",
+            "name": "eu3game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "eu3game.exe",
+            "name": "eu3.exe",
             "os": "win32"
         }
     ],
@@ -22,15 +22,17 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Historical"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "discord",
-            "id": "492141866628808715"
-        },
         {
             "distributor": "steam",
             "id": "25800"
+        },
+        {
+            "distributor": "discord",
+            "id": "492141866628808715"
         }
     ]
 }

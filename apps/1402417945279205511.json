@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "crosscode/crosscode.exe",
+            "name": "crosscode-beta.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "crosscode-beta.exe",
+            "name": "crosscode/crosscode.exe",
             "os": "win32"
         }
     ],
@@ -29,35 +29,30 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction"
+    ],
     "third_party_skus": [
         {
             "distributor": "discord",
             "id": "498690780836134912"
         },
         {
-            "distributor": "steam",
-            "id": "368340"
+            "distributor": "playstation",
+            "id": "PPSA03234_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA15452_00"
         },
         {
+            "distributor": "gdco",
+            "id": "17929"
+        },
+        {
             "distributor": "xbox",
             "id": "9N53WX4KS2ZW"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NFDPQ0KZ6RN"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA03235_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA03234_00"
         },
         {
             "distributor": "playstation",
@@ -72,8 +67,16 @@
             "id": "CUSA20137_00"
         },
         {
-            "distributor": "gdco",
-            "id": "17929"
+            "distributor": "playstation",
+            "id": "PPSA03235_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "368340"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NFDPQ0KZ6RN"
         }
     ]
 }

@@ -5,18 +5,18 @@
     "cover_image_hash": "6e018ba6b632385031697110947e3286",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "v0/spellcraft.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": true,
-            "name": "spellcraft-staging.exe",
+            "name": "spellcraft-live.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft-live/game/run/tap.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "spellcraft-gamelab/game/run/tap.exe",
             "os": "win32"
         },
         {
@@ -25,8 +25,8 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "spellcraft-live/game/run/tap.exe",
+            "is_launcher": true,
+            "name": "spellcraft-staging.exe",
             "os": "win32"
         },
         {
@@ -41,12 +41,12 @@
         },
         {
             "is_launcher": false,
-            "name": "spellcraft-gamelab/game/run/tap.exe",
+            "name": "spellcraft dev (staging)/unitycrashhandler64.exe",
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "spellcraft-live.exe",
+            "is_launcher": false,
+            "name": "v0/spellcraft.exe",
             "os": "win32"
         }
     ],
@@ -64,7 +64,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "rimworld914win.exe",
+            "name": "rimworldwin.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rimworldwin.exe",
+            "name": "rimworld914win.exe",
             "os": "win32"
         }
     ],
@@ -22,23 +22,14 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Science fiction",
+        "Survival"
+    ],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "71816"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MVSX56FRKSP"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NC6WKX645VJ"
-        },
-        {
-            "distributor": "steam",
-            "id": "294100"
+            "distributor": "epic",
+            "id": "7051EADBB8C2435CAF32A9BC0DC17936"
         },
         {
             "distributor": "playstation",
@@ -49,8 +40,20 @@
             "id": "CUSA31489_00"
         },
         {
-            "distributor": "epic",
-            "id": "7051EADBB8C2435CAF32A9BC0DC17936"
+            "distributor": "xbox",
+            "id": "9NC6WKX645VJ"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MVSX56FRKSP"
+        },
+        {
+            "distributor": "gdco",
+            "id": "71816"
+        },
+        {
+            "distributor": "steam",
+            "id": "294100"
         }
     ]
 }

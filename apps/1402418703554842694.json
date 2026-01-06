@@ -5,13 +5,13 @@
     "cover_image_hash": "c1864b38910c209afd5bf6423b672022",
     "executables": [
         {
-            "is_launcher": true,
-            "name": "fortniteclient-win64-shipping_eac_eos.exe",
+            "is_launcher": false,
+            "name": "fortniteclient-win64-shipping.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "fortniteclient-win64-shipping.exe",
+            "is_launcher": true,
+            "name": "fortniteclient-win64-shipping_eac_eos.exe",
             "os": "win32"
         },
         {
@@ -34,8 +34,25 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Survival",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9MW1TQ8MNZ1G"
+        },
+        {
+            "distributor": "epic",
+            "id": "Fortnite"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01923_00"
+        },
         {
             "distributor": "xbox",
             "id": "BRD01SWKX9WS"
@@ -45,8 +62,8 @@
             "id": "EXPDGL0000000000"
         },
         {
-            "distributor": "gdco",
-            "id": "132146"
+            "distributor": "xbox",
+            "id": "9NM62SDWFBBG"
         },
         {
             "distributor": "epic",
@@ -58,43 +75,31 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA07669_00"
+            "id": "PPSA01922_00"
         },
         {
             "distributor": "xbox",
             "id": "9N84B8L89PDW"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA01922_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA01923_00"
+            "distributor": "xbox",
+            "id": "BXWNX8ST04JS"
         },
         {
             "distributor": "xbox",
             "id": "BT5P2X999VH2"
         },
         {
-            "distributor": "xbox",
-            "id": "BXWNX8ST04JS"
-        },
-        {
-            "distributor": "epic",
-            "id": "Fortnite"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MW1TQ8MNZ1G"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NM62SDWFBBG"
+            "distributor": "playstation",
+            "id": "CUSA07022_00"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA07022_00"
+            "id": "CUSA07669_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "132146"
         }
     ]
 }

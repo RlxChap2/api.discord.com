@@ -11,17 +11,17 @@
         },
         {
             "is_launcher": false,
-            "name": "launcher/bethesda.net_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "game/client/eso.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "bethesda.net_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "launcher/bethesda.net_launcher.exe",
             "os": "win32"
         }
     ],
@@ -34,23 +34,19 @@
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Open world"
+    ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+            "distributor": "playstation",
+            "id": "CUSA00086_00"
         },
         {
             "distributor": "playstation",
             "id": "PPSA02018_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "306130"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA01514_00"
         },
         {
             "distributor": "playstation",
@@ -61,16 +57,24 @@
             "id": "90410"
         },
         {
+            "distributor": "steam",
+            "id": "306130"
+        },
+        {
+            "distributor": "epic",
+            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA01514_00"
+        },
+        {
             "distributor": "playstation",
             "id": "CUSA00132_00"
         },
         {
             "distributor": "xbox",
             "id": "BPWXCL17ZZJG"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00086_00"
         }
     ]
 }

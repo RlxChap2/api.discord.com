@@ -6,12 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "tmodloader/tmodloader64bit.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "6.0.0/dotnet.exe",
+            "name": "tmodloader/tmodloader.exe",
             "os": "win32"
         },
         {
@@ -21,7 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "tmodloader/tmodloader.exe",
+            "name": "6.0.0/dotnet.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tmodloader/tmodloader64bit.exe",
             "os": "win32"
         }
     ],
@@ -34,7 +34,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Sandbox"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

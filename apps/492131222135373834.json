@@ -4,7 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "swgbg.exe",
+            "name": "battlegrounds_x1.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "swgbwide_x1.exe",
             "os": "win32"
         },
         {
@@ -14,22 +19,17 @@
         },
         {
             "is_launcher": false,
-            "name": "battlegrounds_x1.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "battlegrounds.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "battlegrounds_x2.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "swgbwide_x1.exe",
+            "name": "swgbg.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "battlegrounds.exe",
             "os": "win32"
         }
     ],
@@ -42,7 +42,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction"
+    ],
     "third_party_skus": [
         {
             "distributor": "discord",

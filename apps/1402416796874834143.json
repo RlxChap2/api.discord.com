@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "sekiro.exe",
+            "name": "sekiro/sekiro.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "sekiro/sekiro.exe",
+            "name": "sekiro.exe",
             "os": "win32"
         }
     ],
@@ -29,7 +29,12 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Historical",
+        "Stealth"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

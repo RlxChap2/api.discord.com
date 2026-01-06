@@ -6,7 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "baf/datacachepreprocessor.exe",
+            "name": "arma2oa_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "pmc/datacachepreprocessor.exe",
             "os": "win32"
         },
         {
@@ -16,12 +21,7 @@
         },
         {
             "is_launcher": false,
-            "name": "arma2oa_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "pmc/datacachepreprocessor.exe",
+            "name": "baf/datacachepreprocessor.exe",
             "os": "win32"
         }
     ],
@@ -34,7 +34,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Open world"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",

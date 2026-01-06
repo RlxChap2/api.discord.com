@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "subnauticazero.exe",
+            "name": "subnauticazero/subnauticazero.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "subnauticazero/subnauticazero.exe",
+            "name": "subnauticazero.exe",
             "os": "win32"
         }
     ],
@@ -29,15 +29,15 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Science fiction",
+        "Survival",
+        "Open world"
+    ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "FOXGLOVE"
-        },
-        {
             "distributor": "playstation",
-            "id": "PPSA02457_00"
+            "id": "CUSA18058_00"
         },
         {
             "distributor": "gdco",
@@ -45,23 +45,27 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA18065_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "PPSA02456_00"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA18058_00"
+            "id": "CUSA18065_00"
         },
         {
-            "distributor": "steam",
-            "id": "848450"
+            "distributor": "playstation",
+            "id": "PPSA02457_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "FOXGLOVE"
         },
         {
             "distributor": "xbox",
             "id": "9NDCJXL11096"
+        },
+        {
+            "distributor": "steam",
+            "id": "848450"
         }
     ]
 }
