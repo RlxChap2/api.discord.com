@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "zoneue4-win64-shipping.exe",
+            "name": "win64/zoneue4-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/zoneue4-win64-shipping.exe",
+            "name": "zoneue4-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -36,12 +36,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "9NMP9B9KMKLF"
+        },
+        {
             "distributor": "steam",
             "id": "760060"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA12680_00"
+            "distributor": "epic",
+            "id": "4756B80EB0F74D45B77922E54052CFED"
         },
         {
             "distributor": "playstation",
@@ -49,15 +53,11 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA12680_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA12667_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NMP9B9KMKLF"
-        },
-        {
-            "distributor": "epic",
-            "id": "4756B80EB0F74D45B77922E54052CFED"
         },
         {
             "distributor": "gdco",
