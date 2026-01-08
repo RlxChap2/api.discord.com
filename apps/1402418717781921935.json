@@ -1,15 +1,10 @@
 {
     "aliases": [
-        "PUBG: BATTLEGROUNDS",
-        "PUBG"
+        "PUBG",
+        "PUBG: BATTLEGROUNDS"
     ],
     "cover_image_hash": "b3429e6cb38e7fabfc3182da8591015d",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "tslgame.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "win64/tslgame_uc.exe",
@@ -17,7 +12,12 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/tslgame.exe",
+            "name": "tslgame_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tslgame.exe",
             "os": "win32"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "is_launcher": false,
-            "name": "tslgame_be.exe",
+            "name": "win64/tslgame.exe",
             "os": "win32"
         }
     ],
@@ -51,22 +51,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA27363_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA27367_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14085_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14391_00"
-        },
-        {
             "distributor": "steam",
             "id": "578080"
         },
@@ -75,20 +59,36 @@
             "id": "C0MN5DN8KR3F"
         },
         {
+            "distributor": "epic",
+            "id": "EB99EE4694474E8DA0B05A8AB391825C"
+        },
+        {
             "distributor": "playstation",
-            "id": "CUSA14380_00"
+            "id": "CUSA14391_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14081_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14085_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA27363_00"
         },
         {
             "distributor": "gdco",
             "id": "68348"
         },
         {
-            "distributor": "epic",
-            "id": "EB99EE4694474E8DA0B05A8AB391825C"
+            "distributor": "playstation",
+            "id": "CUSA14380_00"
         },
         {
             "distributor": "playstation",
-            "id": "CUSA14081_00"
+            "id": "PPSA27367_00"
         }
     ]
 }
