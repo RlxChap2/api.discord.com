@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "farcry3.exe",
+            "name": "farcry3_d3d11.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "farcry3_d3d11.exe",
+            "name": "farcry3.exe",
             "os": "win32"
         }
     ],
@@ -34,19 +34,23 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "CUSA10327_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA10357_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA10326_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "132082"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA11724_00"
         },
         {
             "distributor": "steam",
             "id": "220240"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA10357_00"
         },
         {
             "distributor": "epic",
@@ -58,11 +62,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA11724_00"
-        },
-        {
-            "distributor": "gdco",
-            "id": "132082"
+            "id": "CUSA10327_00"
         }
     ]
 }
