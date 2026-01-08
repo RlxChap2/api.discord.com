@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "hytale.exe",
-            "os": "win32"
+            "name": "hytale.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "hytale.app",
-            "os": "darwin"
+            "name": "hytale.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -22,6 +22,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Sandbox"
+    ],
     "third_party_skus": []
 }
