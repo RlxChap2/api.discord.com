@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "indianaepicgamestore-win64-shipping.exe",
+            "name": "win64/indianaepicgamestore-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/indianaepicgamestore-win64-shipping.exe",
+            "name": "indianaepicgamestore-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -36,6 +36,14 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "CUSA16285_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "ROSEMALLOW"
+        },
+        {
             "distributor": "gdco",
             "id": "92594"
         },
@@ -45,31 +53,23 @@
         },
         {
             "distributor": "steam",
-            "id": "578650"
-        },
-        {
-            "distributor": "steam",
             "id": "16482"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA16285_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA13689_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MWD2Z8L1FBQ"
+            "distributor": "steam",
+            "id": "578650"
         },
         {
             "distributor": "xbox",
             "id": "9MVD3LCB9BXJ"
         },
         {
-            "distributor": "epic",
-            "id": "ROSEMALLOW"
+            "distributor": "xbox",
+            "id": "9MWD2Z8L1FBQ"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA13689_00"
         }
     ]
 }
