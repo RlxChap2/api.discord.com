@@ -7,7 +7,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "deltaforceclient.exe",
+            "name": "launcher/df_launcher_global.exe",
             "os": "win32"
         },
         {
@@ -17,7 +17,7 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/deltaforceclient-win64-shipping.exe",
+            "name": "deltaforceclient.exe",
             "os": "win32"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher_global.exe",
+            "name": "win64/deltaforceclient-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -46,12 +46,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA28882_00"
-        },
-        {
             "distributor": "steam",
             "id": "2507950"
+        },
+        {
+            "distributor": "epic",
+            "id": "3E2C28241611405AA231308A39BEE638"
+        },
+        {
+            "distributor": "igdb",
+            "id": "262186"
         },
         {
             "distributor": "playstation",
@@ -66,20 +70,16 @@
             "id": "PPSA31391_00"
         },
         {
-            "distributor": "playstation",
-            "id": "PPSA28884_00"
-        },
-        {
             "distributor": "xbox",
             "id": "9NRMZXGKP4NM"
         },
         {
-            "distributor": "igdb",
-            "id": "262186"
+            "distributor": "playstation",
+            "id": "PPSA28882_00"
         },
         {
-            "distributor": "epic",
-            "id": "3E2C28241611405AA231308A39BEE638"
+            "distributor": "playstation",
+            "id": "PPSA28884_00"
         },
         {
             "distributor": "gdco",
