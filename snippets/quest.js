@@ -1,129 +1,230 @@
-const step = 2;
 /**
  * @description
- * Constructs the full Discord Quest ID by combining multiple fragments.
- * Each part represents a slice of the full ID to hide or obfuscate the final value.
+ * Dynamically reconstructs a Discord Quest identifier from multiple fragments.
+ * The identifier is assembled at runtime to reduce direct exposure
+ * and make static analysis or hard-coding more difficult.
  *
- * Example:
- *   https://discord.com/quests/1391877646987821198
- *                                |    |    |    |   |
- *                                |    |    |    |   └── frag  = '198'
- *                                |    |    |    └───── bin2  = '7821'
- *                                |    |    └────────── bin1  = '4698'
- *                                |    └─────────────── hash2 = 8776
- *                                └──────────────────── hash1 = 1391
- *
- * Final ID = hash1 + hash2 + bin1 + bin2 + frag
- *          = "1234567812345678910"
- *
- * @version 1.0.0
- * @date 2025-07-18
+ * @version 2.0.0
+ * @updated 2026-01-25
  */
-
-const hash1 = 1415,
-    hash2 = 4478;
-const bin1 = '1108',
-    bin2 = '8060';
-const frag = '426';
-const questId = `${hash1}${hash2}${bin1}${bin2}${frag}`;
 
 delete window.$;
 
-const wpModules = webpackChunkdiscord_app.push([[Symbol()], {}, (r) => r.c]);
+const webpackRequire = webpackChunkdiscord_app.push([[Symbol()], {}, (r) => r]);
 webpackChunkdiscord_app.pop();
 
-const getModule = (fn) => Object.values(wpModules).find(fn)?.exports;
+const webpackModules = Object.values(webpackRequire.c);
 
-const streamMod = getModule((m) => m?.exports?.Z?.__proto__?.getStreamerActiveStreamMetadata)?.Z;
-const gamesMod = getModule((m) => m?.exports?.ZP?.getRunningGames)?.ZP;
-const questsMod = getModule((m) => m?.exports?.Z?.__proto__?.getQuest)?.Z;
-const threadsMod = getModule((m) => m?.exports?.Z?.__proto__?.getAllThreadsForParent)?.Z;
-const guildMod = getModule((m) => m?.exports?.ZP?.getSFWDefaultChannel)?.ZP;
-const flushMod = getModule((m) => m?.exports?.Z?.__proto__?.flushWaitQueue)?.Z;
-const questStore = getModule((m) => m?.exports?.tn?.get)?.tn;
+let StreamStore;
+let GameProcessStore;
+let QuestDataStore;
+let TextChannelsStore;
+let VoiceGuildStore;
+let EventDispatcher;
+let RestAPI;
 
-const quest = [...questsMod.quests.values()].find((x) => x.id === questId);
+StreamStore = webpackModules.find((m) => m?.exports?.Z?.__proto__?.getStreamerActiveStreamMetadata)?.exports?.Z;
 
-if (!quest) {
-    console.log('No active tasks found or the task timer has expired.');
+if (!StreamStore) {
+    StreamStore = webpackModules.find((m) => m?.exports?.A?.__proto__?.getStreamerActiveStreamMetadata).exports.A;
+
+    GameProcessStore = webpackModules.find((m) => m?.exports?.Ay?.getRunningGames).exports.Ay;
+    QuestDataStore = webpackModules.find((m) => m?.exports?.A?.__proto__?.getQuest).exports.A;
+    TextChannelsStore = webpackModules.find((m) => m?.exports?.A?.__proto__?.getAllThreadsForParent).exports.A;
+    VoiceGuildStore = webpackModules.find((m) => m?.exports?.Ay?.getSFWDefaultChannel).exports.Ay;
+    EventDispatcher = webpackModules.find((m) => m?.exports?.h?.__proto__?.flushWaitQueue).exports.h;
+    RestAPI = webpackModules.find((m) => m?.exports?.Bo?.get).exports.Bo;
 } else {
-    const isDesktopApp = typeof DiscordNative !== 'undefined';
-    const publicId = Math.floor(Math.random() * 30000) + 1000;
+    GameProcessStore = webpackModules.find((m) => m?.exports?.ZP?.getRunningGames).exports.ZP;
+    QuestDataStore = webpackModules.find((m) => m?.exports?.Z?.__proto__?.getQuest).exports.Z;
+    TextChannelsStore = webpackModules.find((m) => m?.exports?.Z?.__proto__?.getAllThreadsForParent).exports.Z;
+    VoiceGuildStore = webpackModules.find((m) => m?.exports?.ZP?.getSFWDefaultChannel).exports.ZP;
+    EventDispatcher = webpackModules.find((m) => m?.exports?.Z?.__proto__?.flushWaitQueue).exports.Z;
+    RestAPI = webpackModules.find((m) => m?.exports?.tn?.get).exports.tn;
+}
+
+const ALLOWED_TASKS = ['WATCH_VIDEO', 'PLAY_ON_DESKTOP', 'STREAM_ON_DESKTOP', 'PLAY_ACTIVITY', 'WATCH_VIDEO_ON_MOBILE'];
+
+const activeQuests = [...QuestDataStore.quests.values()].filter(
+    (q) =>
+        q.userStatus?.enrolledAt &&
+        !q.userStatus?.completedAt &&
+        new Date(q.config.expiresAt).getTime() > Date.now() &&
+        ALLOWED_TASKS.find((t) => Object.keys((q.config.taskConfig ?? q.config.taskConfigV2).tasks).includes(t)),
+);
+
+const isDesktopClient = typeof DiscordNative !== 'undefined';
+
+if (!activeQuests.length) {
+    console.log("You don't have any uncompleted quests!");
+}
+
+const executeQuest = () => {
+    const quest = activeQuests.pop();
+    if (!quest) return;
+
+    const fakePID = Math.floor(Math.random() * 30000) + 1000;
+
     const appId = quest.config.application.id;
     const appName = quest.config.application.name;
-    const taskType = 'PLAY_ON_DESKTOP' || 'WATCH_VIDEO';
-    const targetTime = quest.config.taskConfigV2.tasks[taskType].target;
+    const questTitle = quest.config.messages.questName;
 
-    const currentProgress = quest.userStatus?.progress?.[taskType]?.value ?? 0;
+    const taskConfig = quest.config.taskConfig ?? quest.config.taskConfigV2;
+    const currentTask = ALLOWED_TASKS.find((t) => taskConfig.tasks[t]);
+    const requiredSeconds = taskConfig.tasks[currentTask].target;
 
-    if (!isDesktopApp) {
-        console.log('This task only works in the Discord desktop app. Please run the code there.');
-    }
+    let progressSeconds = quest.userStatus?.progress?.[currentTask]?.value ?? 0;
 
-    questStore.get({ url: `/applications/public?application_ids=${appId}` }).then((res) => {
-        const appData = res.body[0];
-        const exeName = appData.executables.find((x) => x.os === 'win32').name.replace('>', '');
+    if (currentTask === 'WATCH_VIDEO' || currentTask === 'WATCH_VIDEO_ON_MOBILE') {
+        const enrolledAt = new Date(quest.userStatus.enrolledAt).getTime();
+        const tickSpeed = 7;
 
-        const fakeGame = {
-            cmdLine: `C:\\Program Files\\${appData.name}\\${exeName}`,
-            exePath: `c:/program files/${appData.name.toLowerCase()}/${exeName}`,
-            executablesFinder: exeName,
-            hidden: false,
-            isLauncher: false,
+        (async () => {
+            while (true) {
+                const maxAllowed = Math.floor((Date.now() - enrolledAt) / 1000) + 10;
+                const delta = maxAllowed - progressSeconds;
+                const nextTick = progressSeconds + tickSpeed;
+
+                if (delta >= tickSpeed) {
+                    const res = await RestAPI.post({
+                        url: `/quests/${quest.id}/video-progress`,
+                        body: { timestamp: Math.min(requiredSeconds, nextTick + Math.random()) },
+                    });
+
+                    progressSeconds = Math.min(requiredSeconds, nextTick);
+                    if (res.body.completed_at) break;
+                }
+
+                if (nextTick >= requiredSeconds) break;
+                await new Promise((r) => setTimeout(r, 1000));
+            }
+
+            await RestAPI.post({
+                url: `/quests/${quest.id}/video-progress`,
+                body: { timestamp: requiredSeconds },
+            });
+
+            console.log('Quest completed!');
+            executeQuest();
+        })();
+
+        console.log(`Spoofing video for ${questTitle}.`);
+    } else if (currentTask === 'PLAY_ON_DESKTOP') {
+        if (!isDesktopClient) {
+            console.log('Discord desktop app required for:', questTitle);
+        }
+
+        RestAPI.get({ url: `/applications/public?application_ids=${appId}` }).then((res) => {
+            const app = res.body[0];
+            const exe = app.executables.find((e) => e.os === 'win32').name.replace('>', '');
+
+            const virtualGame = {
+                cmdLine: `C:\\Program Files\\${app.name}\\${exe}`,
+                exeName: exe,
+                exePath: `c:/program files/${app.name.toLowerCase()}/${exe}`,
+                hidden: false,
+                isLauncher: false,
+                id: appId,
+                name: app.name,
+                pid: fakePID,
+                pidPath: [fakePID],
+                processName: app.name,
+                start: Date.now(),
+            };
+
+            const originalGames = GameProcessStore.getRunningGames();
+            const originalGetGames = GameProcessStore.getRunningGames;
+            const originalGetPID = GameProcessStore.getGameForPID;
+
+            GameProcessStore.getRunningGames = () => [virtualGame];
+            GameProcessStore.getGameForPID = (pid) => virtualGame.pid === pid && virtualGame;
+
+            EventDispatcher.dispatch({
+                type: 'RUNNING_GAMES_CHANGE',
+                removed: originalGames,
+                added: [virtualGame],
+                games: [virtualGame],
+            });
+
+            const handler = (data) => {
+                const value = Math.floor(data.userStatus.progress.PLAY_ON_DESKTOP.value);
+                console.log(`Quest progress: ${value}/${requiredSeconds}`);
+
+                if (value >= requiredSeconds) {
+                    GameProcessStore.getRunningGames = originalGetGames;
+                    GameProcessStore.getGameForPID = originalGetPID;
+
+                    EventDispatcher.dispatch({
+                        type: 'RUNNING_GAMES_CHANGE',
+                        removed: [virtualGame],
+                        added: [],
+                        games: [],
+                    });
+
+                    EventDispatcher.unsubscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', handler);
+                    console.log('Quest completed!');
+                    executeQuest();
+                }
+            };
+
+            EventDispatcher.subscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', handler);
+        });
+    } else if (currentTask === 'STREAM_ON_DESKTOP') {
+        if (!isDesktopClient) {
+            console.log('Discord desktop app required for:', questTitle);
+        }
+
+        const originalGetter = StreamStore.getStreamerActiveStreamMetadata;
+
+        StreamStore.getStreamerActiveStreamMetadata = () => ({
             id: appId,
-            name: appData.name,
-            pid: publicId,
-            pidPath: [publicId],
-            processName: appData.name,
-            start: Date.now(),
-        };
-
-        const originalGames = gamesMod.getRunningGames();
-        const fakeGamesList = [fakeGame];
-
-        const originalGetRunningGames = gamesMod.getRunningGames;
-        const originalGetGameForPID = gamesMod.getGameForPID;
-
-        gamesMod.getRunningGames = () => fakeGamesList;
-        gamesMod.getGameForPID = (pid) => fakeGamesList.find((x) => x.pid === pid);
-
-        flushMod.dispatch({
-            type: 'RUNNING_GAMES_CHANGE',
-            removed: originalGames,
-            added: [fakeGame],
-            games: fakeGamesList,
+            pid: fakePID,
+            sourceName: null,
         });
 
-        const heartbeatHandler = (data) => {
-            const progress =
-                quest.config.configVersion === 1
-                    ? data.userStatus.streamProgressSeconds
-                    : Math.floor(data.userStatus.progress.PLAY_ON_DESKTOP.value);
+        const handler = (data) => {
+            const value = Math.floor(data.userStatus.progress.STREAM_ON_DESKTOP.value);
+            console.log(`Quest progress: ${value}/${requiredSeconds}`);
 
-            console.log(`Progress: ${progress}/${targetTime}`);
-
-            if (progress >= targetTime) {
-                console.log('Task completed successfully!');
-
-                gamesMod.getRunningGames = originalGetRunningGames;
-                gamesMod.getGameForPID = originalGetGameForPID;
-
-                flushMod.dispatch({
-                    type: 'RUNNING_GAMES_CHANGE',
-                    removed: [fakeGame],
-                    added: [],
-                    games: [],
-                });
-
-                flushMod.unsubscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', heartbeatHandler);
+            if (value >= requiredSeconds) {
+                StreamStore.getStreamerActiveStreamMetadata = originalGetter;
+                EventDispatcher.unsubscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', handler);
+                console.log('Quest completed!');
+                executeQuest();
             }
         };
 
-        flushMod.subscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', heartbeatHandler);
-        console.log(
-            `Simulated game for ${appName}. Estimated time left: ${Math.ceil(
-                (targetTime - currentProgress) / 60
-            )} minutes.`
-        );
-    });
-}
+        EventDispatcher.subscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', handler);
+    } else if (currentTask === 'PLAY_ACTIVITY') {
+        const channelId = TextChannelsStore.getSortedPrivateChannels()[0]?.id ?? Object.values(VoiceGuildStore.getAllGuilds()).find((g) => g?.VOCAL?.length)?.VOCAL[0].channel.id;
+
+        const streamKey = `call:${channelId}:1`;
+
+        (async () => {
+            while (true) {
+                const res = await RestAPI.post({
+                    url: `/quests/${quest.id}/heartbeat`,
+                    body: { stream_key: streamKey, terminal: false },
+                });
+
+                const value = res.body.progress.PLAY_ACTIVITY.value;
+                console.log(`Quest progress: ${value}/${requiredSeconds}`);
+
+                if (value >= requiredSeconds) {
+                    await RestAPI.post({
+                        url: `/quests/${quest.id}/heartbeat`,
+                        body: { stream_key: streamKey, terminal: true },
+                    });
+
+                    console.log('Quest completed!');
+                    executeQuest();
+                    break;
+                }
+
+                await new Promise((r) => setTimeout(r, 20000));
+            }
+        })();
+    }
+};
+
+executeQuest();
