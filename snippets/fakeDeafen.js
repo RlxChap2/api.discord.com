@@ -3,6 +3,9 @@
  * Fake Deafen, you may get banned from Discord if you use it with malicious intent.
  */
 
+const find = (typeof findByProps !== 'undefined' && findByProps) || window?.findByProps || window?.Vencord?.Webpack?.findByProps;
+if (!find) throw void console.log('%cYou must run this script first: https://github.com/RlxChap2/api.discord.com/blob/main/data/findByProps.js', 'color:red;font-size:2rem');
+
 let _mods = webpackChunkdiscord_app.push([[Symbol()], {}, (r) => r.c]);
 webpackChunkdiscord_app.pop();
 
@@ -13,11 +16,7 @@ let findByProps = (...props) => {
             if (props.every((x) => m.exports?.[x])) return m.exports;
 
             for (let ex in m.exports) {
-                if (
-                    props.every((x) => m.exports?.[ex]?.[x]) &&
-                    m.exports[ex][Symbol.toStringTag] !== 'IntlMessagesProxy'
-                )
-                    return m.exports[ex];
+                if (props.every((x) => m.exports?.[ex]?.[x]) && m.exports[ex][Symbol.toStringTag] !== 'IntlMessagesProxy') return m.exports[ex];
             }
         } catch {}
     }

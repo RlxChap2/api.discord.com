@@ -8,11 +8,7 @@ let findByType = (...props) => {
             if (props.every((x) => m.exports?.[x])) return m.exports;
 
             for (let ex in m.exports) {
-                if (
-                    props.every((x) => m.exports?.[ex]?.[x]) &&
-                    m.exports[ex][Symbol.toStringTag] !== 'IntlMessagesProxy'
-                )
-                    return m.exports[ex];
+                if (props.every((x) => m.exports?.[ex]?.[x]) && m.exports[ex][Symbol.toStringTag] !== 'IntlMessagesProxy') return m.exports[ex];
             }
         } catch {}
     }
