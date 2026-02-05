@@ -6,7 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "newworldlauncher.exe",
+            "name": "bin64/newworld.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "new world/newworldlauncher.exe",
             "os": "win32"
         },
         {
@@ -16,12 +21,7 @@
         },
         {
             "is_launcher": false,
-            "name": "bin64/newworld.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "new world/newworldlauncher.exe",
+            "name": "newworldlauncher.exe",
             "os": "win32"
         }
     ],
@@ -45,8 +45,8 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "10972070"
+            "distributor": "steam",
+            "id": "1063730"
         },
         {
             "distributor": "xbox",
@@ -57,12 +57,16 @@
             "id": "PPSA07398_00"
         },
         {
-            "distributor": "xbox",
-            "id": "9P9QG255Z8WC"
+            "distributor": "playstation",
+            "id": "PPSA21575_00"
         },
         {
-            "distributor": "steam",
-            "id": "1063730"
+            "distributor": "xbox",
+            "id": "9NZXV2K8KGJN"
+        },
+        {
+            "distributor": "gdco",
+            "id": "10972070"
         },
         {
             "distributor": "playstation",
@@ -70,11 +74,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NZXV2K8KGJN"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA21575_00"
+            "id": "9P9QG255Z8WC"
         }
     ]
 }
