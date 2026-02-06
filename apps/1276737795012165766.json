@@ -3,8 +3,13 @@
     "cover_image_hash": "5e4f669c3156b0d93daac9592630262a",
     "executables": [
         {
-            "is_launcher": false,
+            "is_launcher": true,
             "name": "win64/project8.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/deadlock.exe",
             "os": "win32"
         }
     ],
@@ -15,7 +20,7 @@
     "name": "Deadlock",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action"
