@@ -5,13 +5,13 @@
     "cover_image_hash": "c1864b38910c209afd5bf6423b672022",
     "executables": [
         {
-            "is_launcher": true,
-            "name": "fortniteclient-win64-shipping_eac_eos.exe",
+            "is_launcher": false,
+            "name": "fortniteclient-win64-shipping.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "fortniteclient-win64-shipping.exe",
+            "is_launcher": true,
+            "name": "fortniteclient-win64-shipping_eac_eos.exe",
             "os": "win32"
         },
         {
@@ -42,8 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "CUSA07669_00"
+            "distributor": "xbox",
+            "id": "9N84B8L89PDW"
+        },
+        {
+            "distributor": "gdco",
+            "id": "132146"
         },
         {
             "distributor": "xbox",
@@ -51,19 +55,23 @@
         },
         {
             "distributor": "playstation",
-            "id": "EXPDGL0000000000"
+            "id": "CUSA07669_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "Fortnite"
         },
         {
             "distributor": "xbox",
             "id": "BT5P2X999VH2"
         },
         {
-            "distributor": "gdco",
-            "id": "132146"
+            "distributor": "playstation",
+            "id": "PPSA01922_00"
         },
         {
-            "distributor": "epic",
-            "id": "Fortnite"
+            "distributor": "xbox",
+            "id": "BXWNX8ST04JS"
         },
         {
             "distributor": "playstation",
@@ -74,8 +82,8 @@
             "id": "9NM62SDWFBBG"
         },
         {
-            "distributor": "xbox",
-            "id": "BXWNX8ST04JS"
+            "distributor": "playstation",
+            "id": "CUSA07022_00"
         },
         {
             "distributor": "epic",
@@ -83,23 +91,15 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA01922_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MW1TQ8MNZ1G"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9N84B8L89PDW"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA07022_00"
+            "id": "EXPDGL0000000000"
         },
         {
             "distributor": "playstation",
             "id": "PPSA01923_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MW1TQ8MNZ1G"
         }
     ]
 }
