@@ -1,94 +1,89 @@
 # Gathering Discord API
 
-::: danger
-This project is intended strictly for **educational and research purposes**.  
-The author does **NOT** endorse or encourage any form of Discord ToS violation, malicious activity, or client modification.  
-Use at your own risk.
+::: danger Disclaimer
+This project is intended strictly for **educational and research purposes**.
+The author does not endorse, encourage, or support any form of Discord Terms of Service (ToS) violations, malicious activities, or unauthorized client modifications. Proceed at your own risk.
 :::
 
-## 🔍 Overview
+## Introduction
 
-Gathering Discord API provides a set of **client-side utility functions** to analyze Discord's web client via its webpack module system.  
-Includes:
+Gathering Discord API provides a comprehensive set of client-side utility functions designed to analyze Discord's web client architecture. By interacting with the underlying Webpack module system, this project offers tools and methodologies for developers and researchers to understand the internal structure and data flow of a large-scale React application.
 
-- Module discovery helpers
-- Webpack chunk inspection techniques
-- Tools for understanding the internal structure of Discord's client
+This documentation is structured to guide both experienced developers and curious learners through the technical aspects of client-side module discovery.
 
-## 🛠️ Technical Components
+## Core Mechanisms
 
-### Webpack Module Access
+### Webpack Module Interception
 
-```js
+Modern web applications like Discord bundle their JavaScript code using Webpack. The following approach intercepts these chunks to access the internal module cache safely for observation and analysis:
+
+```javascript
 let _mods;
 webpackChunkdiscord_app.push([[Symbol()], {}, (r) => (_mods = r.c)]);
 webpackChunkdiscord_app.pop();
 ```
 
-Intercepts Discord's webpack chunks to access the module cache.
+### Module Property Discovery
 
-### Module Property Search
+Once the module cache is accessible, we utilize a recursive search function to locate specific internal properties and methods exported by the application.
 
-```js
+```javascript
 const findByProps = (...props) => {
-  // Implementation details...
+    // Recursive search implementation details...
 };
 ```
 
-A recursive module finder that searches through webpack exports to locate specific properties.
+## Practical Examples
 
-## 💡 Usage Examples
+By utilizing the discovery tools, researchers can observe how the client structures its internal data stores. These examples demonstrate how to locate specific modules within the client's memory.
 
-```js
-// Find Discord's MessageStore
-const MessageStore = findByProps("getMessage", "getMessages");
+```javascript
+// Locate the internal MessageStore
+const MessageStore = findByProps('getMessage', 'getMessages');
 
-// Access user information
-const UserStore = findByProps("getCurrentUser", "getUser");
+// Locate the internal UserStore
+const UserStore = findByProps('getCurrentUser', 'getUser');
 ```
 
-## 🛑 Ethical Considerations
+## Ethical Guidelines & Acceptable Use
 
-**Never use this project for:**
+This project is built on the principle of academic and technical exploration. **You are strictly prohibited from using this documentation or its associated code for:**
 
-- Harvesting user data
-- Client modification or redistribution
-- Bypassing Discord security measures
-- Creating self-bots or spam tools
-- Any malicious activity
+- Harvesting or scraping user data.
+- Developing or distributing unauthorized client modifications.
+- Bypassing built-in security measures or rate limits.
+- Creating self-bots, spam tools, or automated user accounts.
+- Any activity that negatively impacts the Discord platform or its users.
 
-Always use responsibly and ethically.
+## Legal Notice
 
-## 📜 Legal Notice
+By accessing or utilizing any part of this project, you acknowledge that:
 
-By using this code, you acknowledge that:
+- You assume full responsibility and liability for your actions.
+- You understand the implications of the Discord Terms of Service.
+- The original author bears no responsibility for any misuse, account penalties, or legal consequences resulting from the application of this knowledge.
 
-- You are solely responsible for your actions
-- You will not use it for malicious purposes
-- You understand Discord's Terms of Service implications
-- The author bears no liability for misuse
+_Note: This project is completely independent and is not affiliated with, supported, or endorsed by Discord Inc._
 
-This project is **not affiliated with Discord Inc.**
+## Frequently Asked Questions
 
-## 📌 FAQ
+**Is it safe to analyze the client in this manner?**
+There are inherent risks in observing and interacting with undocumented client internals. This should only be done in controlled, isolated testing environments.
 
-**Q: Is this safe to use?**
-A: There are inherent risks in analyzing the client. Proceed with caution.
+**Will using these techniques result in an account ban?**
+Yes. Any unauthorized client manipulation or automation directly violates Discord's Terms of Service and is highly likely to result in permanent account termination.
 
-**Q: Will this get me banned?**
-A: Any client manipulation violates Discord ToS and may result in account termination.
+**Can I integrate this into my official Discord bot?**
+No. Legitimate, automated bots must exclusively use the official, documented [Discord Developer API](https://discord.com/developers/docs/intro).
 
-**Q: Can I use this for my bot?**
-A: Official bots should use **Discord's documented API only**.
+## Contribution Guidelines
 
-## 🧑💻 Contribution Guidelines
+Contributions to the documentation and educational examples are welcome, provided they adhere to the following standards:
 
-- PRs must maintain ethical standards
-- No ToS-violating features
-- Educational focus only
-- Include proper warnings
+- Maintain a strict focus on education and research.
+- Do not introduce features or tools designed to violate the platform's ToS.
+- Ensure all code submissions include appropriate ethical warnings.
 
-## 📝 License
+## License
 
-This project is licensed under the [MIT License](https://github.com/RlxChap2/api.discord.com?tab=MIT-1-ov-file#readme).
-By using this code, you acknowledge full responsibility for your actions.
+This project is open-source and licensed under the [MIT License](https://github.com/RlxChap2/api.discord.com?tab=MIT-1-ov-file#readme).
