@@ -4,8 +4,7 @@
  * The identifier is assembled at runtime to reduce direct exposure
  * and make static analysis or hard-coding more difficult.
  *
- * @version 2.0.0
- * @updated 2026-01-25
+ * @version 2.1.0
  */
 
 delete window.$;
@@ -27,7 +26,6 @@ StreamStore = webpackModules.find((m) => m?.exports?.Z?.__proto__?.getStreamerAc
 
 if (!StreamStore) {
     StreamStore = webpackModules.find((m) => m?.exports?.A?.__proto__?.getStreamerActiveStreamMetadata).exports.A;
-
     GameProcessStore = webpackModules.find((m) => m?.exports?.Ay?.getRunningGames).exports.Ay;
     QuestDataStore = webpackModules.find((m) => m?.exports?.A?.__proto__?.getQuest).exports.A;
     TextChannelsStore = webpackModules.find((m) => m?.exports?.A?.__proto__?.getAllThreadsForParent).exports.A;
@@ -111,12 +109,13 @@ const executeQuest = () => {
         console.log(`Spoofing video for ${questTitle}.`);
     } else if (currentTask === 'PLAY_ON_DESKTOP') {
         if (!isDesktopClient) {
-            console.log('Discord desktop app required for:', questTitle);
+            console.log(`This no longer works in browser for non-video quests. Use the discord desktop app to complete the ${questTitle} quest!`);
+            return;
         }
 
         RestAPI.get({ url: `/applications/public?application_ids=${appId}` }).then((res) => {
             const app = res.body[0];
-            const exe = app.executables.find((e) => e.os === 'win32').name.replace('>', '');
+            const exe = app.executables?.find((e) => e.os === 'win32')?.name?.replace('>', '') ?? app.name.replace(/[\/\\:*?"<>|]/g, '');
 
             const virtualGame = {
                 cmdLine: `C:\\Program Files\\${app.name}\\${exe}`,
@@ -137,7 +136,7 @@ const executeQuest = () => {
             const originalGetPID = GameProcessStore.getGameForPID;
 
             GameProcessStore.getRunningGames = () => [virtualGame];
-            GameProcessStore.getGameForPID = (pid) => virtualGame.pid === pid && virtualGame;
+            GameProcessStore.getGameForPID = (pid) => (virtualGame.pid === pid ? virtualGame : undefined);
 
             EventDispatcher.dispatch({
                 type: 'RUNNING_GAMES_CHANGE',
@@ -147,7 +146,8 @@ const executeQuest = () => {
             });
 
             const handler = (data) => {
-                const value = Math.floor(data.userStatus.progress.PLAY_ON_DESKTOP.value);
+                const value = quest.config.configVersion === 1 ? data.userStatus.streamProgressSeconds : Math.floor(data.userStatus.progress.PLAY_ON_DESKTOP.value);
+
                 console.log(`Quest progress: ${value}/${requiredSeconds}`);
 
                 if (value >= requiredSeconds) {
@@ -168,10 +168,12 @@ const executeQuest = () => {
             };
 
             EventDispatcher.subscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', handler);
+            console.log(`Spoofed your game to ${appName}. Wait for ${Math.ceil((requiredSeconds - progressSeconds) / 60)} more minutes.`);
         });
     } else if (currentTask === 'STREAM_ON_DESKTOP') {
         if (!isDesktopClient) {
-            console.log('Discord desktop app required for:', questTitle);
+            console.log(`This no longer works in browser for non-video quests. Use the discord desktop app to complete the ${questTitle} quest!`);
+            return;
         }
 
         const originalGetter = StreamStore.getStreamerActiveStreamMetadata;
@@ -183,7 +185,8 @@ const executeQuest = () => {
         });
 
         const handler = (data) => {
-            const value = Math.floor(data.userStatus.progress.STREAM_ON_DESKTOP.value);
+            const value = quest.config.configVersion === 1 ? data.userStatus.streamProgressSeconds : Math.floor(data.userStatus.progress.STREAM_ON_DESKTOP.value);
+
             console.log(`Quest progress: ${value}/${requiredSeconds}`);
 
             if (value >= requiredSeconds) {
@@ -195,12 +198,15 @@ const executeQuest = () => {
         };
 
         EventDispatcher.subscribe('QUESTS_SEND_HEARTBEAT_SUCCESS', handler);
+        console.log(`Spoofed your stream to ${appName}. Stream any window in vc for ${Math.ceil((requiredSeconds - progressSeconds) / 60)} more minutes.`);
+        console.log('Remember that you need at least 1 other person to be in the vc!');
     } else if (currentTask === 'PLAY_ACTIVITY') {
-        const channelId = TextChannelsStore.getSortedPrivateChannels()[0]?.id ?? Object.values(VoiceGuildStore.getAllGuilds()).find((g) => g?.VOCAL?.length)?.VOCAL[0].channel.id;
-
+        const channelId = TextChannelsStore.getSortedPrivateChannels()[0]?.id ?? Object.values(VoiceGuildStore.getAllGuilds()).find((g) => g != null && g.VOCAL?.length > 0)?.VOCAL[0].channel.id;
         const streamKey = `call:${channelId}:1`;
 
         (async () => {
+            console.log(`Completing quest ${questTitle} - ${quest.config.messages.questName}`);
+
             while (true) {
                 const res = await RestAPI.post({
                     url: `/quests/${quest.id}/heartbeat`,
@@ -227,4 +233,6 @@ const executeQuest = () => {
     }
 };
 
-executeQuest();
+if (activeQuests.length > 0) {
+    executeQuest();
+}
