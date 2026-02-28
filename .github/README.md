@@ -4,7 +4,7 @@
 
 **Advanced Webpack Module Analysis & Research Framework**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](../LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
 [![Educational Purposes](https://img.shields.io/badge/Purpose-Educational-yellow.svg)]()
 
@@ -45,11 +45,13 @@
 
 ## 🚀 Quick Start (One-Liner)
 
-To load the entire utility suite dynamically without manually pasting large blocks of code, you can inject the latest build directly from the repository using this snippet in your console:
+To quickly execute a specific utility without manually pasting large blocks of code, you can inject individual snippets directly from the repository into your console.
+
+**Example: Running the Quest Solver (`quest.js`)**
 
 ```javascript
-// Fetches and executes the utilities directly from the repository
-fetch('https://raw.githubusercontent.com/RlxChap2/api.discord.com/main/snippets/quest.js')
+// Fetches and executes the Quest Solver directly from the repository
+fetch('[https://raw.githubusercontent.com/RlxChap2/api.discord.com/main/snippets/quest.js](https://raw.githubusercontent.com/RlxChap2/api.discord.com/main/snippets/quest.js)')
     .then((response) => response.text())
     .then((script) => eval(script))
     .catch(console.error);
