@@ -11,10 +11,11 @@
         "start": "node index.js",
         "logger": "node logger.js",
         "snippets": "node snippets.js",
-        "push": "npm run snippets && git add . && git commit -m \"(Fix) Upgrade Node.js to v20 for VitePress v2 support\" && git push",
+        "generate-pages": "node generate-pages.js",
+        "push": "npm run snippets && git add . && git commit -m \"Finalize GitHub Actions deployment workflow\" && git push",
         "compile": "node compile.js",
-        "docs:build": "cd docs && npm run build",
-        "docs:dev": "cd docs && npm run dev"
+        "docs:build": "npm run generate-pages && cd docs && npm run build",
+        "docs:dev": "npm run generate-pages && cd docs && npm run dev"
     },
     "keywords": [],
     "author": "RlxChap2",

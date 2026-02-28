@@ -1,5 +1,5 @@
 # Quest Code Snippet
 
-This is a **quest** code snippet.
+This is a **Quest** code snippet.
 
-<<< ../snippets/quest.js
+<<< ../snippets/Quest.js

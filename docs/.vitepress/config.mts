@@ -1,4 +1,29 @@
 import { defineConfig } from 'vitepress';
+import fs from 'fs';
+import path from 'path';
+
+function getExamplesSidebar() {
+    const items = [{ text: 'Examples Hub', link: '/examples/examples-hub' }];
+
+    const snippetsDir1 = path.resolve('docs/snippets');
+    const snippetsDir2 = path.resolve('snippets');
+
+    const targetDir = fs.existsSync(snippetsDir1) ? snippetsDir1 : fs.existsSync(snippetsDir2) ? snippetsDir2 : null;
+
+    if (targetDir) {
+        const files = fs.readdirSync(targetDir).filter((file) => file.endsWith('.js'));
+
+        files.forEach((file) => {
+            const name = file.replace('.js', '');
+
+            const title = name.charAt(0).toUpperCase() + name.slice(1);
+
+            items.push({ text: title, link: `/examples/${name}` });
+        });
+    }
+
+    return items;
+}
 
 export default defineConfig({
     base: '/api.discord.com/',
@@ -16,10 +41,7 @@ export default defineConfig({
             '/examples/': [
                 {
                     text: 'Examples',
-                    items: [
-                        { text: 'Examples Hub', link: '/examples/examples-hub' },
-                        { text: 'Quest', link: '/examples/quest' },
-                    ],
+                    items: getExamplesSidebar(),
                 },
             ],
             '/docs/': [
