@@ -33,7 +33,10 @@ jobs:
                   cd docs && npm install || true
 
             - name: Generate Snippets
-              run: npm run snippets
+              run: |
+                  npm run snippets
+                  mkdir -p docs/snippets
+                  cp -R snippets/* docs/snippets/ || true
 
             - name: Build with VitePress
               run: npm run docs:build
