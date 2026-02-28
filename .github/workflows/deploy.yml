@@ -32,6 +32,9 @@ jobs:
                   npm install
                   cd docs && npm install || true
 
+            - name: Generate Snippets
+              run: npm run snippets
+
             - name: Build with VitePress
               run: npm run docs:build
 
