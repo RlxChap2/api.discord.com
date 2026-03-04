@@ -7,12 +7,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/tslgame_uc.exe",
+            "name": "win64/tslgame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "tslgame.exe",
+            "name": "win64/tslgame_uc.exe",
             "os": "win32"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/tslgame.exe",
+            "name": "tslgame.exe",
             "os": "win32"
         },
         {
@@ -51,32 +51,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA27363_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14085_00"
-        },
-        {
             "distributor": "xbox",
             "id": "C0MN5DN8KR3F"
-        },
-        {
-            "distributor": "igdb",
-            "id": "27789"
-        },
-        {
-            "distributor": "steam",
-            "id": "578080"
         },
         {
             "distributor": "playstation",
             "id": "PPSA27367_00"
         },
         {
-            "distributor": "gdco",
-            "id": "68348"
+            "distributor": "steam",
+            "id": "578080"
         },
         {
             "distributor": "epic",
@@ -84,15 +68,31 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA14380_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA14391_00"
+            "id": "PPSA27363_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA14081_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14380_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14085_00"
+        },
+        {
+            "distributor": "igdb",
+            "id": "27789"
+        },
+        {
+            "distributor": "gdco",
+            "id": "68348"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA14391_00"
         }
     ]
 }
