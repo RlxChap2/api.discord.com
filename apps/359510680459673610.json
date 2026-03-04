@@ -8,12 +8,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bf4.exe",
+            "name": "bf4cte.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bf4cte.exe",
+            "name": "bf4.exe",
             "os": "win32"
         }
     ],
@@ -32,6 +32,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "CUSA00049_00"
+        },
+        {
             "distributor": "origin",
             "id": null
         },
@@ -40,12 +44,16 @@
             "id": "CUSA00157_00"
         },
         {
-            "distributor": "igdb",
-            "id": "1979"
-        },
-        {
             "distributor": "xbox",
             "id": "C3JM9MMHTGGJ"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00110_00"
+        },
+        {
+            "distributor": "igdb",
+            "id": "1979"
         },
         {
             "distributor": "xbox",
@@ -54,14 +62,6 @@
         {
             "distributor": "gdco",
             "id": "7868"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00049_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00110_00"
         }
     ]
 }
