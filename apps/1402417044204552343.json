@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "ddnet/ddnet-server.exe",
+            "name": "ddnet/ddnet.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "ddnet/ddnet.exe",
+            "name": "ddnet/ddnet-server.exe",
             "os": "win32"
         }
     ],
@@ -33,6 +33,10 @@
         "Action"
     ],
     "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "136770"
+        },
         {
             "distributor": "steam",
             "id": "412220"

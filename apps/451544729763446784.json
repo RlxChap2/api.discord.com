@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "rift_x64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "rift.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "rift/glyphclientapp.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "rift_x64.exe",
             "os": "win32"
         }
     ],
@@ -31,6 +31,10 @@
     "overlay_warn": false,
     "themes": [],
     "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "489"
+        },
         {
             "distributor": "steam",
             "id": "39120"

@@ -11,13 +11,13 @@
         },
         {
             "is_launcher": false,
-            "name": "csgo_linux64",
-            "os": "linux"
+            "name": "csgo_osx64.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "csgo_osx64.app",
-            "os": "darwin"
+            "name": "csgo_linux64",
+            "os": "linux"
         }
     ],
     "hook": true,
@@ -38,5 +38,10 @@
         "Action",
         "Warfare"
     ],
-    "third_party_skus": []
+    "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "1372"
+        }
+    ]
 }
