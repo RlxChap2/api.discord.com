@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/crabchampions-win64-shipping.exe",
+            "name": "crabchampions-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "crabchampions-win64-shipping.exe",
+            "name": "win64/crabchampions-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -29,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "133379"
-        },
-        {
             "distributor": "steam",
             "id": "774801"
+        },
+        {
+            "distributor": "igdb",
+            "id": "133379"
         }
     ]
 }
