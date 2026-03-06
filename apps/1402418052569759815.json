@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "steam/gears5.exe",
+            "name": "gears5.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gears5.exe",
+            "name": "steam/gears5.exe",
             "os": "win32"
         }
     ],
@@ -35,6 +35,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "igdb",
+            "id": "103292"
+        },
+        {
             "distributor": "steam",
             "id": "1097840"
         },
@@ -45,10 +49,6 @@
         {
             "distributor": "gdco",
             "id": "37157"
-        },
-        {
-            "distributor": "igdb",
-            "id": "103292"
         }
     ]
 }
