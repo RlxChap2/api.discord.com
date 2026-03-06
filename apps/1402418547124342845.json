@@ -7,12 +7,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "gtaiv/playgtaiv.exe",
+            "name": "gtaiv.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gtaiv.exe",
+            "name": "gtaiv/playgtaiv.exe",
             "os": "win32"
         }
     ],
@@ -36,12 +36,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "12210"
-        },
-        {
             "distributor": "igdb",
             "id": "731"
+        },
+        {
+            "distributor": "steam",
+            "id": "12210"
         }
     ]
 }
