@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "grid2.exe",
+            "name": "grid2_avx.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "grid2_avx.exe",
+            "name": "grid2.exe",
             "os": "win32"
         }
     ],
@@ -29,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "2138"
-        },
-        {
             "distributor": "steam",
             "id": "44350"
+        },
+        {
+            "distributor": "igdb",
+            "id": "2138"
         }
     ]
 }
