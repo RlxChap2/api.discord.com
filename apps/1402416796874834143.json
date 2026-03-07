@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "sekiro/sekiro.exe",
+            "name": "sekiro.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "sekiro.exe",
+            "name": "sekiro/sekiro.exe",
             "os": "win32"
         }
     ],
@@ -37,12 +37,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "76882"
-        },
-        {
             "distributor": "steam",
             "id": "814380"
+        },
+        {
+            "distributor": "igdb",
+            "id": "76882"
         }
     ]
 }
