@@ -3,13 +3,13 @@
     "cover_image_hash": "88c75ce2d5b02bbf168129e98396e51a",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "hytaleclient.exe",
+            "is_launcher": true,
+            "name": "hytale-launcher.exe",
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "hytale-launcher.exe",
+            "is_launcher": false,
+            "name": "hytaleclient.exe",
             "os": "win32"
         }
     ],
@@ -22,10 +22,6 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Fantasy",
-        "Sandbox"
-    ],
+    "themes": [],
     "third_party_skus": []
 }

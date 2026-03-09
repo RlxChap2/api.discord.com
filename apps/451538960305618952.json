@@ -16,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "daorigins.exe",
+            "name": "redist/dauservicesetup_steam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "redist/dauservicesetup_steam.exe",
+            "name": "daorigins.exe",
             "os": "win32"
         }
     ],
@@ -34,16 +34,8 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Fantasy",
-        "Open world"
-    ],
+    "themes": [],
     "third_party_skus": [
-        {
-            "distributor": "igdb",
-            "id": "27911"
-        },
         {
             "distributor": "steam",
             "id": "47810"
@@ -51,6 +43,10 @@
         {
             "distributor": "epic",
             "id": "AA0BF256813A423F8705093D696065B4"
+        },
+        {
+            "distributor": "igdb",
+            "id": "27911"
         }
     ]
 }

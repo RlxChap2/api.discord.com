@@ -11,6 +11,11 @@
         },
         {
             "is_launcher": false,
+            "name": "bloonstd6/bloonstd6.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "bloonstd6.exe",
             "os": "win32"
         },
@@ -18,11 +23,6 @@
             "is_launcher": false,
             "name": "bloonstd6/bloonstd6.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "bloonstd6/bloonstd6.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
@@ -39,22 +39,27 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Kids"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "CUSA29953_00"
+            "distributor": "steam",
+            "id": "960090"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.ninjakiwi.bloonstd6"
         },
         {
             "distributor": "epic",
             "id": "6A8DFA6E441E4F2F9048A98776C6077D"
         },
         {
-            "distributor": "google_play",
-            "id": "com.ninjakiwi.bloonstd6"
+            "distributor": "xbox",
+            "id": "9NDDVJV54MSC"
+        },
+        {
+            "distributor": "igdb",
+            "id": "103380"
         },
         {
             "distributor": "gdco",
@@ -69,16 +74,8 @@
             "id": "CUSA29954_00"
         },
         {
-            "distributor": "igdb",
-            "id": "103380"
-        },
-        {
-            "distributor": "steam",
-            "id": "960090"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NDDVJV54MSC"
+            "distributor": "playstation",
+            "id": "CUSA29953_00"
         }
     ]
 }

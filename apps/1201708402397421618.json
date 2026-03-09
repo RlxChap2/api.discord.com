@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "raid.exe",
-            "os": "win32"
+            "name": "raid.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "raid.app",
-            "os": "darwin"
+            "name": "raid.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -27,22 +27,19 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [
-        "Action",
-        "Fantasy"
-    ],
+    "themes": [],
     "third_party_skus": [
         {
             "distributor": "epic",
             "id": "F42AD298A6C84EE284DD45995E14BA3C"
         },
         {
-            "distributor": "steam",
-            "id": "2333480"
-        },
-        {
             "distributor": "igdb",
             "id": "109029"
+        },
+        {
+            "distributor": "steam",
+            "id": "2333480"
         }
     ]
 }
