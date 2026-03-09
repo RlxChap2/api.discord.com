@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "crossout-d3d9.exe",
+            "name": "crossout.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "crossout.exe",
+            "name": "crossout-d3d9.exe",
             "os": "win32"
         }
     ],
@@ -22,11 +22,17 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action"
+    ],
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "CUSA09648_00"
+            "id": "PPSA02186_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PMPPXZSF88C"
         },
         {
             "distributor": "xbox",
@@ -38,7 +44,19 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA02186_00"
+            "id": "PPSA02187_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "386180"
+        },
+        {
+            "distributor": "igdb",
+            "id": "34894"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA02188_00"
         },
         {
             "distributor": "gdco",
@@ -46,23 +64,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA02187_00"
-        },
-        {
-            "distributor": "igdb",
-            "id": "34894"
-        },
-        {
-            "distributor": "steam",
-            "id": "386180"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA02188_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PMPPXZSF88C"
+            "id": "CUSA09648_00"
         },
         {
             "distributor": "playstation",

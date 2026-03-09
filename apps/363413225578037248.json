@@ -4,12 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "elitedangerous.exe",
+            "name": "elitedangerous64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "elitedangerous64.exe",
+            "name": "elitedangerous.exe",
             "os": "win32"
         },
         {
@@ -27,15 +27,20 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Sandbox",
+        "Open world"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "epic",
-            "id": "3DB17ABFD650423F993291624B1B2AC1"
-        },
         {
             "distributor": "igdb",
             "id": "2955"
+        },
+        {
+            "distributor": "epic",
+            "id": "3DB17ABFD650423F993291624B1B2AC1"
         },
         {
             "distributor": "steam",

@@ -11,13 +11,13 @@
         },
         {
             "is_launcher": false,
-            "name": "hoi4.exe",
-            "os": "win32"
+            "name": "hoi4",
+            "os": "linux"
         },
         {
             "is_launcher": false,
-            "name": "hoi4",
-            "os": "linux"
+            "name": "hoi4.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -29,15 +29,18 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Historical",
+        "Warfare"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "igdb",
-            "id": "15894"
-        },
         {
             "distributor": "steam",
             "id": "394360"
+        },
+        {
+            "distributor": "igdb",
+            "id": "15894"
         }
     ]
 }

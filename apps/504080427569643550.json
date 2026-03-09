@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "tomb raider anniversary/tra.exe",
+            "name": "tra.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "tra.exe",
+            "name": "tomb raider anniversary/tra.exe",
             "os": "win32"
         }
     ],
@@ -24,23 +24,21 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "igdb",
-            "id": "1162"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA27718_00"
-        },
-        {
-            "distributor": "igdb",
-            "id": "370001"
-        },
         {
             "distributor": "gdco",
             "id": "96948"
+        },
+        {
+            "distributor": "steam",
+            "id": "8000"
+        },
+        {
+            "distributor": "igdb",
+            "id": "1162"
         },
         {
             "distributor": "gdco",
@@ -48,11 +46,15 @@
         },
         {
             "distributor": "igdb",
-            "id": "312286"
+            "id": "370001"
         },
         {
-            "distributor": "steam",
-            "id": "8000"
+            "distributor": "playstation",
+            "id": "PPSA27718_00"
+        },
+        {
+            "distributor": "igdb",
+            "id": "312286"
         },
         {
             "distributor": "playstation",

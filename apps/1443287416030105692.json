@@ -4,17 +4,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "stormheartsteam-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "stormlancersdemo.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "stormlancersdemosteam-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "stormheartsteam-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -27,8 +27,16 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Party"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "746E04DC3B034B7DBD9CE2A5DF2DCB8C"
+        },
         {
             "distributor": "igdb",
             "id": "362635"
@@ -36,10 +44,6 @@
         {
             "distributor": "steam",
             "id": "4046570"
-        },
-        {
-            "distributor": "epic",
-            "id": "746E04DC3B034B7DBD9CE2A5DF2DCB8C"
         }
     ]
 }

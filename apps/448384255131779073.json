@@ -9,12 +9,12 @@
         },
         {
             "is_launcher": false,
-            "name": "star trek online/live/gameclient.exe",
+            "name": "star trek online.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "star trek online.exe",
+            "name": "star trek online/live/gameclient.exe",
             "os": "win32"
         },
         {
@@ -32,8 +32,16 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Warfare"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "9900"
+        },
         {
             "distributor": "epic",
             "id": "06A97980AAC14FDFB914EF603A113792"
@@ -41,10 +49,6 @@
         {
             "distributor": "igdb",
             "id": "7584"
-        },
-        {
-            "distributor": "steam",
-            "id": "9900"
         }
     ]
 }

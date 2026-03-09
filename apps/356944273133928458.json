@@ -6,17 +6,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "brawlhalla.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "brawlhalla.app",
             "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "brawlhalla/brawlhallagame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "brawlhalla.exe",
             "os": "win32"
         },
         {
@@ -34,15 +34,23 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Historical"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "steam",
-            "id": "291550"
-        },
         {
             "distributor": "gdco",
             "id": "11363"
+        },
+        {
+            "distributor": "igdb",
+            "id": "10233"
+        },
+        {
+            "distributor": "steam",
+            "id": "291550"
         },
         {
             "distributor": "playstation",
@@ -54,10 +62,6 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA16606_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA04195_00"
         },
         {
@@ -65,8 +69,8 @@
             "id": "C3B1V55CDL0C"
         },
         {
-            "distributor": "igdb",
-            "id": "10233"
+            "distributor": "playstation",
+            "id": "CUSA16606_00"
         }
     ]
 }

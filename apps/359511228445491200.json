@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "gw2.exe",
+            "name": "gw2-64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "guild wars 2 64-bit.app",
-            "os": "darwin"
+            "name": "gw2.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -19,8 +19,8 @@
         },
         {
             "is_launcher": false,
-            "name": "gw2-64.exe",
-            "os": "win32"
+            "name": "guild wars 2 64-bit.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -32,12 +32,10 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Fantasy"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "igdb",
-            "id": "1183"
-        },
         {
             "distributor": "steam",
             "id": "27271"
@@ -45,6 +43,10 @@
         {
             "distributor": "steam",
             "id": "1284210"
+        },
+        {
+            "distributor": "igdb",
+            "id": "1183"
         }
     ]
 }

@@ -17,19 +17,19 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "igdb",
+            "id": "190964"
+        },
         {
             "distributor": "epic",
             "id": "489AF623D8284D518502F8EE9D33B828"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA48468_00"
-        },
-        {
-            "distributor": "steam",
-            "id": "1796580"
         },
         {
             "distributor": "xbox",
@@ -40,12 +40,16 @@
             "id": "PPSA22581_00"
         },
         {
+            "distributor": "steam",
+            "id": "1796580"
+        },
+        {
             "distributor": "gdco",
             "id": "82047"
         },
         {
-            "distributor": "igdb",
-            "id": "190964"
+            "distributor": "playstation",
+            "id": "CUSA48468_00"
         }
     ]
 }
