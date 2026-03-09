@@ -6,12 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "trine.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
+            "name": "trine1_32bit.exe",
             "os": "win32"
         },
         {
@@ -21,8 +16,13 @@
         },
         {
             "is_launcher": false,
-            "name": "trine1_32bit.exe",
+            "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "trine.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -42,20 +42,20 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "35700"
+            "distributor": "igdb",
+            "id": "51800"
         },
         {
             "distributor": "discord",
             "id": "494709638487343107"
         },
         {
-            "distributor": "igdb",
-            "id": "51800"
-        },
-        {
             "distributor": "epic",
             "id": "955298A66E774A858D59E4FB83562C1B"
+        },
+        {
+            "distributor": "steam",
+            "id": "35700"
         }
     ]
 }
