@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "b1197ee2ae1a2ed506a9836133d504ea",
     "id": "1124351732240101469",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1040120069138681906",
+            "type": 2
+        }
+    ],
     "name": "Banana Shooter",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -22,12 +27,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1949740"
-        },
-        {
             "distributor": "igdb",
             "id": "195285"
+        },
+        {
+            "distributor": "steam",
+            "id": "1949740"
         }
     ]
 }

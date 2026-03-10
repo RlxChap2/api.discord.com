@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "791f19be2642d00e2b78b58f5436d3a5",
     "id": "363408709495291934",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "504513261052362767",
+            "type": 2
+        }
+    ],
     "name": "Depth",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -25,12 +30,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "11291"
-        },
-        {
             "distributor": "steam",
             "id": "274940"
+        },
+        {
+            "distributor": "igdb",
+            "id": "11291"
         }
     ]
 }
