@@ -7,6 +7,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "sc2_x64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "starcraft ii.exe",
             "os": "win32"
         },
@@ -18,11 +23,6 @@
         {
             "is_launcher": false,
             "name": "sc2.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "sc2_x64.exe",
             "os": "win32"
         }
     ],
@@ -42,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "136312"
-        },
-        {
             "distributor": "battlenet",
             "id": null
+        },
+        {
+            "distributor": "igdb",
+            "id": "136312"
         }
     ]
 }
