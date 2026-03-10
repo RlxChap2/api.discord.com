@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "abyssonline/abyss.exe",
+            "name": "win64/abyss-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/abyss-win64-shipping.exe",
+            "name": "abyssonline/abyss.exe",
             "os": "win32"
         }
     ],
@@ -29,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "265405"
-        },
-        {
             "distributor": "steam",
             "id": "2493960"
+        },
+        {
+            "distributor": "igdb",
+            "id": "265405"
         }
     ]
 }
