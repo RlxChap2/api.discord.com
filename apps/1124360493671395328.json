@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "ef90d34fc591effd4abddadbe5f8f97f",
     "id": "1124360493671395328",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "757592653402734686",
+            "type": 2
+        }
+    ],
     "name": "APICO",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,16 +29,28 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "playstation",
+            "id": "PPSA06935_00"
+        },
+        {
+            "distributor": "igdb",
+            "id": "135929"
+        },
+        {
             "distributor": "xbox",
             "id": "9NBRHXKBGBWB"
+        },
+        {
+            "distributor": "steam",
+            "id": "1390190"
         },
         {
             "distributor": "epic",
             "id": "993226FAD45B4F5E85FAE066C6AA5FC5"
         },
         {
-            "distributor": "steam",
-            "id": "1390190"
+            "distributor": "playstation",
+            "id": "CUSA31810_00"
         },
         {
             "distributor": "playstation",
@@ -46,18 +63,6 @@
         {
             "distributor": "gdco",
             "id": "4498"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA06935_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA31810_00"
-        },
-        {
-            "distributor": "igdb",
-            "id": "135929"
         }
     ]
 }

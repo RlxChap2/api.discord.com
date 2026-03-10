@@ -1,6 +1,6 @@
 {
     "aliases": [],
-    "cover_image_hash": "9c37d67bdba3a197fab7fea356bbbde5",
+    "cover_image_hash": "b6e79a51ca893cfe1be465352c656ba3",
     "executables": [
         {
             "is_launcher": false,
@@ -9,9 +9,14 @@
         }
     ],
     "hook": true,
-    "icon_hash": "808d77f9a931f360bb74a6bac3877e01",
+    "icon_hash": "b8bb0ce2116f7127c4de7a65f4cb2f6b",
     "id": "1403784977216307352",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1360770918732796117",
+            "type": 2
+        }
+    ],
     "name": "Sandboxels",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "187147"
-        },
-        {
             "distributor": "steam",
             "id": "3664820"
+        },
+        {
+            "distributor": "igdb",
+            "id": "187147"
         }
     ]
 }
