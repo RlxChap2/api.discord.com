@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "a13aae65e4ca8b3cf636204860032255",
     "id": "1440137061901537381",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1374351682829291650",
+            "type": 2
+        }
+    ],
     "name": "Modulus",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -16,12 +21,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "324265"
-        },
-        {
             "distributor": "steam",
             "id": "2779120"
+        },
+        {
+            "distributor": "igdb",
+            "id": "324265"
         }
     ]
 }

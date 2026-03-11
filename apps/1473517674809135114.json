@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "1ad1c6ea3403982f51d68cfb1b978447",
     "id": "1473517674809135114",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1358758604957683905",
+            "type": 2
+        }
+    ],
     "name": "Romestead",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -16,12 +21,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1805320"
-        },
-        {
             "distributor": "igdb",
             "id": "336150"
+        },
+        {
+            "distributor": "steam",
+            "id": "1805320"
         }
     ]
 }
