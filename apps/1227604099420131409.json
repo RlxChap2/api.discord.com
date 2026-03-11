@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/spiritcity-win64-shipping.exe",
-            "os": "win32"
+            "name": "spirit city - lofi sessions.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "spirit city - lofi sessions.app",
-            "os": "darwin"
+            "name": "win64/spiritcity-win64-shipping.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -27,12 +27,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "263016"
-        },
-        {
             "distributor": "steam",
             "id": "2113850"
+        },
+        {
+            "distributor": "igdb",
+            "id": "263016"
         }
     ]
 }

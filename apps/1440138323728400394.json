@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "890bbd3cdeea9145e25a1bb40c70da14",
     "id": "1440138323728400394",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1481065780987695245",
+            "type": 2
+        }
+    ],
     "name": "Mainland",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -16,12 +21,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "274947"
-        },
-        {
             "distributor": "steam",
             "id": "2304360"
+        },
+        {
+            "distributor": "igdb",
+            "id": "274947"
         }
     ]
 }

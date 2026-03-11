@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "c3cad05d0e4848b4e03420e789f600ac",
     "id": "1124359734905024683",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "838386853396348929",
+            "type": 2
+        }
+    ],
     "name": "Stardeus",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "139453"
-        },
-        {
             "distributor": "steam",
             "id": "1380910"
+        },
+        {
+            "distributor": "igdb",
+            "id": "139453"
         }
     ]
 }

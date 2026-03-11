@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "2ec3869f6cd68a4197294470fc698fe0",
     "id": "1252201154348191754",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1174379050756751423",
+            "type": 2
+        }
+    ],
     "name": "Goofy Gorillas",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2627570"
-        },
-        {
             "distributor": "igdb",
             "id": "276667"
+        },
+        {
+            "distributor": "steam",
+            "id": "2627570"
         }
     ]
 }
