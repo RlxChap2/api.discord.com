@@ -7,7 +7,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/tslgame.exe",
+            "name": "tslgame.exe",
             "os": "win32"
         },
         {
@@ -17,17 +17,17 @@
         },
         {
             "is_launcher": false,
-            "name": "tslgame.exe",
+            "name": "tslgame_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/tslgame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "win64/tslgame_uc.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tslgame_be.exe",
             "os": "win32"
         }
     ],
@@ -55,8 +55,12 @@
             "id": "CUSA14085_00"
         },
         {
-            "distributor": "igdb",
-            "id": "27789"
+            "distributor": "steam",
+            "id": "578080"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C0MN5DN8KR3F"
         },
         {
             "distributor": "playstation",
@@ -68,7 +72,19 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA14081_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "PPSA27367_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "68348"
+        },
+        {
+            "distributor": "igdb",
+            "id": "27789"
         },
         {
             "distributor": "playstation",
@@ -76,23 +92,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA14081_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA14391_00"
-        },
-        {
-            "distributor": "gdco",
-            "id": "68348"
-        },
-        {
-            "distributor": "xbox",
-            "id": "C0MN5DN8KR3F"
-        },
-        {
-            "distributor": "steam",
-            "id": "578080"
         }
     ]
 }
