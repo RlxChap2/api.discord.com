@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "f70d8b4b8cea1770f30ff61fa81d7c81",
     "id": "1441988786232754216",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1358209428985348206",
+            "type": 2
+        }
+    ],
     "name": "Cloudheim",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -18,16 +23,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "igdb",
+            "id": "330328"
+        },
+        {
             "distributor": "steam",
             "id": "2070270"
         },
         {
             "distributor": "epic",
             "id": "033B4E36509A4E9CB32406E341534F52"
-        },
-        {
-            "distributor": "igdb",
-            "id": "330328"
         }
     ]
 }
