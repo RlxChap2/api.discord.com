@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "7bd787a20fd7faf4e6d52ef01f428362",
     "id": "1300670499411460106",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "950389228783665182",
+            "type": 2
+        }
+    ],
     "name": "SENTRY",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,12 +28,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "172054"
-        },
-        {
             "distributor": "steam",
             "id": "1252680"
+        },
+        {
+            "distributor": "igdb",
+            "id": "172054"
         }
     ]
 }

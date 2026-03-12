@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "2e3404d39e095c96b4a251377a89417b",
     "id": "1444889063269073120",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1442087989835727028",
+            "type": 2
+        }
+    ],
     "name": "Identifile",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -16,12 +21,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "3054210"
-        },
-        {
             "distributor": "igdb",
             "id": "319379"
+        },
+        {
+            "distributor": "steam",
+            "id": "3054210"
         }
     ]
 }

@@ -6,6 +6,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "lollauncher.app",
             "os": "darwin"
         },
@@ -15,13 +20,8 @@
             "os": "darwin"
         },
         {
-            "is_launcher": false,
-            "name": "league of legends.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
+            "is_launcher": true,
+            "name": "leagueclientux.exe",
             "os": "win32"
         },
         {
@@ -30,8 +30,8 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "leagueclientux.exe",
+            "is_launcher": false,
+            "name": "league of legends.exe",
             "os": "win32"
         },
         {
@@ -60,12 +60,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "115"
-        },
-        {
             "distributor": "epic",
             "id": "24B9B5E323BC40EEA252A10CDD3B2F10"
+        },
+        {
+            "distributor": "igdb",
+            "id": "115"
         }
     ]
 }

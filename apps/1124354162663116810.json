@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "dc41e45d5fe017c975e3a749e104c008",
     "id": "1124354162663116810",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1481237570510913598",
+            "type": 2
+        }
+    ],
     "name": "Outcore",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,12 +28,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1275670"
-        },
-        {
             "distributor": "epic",
             "id": "DA1F78693E5F4A6888297C9362B1144E"
+        },
+        {
+            "distributor": "steam",
+            "id": "1275670"
         }
     ]
 }

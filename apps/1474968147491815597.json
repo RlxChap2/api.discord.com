@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "3a84b23eee00ca44e01fba06acc75481",
     "id": "1474968147491815597",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1435256702852141168",
+            "type": 2
+        }
+    ],
     "name": "HAM: The Game",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -16,12 +21,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "4019090"
-        },
-        {
             "distributor": "igdb",
             "id": "388449"
+        },
+        {
+            "distributor": "steam",
+            "id": "4019090"
         }
     ]
 }
