@@ -5,7 +5,12 @@
     "hook": true,
     "icon_hash": "cbdac1670a195e7bb5a52509b8b20b79",
     "id": "1474968389494767719",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1481487648529977405",
+            "type": 2
+        }
+    ],
     "name": "Feed the Scorchpot",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -16,12 +21,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "377819"
-        },
-        {
             "distributor": "steam",
             "id": "3966510"
+        },
+        {
+            "distributor": "igdb",
+            "id": "377819"
         }
     ]
 }

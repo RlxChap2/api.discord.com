@@ -4,19 +4,24 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "beamng.drive.exe",
+            "name": "beamng.drive.x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "beamng.drive.x64.exe",
+            "name": "beamng.drive.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "7cdf03d0914abf557c372f81182b4039",
     "id": "363413743335374859",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "781841428548026428",
+            "type": 2
+        }
+    ],
     "name": "BeamNG.drive",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -28,16 +33,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "4E53F148899A4565BDED9D485880203E"
-        },
-        {
             "distributor": "steam",
             "id": "284160"
         },
         {
             "distributor": "igdb",
             "id": "17131"
+        },
+        {
+            "distributor": "epic",
+            "id": "4E53F148899A4565BDED9D485880203E"
         }
     ]
 }
