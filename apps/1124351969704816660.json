@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "a2060f988c02fc8d1165320c53084717",
     "id": "1124351969704816660",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1315999357639594024",
+            "type": 2
+        }
+    ],
     "name": "Virtual Cottage",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,12 +28,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "144577"
-        },
-        {
             "distributor": "steam",
             "id": "1369320"
+        },
+        {
+            "distributor": "igdb",
+            "id": "144577"
         }
     ]
 }
