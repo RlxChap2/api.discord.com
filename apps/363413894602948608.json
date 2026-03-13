@@ -6,11 +6,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bethesda.net_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "game/client/eso.exe",
             "os": "win32"
         },
@@ -22,6 +17,11 @@
         {
             "is_launcher": false,
             "name": "launcher/bethesda.net_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "bethesda.net_launcher.exe",
             "os": "win32"
         }
     ],
@@ -42,31 +42,39 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
+            "id": "PPSA02017_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA00086_00"
         },
         {
-            "distributor": "xbox",
-            "id": "BPWXCL17ZZJG"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9P1MLQ9QR8S8"
-        },
-        {
-            "distributor": "steam",
-            "id": "306130"
+            "distributor": "playstation",
+            "id": "CUSA00132_00"
         },
         {
             "distributor": "gdco",
             "id": "90410"
         },
         {
+            "distributor": "xbox",
+            "id": "9P1MLQ9QR8S8"
+        },
+        {
             "distributor": "igdb",
             "id": "1081"
         },
         {
+            "distributor": "xbox",
+            "id": "BPWXCL17ZZJG"
+        },
+        {
             "distributor": "playstation",
-            "id": "PPSA02017_00"
+            "id": "PPSA02018_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "306130"
         },
         {
             "distributor": "epic",
@@ -75,14 +83,6 @@
         {
             "distributor": "playstation",
             "id": "CUSA01514_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA02018_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00132_00"
         }
     ]
 }
