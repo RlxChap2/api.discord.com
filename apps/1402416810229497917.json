@@ -4,17 +4,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "starbound.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "starbound.app",
             "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "starbound_opengl.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "starbound.exe",
             "os": "win32"
         }
     ],
@@ -40,6 +40,14 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "gdco",
+            "id": "83861"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PD5W1TZ6GWC"
+        },
+        {
             "distributor": "igdb",
             "id": "3019"
         },
@@ -53,19 +61,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PD5W1TZ6GWC"
-        },
-        {
-            "distributor": "xbox",
             "id": "9PK7BFMB3ZNJ"
         },
         {
             "distributor": "xbox",
             "id": "9MTSBWPWPQVQ"
-        },
-        {
-            "distributor": "gdco",
-            "id": "83861"
         }
     ]
 }
