@@ -4,17 +4,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "win64/discovery.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "wingdk/discovery-d.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "wingdk/discovery-e.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/discovery.exe",
             "os": "win32"
         }
     ],
@@ -37,20 +37,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "2073850"
+        },
+        {
             "distributor": "igdb",
             "id": "214417"
         },
         {
-            "distributor": "steam",
-            "id": "4197310"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PGD71CMDS0Z"
-        },
-        {
-            "distributor": "gdco",
-            "id": "90653"
+            "distributor": "playstation",
+            "id": "PPSA18780_00"
         },
         {
             "distributor": "playstation",
@@ -58,11 +54,7 @@
         },
         {
             "distributor": "steam",
-            "id": "2073850"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA12405_00"
+            "id": "4197310"
         },
         {
             "distributor": "playstation",
@@ -70,7 +62,19 @@
         },
         {
             "distributor": "playstation",
-            "id": "PPSA18780_00"
+            "id": "PPSA12405_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA49198_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "90653"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGD71CMDS0Z"
         },
         {
             "distributor": "playstation",
@@ -79,10 +83,6 @@
         {
             "distributor": "playstation",
             "id": "PPSA17310_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA49198_00"
         }
     ]
 }
