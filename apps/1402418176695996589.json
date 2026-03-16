@@ -4,11 +4,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "wz2100.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
             "name": "wz2100.exe",
             "os": "win32"
         },
@@ -16,6 +11,11 @@
             "is_launcher": false,
             "name": "warzone2100.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "wz2100.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -37,12 +37,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1241950"
-        },
-        {
             "distributor": "igdb",
             "id": "51297"
+        },
+        {
+            "distributor": "steam",
+            "id": "1241950"
         }
     ]
 }
