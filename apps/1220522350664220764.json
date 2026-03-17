@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "2f5d7e6959e5b29ffb10310c2717816e",
     "id": "1220522350664220764",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1481916593087844372",
+            "type": 2
+        }
+    ],
     "name": "Lightyear Frontier",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,12 +28,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "gdco",
+            "id": "51218"
+        },
+        {
             "distributor": "epic",
             "id": "5CA77CFD52304CDDABCA6D44009A28FF"
         },
         {
-            "distributor": "gdco",
-            "id": "51218"
+            "distributor": "steam",
+            "id": "1677110"
         },
         {
             "distributor": "igdb",
@@ -37,10 +46,6 @@
         {
             "distributor": "xbox",
             "id": "9NDX2927SND9"
-        },
-        {
-            "distributor": "steam",
-            "id": "1677110"
         }
     ]
 }

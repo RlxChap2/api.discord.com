@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "vampiresurvivors/vampiresurvivors.exe",
+            "name": "content/vampiresurvivors.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "content/vampiresurvivors.exe",
+            "name": "vampiresurvivors/vampiresurvivors.exe",
             "os": "win32"
         },
         {
@@ -23,7 +23,12 @@
     "hook": true,
     "icon_hash": "abd37dfb36efe6534260d1eb454291e6",
     "id": "1334673895453884566",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1483075675459031070",
+            "type": 2
+        }
+    ],
     "name": "Vampire Survivors",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -36,32 +41,32 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "gdco",
-            "id": "101746"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA21703_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PD5BM2Z8C4L"
-        },
-        {
-            "distributor": "steam",
-            "id": "1794680"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA47783_00"
+            "distributor": "igdb",
+            "id": "186725"
         },
         {
             "distributor": "epic",
             "id": "A4E77BC04AA440A096962C14B63A41E8"
         },
         {
-            "distributor": "igdb",
-            "id": "186725"
+            "distributor": "xbox",
+            "id": "9PD5BM2Z8C4L"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA21703_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "101746"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA47783_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "1794680"
         }
     ]
 }

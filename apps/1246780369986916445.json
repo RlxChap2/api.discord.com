@@ -6,19 +6,24 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "doomsday last survivors/doomsday.exe",
+            "name": "doomsdaylastsurvivors/doomsday.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "doomsdaylastsurvivors/doomsday.exe",
+            "name": "doomsday last survivors/doomsday.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "b5b3fdd752669dd920109ec57488f0af",
     "id": "1246780369986916445",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1483346925255131197",
+            "type": 2
+        }
+    ],
     "name": "Doomsday: Last Survivors",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -29,12 +34,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2439510"
-        },
-        {
             "distributor": "epic",
             "id": "F3867695344144DC920630264C4DD678"
+        },
+        {
+            "distributor": "steam",
+            "id": "2439510"
         }
     ]
 }
