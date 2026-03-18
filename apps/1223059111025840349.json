@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "2df31d7377008d5d05f0570805e59280",
     "id": "1223059111025840349",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "1483431416925650945",
+            "type": 2
+        }
+    ],
     "name": "UNDERDOGS",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -24,24 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "251563"
-        },
-        {
             "distributor": "playstation",
             "id": "PPSA28066_00"
         },
         {
-            "distributor": "steam",
-            "id": "2441700"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA28067_00"
-        },
-        {
-            "distributor": "gdco",
-            "id": "10109369"
+            "distributor": "igdb",
+            "id": "251563"
         },
         {
             "distributor": "playstation",
@@ -49,7 +42,19 @@
         },
         {
             "distributor": "playstation",
+            "id": "PPSA28067_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "PPSA28065_00"
+        },
+        {
+            "distributor": "gdco",
+            "id": "10109369"
+        },
+        {
+            "distributor": "steam",
+            "id": "2441700"
         }
     ]
 }
