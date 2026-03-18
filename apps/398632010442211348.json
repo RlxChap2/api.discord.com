@@ -3,8 +3,8 @@
     "cover_image_hash": "858dba3c2a90f3491054305dd724542b",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "vrchat/start_protected_game.exe",
+            "is_launcher": true,
+            "name": "vrchat/launch.exe",
             "os": "win32"
         },
         {
@@ -13,8 +13,8 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "vrchat/launch.exe",
+            "is_launcher": false,
+            "name": "vrchat/start_protected_game.exe",
             "os": "win32"
         }
     ],
@@ -39,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "igdb",
-            "id": "33615"
-        },
-        {
             "distributor": "steam",
             "id": "438100"
+        },
+        {
+            "distributor": "igdb",
+            "id": "33615"
         }
     ]
 }
