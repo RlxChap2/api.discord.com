@@ -11,6 +11,11 @@
         },
         {
             "is_launcher": false,
+            "name": "terraria.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
             "name": "terraria.exe",
             "os": "win32"
         },
@@ -18,11 +23,6 @@
             "is_launcher": false,
             "name": "terraria.bin.x86",
             "os": "linux"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
@@ -50,12 +50,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "105600"
-        },
-        {
             "distributor": "igdb",
             "id": "1879"
+        },
+        {
+            "distributor": "steam",
+            "id": "105600"
         }
     ]
 }
