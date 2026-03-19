@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "hearthstone.app",
-            "os": "darwin"
+            "name": "hearthstone.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "hearthstone.exe",
-            "os": "win32"
+            "name": "hearthstone.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -29,10 +29,6 @@
         {
             "distributor": "battlenet",
             "id": null
-        },
-        {
-            "distributor": "igdb",
-            "id": "1279"
         }
     ]
 }
