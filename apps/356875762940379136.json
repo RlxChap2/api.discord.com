@@ -2,13 +2,8 @@
     "aliases": [
         "World of Warcraft™"
     ],
-    "cover_image_hash": "c9a1a7ae8d70218bdfdc063425161ed7",
+    "cover_image_hash": "52a7ab86855bd1f28cb0871daecef1ee",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "_retail_/wow-64.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "world of warcraft.app",
@@ -27,6 +22,11 @@
         {
             "is_launcher": false,
             "name": "_beta_/wow-64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "_retail_/wow-64.exe",
             "os": "win32"
         },
         {
@@ -63,11 +63,11 @@
     "third_party_skus": [
         {
             "distributor": "battlenet",
-            "id": null
+            "id": "WoW"
         },
         {
             "distributor": "battlenet",
-            "id": "WoW"
+            "id": null
         }
     ]
 }
