@@ -5,13 +5,13 @@
     "cover_image_hash": "8b667352f0a9d9579d09367cc61fdd89",
     "executables": [
         {
-            "is_launcher": true,
-            "name": "leagueclientux.exe",
+            "is_launcher": false,
+            "name": "league of legends.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "lollauncher.app",
+            "name": "league of legends.app",
             "os": "darwin"
         },
         {
@@ -21,22 +21,22 @@
         },
         {
             "is_launcher": false,
-            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "garenalolth/gamedata/apps/lolth/lolex.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "league of legends.exe",
+            "name": "garenaloltw/gamedata/apps/loltw/lol.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": true,
+            "name": "leagueclientux.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "league of legends.app",
+            "name": "lollauncher.app",
             "os": "darwin"
         }
     ],
@@ -45,12 +45,12 @@
     "id": "1402418696126992445",
     "linked_applications": [
         {
-            "id": "1443349851604779030",
-            "type": 2
-        },
-        {
             "id": "356869127241072640",
             "type": 1
+        },
+        {
+            "id": "1443349851604779030",
+            "type": 2
         }
     ],
     "name": "League of Legends",
