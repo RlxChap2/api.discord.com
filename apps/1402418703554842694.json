@@ -10,14 +10,14 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "fortniteclient-mac-shipping.app",
-            "os": "darwin"
-        },
-        {
             "is_launcher": true,
             "name": "fortniteclient-win64-shipping_eac_eos.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "fortniteclient-mac-shipping.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -42,8 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BT5P2X999VH2"
+            "distributor": "epic",
+            "id": "Fortnite"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA01922_00"
         },
         {
             "distributor": "playstation",
@@ -59,11 +63,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "BXWNX8ST04JS"
+            "id": "BT5P2X999VH2"
         },
         {
-            "distributor": "epic",
-            "id": "fn"
+            "distributor": "playstation",
+            "id": "CUSA17471_00"
         },
         {
             "distributor": "playstation",
@@ -71,11 +75,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9MW1TQ8MNZ1G"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA01922_00"
+            "id": "9N84B8L89PDW"
         },
         {
             "distributor": "playstation",
@@ -83,19 +83,19 @@
         },
         {
             "distributor": "epic",
-            "id": "Fortnite"
+            "id": "fn"
         },
         {
             "distributor": "xbox",
-            "id": "9N84B8L89PDW"
+            "id": "9MW1TQ8MNZ1G"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BXWNX8ST04JS"
         },
         {
             "distributor": "playstation",
             "id": "CUSA07669_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA17471_00"
         }
     ]
 }
