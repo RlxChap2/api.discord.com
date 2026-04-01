@@ -4,17 +4,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "bin64release/game.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "warface/bin32release/game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "gamecenter/bin32release/game.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "bin64release/game.exe",
             "os": "win32"
         }
     ],
@@ -38,8 +38,8 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "291480"
+            "distributor": "playstation",
+            "id": "CUSA12377_00"
         },
         {
             "distributor": "xbox",
@@ -51,6 +51,10 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA12288_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA12495_00"
         },
         {
@@ -59,15 +63,11 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA12377_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA12496_00"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA12288_00"
+            "distributor": "steam",
+            "id": "291480"
         }
     ]
 }
