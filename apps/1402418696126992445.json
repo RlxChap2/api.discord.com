@@ -15,8 +15,13 @@
             "os": "win32"
         },
         {
+            "is_launcher": true,
+            "name": "leagueclientux.exe",
+            "os": "win32"
+        },
+        {
             "is_launcher": false,
-            "name": "lollauncher.app",
+            "name": "league of legends.app",
             "os": "darwin"
         },
         {
@@ -25,32 +30,27 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "leagueclientux.exe",
-            "os": "win32"
+            "is_launcher": false,
+            "name": "lollauncher.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "leagueoflegends.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "league of legends.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
-    "icon_hash": "5a15a24a3931880801709a32accd0a1d",
+    "icon_hash": "7c99428541032ac02ec6981d88b78fb7",
     "id": "1402418696126992445",
     "linked_applications": [
         {
-            "id": "356869127241072640",
-            "type": 1
+            "id": "1443349464290168976",
+            "type": 2
         },
         {
-            "id": "1443349851604779030",
-            "type": 2
+            "id": "356869127241072640",
+            "type": 1
         }
     ],
     "name": "League of Legends",
