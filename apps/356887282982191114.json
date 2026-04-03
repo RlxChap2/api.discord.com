@@ -16,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/shootergame_be.exe",
+            "name": "win64/shootergameserver.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
+            "name": "win64/shootergame_be.exe",
             "os": "win32"
         }
     ],
@@ -29,7 +29,7 @@
     "icon_hash": "99016e1224cc0bb19604048f07bc937a",
     "id": "356887282982191114",
     "linked_applications": [],
-    "name": "ARK: Survival Evolved",
+    "name": "Ark: Survival Evolved",
     "overlay": true,
     "overlay_compatibility_hook": true,
     "overlay_methods": null,
@@ -42,32 +42,20 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "346110"
-        },
-        {
-            "distributor": "steam",
-            "id": "4462"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA06782_00"
         },
         {
+            "distributor": "playstation",
+            "id": "SLUS20622_00"
+        },
+        {
+            "distributor": "steam",
+            "id": "346110"
+        },
+        {
             "distributor": "xbox",
             "id": "BNBLC4ZGFNKB"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH52XC6"
-        },
-        {
-            "distributor": "epic",
-            "id": "ARK"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA06676_00"
         },
         {
             "distributor": "playstation",
@@ -75,7 +63,19 @@
         },
         {
             "distributor": "playstation",
-            "id": "SLUS20622_00"
+            "id": "CUSA06676_00"
+        },
+        {
+            "distributor": "epic",
+            "id": "ARK"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH52XC6"
+        },
+        {
+            "distributor": "steam",
+            "id": "4462"
         }
     ]
 }
