@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "build/raid.exe",
-            "os": "win32"
+            "name": "raid.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "raid.app",
-            "os": "darwin"
+            "name": "build/raid.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -33,12 +33,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2333480"
-        },
-        {
             "distributor": "epic",
             "id": "F42AD298A6C84EE284DD45995E14BA3C"
+        },
+        {
+            "distributor": "steam",
+            "id": "2333480"
         }
     ]
 }
