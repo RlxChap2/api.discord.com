@@ -6,13 +6,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "mtga.exe",
-            "os": "win32"
+            "name": "mtga.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "mtga.app",
-            "os": "darwin"
+            "name": "mtga.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -29,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "5FDCC0DC67294AF3BE740F362BD976FD"
-        },
-        {
             "distributor": "steam",
             "id": "2141910"
+        },
+        {
+            "distributor": "epic",
+            "id": "5FDCC0DC67294AF3BE740F362BD976FD"
         }
     ]
 }
