@@ -2,13 +2,8 @@
     "aliases": [
         "Dune: Awakening"
     ],
-    "cover_image_hash": "0f7dcf855eb56816fed10467d372ace9",
+    "cover_image_hash": "0bda763c3935a99159fae00b0dce1090",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "win64/dunesandbox-win64-shipping.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "duneawakening/dunesandbox.exe",
@@ -26,12 +21,17 @@
         },
         {
             "is_launcher": false,
+            "name": "win64/dunesandbox-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "win64/dunesandbox_be.exe",
             "os": "win32"
         }
     ],
     "hook": true,
-    "icon_hash": "dea207c2da837f32a4ee77a383ac0361",
+    "icon_hash": "09d654b65583ab53a6126712872e01f5",
     "id": "1342435759440924712",
     "linked_applications": [
         {
@@ -51,12 +51,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1172710"
-        },
-        {
             "distributor": "xbox",
             "id": "9PJ6FV3130QZ"
+        },
+        {
+            "distributor": "steam",
+            "id": "1172710"
         }
     ]
 }
