@@ -11,7 +11,12 @@
         },
         {
             "is_launcher": false,
-            "name": "roomeditor/roomeditor.exe",
+            "name": "isaacanimationeditor/isaacanimationeditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "isaac-ng.exe",
             "os": "win32"
         },
         {
@@ -21,12 +26,7 @@
         },
         {
             "is_launcher": false,
-            "name": "isaacanimationeditor/isaacanimationeditor.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaac-ng.exe",
+            "name": "roomeditor/roomeditor.exe",
             "os": "win32"
         }
     ],
@@ -47,6 +47,14 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "BQD45PQR4F4J"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA01344_00"
+        },
+        {
             "distributor": "playstation",
             "id": "CUSA00792_00"
         },
@@ -60,19 +68,11 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA01344_00"
+            "id": "CUSA10195_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA03228_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA10195_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BQD45PQR4F4J"
         }
     ]
 }
