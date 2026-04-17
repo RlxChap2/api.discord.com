@@ -11,7 +11,12 @@
     "hook": true,
     "icon_hash": "3485fa063215552100a2ef518428c756",
     "id": "1124360059674185818",
-    "linked_applications": [],
+    "linked_applications": [
+        {
+            "id": "601863276715835402",
+            "type": 2
+        }
+    ],
     "name": "Levelhead",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -23,16 +28,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "792710"
-        },
-        {
             "distributor": "epic",
             "id": "D33C2A64808E434B85EB1329F65431B1"
         },
         {
             "distributor": "xbox",
             "id": "9PJZBB8FWK8H"
+        },
+        {
+            "distributor": "steam",
+            "id": "792710"
         }
     ]
 }
