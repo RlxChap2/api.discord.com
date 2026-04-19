@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "farcry5.exe",
+            "name": "gamelauncher/uplayinstaller.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gamelauncher/uplayinstaller.exe",
+            "name": "farcry5.exe",
             "os": "win32"
         }
     ],
@@ -31,8 +31,28 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "BQ445LQNH0X5"
+        },
+        {
             "distributor": "steam",
             "id": "552520"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MVQXW1RJVCN"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA05847_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA05863_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA08761_00"
         },
         {
             "distributor": "playstation",
@@ -44,31 +64,7 @@
         },
         {
             "distributor": "playstation",
-            "id": "CUSA08761_00"
-        },
-        {
-            "distributor": "playstation",
             "id": "CUSA05848_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA05847_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MVQXW1RJVCN"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BR7X7MVBBQKM"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA05863_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA05904_00"
         },
         {
             "distributor": "playstation",
@@ -76,7 +72,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "BQ445LQNH0X5"
+            "id": "BR7X7MVBBQKM"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA05904_00"
         }
     ]
 }
