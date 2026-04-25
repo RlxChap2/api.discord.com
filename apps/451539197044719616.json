@@ -7,17 +7,12 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "mlox/mlox.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "morrowind/mgexegui.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "morrowind.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "morrowind/moinstaller.exe",
             "os": "win32"
         },
         {
@@ -27,7 +22,12 @@
         },
         {
             "is_launcher": false,
-            "name": "mlox/mlox.exe",
+            "name": "morrowind/moinstaller.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "morrowind.exe",
             "os": "win32"
         }
     ],
@@ -48,12 +48,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "22320"
-        },
-        {
             "distributor": "xbox",
             "id": "BZ4WD43D8DTS"
+        },
+        {
+            "distributor": "steam",
+            "id": "22320"
         }
     ]
 }
