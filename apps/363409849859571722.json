@@ -4,13 +4,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "undertale.exe",
-            "os": "win32"
+            "name": "undertale.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "undertale.app",
-            "os": "darwin"
+            "name": "undertale.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -30,24 +30,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PJGGX9XJXPB"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "1660320477"
-        },
-        {
-            "distributor": "steam",
-            "id": "391540"
-        },
-        {
             "distributor": "xbox_title",
             "id": "1692615984"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA09415_00"
+            "distributor": "xbox",
+            "id": "9PJGGX9XJXPB"
         },
         {
             "distributor": "xbox",
@@ -59,7 +47,19 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA09415_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA09239_00"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1660320477"
+        },
+        {
+            "distributor": "steam",
+            "id": "391540"
         }
     ]
 }
