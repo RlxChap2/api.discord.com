@@ -1,7 +1,18 @@
 {
     "aliases": [],
     "cover_image_hash": "0506a5e328ed02ae0985b895f385eecc",
-    "executables": [],
+    "executables": [
+        {
+            "is_launcher": false,
+            "name": "htgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "nteglobalgame.exe",
+            "os": "win32"
+        }
+    ],
     "hook": true,
     "icon_hash": "a80c96a759eb9ed43f4a228a2849220c",
     "id": "1470616226995765409",
@@ -9,7 +20,7 @@
     "name": "Neverness to Everness",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action",
@@ -17,6 +28,14 @@
         "Open world"
     ],
     "third_party_skus": [
+        {
+            "distributor": "playstation",
+            "id": "PPSA32192_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA33653_00"
+        },
         {
             "distributor": "playstation",
             "id": "PPSA26558_00"

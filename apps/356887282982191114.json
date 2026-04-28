@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "shootergame.exe",
+            "name": "shootergame_be.exe",
             "os": "win32"
         },
         {
@@ -16,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "shootergame_be.exe",
+            "name": "win64/shootergameserver.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
+            "name": "shootergame.exe",
             "os": "win32"
         }
     ],
@@ -43,19 +43,35 @@
     "third_party_skus": [
         {
             "distributor": "playstation",
-            "id": "SLUS20622_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MT8ND8BS6NB"
+            "id": "CUSA06676_00"
         },
         {
             "distributor": "playstation",
             "id": "CUSA06782_00"
         },
         {
+            "distributor": "playstation",
+            "id": "CUSA08806_00"
+        },
+        {
             "distributor": "epic",
             "id": "ARK"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH52XC6"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MT8ND8BS6NB"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "983730484"
+        },
+        {
+            "distributor": "playstation",
+            "id": "SLUS20622_00"
         },
         {
             "distributor": "xbox",
@@ -66,24 +82,8 @@
             "id": "346110"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA06676_00"
-        },
-        {
             "distributor": "steam",
             "id": "4462"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA08806_00"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "983730484"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH52XC6"
         }
     ]
 }
