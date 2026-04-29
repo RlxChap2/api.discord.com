@@ -6,20 +6,10 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
             "name": ">java",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "content/minecraft.exe",
-            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -30,6 +20,16 @@
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
             "name": ">javaw.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "content/minecraft.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
             "os": "win32"
         }
     ],
@@ -58,68 +58,28 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PJ8266BHFWN"
+            "distributor": "playstation",
+            "id": "CUSA00265_00"
         },
         {
             "distributor": "xbox_title",
             "id": "1916611344"
         },
         {
-            "distributor": "playstation",
-            "id": "CUSA17401_00"
-        },
-        {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
             "distributor": "xbox",
-            "id": "9NBLGGH537BL"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA17382_00"
+            "id": "9NBLGGH2JHXJ"
         },
         {
             "distributor": "xbox_title",
-            "id": "1794566092"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
+            "id": "896928775"
         },
         {
             "distributor": "xbox_title",
             "id": "345903534"
         },
         {
-            "distributor": "xbox_title",
-            "id": "1828326430"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00744_00"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA44267_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "1906370210"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00265_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "PPSA17221_00"
         },
         {
             "distributor": "xbox",
@@ -131,11 +91,51 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
+            "id": "9WZDNCRDZSBB"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PJ8266BHFWN"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA17382_00"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH537BL"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGW18NPBZV5"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA17401_00"
         },
         {
             "distributor": "xbox_title",
-            "id": "896928775"
+            "id": "1906370210"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00744_00"
+        },
+        {
+            "distributor": "playstation",
+            "id": "PPSA17221_00"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1828326430"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1794566092"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         }
     ]
 }
