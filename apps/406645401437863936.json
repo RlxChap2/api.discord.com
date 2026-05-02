@@ -7,12 +7,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "neverwinter/live/gameclient.exe",
+            "name": "neverwinter.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "neverwinter.exe",
+            "name": "neverwinter/live/gameclient.exe",
             "os": "win32"
         }
     ],
@@ -31,12 +31,20 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox_title",
-            "id": "42235288"
+            "distributor": "xbox",
+            "id": "C0GQP41KXPVZ"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C3WJZRGMM13Q"
         },
         {
             "distributor": "steam",
             "id": "109600"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA04314_00"
         },
         {
             "distributor": "playstation",
@@ -45,14 +53,6 @@
         {
             "distributor": "playstation",
             "id": "CUSA05681_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA04314_00"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BV40D6Q97PP8"
         },
         {
             "distributor": "epic",
@@ -67,12 +67,12 @@
             "id": "516538331"
         },
         {
-            "distributor": "xbox",
-            "id": "C0GQP41KXPVZ"
+            "distributor": "xbox_title",
+            "id": "42235288"
         },
         {
             "distributor": "xbox",
-            "id": "C3WJZRGMM13Q"
+            "id": "BV40D6Q97PP8"
         }
     ]
 }
