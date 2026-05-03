@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "unturned/unturned.exe",
+            "name": "unturned.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "unturned.exe",
+            "name": "unturned/unturned.exe",
             "os": "win32"
         },
         {
@@ -42,12 +42,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9N81WS04WNR5"
-        },
-        {
             "distributor": "playstation",
             "id": "CUSA19101_00"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1658477123"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N81WS04WNR5"
         },
         {
             "distributor": "playstation",
@@ -56,10 +60,6 @@
         {
             "distributor": "steam",
             "id": "304930"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "1658477123"
         }
     ]
 }
