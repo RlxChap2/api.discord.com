@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Minecraft Launcher",
-        "Minecraft Windows 10 Edition"
+        "Minecraft Windows 10 Edition",
+        "Minecraft Launcher"
     ],
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
@@ -13,18 +13,18 @@
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
-            "os": "win32"
-        },
-        {
-            "arguments": "net.minecraft.client.main.Main",
-            "is_launcher": false,
             "name": ">java",
             "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "minecraft.windows.exe",
+            "os": "win32"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">javaw.exe",
             "os": "win32"
         },
         {
@@ -58,44 +58,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "playstation",
-            "id": "PPSA17221_00"
-        },
-        {
             "distributor": "xbox_title",
-            "id": "896928775"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA00744_00"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA17401_00"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "1828326430"
-        },
-        {
-            "distributor": "playstation",
-            "id": "CUSA17382_00"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "1906370210"
+            "id": "1916611344"
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
+            "id": "9PJ8266BHFWN"
         },
         {
             "distributor": "microsoft",
@@ -103,27 +71,35 @@
         },
         {
             "distributor": "playstation",
+            "id": "CUSA17382_00"
+        },
+        {
+            "distributor": "playstation",
             "id": "CUSA44267_00"
         },
         {
-            "distributor": "xbox_title",
-            "id": "1916611344"
+            "distributor": "playstation",
+            "id": "PPSA17221_00"
         },
         {
             "distributor": "xbox",
-            "id": "BT6HNJH658C6"
+            "id": "9MVXMVT8ZKWC"
+        },
+        {
+            "distributor": "playstation",
+            "id": "CUSA00744_00"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1906370210"
         },
         {
             "distributor": "xbox",
-            "id": "9PJ8266BHFWN"
+            "id": "9WZDNCRDZSBB"
         },
         {
-            "distributor": "xbox_title",
-            "id": "1794566092"
-        },
-        {
-            "distributor": "xbox_title",
-            "id": "345903534"
+            "distributor": "playstation",
+            "id": "CUSA17401_00"
         },
         {
             "distributor": "playstation",
@@ -131,11 +107,35 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH537BL"
+            "id": "9PGW18NPBZV5"
         },
         {
             "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
+            "id": "9NBLGGH2JHXJ"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "345903534"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "896928775"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BT6HNJH658C6"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH537BL"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1828326430"
+        },
+        {
+            "distributor": "xbox_title",
+            "id": "1794566092"
         }
     ]
 }
