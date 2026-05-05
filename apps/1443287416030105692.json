@@ -4,11 +4,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "stormheartsteam-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "stormlancersdemo.exe",
             "os": "win32"
         },
@@ -16,12 +11,16 @@
             "is_launcher": false,
             "name": "stormlancersdemosteam-win64-shipping.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "stormheartsteam-win64-shipping.exe",
+            "os": "win32"
         }
     ],
     "hook": false,
     "icon_hash": "5f3f411a1d6173597ccbaf4be2d74168",
     "id": "1443287416030105692",
-    "linked_applications": [],
     "name": "Storm Lancers",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -34,12 +33,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "746E04DC3B034B7DBD9CE2A5DF2DCB8C"
-        },
-        {
             "distributor": "steam",
             "id": "4046570"
+        },
+        {
+            "distributor": "epic",
+            "id": "746E04DC3B034B7DBD9CE2A5DF2DCB8C"
         }
     ]
 }

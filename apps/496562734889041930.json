@@ -6,19 +6,18 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "crysis.exe",
+            "name": "crysis64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "crysis64.exe",
+            "name": "crysis.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "2b2cdc642b62a3a23dbdc33a9ab58fc9",
     "id": "496562734889041930",
-    "linked_applications": [],
     "name": "Crysis",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -32,16 +31,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "17300"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NB993S1TWSH"
-        },
-        {
             "distributor": "gog",
             "id": ""
+        },
+        {
+            "distributor": "steam",
+            "id": "17300"
         }
     ]
 }

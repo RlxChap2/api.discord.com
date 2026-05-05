@@ -5,11 +5,6 @@
     "cover_image_hash": "fae8bbf6a5d14f494db342b5d53eea21",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "leagueoflegends.app",
-            "os": "darwin"
-        },
-        {
             "is_launcher": true,
             "name": "leagueclientux.exe",
             "os": "win32"
@@ -21,12 +16,17 @@
         },
         {
             "is_launcher": false,
-            "name": "league of legends.exe",
-            "os": "win32"
+            "name": "league of legends.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "league of legends.app",
+            "name": "lollauncher.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "leagueoflegends.app",
             "os": "darwin"
         },
         {
@@ -36,19 +36,13 @@
         },
         {
             "is_launcher": false,
-            "name": "lollauncher.app",
-            "os": "darwin"
+            "name": "league of legends.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "7c99428541032ac02ec6981d88b78fb7",
     "id": "1402418696126992445",
-    "linked_applications": [
-        {
-            "id": "1443349464290168976",
-            "type": 2
-        }
-    ],
     "name": "League of Legends",
     "overlay": true,
     "overlay_compatibility_hook": false,

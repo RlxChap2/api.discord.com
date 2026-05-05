@@ -5,12 +5,6 @@
         {
             "arguments": "-game tf",
             "is_launcher": false,
-            "name": "hl2tf.exe",
-            "os": "win32"
-        },
-        {
-            "arguments": "-game tf",
-            "is_launcher": false,
             "name": ">hl2_osx",
             "os": "darwin"
         },
@@ -19,12 +13,17 @@
             "is_launcher": false,
             "name": ">hl2.exe",
             "os": "win32"
+        },
+        {
+            "arguments": "-game tf",
+            "is_launcher": false,
+            "name": "hl2tf.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "dfc652a5b75879148779dc2865270f87",
     "id": "356888577310851072",
-    "linked_applications": [],
     "name": "Team Fortress 2",
     "overlay": true,
     "overlay_compatibility_hook": false,

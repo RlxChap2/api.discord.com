@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "oblivion/obse_loader.exe",
+            "name": "oblivion.exe",
             "os": "win32"
         },
         {
@@ -16,14 +16,13 @@
         },
         {
             "is_launcher": false,
-            "name": "oblivion.exe",
+            "name": "oblivion/obse_loader.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "022b2e346ba2e255104f532696075a33",
     "id": "504074409628401690",
-    "linked_applications": [],
     "name": "The Elder Scrolls IV: Oblivion",
     "overlay": true,
     "overlay_compatibility_hook": false,
@@ -38,20 +37,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "22330"
-        },
-        {
-            "distributor": "xbox",
-            "id": "C5K89TFLSV19"
-        },
-        {
             "distributor": "gog",
             "id": ""
         },
         {
-            "distributor": "xbox_title",
-            "id": "632816187"
+            "distributor": "steam",
+            "id": "22330"
         }
     ]
 }

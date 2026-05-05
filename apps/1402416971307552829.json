@@ -4,24 +4,18 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "trine3_64bit.exe",
+            "name": "trine3_32bit.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "trine3_32bit.exe",
+            "name": "trine3_64bit.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "0c1ea7ebc1347e247cb8c8826d1b45d1",
     "id": "1402416971307552829",
-    "linked_applications": [
-        {
-            "id": "489715273683697674",
-            "type": 1
-        }
-    ],
     "name": "Trine 3: The Artifacts of Power",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -32,16 +26,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "6C5CE18B887F421AA9497EC7542AFD23"
-        },
-        {
-            "distributor": "discord",
-            "id": "494710602921541634"
-        },
-        {
             "distributor": "steam",
             "id": "319910"
+        },
+        {
+            "distributor": "epic",
+            "id": "6C5CE18B887F421AA9497EC7542AFD23"
         }
     ]
 }

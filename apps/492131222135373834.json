@@ -4,17 +4,12 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "swgbwide_x1.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "battlegrounds_x2.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "battlegrounds_cc.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "swgbg.exe",
             "os": "win32"
         },
         {
@@ -29,14 +24,18 @@
         },
         {
             "is_launcher": false,
-            "name": "swgbwide_x1.exe",
+            "name": "swgbg.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "battlegrounds_cc.exe",
             "os": "win32"
         }
     ],
     "hook": true,
     "icon_hash": "e20da2055e532789a0f74495535927ab",
     "id": "492131222135373834",
-    "linked_applications": [],
     "name": "Star Wars: Galactic Battlegrounds Saga",
     "overlay": false,
     "overlay_compatibility_hook": false,
@@ -47,10 +46,6 @@
         "Science fiction"
     ],
     "third_party_skus": [
-        {
-            "distributor": "discord",
-            "id": "492426605231341568"
-        },
         {
             "distributor": "steam",
             "id": "356500"
