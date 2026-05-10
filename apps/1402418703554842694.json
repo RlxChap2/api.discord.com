@@ -5,6 +5,11 @@
     "cover_image_hash": "c1864b38910c209afd5bf6423b672022",
     "executables": [
         {
+            "is_launcher": true,
+            "name": "fortniteclient-win64-shipping_eac_eos.exe",
+            "os": "win32"
+        },
+        {
             "is_launcher": false,
             "name": "fortniteclient-mac-shipping.app",
             "os": "darwin"
@@ -12,11 +17,6 @@
         {
             "is_launcher": false,
             "name": "fortniteclient-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": true,
-            "name": "fortniteclient-win64-shipping_eac_eos.exe",
             "os": "win32"
         }
     ],
@@ -37,11 +37,11 @@
     "third_party_skus": [
         {
             "distributor": "epic",
-            "id": "Fortnite"
+            "id": "fn"
         },
         {
             "distributor": "epic",
-            "id": "fn"
+            "id": "Fortnite"
         }
     ]
 }
