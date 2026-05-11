@@ -10,14 +10,14 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "fortniteclient-win64-shipping_eac_eos.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "fortniteclient-mac-shipping.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": true,
+            "name": "fortniteclient-win64-shipping_eac_eos.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -37,11 +37,11 @@
     "third_party_skus": [
         {
             "distributor": "epic",
-            "id": "fn"
+            "id": "Fortnite"
         },
         {
             "distributor": "epic",
-            "id": "Fortnite"
+            "id": "fn"
         }
     ]
 }
