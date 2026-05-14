@@ -1,16 +1,20 @@
 ---
-title: Snippets Hub
+title: Legacy Snippets Hub
 ---
 
 <script setup>
 import { data as snippets } from './snippets.data.js'
 </script>
 
-# Snippets Hub
+# Legacy Snippets Hub
 
-This is the Preview page of the on the Github
+::: warning Legacy material
+These snippets are kept as historical examples from the existing repository. They may depend on unstable Discord internals, may violate Discord's Terms of Service if executed on a real account, and should be reviewed carefully before any local testing.
+:::
 
-## Available Snippets Table
+For the rebuilt research guide, start with [Introduction](/docs/introduction) and [Module Discovery](/docs/module-discovery). Use this hub only when you need to inspect the repository's existing snippet files.
+
+## Available Snippets
 
 <table>
   <thead>
@@ -22,7 +26,7 @@ This is the Preview page of the on the Github
   <tbody>
     <tr v-for="snippet in snippets" :key="snippet.filename">
       <td><a :href="snippet.link">{{ snippet.filename }}</a></td>
-      <td>This is a <strong>{{ snippet.name }}</strong> code snippet.</td>
+      <td>{{ snippet.description }}</td>
     </tr>
   </tbody>
 </table>

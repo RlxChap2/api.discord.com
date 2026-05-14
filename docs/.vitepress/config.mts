@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 function getExamplesSidebar() {
-    const items = [{ text: 'Examples Hub', link: '/examples/examples-hub' }];
+    const items = [{ text: 'Legacy Snippets Hub', link: '/examples/examples-hub' }];
 
     const snippetsDir1 = path.resolve('docs/snippets');
     const snippetsDir2 = path.resolve('snippets');
@@ -27,20 +27,20 @@ function getExamplesSidebar() {
 
 export default defineConfig({
     base: '/api.discord.com/',
-    title: 'Gathering Discord API',
-    description: "Explore and master Discord's client-side API using webpackChunkdiscord_app snippets",
+    title: 'Discord Client Research',
+    description: "A safer guide to Discord client Webpack research, module discovery, React and Flux inspection, and security context.",
     themeConfig: {
         logo: '/logo.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Examples', link: '/examples/examples-hub' },
             { text: 'Docs', link: '/docs/introduction' },
+            { text: 'Legacy Snippets', link: '/examples/examples-hub' },
         ],
 
         sidebar: {
             '/examples/': [
                 {
-                    text: 'Examples',
+                    text: 'Legacy Snippets',
                     items: getExamplesSidebar(),
                 },
             ],
@@ -49,7 +49,13 @@ export default defineConfig({
                     text: 'Documentation',
                     items: [
                         { text: 'Introduction', link: '/docs/introduction' },
-                        { text: 'Explanations', link: '/docs/explanation' },
+                        { text: 'Architecture Overview', link: '/docs/explanation' },
+                        { text: 'Webpack Runtime', link: '/docs/webpack-runtime' },
+                        { text: 'Module Discovery', link: '/docs/module-discovery' },
+                        { text: 'React and Flux', link: '/docs/react-flux' },
+                        { text: 'BetterDiscord Workflow', link: '/docs/betterdiscord-workflow' },
+                        { text: 'Security Notes', link: '/docs/security' },
+                        { text: 'Sources', link: '/docs/sources' },
                     ],
                 },
             ],

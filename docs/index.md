@@ -2,28 +2,24 @@
 layout: home
 
 hero:
-  name: "Gathering Discord API"
-  text: "Access and explore Discord's client-side API using curated snippets"
-  tagline: "Learn, Inspect, and Master Discord API Internals"
+  name: "Discord Client Research"
+  text: "A safer field guide for studying Discord's client-side architecture"
+  tagline: "Webpack runtime notes, module discovery workflows, React and Flux inspection, and defensive security context."
   actions:
     - theme: brand
-      text: "Code Snippets"
-      link: /examples/examples-hub
-    - theme: alt
-      text: "API Explainations"
+      text: "Start Reading"
       link: /docs/introduction
+    - theme: alt
+      text: "Source Notes"
+      link: /docs/sources
 
 features:
-  - title: "Code Snippets"
-    icon: "📝"
-    details: "Explore a curated collection of Discord client-side code snippets for better understanding and reference."
-  - title: "Runtime API"
-    icon: "⚡"
-    details: "Inspect the live workings of Discord API modules and learn how the client operates internally."
-  - title: "Documentation"
-    icon: "📖"
-    details: "Comprehensive guides and references to help you set up, understand, and use the Discord client snippets effectively."
-  - title: "Open-Source"
-    icon: "🐙"
-    details: "Fully open-source project, empowering developers to analyze, extend, or contribute safely."
+  - title: "Architecture Map"
+    details: "Understand how Electron, React, Flux stores, Webpack chunks, and lazy-loaded modules fit together."
+  - title: "Discovery Workflow"
+    details: "Learn repeatable ways to locate modules by exports, keys, strings, store names, and React entry points."
+  - title: "BetterDiscord Context"
+    details: "Prefer maintained plugin APIs when writing plugins, and know when raw runtime inspection is only research tooling."
+  - title: "Security Notes"
+    details: "Recognize why pasted snippets and Electron tampering are risky, and how to keep research environments isolated."
 ---

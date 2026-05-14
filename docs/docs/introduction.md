@@ -1,89 +1,44 @@
-# Gathering Discord API
+# Introduction
 
-::: danger Disclaimer
-This project is intended strictly for **educational and research purposes**.
-The author does not endorse, encourage, or support any form of Discord Terms of Service (ToS) violations, malicious activities, or unauthorized client modifications. Proceed at your own risk.
+::: danger Unofficial research material
+These docs are not Discord documentation and are not endorsed by Discord. They are written for controlled client-side research, plugin-development literacy, and defensive analysis. Use the official [Discord Developer API](https://discord.com/developers/docs/intro) for bots, applications, and production integrations.
 :::
 
-## Introduction
+This site rebuilds the original notes into a safer guide for understanding Discord's client-side application. The focus is on how the web and desktop clients are bundled, how modules can be discovered, how React and Flux patterns show up in minified code, and why this knowledge needs careful security boundaries.
 
-Gathering Discord API provides a comprehensive set of client-side utility functions designed to analyze Discord's web client architecture. By interacting with the underlying Webpack module system, this project offers tools and methodologies for developers and researchers to understand the internal structure and data flow of a large-scale React application.
+The source material behind this rebuild includes Discord-specific Webpack notes, BetterDiscord plugin documentation, generic Webpack reverse-engineering notes, community discussion, and a malware-analysis article. See [Sources](/docs/sources) for the full list and how each source was used.
 
-This documentation is structured to guide both experienced developers and curious learners through the technical aspects of client-side module discovery.
+## What This Covers
 
-## Core Mechanisms
+- The relationship between Electron, React, Flux stores, Webpack chunks, and runtime module caches.
+- Safe read-only techniques for identifying modules by stable traits such as exported keys, display names, strings, and store names.
+- BetterDiscord's maintained `BdApi.Webpack` workflow for plugin contexts.
+- React and Flux inspection habits using DevTools, breakpoints, source formatting, and component trees.
+- Security guidance for avoiding credential theft, pasted-snippet risks, and Electron client tampering.
 
-### Webpack Module Interception
+## What This Does Not Cover
 
-Modern web applications like Discord bundle their JavaScript code using Webpack. The following approach intercepts these chunks to access the internal module cache safely for observation and analysis:
+These docs intentionally exclude runnable instructions for:
 
-```javascript
-let _mods;
-webpackChunkdiscord_app.push([[Symbol()], {}, (r) => (_mods = r.c)]);
-webpackChunkdiscord_app.pop();
-```
+- Extracting, printing, exfiltrating, or using account tokens.
+- Sending automated messages, self-botting, spam, or unsolicited automation.
+- Bypassing payments, badges, experiments, access controls, rate limits, or moderation systems.
+- Capturing passwords, payment details, MFA data, addresses, or private user content.
+- Packaging malware or silently modifying another user's Discord installation.
 
-### Module Property Discovery
+If your goal is to build a Discord integration, start with the official API. If your goal is plugin development, prefer documented BetterDiscord APIs and keep a clear uninstall path.
 
-Once the module cache is accessible, we utilize a recursive search function to locate specific internal properties and methods exported by the application.
+## Recommended Lab Setup
 
-```javascript
-const findByProps = (...props) => {
-    // Recursive search implementation details...
-};
-```
+Use a separate browser profile or disposable test environment. Do not use an account with payment methods, sensitive servers, privileged roles, or real moderation powers. Keep DevTools experiments and client mods away from your main account.
 
-## Practical Examples
+Before running any snippet, read it completely. Treat code from gists, chat messages, paste sites, and raw repository links as untrusted until proven otherwise.
 
-By utilizing the discovery tools, researchers can observe how the client structures its internal data stores. These examples demonstrate how to locate specific modules within the client's memory.
+## Reading Order
 
-```javascript
-// Locate the internal MessageStore
-const MessageStore = findByProps('getMessage', 'getMessages');
-
-// Locate the internal UserStore
-const UserStore = findByProps('getCurrentUser', 'getUser');
-```
-
-## Ethical Guidelines & Acceptable Use
-
-This project is built on the principle of academic and technical exploration. **You are strictly prohibited from using this documentation or its associated code for:**
-
-- Harvesting or scraping user data.
-- Developing or distributing unauthorized client modifications.
-- Bypassing built-in security measures or rate limits.
-- Creating self-bots, spam tools, or automated user accounts.
-- Any activity that negatively impacts the Discord platform or its users.
-
-## Legal Notice
-
-By accessing or utilizing any part of this project, you acknowledge that:
-
-- You assume full responsibility and liability for your actions.
-- You understand the implications of the Discord Terms of Service.
-- The original author bears no responsibility for any misuse, account penalties, or legal consequences resulting from the application of this knowledge.
-
-_Note: This project is completely independent and is not affiliated with, supported, or endorsed by Discord Inc._
-
-## Frequently Asked Questions
-
-**Is it safe to analyze the client in this manner?**
-There are inherent risks in observing and interacting with undocumented client internals. This should only be done in controlled, isolated testing environments.
-
-**Will using these techniques result in an account ban?**
-Yes. Any unauthorized client manipulation or automation directly violates Discord's Terms of Service and is highly likely to result in permanent account termination.
-
-**Can I integrate this into my official Discord bot?**
-No. Legitimate, automated bots must exclusively use the official, documented [Discord Developer API](https://discord.com/developers/docs/intro).
-
-## Contribution Guidelines
-
-Contributions to the documentation and educational examples are welcome, provided they adhere to the following standards:
-
-- Maintain a strict focus on education and research.
-- Do not introduce features or tools designed to violate the platform's ToS.
-- Ensure all code submissions include appropriate ethical warnings.
-
-## License
-
-This project is open-source and licensed under the [MIT License](https://github.com/RlxChap2/api.discord.com?tab=MIT-1-ov-file#readme).
+1. [Architecture Overview](/docs/explanation) explains the moving parts.
+2. [Webpack Runtime](/docs/webpack-runtime) describes chunks and caches.
+3. [Module Discovery](/docs/module-discovery) gives repeatable search patterns.
+4. [React and Flux](/docs/react-flux) connects UI inspection to stores and components.
+5. [BetterDiscord Workflow](/docs/betterdiscord-workflow) maps the ideas into plugin APIs.
+6. [Security Notes](/docs/security) covers the defensive side.
