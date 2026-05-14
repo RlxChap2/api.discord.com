@@ -10,6 +10,9 @@ hero:
       text: "Start Reading"
       link: /docs/introduction
     - theme: alt
+      text: "Snippet Reference"
+      link: /examples/examples-hub
+    - theme: alt
       text: "Source Notes"
       link: /docs/sources
 
@@ -22,4 +25,6 @@ features:
     details: "Prefer maintained plugin APIs when writing plugins, and know when raw runtime inspection is only research tooling."
   - title: "Security Notes"
     details: "Recognize why pasted snippets and Electron tampering are risky, and how to keep research environments isolated."
+  - title: "Snippet Reference"
+    details: "Every snippet page now includes behavior, dependencies, implementation notes, failure modes, and safer study guidance."
 ---

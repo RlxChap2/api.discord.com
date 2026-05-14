@@ -1,59 +1,66 @@
 import { defineConfig } from 'vitepress';
-import fs from 'fs';
-import path from 'path';
+import { snippets as snippetMetadata } from '../examples/snippets.metadata.js';
 
 function getExamplesSidebar() {
-    const items = [{ text: 'Legacy Snippets Hub', link: '/examples/examples-hub' }];
-
-    const snippetsDir1 = path.resolve('docs/snippets');
-    const snippetsDir2 = path.resolve('snippets');
-
-    const targetDir = fs.existsSync(snippetsDir1) ? snippetsDir1 : fs.existsSync(snippetsDir2) ? snippetsDir2 : null;
-
-    if (targetDir) {
-        const files = fs.readdirSync(targetDir).filter((file) => file.endsWith('.js'));
-
-        files.forEach((file) => {
-            const name = file.replace('.js', '');
-
-            const title = name.charAt(0).toUpperCase() + name.slice(1);
-
-            items.push({ text: title, link: `/examples/${name}` });
-        });
-    }
-
-    return items;
+    return [
+        { text: 'Snippet Reference', link: '/examples/examples-hub' },
+        ...snippetMetadata.map((snippet) => ({
+            text: snippet.title,
+            link: `/examples/${snippet.slug}`,
+        })),
+    ];
 }
 
 export default defineConfig({
     base: '/api.discord.com/',
+    cleanUrls: true,
+    lang: 'en-US',
+    lastUpdated: true,
     title: 'Discord Client Research',
+    titleTemplate: ':title | Discord Client Research',
     description: "A safer guide to Discord client Webpack research, module discovery, React and Flux inspection, and security context.",
+    markdown: {
+        lineNumbers: true,
+    },
     themeConfig: {
         logo: '/logo.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Docs', link: '/docs/introduction' },
-            { text: 'Legacy Snippets', link: '/examples/examples-hub' },
+            { text: 'Guide', link: '/docs/introduction' },
+            { text: 'Snippets', link: '/examples/examples-hub' },
+            { text: 'Security', link: '/docs/security' },
         ],
+        search: {
+            provider: 'local',
+        },
 
         sidebar: {
             '/examples/': [
                 {
-                    text: 'Legacy Snippets',
+                    text: 'Snippet Reference',
                     items: getExamplesSidebar(),
                 },
             ],
             '/docs/': [
                 {
-                    text: 'Documentation',
+                    text: 'Start',
                     items: [
                         { text: 'Introduction', link: '/docs/introduction' },
                         { text: 'Architecture Overview', link: '/docs/explanation' },
+                    ],
+                },
+                {
+                    text: 'Research Workflow',
+                    items: [
                         { text: 'Webpack Runtime', link: '/docs/webpack-runtime' },
                         { text: 'Module Discovery', link: '/docs/module-discovery' },
                         { text: 'React and Flux', link: '/docs/react-flux' },
                         { text: 'BetterDiscord Workflow', link: '/docs/betterdiscord-workflow' },
+                    ],
+                },
+                {
+                    text: 'Safety',
+                    items: [
                         { text: 'Security Notes', link: '/docs/security' },
                         { text: 'Sources', link: '/docs/sources' },
                     ],
@@ -63,6 +70,14 @@ export default defineConfig({
         },
 
         socialLinks: [{ icon: 'github', link: 'https://github.com/RlxChap2/api.discord.com' }],
+        docFooter: {
+            prev: 'Previous',
+            next: 'Next',
+        },
+        footer: {
+            message: 'Unofficial educational research documentation. Use official Discord APIs for production integrations.',
+            copyright: 'Released under the project license.',
+        },
 
         outline: [2, 3],
     },
