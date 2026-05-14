@@ -1,13 +1,23 @@
 {
     "aliases": [
-        "Tom Clancy's Rainbow Six Siege",
-        "Tom Clancy's Rainbow Six? Siege"
+        "Tom Clancy's Rainbow Six? Siege",
+        "Tom Clancy's Rainbow Six Siege"
     ],
     "cover_image_hash": "d574f856173c840dcc671085e0b92fe1",
     "executables": [
         {
             "is_launcher": false,
+            "name": "tom clancy's rainbow six siege/rainbowsix.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "tom clancy's rainbow six siege/rainbowsix_vulkan.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "rainbowsix.exe",
             "os": "win32"
         },
         {
@@ -18,16 +28,6 @@
         {
             "is_launcher": false,
             "name": "rainbowsix_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tom clancy's rainbow six siege/rainbowsix.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "rainbowsix.exe",
             "os": "win32"
         }
     ],
@@ -45,16 +45,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "CARNATION"
-        },
-        {
             "distributor": "steam",
             "id": "359550"
         },
         {
             "distributor": "uplay",
             "id": "635"
+        },
+        {
+            "distributor": "epic",
+            "id": "CARNATION"
         }
     ]
 }
