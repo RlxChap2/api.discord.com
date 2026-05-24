@@ -1,13 +1,9 @@
 {
-    "aliases": [],
+    "aliases": [
+        "HλLF-LIFE²"
+    ],
     "cover_image_hash": "2d6bd721a7baec77727a6feba5acf14e",
     "executables": [
-        {
-            "arguments": "-game hl2",
-            "is_launcher": false,
-            "name": ">hl2_osx",
-            "os": "darwin"
-        },
         {
             "arguments": "-game hl2",
             "is_launcher": false,
@@ -19,6 +15,12 @@
             "is_launcher": false,
             "name": "hl2hl2.exe",
             "os": "win32"
+        },
+        {
+            "arguments": "-game hl2",
+            "is_launcher": false,
+            "name": ">hl2_osx",
+            "os": "darwin"
         }
     ],
     "hook": true,
