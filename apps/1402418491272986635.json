@@ -6,9 +6,8 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
+            "name": "minecraft.windows.exe",
             "os": "win32"
         },
         {
@@ -17,20 +16,21 @@
             "os": "win32"
         },
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
+            "name": ">java",
+            "os": "darwin"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">javaw.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
             "os": "win32"
-        },
-        {
-            "arguments": "net.minecraft.client.main.Main",
-            "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
         }
     ],
     "hook": true,
@@ -53,7 +53,7 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
+            "id": "9NBLGGH537BL"
         },
         {
             "distributor": "xbox",
@@ -65,10 +65,6 @@
         },
         {
             "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
-        },
-        {
-            "distributor": "xbox",
             "id": "9WZDNCRDZSBB"
         },
         {
@@ -77,7 +73,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH537BL"
+            "id": "9NBLGGH2JHXJ"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MVXMVT8ZKWC"
         }
     ]
 }
