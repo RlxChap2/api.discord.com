@@ -3,13 +3,30 @@
     "cover_image_hash": null,
     "executables": [
         {
+            "arguments": "--url=https://sentry-cw.wgprod.net",
             "is_launcher": false,
-            "name": "wot heat/bin/engine_launcher.exe",
+            "name": "wot heat/bin/crashpad_handler.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "heat/bin/engine_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "wgcs_api.exe",
+            "os": "win32"
+        },
+        {
+            "arguments": "--url=https://sentry-cw.wgprod.net",
+            "is_launcher": false,
+            "name": "heat/bin/crashpad_handler.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "wot heat/bin/engine_launcher.exe",
             "os": "win32"
         }
     ],
