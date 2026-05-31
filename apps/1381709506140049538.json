@@ -4,7 +4,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/nebulaclient-win64-shipping.exe",
+            "name": "win64/nebulaclientsteam-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -14,7 +14,7 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/nebulaclientsteam-win64-shipping.exe",
+            "name": "win64/nebulaclient-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -32,8 +32,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9N6VS1BMZ3BW"
+            "distributor": "steam",
+            "id": "3504780"
+        },
+        {
+            "distributor": "steam",
+            "id": "3727950"
         },
         {
             "distributor": "xbox",
@@ -44,12 +48,8 @@
             "id": "D06B51D350914826BFBBF7F8D1FED56F"
         },
         {
-            "distributor": "steam",
-            "id": "3727950"
-        },
-        {
-            "distributor": "steam",
-            "id": "3504780"
+            "distributor": "xbox",
+            "id": "9N6VS1BMZ3BW"
         }
     ]
 }
