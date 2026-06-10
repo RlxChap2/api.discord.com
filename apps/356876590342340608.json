@@ -1,10 +1,20 @@
 {
     "aliases": [
-        "Tom Clancy's Rainbow Six Siege",
-        "Tom Clancy's Rainbow Six? Siege"
+        "Tom Clancy's Rainbow Six? Siege",
+        "Tom Clancy's Rainbow Six Siege"
     ],
     "cover_image_hash": "d574f856173c840dcc671085e0b92fe1",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "rainbowsix.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "rainbowsix_be.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "tom clancy's rainbow six siege/rainbowsix_vulkan.exe",
@@ -17,17 +27,7 @@
         },
         {
             "is_launcher": false,
-            "name": "rainbowsix.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "tom clancy's rainbow six siege/rainbowsix.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "rainbowsix_be.exe",
             "os": "win32"
         }
     ],
@@ -46,15 +46,15 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9N1VMR3CFL3T"
+            "id": "9PCC8L3VZ8V3"
         },
         {
             "distributor": "xbox",
-            "id": "BZ6LTPV6H7N0"
+            "id": "BPW3J66WVW89"
         },
         {
-            "distributor": "steam",
-            "id": "359550"
+            "distributor": "xbox",
+            "id": "9NLJDN4Z1ZVG"
         },
         {
             "distributor": "uplay",
@@ -62,31 +62,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PB3RHWXB9MR"
+            "id": "9NBLGGH6CQBH"
         },
         {
             "distributor": "xbox",
-            "id": "C12T09DSVP8J"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BWQTG0R4GJ92"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MSPKPMH7DZ1"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NLJDN4Z1ZVG"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PCC8L3VZ8V3"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PBH7HWC5C26"
+            "id": "BZ6LTPV6H7N0"
         },
         {
             "distributor": "xbox",
@@ -97,16 +77,36 @@
             "id": "9MXV7SVW8D84"
         },
         {
+            "distributor": "xbox",
+            "id": "9PBH7HWC5C26"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MSPKPMH7DZ1"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C12T09DSVP8J"
+        },
+        {
             "distributor": "epic",
             "id": "CARNATION"
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH6CQBH"
+            "id": "BWQTG0R4GJ92"
         },
         {
             "distributor": "xbox",
-            "id": "BPW3J66WVW89"
+            "id": "9N1VMR3CFL3T"
+        },
+        {
+            "distributor": "steam",
+            "id": "359550"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PB3RHWXB9MR"
         },
         {
             "distributor": "xbox",
