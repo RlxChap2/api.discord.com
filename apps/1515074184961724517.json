@@ -3,11 +3,6 @@
     "cover_image_hash": null,
     "executables": [
         {
-            "is_launcher": true,
-            "name": "themound.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
             "name": "themound-win64-shipping.exe",
             "os": "win32"
@@ -16,11 +11,24 @@
     "hook": false,
     "icon_hash": null,
     "id": "1515074184961724517",
-    "name": "The Mound: Omen of Cthulhu Demo",
+    "name": "The Mound: Omen of Cthulhu",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
-    "third_party_skus": []
+    "themes": [
+        "Action",
+        "Horror",
+        "Survival"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9P1WWPB272WT"
+        },
+        {
+            "distributor": "steam",
+            "id": "2569760"
+        }
+    ]
 }
