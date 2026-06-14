@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "farcry5.exe",
+            "name": "gamelauncher/uplayinstaller.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gamelauncher/uplayinstaller.exe",
+            "name": "farcry5.exe",
             "os": "win32"
         }
     ],
@@ -30,14 +30,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "CORIANDER"
-        },
-        {
-            "distributor": "steam",
-            "id": "552520"
-        },
-        {
             "distributor": "xbox",
             "id": "BQ445LQNH0X5"
         },
@@ -46,8 +38,16 @@
             "id": "9MVQXW1RJVCN"
         },
         {
+            "distributor": "epic",
+            "id": "CORIANDER"
+        },
+        {
             "distributor": "xbox",
             "id": "BR7X7MVBBQKM"
+        },
+        {
+            "distributor": "steam",
+            "id": "552520"
         }
     ]
 }
