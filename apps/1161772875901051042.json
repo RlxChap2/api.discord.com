@@ -6,12 +6,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/hllepicgamesstore-win64-shipping.exe",
+            "name": "win64/hll-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/hll-win64-shipping.exe",
+            "name": "win64/hllepicgamesstore-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -29,6 +29,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "686810"
+        },
+        {
             "distributor": "epic",
             "id": "6430E58041234E41B8F81F68F01450ED"
         },
@@ -42,19 +46,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9N44WK3WV2HJ"
-        },
-        {
-            "distributor": "xbox",
             "id": "9NFM4GFBFH8L"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PG16TSBQSBT"
-        },
-        {
-            "distributor": "steam",
-            "id": "686810"
         },
         {
             "distributor": "steam",
@@ -63,6 +55,14 @@
         {
             "distributor": "steam",
             "id": "939455"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PG16TSBQSBT"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N44WK3WV2HJ"
         }
     ]
 }
