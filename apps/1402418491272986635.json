@@ -1,23 +1,13 @@
 {
     "aliases": [
-        "Minecraft Windows 10 Edition",
-        "Minecraft Launcher"
+        "Minecraft Launcher",
+        "Minecraft Windows 10 Edition"
     ],
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
             "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "minecraft.windows.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "content/minecraft.exe",
             "os": "win32"
         },
         {
@@ -25,6 +15,16 @@
             "is_launcher": false,
             "name": ">java",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "content/minecraft.exe",
+            "os": "win32"
         },
         {
             "arguments": "net.minecraft.client.main.Main",
@@ -53,15 +53,7 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BT6HNJH658C6"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
+            "id": "9PGW18NPBZV5"
         },
         {
             "distributor": "microsoft",
@@ -69,15 +61,23 @@
         },
         {
             "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
+            "id": "9MVXMVT8ZKWC"
         },
         {
             "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
+            "id": "9NBLGGH2JHXJ"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BT6HNJH658C6"
         },
         {
             "distributor": "xbox",
             "id": "9NBLGGH537BL"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9WZDNCRDZSBB"
         }
     ]
 }
