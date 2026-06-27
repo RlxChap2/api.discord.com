@@ -6,7 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/shootergame_be.exe",
+            "name": "shootergame_be.exe",
             "os": "win32"
         },
         {
@@ -16,12 +16,12 @@
         },
         {
             "is_launcher": false,
-            "name": "shootergame.exe",
+            "name": "win64/shootergame_be.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "shootergame_be.exe",
+            "name": "shootergame.exe",
             "os": "win32"
         }
     ],
@@ -41,8 +41,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "ARK"
+            "distributor": "xbox",
+            "id": "9NBLGGH52XC6"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BPP79RSDN892"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BNBLC4ZGFNKB"
         },
         {
             "distributor": "steam",
@@ -50,23 +58,15 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH52XC6"
+            "id": "9MT8ND8BS6NB"
         },
         {
             "distributor": "steam",
             "id": "4462"
         },
         {
-            "distributor": "xbox",
-            "id": "BNBLC4ZGFNKB"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MT8ND8BS6NB"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BPP79RSDN892"
+            "distributor": "epic",
+            "id": "ARK"
         }
     ]
 }
