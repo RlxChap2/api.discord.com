@@ -6,17 +6,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/dunesandbox-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "win64/dunesandbox_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "duneawakening/dunesandbox.exe",
             "os": "win32"
         },
         {
@@ -25,8 +15,18 @@
             "os": "win32"
         },
         {
+            "is_launcher": false,
+            "name": "win64/dunesandbox-win64-shipping.exe",
+            "os": "win32"
+        },
+        {
             "is_launcher": true,
             "name": "launcher/funcomlauncher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "duneawakening/dunesandbox.exe",
             "os": "win32"
         }
     ],
@@ -46,15 +46,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9PF687C7ZQ7D"
-        },
-        {
-            "distributor": "xbox",
             "id": "9PJ6FV3130QZ"
         },
         {
-            "distributor": "steam",
-            "id": "1172710"
+            "distributor": "xbox",
+            "id": "9PF687C7ZQ7D"
         },
         {
             "distributor": "xbox",
@@ -63,6 +59,10 @@
         {
             "distributor": "xbox",
             "id": "9P2XQ2FTV8JZ"
+        },
+        {
+            "distributor": "steam",
+            "id": "1172710"
         }
     ]
 }
