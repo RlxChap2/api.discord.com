@@ -1,15 +1,28 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    24,
+                    21,
+                    4,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "3dfd062884fedb70c1fc4576facde1e8",
     "executables": [
         {
             "is_launcher": false,
-            "name": "wingdk/sandfall-wingdk-shipping.exe",
+            "name": "win64/sandfall-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/sandfall-win64-shipping.exe",
+            "name": "wingdk/sandfall-wingdk-shipping.exe",
             "os": "win32"
         }
     ],
@@ -31,12 +44,12 @@
             "id": "9PPT8K6GQHRZ"
         },
         {
-            "distributor": "epic",
-            "id": "FD04AF72EA0F437AAD3A15ACD9ED5508"
-        },
-        {
             "distributor": "xbox",
             "id": "9N2VXS6JVJW9"
+        },
+        {
+            "distributor": "epic",
+            "id": "FD04AF72EA0F437AAD3A15ACD9ED5508"
         },
         {
             "distributor": "steam",

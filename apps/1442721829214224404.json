@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    10,
+                    11
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "e24a321ed34d2e634e70dec1bc882103",
     "executables": [],
     "hook": true,
@@ -17,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9P861V1542BL"
-        },
-        {
             "distributor": "steam",
             "id": "2828710"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P861V1542BL"
         }
     ]
 }

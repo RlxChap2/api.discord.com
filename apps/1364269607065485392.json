@@ -2,16 +2,28 @@
     "aliases": [
         "The Elder Scrolls IV: Oblivion Remastered"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    18,
+                    4,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "38b6e6853115e6ab3547fc00a9b95582",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/oblivionremastered-win64-shipping.exe",
+            "name": "wingdk/oblivionremastered-wingdk-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "wingdk/oblivionremastered-wingdk-shipping.exe",
+            "name": "win64/oblivionremastered-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -31,10 +43,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9NQR437K7PQH"
-        },
-        {
             "distributor": "steam",
             "id": "2623190"
         },
@@ -45,6 +53,10 @@
         {
             "distributor": "microsoft",
             "id": ""
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NQR437K7PQH"
         }
     ]
 }

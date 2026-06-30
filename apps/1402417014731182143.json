@@ -2,18 +2,22 @@
     "aliases": [
         "New World"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    1,
+                    3,
+                    38,
+                    24,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "96347a074aff15edaaa3d9bde347577d",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "newworldlauncher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "new world/newworldlauncher.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "newworld.exe",
@@ -21,7 +25,17 @@
         },
         {
             "is_launcher": false,
+            "name": "newworldlauncher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "bin64/newworld.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "new world/newworldlauncher.exe",
             "os": "win32"
         }
     ],
@@ -41,11 +55,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9NPZJNVGHZ3P"
+            "id": "9NZXV2K8KGJN"
         },
         {
             "distributor": "xbox",
-            "id": "9NZXV2K8KGJN"
+            "id": "9P9QG255Z8WC"
         },
         {
             "distributor": "steam",
@@ -53,7 +67,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9P9QG255Z8WC"
+            "id": "9NPZJNVGHZ3P"
         }
     ]
 }

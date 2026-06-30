@@ -1,5 +1,16 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "9fe5fb21f18521a092faad8b948dca0f",
     "executables": [],
     "hook": true,
@@ -15,12 +26,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9NTQ3MD323PK"
-        },
-        {
             "distributor": "steam",
             "id": "3648400"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NTQ3MD323PK"
         }
     ]
 }

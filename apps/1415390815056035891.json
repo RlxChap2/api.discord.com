@@ -1,15 +1,28 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    18,
+                    10,
+                    4,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "d0b6247195dcd9522b63662bc6623c7e",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/borderlands4.exe",
+            "name": "oakgame/binaries/win64/borderlands4.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "oakgame/binaries/win64/borderlands4.exe",
+            "name": "win64/borderlands4.exe",
             "os": "win32"
         }
     ],
@@ -27,10 +40,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1285190"
-        },
-        {
             "distributor": "xbox",
             "id": "9NCQG87CH81N"
         },
@@ -39,20 +48,24 @@
             "id": "9MX6HKF5647G"
         },
         {
-            "distributor": "xbox",
-            "id": "9P6M51TD914L"
+            "distributor": "steam",
+            "id": "1285190"
         },
         {
             "distributor": "xbox",
             "id": "9NPJC93LDRC0"
         },
         {
-            "distributor": "epic",
-            "id": "4E00072A641F4D839F220614DCCD1C0A"
+            "distributor": "xbox",
+            "id": "9PNBHMKPM7N2"
         },
         {
             "distributor": "xbox",
-            "id": "9PNBHMKPM7N2"
+            "id": "9P6M51TD914L"
+        },
+        {
+            "distributor": "epic",
+            "id": "4E00072A641F4D839F220614DCCD1C0A"
         }
     ]
 }

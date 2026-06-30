@@ -2,6 +2,19 @@
     "aliases": [
         "Rift"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    1,
+                    3,
+                    29,
+                    38
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "754453cf0079446d07072605018414b5",
     "executables": [
         {
@@ -11,12 +24,12 @@
         },
         {
             "is_launcher": false,
-            "name": "rift.exe",
+            "name": "rift/glyphclientapp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rift/glyphclientapp.exe",
+            "name": "rift.exe",
             "os": "win32"
         }
     ],

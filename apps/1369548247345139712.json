@@ -2,6 +2,16 @@
     "aliases": [
         "AIMX"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "4e0c2f439675733f852083a38111aeb8",
     "executables": [
         {
@@ -23,12 +33,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2724640"
-        },
-        {
             "distributor": "epic",
             "id": "DC7286948A8F4399AD19796B899E67D6"
+        },
+        {
+            "distributor": "steam",
+            "id": "2724640"
         }
     ]
 }

@@ -1,5 +1,18 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    18,
+                    11,
+                    4,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "155aedbab655595a2939ce40b4752138",
     "executables": [],
     "hook": true,
@@ -15,12 +28,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "230210"
-        },
-        {
             "distributor": "epic",
             "id": "A39B5C89FBCB44278924F9CAB93DD234"
+        },
+        {
+            "distributor": "steam",
+            "id": "230210"
         }
     ]
 }

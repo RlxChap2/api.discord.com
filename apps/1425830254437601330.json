@@ -1,10 +1,26 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "efe9f5dc3aa20d634e71d940572f4638",
     "executables": [
         {
             "is_launcher": false,
-            "name": "bpsr/bpsr_steam.exe",
+            "name": "bpsr.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "blueprotocolstarresolw5ks/bpsr_epic.exe",
             "os": "win32"
         },
         {
@@ -14,12 +30,7 @@
         },
         {
             "is_launcher": false,
-            "name": "bpsr.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "blueprotocolstarresolw5ks/bpsr_epic.exe",
+            "name": "bpsr/bpsr_steam.exe",
             "os": "win32"
         }
     ],

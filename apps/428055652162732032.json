@@ -1,7 +1,24 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    10,
+                    4,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "e66d2103445038bf575ead4fa4aaccc5",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "t6sp.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "blackopsmp.exe",
@@ -10,11 +27,6 @@
         {
             "is_launcher": false,
             "name": "blackops.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "t6sp.exe",
             "os": "win32"
         }
     ],

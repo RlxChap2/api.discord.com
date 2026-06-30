@@ -2,16 +2,29 @@
     "aliases": [
         "SMITE 2"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    24,
+                    3,
+                    29,
+                    7
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "2fc362d3a01dbe3b87da84f95fdfccd7",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/hemingway-win64-shipping.exe",
+            "name": "windows/hemingway.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "windows/hemingway.exe",
+            "name": "win64/hemingway-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -33,12 +46,12 @@
             "id": "9NV8W1KJSQLL"
         },
         {
-            "distributor": "epic",
-            "id": "16ED9F15B1B449CCB59CB610B13DF5B8"
-        },
-        {
             "distributor": "steam",
             "id": "2437170"
+        },
+        {
+            "distributor": "epic",
+            "id": "16ED9F15B1B449CCB59CB610B13DF5B8"
         }
     ]
 }

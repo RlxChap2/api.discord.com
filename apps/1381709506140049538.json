@@ -1,15 +1,25 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "c19ceeef62b7d30a99e51e184d07a025",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/nebulaclientegs-win64-shipping.exe",
+            "name": "win64/nebulaclient-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/nebulaclient-win64-shipping.exe",
+            "name": "win64/nebulaclientegs-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -32,16 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "D06B51D350914826BFBBF7F8D1FED56F"
-        },
-        {
-            "distributor": "steam",
-            "id": "3504780"
-        },
-        {
             "distributor": "xbox",
             "id": "9N0TNWK0X4GP"
+        },
+        {
+            "distributor": "epic",
+            "id": "D06B51D350914826BFBBF7F8D1FED56F"
         },
         {
             "distributor": "xbox",
@@ -50,6 +56,10 @@
         {
             "distributor": "steam",
             "id": "3727950"
+        },
+        {
+            "distributor": "steam",
+            "id": "3504780"
         }
     ]
 }
