@@ -1,12 +1,21 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    35,
+                    38,
+                    7,
+                    9,
+                    41
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "ac7e8b44935ef2c714f221e88b4e348f",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "heroesofthestorm.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "heroes.app",
@@ -14,12 +23,17 @@
         },
         {
             "is_launcher": false,
-            "name": "heroes of the storm.exe",
+            "name": "heroesofthestorm.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "heroesofthestorm_x64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "heroes of the storm.exe",
             "os": "win32"
         }
     ],

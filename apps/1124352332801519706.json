@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29,
+                    15
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "b34cf1a2bc40835c87a82ece4d64634f",
     "executables": [
         {
@@ -23,16 +35,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "AMARANTH"
-        },
-        {
             "distributor": "steam",
             "id": "536270"
         },
         {
             "distributor": "xbox",
             "id": "BTT48FGF6SWM"
+        },
+        {
+            "distributor": "epic",
+            "id": "AMARANTH"
         }
     ]
 }

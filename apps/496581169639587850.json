@@ -1,16 +1,26 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [
         {
             "is_launcher": false,
-            "name": "dustforce.exe",
-            "os": "win32"
+            "name": "dustforce.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "dustforce.app",
-            "os": "darwin"
+            "name": "dustforce.exe",
+            "os": "win32"
         }
     ],
     "hook": true,

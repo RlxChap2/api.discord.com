@@ -2,16 +2,24 @@
     "aliases": [
         "Kerbal Space Programme"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "b223dcfeae273cc1d246c1c7cae3e507",
     "executables": [
         {
             "is_launcher": false,
-            "name": "ksp_x64.exe",
+            "name": "ksp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "ksp.exe",
+            "name": "ksp_x64.exe",
             "os": "win32"
         }
     ],
@@ -31,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "CA0530B485754032BE50CB6F27BE0C2C"
-        },
-        {
             "distributor": "steam",
             "id": "220200"
+        },
+        {
+            "distributor": "epic",
+            "id": "CA0530B485754032BE50CB6F27BE0C2C"
         }
     ]
 }

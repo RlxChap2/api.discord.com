@@ -1,15 +1,28 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    24,
+                    26,
+                    3,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "869512fc5375a29191d422c76f0981d8",
     "executables": [
         {
             "is_launcher": false,
-            "name": "playbns.exe",
+            "name": "bns/bin64/client.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bns/bin64/client.exe",
+            "name": "playbns.exe",
             "os": "win32"
         }
     ],

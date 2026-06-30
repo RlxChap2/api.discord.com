@@ -2,6 +2,16 @@
     "aliases": [
         "Quiplash"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    18
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "16dcebaff0ce36c4a87c9c835ea43127",
     "executables": [
         {
@@ -30,12 +40,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "351510"
-        },
-        {
             "distributor": "xbox",
             "id": "BZ3PGGF8L81J"
+        },
+        {
+            "distributor": "steam",
+            "id": "351510"
         }
     ]
 }

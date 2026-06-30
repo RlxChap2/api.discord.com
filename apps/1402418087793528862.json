@@ -2,6 +2,18 @@
     "aliases": [
         "Risk of Rain 2"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    8,
+                    9,
+                    3
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "f963106d204a9fd7a14bbba8140c5ed2",
     "executables": [
         {
@@ -30,8 +42,12 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "632360"
+        },
+        {
             "distributor": "xbox",
-            "id": "9NS027TDJMXP"
+            "id": "9P6F6TBGGVK3"
         },
         {
             "distributor": "epic",
@@ -39,11 +55,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9P6F6TBGGVK3"
-        },
-        {
-            "distributor": "steam",
-            "id": "632360"
+            "id": "9NS027TDJMXP"
         }
     ]
 }

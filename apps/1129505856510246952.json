@@ -1,5 +1,21 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    8,
+                    13,
+                    17,
+                    21,
+                    26,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "64d399828f062e96164a8726e564b082",
     "executables": [
         {
@@ -23,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "762220"
-        },
-        {
             "distributor": "epic",
             "id": "ADENIUM"
+        },
+        {
+            "distributor": "steam",
+            "id": "762220"
         }
     ]
 }

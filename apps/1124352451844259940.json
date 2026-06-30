@@ -1,5 +1,20 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    8,
+                    10,
+                    21,
+                    24,
+                    27
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "8cb031773519b6f519ef774f124191ce",
     "executables": [
         {
@@ -19,20 +34,24 @@
     "themes": [],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "9NKRZ9PL3FJ4"
+        },
+        {
+            "distributor": "battlenet",
+            "id": null
+        },
+        {
             "distributor": "steam",
             "id": "1985810"
         },
         {
             "distributor": "xbox",
-            "id": "9P7PFH4RMFZD"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NKRZ9PL3FJ4"
-        },
-        {
-            "distributor": "xbox",
             "id": "9N41CR72ZVSL"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P7PFH4RMFZD"
         },
         {
             "distributor": "xbox",
@@ -41,10 +60,6 @@
         {
             "distributor": "xbox",
             "id": "9NPLRJ9CC870"
-        },
-        {
-            "distributor": "battlenet",
-            "id": null
         }
     ]
 }

@@ -2,17 +2,26 @@
     "aliases": [
         "Terraria"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    1,
+                    4,
+                    5,
+                    41,
+                    26
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "7cfbdeb7c505f9440335efc5e5ff1517",
     "executables": [
         {
             "is_launcher": false,
             "name": "terraria/terraria.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria.bin.x86",
-            "os": "linux"
         },
         {
             "is_launcher": false,
@@ -23,6 +32,11 @@
             "is_launcher": false,
             "name": "terraria.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "terraria.bin.x86",
+            "os": "linux"
         }
     ],
     "hook": true,

@@ -1,5 +1,16 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    37,
+                    38
+                ],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "258ef6c1400ac84341d64d08b2c4a713",
     "executables": [],
     "hook": true,
@@ -17,16 +28,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "epic",
+            "id": "DE876D33CD8742AB90988913097C4ADE"
+        },
+        {
             "distributor": "xbox",
             "id": "9P8K6ZZ71SX5"
         },
         {
             "distributor": "steam",
             "id": "1333470"
-        },
-        {
-            "distributor": "epic",
-            "id": "DE876D33CD8742AB90988913097C4ADE"
         }
     ]
 }

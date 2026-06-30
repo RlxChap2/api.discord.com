@@ -2,6 +2,17 @@
     "aliases": [
         "Synthetik"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "febb2ca8717ef0efb2fa9d1a977c972c",
     "executables": [
         {
@@ -24,12 +35,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "528230"
-        },
-        {
             "distributor": "xbox",
             "id": "9P9L36TLZ7W3"
+        },
+        {
+            "distributor": "steam",
+            "id": "528230"
         }
     ]
 }

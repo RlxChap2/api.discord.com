@@ -2,11 +2,26 @@
     "aliases": [
         "Assetto Corsa"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    38
+                ],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "407d347add07240dfae5e5a9ac805cd3",
     "executables": [
         {
             "is_launcher": false,
-            "name": "assettocorsa/acshowroom.exe",
+            "name": "assettocorsa/jsgme.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "assettocorsa/content manager.exe",
             "os": "win32"
         },
         {
@@ -21,22 +36,17 @@
         },
         {
             "is_launcher": false,
-            "name": "assettocorsa/acs.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "assettocorsa.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "assettocorsa/content manager.exe",
+            "name": "assettocorsa/acs.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "assettocorsa/jsgme.exe",
+            "name": "assettocorsa/acshowroom.exe",
             "os": "win32"
         }
     ],
@@ -53,12 +63,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "244210"
-        },
-        {
             "distributor": "xbox",
             "id": "C27H5T4HD4WW"
+        },
+        {
+            "distributor": "steam",
+            "id": "244210"
         }
     ]
 }

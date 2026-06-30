@@ -1,5 +1,19 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    7,
+                    11,
+                    27,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "9c499c4f33808f0f6dbe04dc8958efb2",
     "executables": [
         {
@@ -21,12 +35,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "973810"
-        },
-        {
             "distributor": "epic",
             "id": "OLEANDER"
+        },
+        {
+            "distributor": "steam",
+            "id": "973810"
         }
     ]
 }

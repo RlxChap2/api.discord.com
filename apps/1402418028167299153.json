@@ -2,13 +2,20 @@
     "aliases": [
         "XCOM: Enemy Unknown"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    21,
+                    4,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "38278b067d04246b8c02ccb69020ddad",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "xcomew.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "win32/xcomgame.exe",
@@ -17,6 +24,11 @@
         {
             "is_launcher": false,
             "name": "xcomgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "xcomew.exe",
             "os": "win32"
         }
     ],

@@ -2,16 +2,32 @@
     "aliases": [
         "PAYDAY 2"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    4,
+                    8,
+                    10,
+                    18,
+                    21,
+                    24
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "7b898b8292930802987a0b36199bd01a",
     "executables": [
         {
             "is_launcher": false,
-            "name": "payday 2/payday2_win32_release_vr.exe",
+            "name": "payday2_win32_release.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "payday2_win32_release.exe",
+            "name": "payday 2/payday2_win32_release_vr.exe",
             "os": "win32"
         }
     ],
@@ -29,12 +45,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "218620"
-        },
-        {
             "distributor": "epic",
             "id": "3B661FD6A9724AC7B6AC6D10D0572511"
+        },
+        {
+            "distributor": "steam",
+            "id": "218620"
         }
     ]
 }

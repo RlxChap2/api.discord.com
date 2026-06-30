@@ -1,5 +1,16 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    11,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "3554dd7cc22ff24605ffccf8c2b16c13",
     "executables": [],
     "hook": true,
@@ -16,12 +27,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9NSGCW16VFPH"
-        },
-        {
             "distributor": "steam",
             "id": "1186630"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NSGCW16VFPH"
         }
     ]
 }

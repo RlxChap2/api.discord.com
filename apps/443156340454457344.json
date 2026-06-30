@@ -2,16 +2,31 @@
     "aliases": [
         "Far Cry 5"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    10,
+                    18,
+                    21,
+                    26,
+                    27
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "6eae3b74240f750dbcce3845754725c2",
     "executables": [
         {
             "is_launcher": false,
-            "name": "farcry5.exe",
+            "name": "gamelauncher/uplayinstaller.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gamelauncher/uplayinstaller.exe",
+            "name": "farcry5.exe",
             "os": "win32"
         }
     ],
@@ -35,19 +50,19 @@
         },
         {
             "distributor": "xbox",
-            "id": "BR7X7MVBBQKM"
-        },
-        {
-            "distributor": "xbox",
             "id": "BQ445LQNH0X5"
-        },
-        {
-            "distributor": "steam",
-            "id": "552520"
         },
         {
             "distributor": "epic",
             "id": "CORIANDER"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BR7X7MVBBQKM"
+        },
+        {
+            "distributor": "steam",
+            "id": "552520"
         }
     ]
 }

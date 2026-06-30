@@ -2,8 +2,26 @@
     "aliases": [
         "Arma Reforger"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    29,
+                    10,
+                    3,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "854296f56d7fbbe144fbe215aa4b9ee5",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "arma reforger experimental/armareforgersteam_experimental.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "arma reforger experimental/armareforger_be.exe",
@@ -17,11 +35,6 @@
         {
             "is_launcher": false,
             "name": "arma reforger/armareforger_be.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "arma reforger experimental/armareforgersteam_experimental.exe",
             "os": "win32"
         }
     ],
@@ -41,12 +54,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1874880"
-        },
-        {
             "distributor": "xbox",
             "id": "9NKCKD1WNDQ0"
+        },
+        {
+            "distributor": "steam",
+            "id": "1874880"
         }
     ]
 }

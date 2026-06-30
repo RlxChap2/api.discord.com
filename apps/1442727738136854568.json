@@ -1,5 +1,16 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    43
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "13687fc01f94e2cb56ea963c07643f5b",
     "executables": [],
     "hook": true,
@@ -17,12 +28,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BPSP1TZMP1LR"
-        },
-        {
             "distributor": "steam",
             "id": "312650"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BPSP1TZMP1LR"
         }
     ]
 }

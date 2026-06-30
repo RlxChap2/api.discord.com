@@ -2,8 +2,25 @@
     "aliases": [
         "CONTROL"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    21,
+                    3,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "da595947c4db7334c860c8aca5a83d09",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "control_dx11.exe",
+            "os": "win32"
+        },
         {
             "is_launcher": false,
             "name": "control_dx12.exe",
@@ -12,11 +29,6 @@
         {
             "is_launcher": false,
             "name": "control/control_dx11.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "control_dx11.exe",
             "os": "win32"
         }
     ],
@@ -37,16 +49,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "870780"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9P7LVXNVQ6K7"
-        },
-        {
             "distributor": "xbox",
             "id": "9P2WJCRJBMRM"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PL1J8PJKH29"
+        },
+        {
+            "distributor": "steam",
+            "id": "870780"
         },
         {
             "distributor": "xbox",
@@ -54,11 +66,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PL1J8PJKH29"
+            "id": "BZ6W9LRPC26W"
         },
         {
             "distributor": "xbox",
-            "id": "BZ6W9LRPC26W"
+            "id": "9P7LVXNVQ6K7"
         }
     ]
 }

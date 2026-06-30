@@ -1,16 +1,29 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    35,
+                    38,
+                    6
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "bac03ad2bf99767fed7533e89a7ab689",
     "executables": [
         {
             "is_launcher": false,
-            "name": "albion-online.exe",
-            "os": "win32"
+            "name": "albion-online.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "albion-online.app",
-            "os": "darwin"
+            "name": "albion-online.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -28,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PDC9X7BKZR3"
-        },
-        {
             "distributor": "steam",
             "id": "761890"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PDC9X7BKZR3"
         },
         {
             "distributor": "epic",

@@ -2,16 +2,28 @@
     "aliases": [
         "Warframe Launcher"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    11,
+                    4,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "704a2cae1416f13a9f18520f7c3726ae",
     "executables": [
         {
             "is_launcher": false,
-            "name": "warframe.exe",
+            "name": "warframe.x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "warframe.x64.exe",
+            "name": "warframe.exe",
             "os": "win32"
         }
     ],
@@ -33,12 +45,12 @@
             "id": "244AAAA06BFA49D088205B13B9D2D115"
         },
         {
-            "distributor": "steam",
-            "id": "230410"
-        },
-        {
             "distributor": "xbox",
             "id": "BPS3XF74B9V1"
+        },
+        {
+            "distributor": "steam",
+            "id": "230410"
         }
     ]
 }

@@ -2,13 +2,22 @@
     "aliases": [
         "The Elder Scrolls IV: Oblivion"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    11,
+                    18,
+                    26,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "025d9c5a8c112d71f0d93b9b10735bf5",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "oblivion/obse_loader.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "oblivion.exe",
@@ -17,6 +26,11 @@
         {
             "is_launcher": false,
             "name": "oblivion/oblivion.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "oblivion/obse_loader.exe",
             "os": "win32"
         }
     ],
@@ -37,12 +51,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "gog",
-            "id": ""
-        },
-        {
             "distributor": "xbox",
             "id": "C5K89TFLSV19"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
         }
     ]
 }

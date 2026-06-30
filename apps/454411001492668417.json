@@ -2,16 +2,31 @@
     "aliases": [
         "Outlast 2"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    10,
+                    14,
+                    15,
+                    17,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "b3bfb3e1430c80c548cf05dc10b38aa6",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/outlast2.exe",
+            "name": "outlast2.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "outlast2.exe",
+            "name": "win64/outlast2.exe",
             "os": "win32"
         }
     ],
@@ -31,16 +46,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "epic",
+            "id": "E3E1DBEEDE5A471C9932EDB2F7B99F51"
+        },
+        {
             "distributor": "xbox",
             "id": "BZVPNM21TCJC"
         },
         {
             "distributor": "xbox",
             "id": "9N633BP2KCKD"
-        },
-        {
-            "distributor": "epic",
-            "id": "E3E1DBEEDE5A471C9932EDB2F7B99F51"
         },
         {
             "distributor": "steam",

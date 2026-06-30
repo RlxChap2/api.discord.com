@@ -2,13 +2,20 @@
     "aliases": [
         "Age of Empires II: Definitive Edition"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    35,
+                    29,
+                    38
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "479d98514a15ead4dcf0ca3290ba8b83",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "aoe2de_s.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "aoe2de/aoe2de_s.exe",
@@ -17,6 +24,11 @@
         {
             "is_launcher": false,
             "name": "age of empires ii definitive edition/aoe2de_s.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "aoe2de_s.exe",
             "os": "win32"
         }
     ],
@@ -36,19 +48,19 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9NJDD0JGPP2Q"
-        },
-        {
-            "distributor": "xbox",
             "id": "9N42SSSX2MTG"
         },
         {
             "distributor": "xbox",
-            "id": "9N2Z748SPMTM"
+            "id": "9NJDD0JGPP2Q"
         },
         {
             "distributor": "steam",
             "id": "813780"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N2Z748SPMTM"
         }
     ]
 }

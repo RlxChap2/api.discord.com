@@ -2,16 +2,31 @@
     "aliases": [
         "Stardew Valley"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    35,
+                    38,
+                    9,
+                    20,
+                    26,
+                    28
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "eb0db2854b83c56ee1e19dfa0a8d40ee",
     "executables": [
         {
             "is_launcher": false,
-            "name": "stardew valley.exe",
+            "name": "stardew valley/stardew valley.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "stardew valley/stardew valley.exe",
+            "name": "stardew valley.exe",
             "os": "win32"
         }
     ],
@@ -35,12 +50,12 @@
             "id": "9MWR1NC6VQ6L"
         },
         {
-            "distributor": "xbox",
-            "id": "C3D891Z6TNQM"
-        },
-        {
             "distributor": "steam",
             "id": "413150"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C3D891Z6TNQM"
         }
     ]
 }

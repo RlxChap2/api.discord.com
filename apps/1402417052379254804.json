@@ -1,12 +1,15 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "31b5f007c81f25b28fabb0a7f3afee1b",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "move or die/love/osx32/love.app/contents/macos/love",
-            "os": "darwin"
-        },
         {
             "is_launcher": false,
             "name": "move or die/love/linux32/love",
@@ -16,6 +19,11 @@
             "is_launcher": false,
             "name": "move or die/love/win/love.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "move or die/love/osx32/love.app/contents/macos/love",
+            "os": "darwin"
         }
     ],
     "hook": true,

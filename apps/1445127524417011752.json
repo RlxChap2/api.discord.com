@@ -1,5 +1,18 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    3,
+                    29,
+                    38
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "225cda56035f72d27a16f1218dc31893",
     "executables": [],
     "hook": true,
@@ -15,12 +28,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "C1TBCX541JW7"
-        },
-        {
             "distributor": "steam",
             "id": "218410"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C1TBCX541JW7"
         }
     ]
 }

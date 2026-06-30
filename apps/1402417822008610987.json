@@ -2,16 +2,22 @@
     "aliases": [
         "Trine"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    26
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "fdce17de02df4743f981aa32e6bf820f",
     "executables": [
         {
             "is_launcher": false,
             "name": "trine/wmfdist11-windowsxp-x86-enu.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "trine1_32bit.exe",
             "os": "win32"
         },
         {
@@ -22,6 +28,11 @@
         {
             "is_launcher": false,
             "name": "trine.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "trine1_32bit.exe",
             "os": "win32"
         }
     ],
@@ -39,12 +50,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "35700"
-        },
-        {
             "distributor": "epic",
             "id": "955298A66E774A858D59E4FB83562C1B"
+        },
+        {
+            "distributor": "steam",
+            "id": "35700"
         }
     ]
 }

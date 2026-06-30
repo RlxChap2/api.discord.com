@@ -2,6 +2,17 @@
     "aliases": [
         "Warcraft 3"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "81e7787e529537fc1b761d81fa253250",
     "executables": [
         {
@@ -11,12 +22,12 @@
         },
         {
             "is_launcher": false,
-            "name": "warcraft iii.app",
-            "os": "darwin"
+            "name": "warcraft iii/frozen throne.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "warcraft iii/frozen throne.exe",
+            "name": "war3.exe",
             "os": "win32"
         },
         {
@@ -26,8 +37,8 @@
         },
         {
             "is_launcher": false,
-            "name": "war3.exe",
-            "os": "win32"
+            "name": "warcraft iii.app",
+            "os": "darwin"
         }
     ],
     "hook": true,

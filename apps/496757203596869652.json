@@ -2,13 +2,20 @@
     "aliases": [
         "Final Fantasy VIII"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    24,
+                    43,
+                    38
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "ff8_en.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "ff8_fr.exe",
@@ -17,6 +24,11 @@
         {
             "is_launcher": false,
             "name": "ff8_es.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ff8_en.exe",
             "os": "win32"
         }
     ],

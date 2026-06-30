@@ -2,13 +2,22 @@
     "aliases": [
         "Devil May Cry 4"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    11,
+                    15,
+                    18,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "2c78d600edfd71df6926ef548a675145",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "devilmaycry4_dx10.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "devilmaycry4specialedition.exe",
@@ -16,12 +25,17 @@
         },
         {
             "is_launcher": false,
-            "name": "devimaycry4.exe",
+            "name": "devilmaycry4_dx10.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "devilmaycry4_dx9.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "devimaycry4.exe",
             "os": "win32"
         }
     ],

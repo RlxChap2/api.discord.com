@@ -1,5 +1,16 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    26,
+                    6
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "e19898b57f46e9d98a29cd72ec450299",
     "executables": [],
     "hook": true,
@@ -16,12 +27,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "546410"
-        },
-        {
             "distributor": "xbox",
             "id": "BWTH23DT25H3"
+        },
+        {
+            "distributor": "steam",
+            "id": "546410"
         }
     ]
 }

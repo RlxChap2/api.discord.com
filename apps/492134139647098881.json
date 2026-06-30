@@ -1,12 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    43
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "jediknight.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "jedi.exe",
@@ -15,6 +20,11 @@
         {
             "is_launcher": false,
             "name": "jk.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "jediknight.exe",
             "os": "win32"
         }
     ],

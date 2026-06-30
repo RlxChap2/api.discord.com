@@ -2,16 +2,29 @@
     "aliases": [
         "DayZ"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    27,
+                    21,
+                    3,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "5e0a08bd9d26e1b1407f9adce920528e",
     "executables": [
         {
             "is_launcher": false,
-            "name": "dayz.exe",
+            "name": "dayz_x64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "dayz_x64.exe",
+            "name": "dayz.exe",
             "os": "win32"
         },
         {
@@ -35,12 +48,12 @@
             "id": "9N3F4VVVQS5C"
         },
         {
-            "distributor": "steam",
-            "id": "221100"
-        },
-        {
             "distributor": "xbox",
             "id": "BSR9NLHVF1KL"
+        },
+        {
+            "distributor": "steam",
+            "id": "221100"
         }
     ]
 }

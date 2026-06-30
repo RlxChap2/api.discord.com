@@ -2,13 +2,21 @@
     "aliases": [
         "ARK: Survival Evolved"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    26,
+                    3,
+                    29,
+                    7
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "a2ba3d74785e9c7db8c41018fe75dc4d",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "win64/shootergame_be.exe",
@@ -22,6 +30,11 @@
         {
             "is_launcher": false,
             "name": "shootergame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/shootergameserver.exe",
             "os": "win32"
         }
     ],
@@ -41,16 +54,20 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "4462"
+            "distributor": "xbox",
+            "id": "BPP79RSDN892"
         },
         {
-            "distributor": "xbox",
-            "id": "BNBLC4ZGFNKB"
+            "distributor": "epic",
+            "id": "ARK"
         },
         {
             "distributor": "xbox",
             "id": "9NBLGGH52XC6"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BNBLC4ZGFNKB"
         },
         {
             "distributor": "xbox",
@@ -61,12 +78,8 @@
             "id": "346110"
         },
         {
-            "distributor": "epic",
-            "id": "ARK"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BPP79RSDN892"
+            "distributor": "steam",
+            "id": "4462"
         }
     ]
 }

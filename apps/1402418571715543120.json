@@ -2,11 +2,21 @@
     "aliases": [
         "Bloons TD 6"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    37
+                ],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "c8fe3c512dbd0e9cbe3cb03c9c95a51f",
     "executables": [
         {
             "is_launcher": false,
-            "name": "cleaner/cleaner-btd6.exe",
+            "name": "bloonstd6.exe",
             "os": "win32"
         },
         {
@@ -16,13 +26,13 @@
         },
         {
             "is_launcher": false,
-            "name": "bloonstd6/bloonstd6.app",
-            "os": "darwin"
+            "name": "cleaner/cleaner-btd6.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bloonstd6.exe",
-            "os": "win32"
+            "name": "bloonstd6/bloonstd6.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -40,7 +50,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9PHKZ9XT6F85"
+            "id": "9NDDVJV54MSC"
+        },
+        {
+            "distributor": "steam",
+            "id": "960090"
         },
         {
             "distributor": "google_play",
@@ -48,11 +62,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NDDVJV54MSC"
-        },
-        {
-            "distributor": "steam",
-            "id": "960090"
+            "id": "9PHKZ9XT6F85"
         },
         {
             "distributor": "epic",

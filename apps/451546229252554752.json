@@ -2,16 +2,30 @@
     "aliases": [
         "Mass Effect 2"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    8,
+                    17,
+                    21,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "af98fe7e811d1c81ffb12b66ff84720a",
     "executables": [
         {
             "is_launcher": false,
-            "name": "masseffect2.exe",
+            "name": "mass effect 2/binaries/me2game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "mass effect 2/binaries/me2game.exe",
+            "name": "masseffect2.exe",
             "os": "win32"
         }
     ],
@@ -28,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "24980"
-        },
-        {
             "distributor": "xbox",
             "id": "9MTP3NKHVWM6"
+        },
+        {
+            "distributor": "steam",
+            "id": "24980"
         },
         {
             "distributor": "epic",

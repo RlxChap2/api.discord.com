@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    24,
+                    11,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "61db9b515e126a91e662edc66f3891d5",
     "executables": [
         {
@@ -22,14 +34,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2221920"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NFPNPLR8VBK"
-        },
-        {
             "distributor": "uplay",
             "id": "5405"
         },
@@ -38,12 +42,20 @@
             "id": "C07KJZRH0L7S"
         },
         {
+            "distributor": "steam",
+            "id": "2221920"
+        },
+        {
             "distributor": "xbox",
             "id": "9P7M6CRC96J0"
         },
         {
             "distributor": "epic",
             "id": "4B35838425C74992AD42E1276B2161CA"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NFPNPLR8VBK"
         }
     ]
 }

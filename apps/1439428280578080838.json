@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    10,
+                    4,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "82bff419c6a6500a7db2a945ddc23ab9",
     "executables": [],
     "hook": true,
@@ -17,16 +29,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "4511"
+        },
+        {
             "distributor": "xbox",
             "id": "C545JKTS21Q2"
         },
         {
             "distributor": "steam",
             "id": "18463"
-        },
-        {
-            "distributor": "steam",
-            "id": "4511"
         }
     ]
 }

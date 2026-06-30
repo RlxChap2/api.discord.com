@@ -2,6 +2,19 @@
     "aliases": [
         "Doomsday"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    24,
+                    3,
+                    28,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "f4cc477af58270414e29f1de5d8f4a69",
     "executables": [
         {
@@ -28,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2439510"
-        },
-        {
             "distributor": "epic",
             "id": "F3867695344144DC920630264C4DD678"
+        },
+        {
+            "distributor": "steam",
+            "id": "2439510"
         }
     ]
 }

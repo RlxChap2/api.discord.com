@@ -1,16 +1,30 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    35,
+                    38,
+                    9,
+                    20,
+                    28
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "eada64910aedc2157ce8e19ba36b4f5e",
     "executables": [
         {
             "is_launcher": false,
-            "name": "undertale.app",
-            "os": "darwin"
+            "name": "undertale.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "undertale.exe",
-            "os": "win32"
+            "name": "undertale.app",
+            "os": "darwin"
         }
     ],
     "hook": true,

@@ -2,6 +2,21 @@
     "aliases": [
         "World of Warcraft™"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    38,
+                    7,
+                    24,
+                    26,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "52a7ab86855bd1f28cb0871daecef1ee",
     "executables": [
         {
@@ -16,17 +31,7 @@
         },
         {
             "is_launcher": false,
-            "name": "_retail_/wow-64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "_ptr_/wow-64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "_ptr_/wow.exe",
+            "name": "_beta_/wow.exe",
             "os": "win32"
         },
         {
@@ -36,7 +41,17 @@
         },
         {
             "is_launcher": false,
-            "name": "_beta_/wow.exe",
+            "name": "_retail_/wow-64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "_ptr_/wow.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "_ptr_/wow-64.exe",
             "os": "win32"
         }
     ],

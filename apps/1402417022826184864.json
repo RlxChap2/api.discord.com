@@ -2,16 +2,27 @@
     "aliases": [
         "Age of Empires: Definitive Edition"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    42,
+                    3
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "539056a1f92d59cb630c296b76e1d3b7",
     "executables": [
         {
             "is_launcher": false,
-            "name": "aoede_s.exe",
+            "name": "aoede/aoede_s.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "aoede/aoede_s.exe",
+            "name": "aoede_s.exe",
             "os": "win32"
         }
     ],
@@ -26,12 +37,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1017900"
-        },
-        {
             "distributor": "xbox",
             "id": "9NJWTJSVGVLJ"
+        },
+        {
+            "distributor": "steam",
+            "id": "1017900"
         }
     ]
 }

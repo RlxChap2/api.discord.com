@@ -2,16 +2,24 @@
     "aliases": [
         "The Elder Scrolls Online: Tamriel Unlimited"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    18,
+                    26,
+                    4,
+                    29
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "3dae4f91f5fa9e16116b5e6d0182ed09",
     "executables": [
         {
             "is_launcher": false,
             "name": "game/client/eso64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "game/client/eso.exe",
             "os": "win32"
         },
         {
@@ -22,6 +30,11 @@
         {
             "is_launcher": false,
             "name": "bethesda.net_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "game/client/eso.exe",
             "os": "win32"
         }
     ],
@@ -40,12 +53,12 @@
             "id": "306130"
         },
         {
-            "distributor": "xbox",
-            "id": "9P1MLQ9QR8S8"
-        },
-        {
             "distributor": "epic",
             "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P1MLQ9QR8S8"
         }
     ]
 }

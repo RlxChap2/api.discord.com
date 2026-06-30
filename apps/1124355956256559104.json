@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    35,
+                    20
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "245ce0c1456010c739ee549f64c1874d",
     "executables": [
         {
@@ -22,12 +34,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "312200"
-        },
-        {
             "distributor": "xbox",
             "id": "BWHK1713PW2L"
+        },
+        {
+            "distributor": "steam",
+            "id": "312200"
         }
     ]
 }

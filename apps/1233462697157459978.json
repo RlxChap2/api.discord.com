@@ -1,5 +1,18 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    11,
+                    25,
+                    1
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "a63a26cae2b48473f0913200d1943670",
     "executables": [
         {
@@ -21,12 +34,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9P97ZTRTH25W"
-        },
-        {
             "distributor": "steam",
             "id": "1887840"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P97ZTRTH25W"
         }
     ]
 }

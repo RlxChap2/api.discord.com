@@ -1,15 +1,28 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    1,
+                    29,
+                    38,
+                    41
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "856fa7a029e086b349d3a2f79cda36d2",
     "executables": [
         {
             "is_launcher": false,
-            "name": "prince of persia/launcher/launcher.exe",
+            "name": "princeofpersia_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "princeofpersia_launcher.exe",
+            "name": "prince of persia/launcher/launcher.exe",
             "os": "win32"
         }
     ],
@@ -27,16 +40,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "66ACD000-77FE-1000-9115-D8025553080C"
-        },
-        {
             "distributor": "steam",
             "id": "19980"
         },
         {
             "distributor": "epic",
             "id": "7AFEF992AABA4B53ABFDF561E64E534D"
+        },
+        {
+            "distributor": "xbox",
+            "id": "66ACD000-77FE-1000-9115-D8025553080C"
         }
     ]
 }

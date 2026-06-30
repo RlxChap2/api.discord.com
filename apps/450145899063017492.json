@@ -2,16 +2,28 @@
     "aliases": [
         "Mirror's Edge"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    11,
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "181ffae53a6ea7c788a125bb5c7072c5",
     "executables": [
         {
             "is_launcher": false,
-            "name": "mirrorsedge.exe",
+            "name": "physx/physx_systemsoftware.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "physx/physx_systemsoftware.exe",
+            "name": "mirrorsedge.exe",
             "os": "win32"
         }
     ],
@@ -29,16 +41,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "17410"
+            "distributor": "xbox",
+            "id": "9PJPZ1DQD0WM"
         },
         {
             "distributor": "epic",
             "id": "527F5AB0C1924D1FA31340C6CB2246F3"
         },
         {
-            "distributor": "xbox",
-            "id": "9PJPZ1DQD0WM"
+            "distributor": "steam",
+            "id": "17410"
         }
     ]
 }

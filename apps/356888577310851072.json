@@ -1,11 +1,22 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    10,
+                    4
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "b014b48438889995cf21dc38ef1cdd44",
     "executables": [
         {
             "arguments": "-game tf",
             "is_launcher": false,
-            "name": "hl2tf.exe",
+            "name": ">hl2.exe",
             "os": "win32"
         },
         {
@@ -17,7 +28,7 @@
         {
             "arguments": "-game tf",
             "is_launcher": false,
-            "name": ">hl2.exe",
+            "name": "hl2tf.exe",
             "os": "win32"
         }
     ],

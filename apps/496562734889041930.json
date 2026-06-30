@@ -2,16 +2,28 @@
     "aliases": [
         "CRYSIS"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    29,
+                    3,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "fe125fbd888c1b360ba582ab40fcda34",
     "executables": [
         {
             "is_launcher": false,
-            "name": "crysis.exe",
+            "name": "crysis64.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "crysis64.exe",
+            "name": "crysis.exe",
             "os": "win32"
         }
     ],
@@ -31,12 +43,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "17300"
-        },
-        {
             "distributor": "xbox",
             "id": "9NB993S1TWSH"
+        },
+        {
+            "distributor": "steam",
+            "id": "17300"
         },
         {
             "distributor": "gog",

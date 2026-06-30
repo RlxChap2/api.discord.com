@@ -3,16 +3,22 @@
         "The Elder Scrolls III: Morrowind",
         "Morrowind Launcher"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "e53ce19cf647ff0e8b8050c9565c2197",
     "executables": [
         {
             "is_launcher": false,
-            "name": "morrowind/morrowind code patch.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "mlox/mlox.exe",
+            "name": "morrowind/moinstaller.exe",
             "os": "win32"
         },
         {
@@ -22,12 +28,17 @@
         },
         {
             "is_launcher": false,
-            "name": "morrowind/moinstaller.exe",
+            "name": "morrowind/mgexegui.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "morrowind/mgexegui.exe",
+            "name": "mlox/mlox.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "morrowind/morrowind code patch.exe",
             "os": "win32"
         }
     ],

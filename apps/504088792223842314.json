@@ -2,6 +2,18 @@
     "aliases": [
         "Zombi"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    10,
+                    4,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "9cdeb51d6d235e0fae0ba8c57f93f3c9",
     "executables": [
         {
@@ -25,6 +37,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "339230"
+        },
+        {
             "distributor": "uplay",
             "id": "1653"
         },
@@ -33,16 +49,12 @@
             "id": "BR03N9C6Z9G6"
         },
         {
-            "distributor": "xbox",
-            "id": "9NLZH0VNVSKR"
-        },
-        {
-            "distributor": "steam",
-            "id": "339230"
-        },
-        {
             "distributor": "epic",
             "id": "143474AB55EC49E8B9B9D79931CB2512"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NLZH0VNVSKR"
         }
     ]
 }

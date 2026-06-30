@@ -1,5 +1,20 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    10,
+                    15,
+                    18,
+                    21,
+                    27
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "1aadb3ff123fdb5ffd71db56fd84a088",
     "executables": [
         {
@@ -25,12 +40,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1222140"
-        },
-        {
             "distributor": "epic",
             "id": "COLUMBINE"
+        },
+        {
+            "distributor": "steam",
+            "id": "1222140"
         }
     ]
 }

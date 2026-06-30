@@ -2,16 +2,28 @@
     "aliases": [
         "Call Of Duty 2"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29,
+                    38
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "7dd8a7def642b4b011e5eb215dcf4021",
     "executables": [
         {
             "is_launcher": false,
-            "name": "cod2sp_s.exe",
+            "name": "cod2mp_s.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "cod2mp_s.exe",
+            "name": "cod2sp_s.exe",
             "os": "win32"
         }
     ],
@@ -30,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2630"
-        },
-        {
             "distributor": "xbox",
             "id": "C1Q14RM5224Q"
+        },
+        {
+            "distributor": "steam",
+            "id": "2630"
         }
     ]
 }

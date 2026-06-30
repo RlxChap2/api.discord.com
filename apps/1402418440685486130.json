@@ -2,11 +2,27 @@
     "aliases": [
         "Among Us"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    35
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "6b05f8bebdb9740a1d56569916f8c56a",
     "executables": [
         {
             "is_launcher": false,
-            "name": "among us - copy/among us.exe",
+            "name": "among us - kopie/among us.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "among us - tou/among us.exe",
             "os": "win32"
         },
         {
@@ -16,12 +32,7 @@
         },
         {
             "is_launcher": false,
-            "name": "among us - kopie/among us.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "among us - tou/among us.exe",
+            "name": "among us - copy/among us.exe",
             "os": "win32"
         }
     ],
@@ -45,12 +56,12 @@
             "id": "9NG07QJNK38J"
         },
         {
-            "distributor": "steam",
-            "id": "945360"
-        },
-        {
             "distributor": "epic",
             "id": "33956BCB55D4452D8C47E16B94E294BD"
+        },
+        {
+            "distributor": "steam",
+            "id": "945360"
         }
     ]
 }

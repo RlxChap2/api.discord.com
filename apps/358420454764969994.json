@@ -2,16 +2,33 @@
     "aliases": [
         "The Binding of Isaac: Rebirth"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    4,
+                    29,
+                    7
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "29d9c545f0d317921f6b2701aa31072b",
     "executables": [
         {
             "is_launcher": false,
-            "name": "isaacitempooleditor/itempooleditor.exe",
+            "name": "roomeditor/roomeditor.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "roomeditor/roomeditor.exe",
+            "name": "isaacanimationeditor/isaacanimationeditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "isaac-ng.exe",
             "os": "win32"
         },
         {
@@ -21,12 +38,7 @@
         },
         {
             "is_launcher": false,
-            "name": "isaac-ng.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaacanimationeditor/isaacanimationeditor.exe",
+            "name": "isaacitempooleditor/itempooleditor.exe",
             "os": "win32"
         }
     ],

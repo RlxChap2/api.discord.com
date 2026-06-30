@@ -1,15 +1,27 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    10,
+                    4,
+                    21
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "d88794ef8164105cadd58a1af58e18a5",
     "executables": [
         {
             "is_launcher": false,
-            "name": "1914-1918 series.exe",
+            "name": "verdun.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "verdun.exe",
+            "name": "1914-1918 series.exe",
             "os": "win32"
         }
     ],
@@ -27,16 +39,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "C1N8H8WTPDSC"
+        },
+        {
             "distributor": "steam",
             "id": "242860"
         },
         {
             "distributor": "epic",
             "id": "E4A2A414D46849F49A35C0F80DF2903A"
-        },
-        {
-            "distributor": "xbox",
-            "id": "C1N8H8WTPDSC"
         }
     ]
 }

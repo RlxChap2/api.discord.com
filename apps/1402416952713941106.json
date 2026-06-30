@@ -2,12 +2,23 @@
     "aliases": [
         "Counter-Strike Global Offensive"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    10,
+                    3
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "c94f3f7c7586b5fb1afe7fe2c6dbf550",
     "executables": [
         {
             "is_launcher": false,
-            "name": "csgo.exe",
-            "os": "win32"
+            "name": "csgo_osx64.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -16,8 +27,8 @@
         },
         {
             "is_launcher": false,
-            "name": "csgo_osx64.app",
-            "os": "darwin"
+            "name": "csgo.exe",
+            "os": "win32"
         }
     ],
     "hook": true,

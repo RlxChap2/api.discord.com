@@ -2,16 +2,26 @@
     "aliases": [
         "Hawken"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "74547a63de5e1b763c8f2b1a9375a72c",
     "executables": [
         {
             "is_launcher": false,
-            "name": "hawkengame-win64-shipping.exe",
+            "name": "hawkengame-win32-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "hawkengame-win32-shipping.exe",
+            "name": "hawkengame-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -29,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "271290"
-        },
-        {
             "distributor": "xbox",
             "id": "C1JXWJR46913"
+        },
+        {
+            "distributor": "steam",
+            "id": "271290"
         }
     ]
 }

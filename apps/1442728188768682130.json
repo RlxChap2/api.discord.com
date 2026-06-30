@@ -1,5 +1,16 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    29
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "7fd699b35d1d354f324addc7793dd113",
     "executables": [],
     "hook": true,
@@ -15,12 +26,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "C2HTXNQT828F"
-        },
-        {
             "distributor": "steam",
             "id": "401330"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C2HTXNQT828F"
         }
     ]
 }
