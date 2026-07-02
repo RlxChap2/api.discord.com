@@ -1,8 +1,8 @@
 {
     "aliases": [
-        "Fall Guys: Ultimate Knockout",
         "Fall Guys",
-        "糖豆人：終極淘汰賽"
+        "糖豆人：終極淘汰賽",
+        "Fall Guys: Ultimate Knockout"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -18,12 +18,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "fallguys_client.exe",
+            "name": "fallguys_client_game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "fallguys_client_game.exe",
+            "name": "fallguys_client.exe",
             "os": "win32"
         }
     ],
@@ -42,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1097150"
-        },
-        {
             "distributor": "xbox",
             "id": "9PMXH5249DG5"
+        },
+        {
+            "distributor": "steam",
+            "id": "1097150"
         },
         {
             "distributor": "epic",

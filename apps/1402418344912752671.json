@@ -20,8 +20,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria.bin.x86",
-            "os": "linux"
+            "name": "terraria.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -30,8 +30,8 @@
         },
         {
             "is_launcher": false,
-            "name": "terraria.exe",
-            "os": "win32"
+            "name": "terraria.bin.x86",
+            "os": "linux"
         },
         {
             "is_launcher": false,
@@ -58,12 +58,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BTNPS60N3114"
-        },
-        {
             "distributor": "steam",
             "id": "105600"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BTNPS60N3114"
         }
     ]
 }
