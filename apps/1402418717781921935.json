@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "PUBG",
-        "PUBG: BATTLEGROUNDS"
+        "PUBG: BATTLEGROUNDS",
+        "PUBG"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -18,12 +18,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/tslgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "win64/tslgame_uc.exe",
+            "name": "tslgame_be.exe",
             "os": "win32"
         },
         {
@@ -38,7 +33,12 @@
         },
         {
             "is_launcher": false,
-            "name": "tslgame_be.exe",
+            "name": "win64/tslgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/tslgame_uc.exe",
             "os": "win32"
         }
     ],
@@ -56,16 +56,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "578080"
-        },
-        {
             "distributor": "epic",
             "id": "EB99EE4694474E8DA0B05A8AB391825C"
         },
         {
             "distributor": "xbox",
             "id": "C0MN5DN8KR3F"
+        },
+        {
+            "distributor": "steam",
+            "id": "578080"
         }
     ]
 }
