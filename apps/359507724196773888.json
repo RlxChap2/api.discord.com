@@ -1,15 +1,15 @@
 {
     "aliases": [
-        "Skyrim - Legendary Edition",
-        "Skyrim"
+        "Skyrim",
+        "Skyrim - Legendary Edition"
     ],
     "content_classification": {
         "agency_ratings": {
             "esrb": {
                 "descriptors": [
-                    26,
                     18,
                     10,
+                    26,
                     4
                 ],
                 "rating": 4
@@ -18,11 +18,6 @@
     },
     "cover_image_hash": "d1d7b7a650ffdbdf5532caba3dbee291",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "skyrimlauncher.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "skyrim special edition/skyrimselauncher.exe",
@@ -36,6 +31,11 @@
         {
             "is_launcher": false,
             "name": "tesv_original.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "skyrimlauncher.exe",
             "os": "win32"
         }
     ],
