@@ -29,36 +29,48 @@
         },
         {
             "is_launcher": false,
-            "name": "game/client/eso64.exe",
+            "name": "bethesda.net_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bethesda.net_launcher.exe",
+            "name": "game/client/eso64.exe",
             "os": "win32"
         }
     ],
     "hook": true,
-    "icon_hash": "008b72e1eee966e10a5962413daa582f",
+    "icon_hash": "44363d909f2a2aa9d94282f3bca548c8",
     "id": "363413894602948608",
-    "name": "The Elder Scrolls Online: Tamriel Unlimited",
+    "name": "The Elder Scrolls Online",
     "overlay": true,
     "overlay_compatibility_hook": true,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Open world"
+    ],
     "third_party_skus": [
         {
+            "distributor": "epic",
+            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+        },
+        {
             "distributor": "xbox",
-            "id": "9P1MLQ9QR8S8"
+            "id": "BPWXCL17ZZJG"
         },
         {
             "distributor": "steam",
             "id": "306130"
         },
         {
-            "distributor": "epic",
-            "id": "27AA2EBDCDA14B3BB8A669AAB73CA55F"
+            "distributor": "xbox",
+            "id": "9P1MLQ9QR8S8"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BRKX5CRMRTC2"
         }
     ]
 }
