@@ -23,6 +23,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "ffxiv_dx11.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "final fantasy xiv.app",
             "os": "darwin"
         },
@@ -34,11 +39,6 @@
         {
             "is_launcher": false,
             "name": "boot/ffxivboot.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "ffxiv_dx11.exe",
             "os": "win32"
         }
     ],
@@ -58,16 +58,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "39210"
-        },
-        {
             "distributor": "xbox",
             "id": "9MVG4XH77J0R"
         },
         {
             "distributor": "steam",
             "id": "262342"
+        },
+        {
+            "distributor": "steam",
+            "id": "39210"
         }
     ]
 }
