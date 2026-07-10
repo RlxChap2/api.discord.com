@@ -18,13 +18,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "fortniteclient-mac-shipping.app",
-            "os": "darwin"
+            "name": "fortniteclient-win64-shipping.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "fortniteclient-win64-shipping.exe",
-            "os": "win32"
+            "name": "fortniteclient-mac-shipping.app",
+            "os": "darwin"
         },
         {
             "is_launcher": true,
@@ -49,6 +49,14 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
+            "id": "BXWNX8ST04JS"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MW1TQ8MNZ1G"
+        },
+        {
+            "distributor": "xbox",
             "id": "BRD01SWKX9WS"
         },
         {
@@ -57,27 +65,19 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NM62SDWFBBG"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BXWNX8ST04JS"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MW1TQ8MNZ1G"
+            "id": "BT5P2X999VH2"
         },
         {
             "distributor": "epic",
             "id": "Fortnite"
         },
         {
-            "distributor": "xbox",
-            "id": "BT5P2X999VH2"
-        },
-        {
             "distributor": "epic",
             "id": "fn"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NM62SDWFBBG"
         }
     ]
 }
