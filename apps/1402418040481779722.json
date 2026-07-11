@@ -15,13 +15,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "trine2.app",
-            "os": "darwin"
+            "name": "trine2_32bit.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "trine2_32bit.exe",
-            "os": "win32"
+            "name": "trine2.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -38,12 +38,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "8041F9A6E26348EFACA2F7D28BB811AB"
-        },
-        {
             "distributor": "steam",
             "id": "35720"
+        },
+        {
+            "distributor": "epic",
+            "id": "8041F9A6E26348EFACA2F7D28BB811AB"
         }
     ]
 }
