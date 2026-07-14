@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Minecraft Launcher",
-        "Minecraft Windows 10 Edition"
+        "Minecraft Windows 10 Edition",
+        "Minecraft Launcher"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -23,18 +23,12 @@
         },
         {
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
             "os": "win32"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "name": "minecraft.windows.exe",
             "os": "win32"
         },
         {
@@ -42,6 +36,12 @@
             "is_launcher": false,
             "name": ">javaw.exe",
             "os": "win32"
+        },
+        {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">java",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -64,11 +64,7 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
-        },
-        {
-            "distributor": "microsoft",
-            "id": ""
+            "id": "9PGW18NPBZV5"
         },
         {
             "distributor": "xbox",
@@ -76,11 +72,15 @@
         },
         {
             "distributor": "xbox",
-            "id": "BT6HNJH658C6"
+            "id": "9NBLGGH537BL"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         },
         {
             "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
+            "id": "BT6HNJH658C6"
         },
         {
             "distributor": "xbox",
@@ -88,7 +88,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH537BL"
+            "id": "9NBLGGH2JHXJ"
         }
     ]
 }
