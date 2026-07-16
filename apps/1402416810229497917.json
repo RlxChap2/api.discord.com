@@ -17,12 +17,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "starbound_opengl.exe",
+            "name": "starbound.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "starbound.exe",
+            "name": "starbound_opengl.exe",
             "os": "win32"
         },
         {
@@ -47,6 +47,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "9PD5W1TZ6GWC"
+        },
+        {
             "distributor": "steam",
             "id": "211820"
         },
@@ -57,10 +61,6 @@
         {
             "distributor": "xbox",
             "id": "9PK7BFMB3ZNJ"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PD5W1TZ6GWC"
         }
     ]
 }

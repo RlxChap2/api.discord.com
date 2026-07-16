@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "RuneScape 3",
         "RuneScape Launcher 2.2.4",
+        "RuneScape 3",
         "Old School RuneScape"
     ],
     "content_classification": {
@@ -21,6 +21,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "osbuddy64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "swiftkit-rs.exe",
             "os": "win32"
         },
@@ -31,8 +36,8 @@
         },
         {
             "is_launcher": false,
-            "name": "runescape.app",
-            "os": "darwin"
+            "name": "jagexcache/jagexlauncher/bin/jagexlauncher.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -41,13 +46,8 @@
         },
         {
             "is_launcher": false,
-            "name": "osbuddy64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "jagexcache/jagexlauncher/bin/jagexlauncher.exe",
-            "os": "win32"
+            "name": "runescape.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
