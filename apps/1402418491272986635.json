@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Minecraft Windows 10 Edition",
-        "Minecraft Launcher"
+        "Minecraft Launcher",
+        "Minecraft Windows 10 Edition"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -22,8 +22,9 @@
             "os": "win32"
         },
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "name": ">javaw.exe",
             "os": "win32"
         },
         {
@@ -32,16 +33,15 @@
             "os": "win32"
         },
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
         },
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
-            "os": "win32"
+            "name": ">java",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -64,7 +64,19 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
+            "id": "9PGW18NPBZV5"
+        },
+        {
+            "distributor": "xbox",
             "id": "9WZDNCRDZSBB"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MVXMVT8ZKWC"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         },
         {
             "distributor": "xbox",
@@ -75,20 +87,8 @@
             "id": "BT6HNJH658C6"
         },
         {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
-        },
-        {
             "distributor": "xbox",
             "id": "9NBLGGH2JHXJ"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
         }
     ]
 }

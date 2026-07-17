@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    10,
+                    11
+                ],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "1e8bb3bd803e8108ea214f6e44f4887f",
     "executables": [
         {
@@ -11,16 +23,23 @@
     "hook": true,
     "icon_hash": "5d3ca67a4807ee97549c0d663831003e",
     "id": "1307344477966438441",
-    "name": "The Scourge | Tai Ương",
+    "name": "The Scourge",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Horror",
+        "Survival"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",
             "id": "2456350"
+        },
+        {
+            "distributor": "epic",
+            "id": "A8B2CB66F6DA4895BFD8AE327AC67C4C"
         }
     ]
 }

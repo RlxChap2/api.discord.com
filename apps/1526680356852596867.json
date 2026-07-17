@@ -3,8 +3,14 @@
     "content_classification": {
         "agency_ratings": {
             "esrb": {
-                "descriptors": [],
-                "rating": 6
+                "descriptors": [
+                    4,
+                    10,
+                    15,
+                    18,
+                    21
+                ],
+                "rating": 4
             }
         }
     },
@@ -25,12 +31,24 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2825860"
-        },
-        {
             "distributor": "epic",
             "id": "5E3377FE4FF34650BFBD8DBEA9B3A222"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MTJNBHVGFR2"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P0N59WQ7ZQ2"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NH7J9L5PGTM"
+        },
+        {
+            "distributor": "steam",
+            "id": "2825860"
         }
     ]
 }
