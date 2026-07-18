@@ -4,12 +4,16 @@
         "agency_ratings": {
             "esrb": {
                 "descriptors": [
-                    18,
                     10,
+                    18,
                     3,
                     21
                 ],
                 "rating": 4
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 5
             }
         }
     },
@@ -17,12 +21,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "ac3sp.exe",
+            "name": "ac3mp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "ac3mp.exe",
+            "name": "ac3sp.exe",
             "os": "win32"
         }
     ],

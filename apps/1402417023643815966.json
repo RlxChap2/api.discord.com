@@ -11,6 +11,10 @@
                     21
                 ],
                 "rating": 4
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 5
             }
         }
     },
@@ -18,12 +22,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "indianaepicgamestore-win64-shipping.exe",
+            "name": "win64/indianaepicgamestore-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/indianaepicgamestore-win64-shipping.exe",
+            "name": "indianaepicgamestore-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -41,10 +45,6 @@
         "Open world"
     ],
     "third_party_skus": [
-        {
-            "distributor": "steam",
-            "id": "578650"
-        },
         {
             "distributor": "epic",
             "id": "ROSEMALLOW"
@@ -64,6 +64,10 @@
         {
             "distributor": "xbox",
             "id": "9MVD3LCB9BXJ"
+        },
+        {
+            "distributor": "steam",
+            "id": "578650"
         }
     ]
 }

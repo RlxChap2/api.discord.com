@@ -1,8 +1,8 @@
 {
     "aliases": [
-        "Old School RuneScape",
         "RuneScape 3",
-        "RuneScape Launcher 2.2.4"
+        "RuneScape Launcher 2.2.4",
+        "Old School RuneScape"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -14,6 +14,10 @@
                     7
                 ],
                 "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 4
             }
         }
     },
@@ -21,8 +25,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "runescape.app",
-            "os": "darwin"
+            "name": "osbuddy64.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "osbuddy.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -31,8 +40,8 @@
         },
         {
             "is_launcher": false,
-            "name": "osbuddy64.exe",
-            "os": "win32"
+            "name": "runescape.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -42,11 +51,6 @@
         {
             "is_launcher": false,
             "name": "runescape.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "osbuddy.exe",
             "os": "win32"
         }
     ],

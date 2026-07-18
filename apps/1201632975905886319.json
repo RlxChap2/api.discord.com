@@ -4,11 +4,15 @@
         "agency_ratings": {
             "esrb": {
                 "descriptors": [
-                    9,
+                    1,
                     11,
-                    1
+                    9
                 ],
                 "rating": 2
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 3
             }
         }
     },
@@ -34,12 +38,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PGJH84LR09H"
-        },
-        {
             "distributor": "steam",
             "id": "1958220"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGJH84LR09H"
         }
     ]
 }

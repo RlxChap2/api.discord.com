@@ -9,6 +9,10 @@
                     29
                 ],
                 "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 3
             }
         }
     },
@@ -16,12 +20,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "rebelgalaxygog.exe",
+            "name": "rebelgalaxysteam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "rebelgalaxysteam.exe",
+            "name": "rebelgalaxygog.exe",
             "os": "win32"
         }
     ],
@@ -41,12 +45,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "WEAVER"
-        },
-        {
             "distributor": "gog",
             "id": ""
+        },
+        {
+            "distributor": "epic",
+            "id": "WEAVER"
         },
         {
             "distributor": "steam",

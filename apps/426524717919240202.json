@@ -8,6 +8,10 @@
                     38
                 ],
                 "rating": 2
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 3
             }
         }
     },
@@ -15,13 +19,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "lethalleague.exe",
-            "os": "win32"
+            "name": "lethalleague.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "lethalleague.app",
-            "os": "darwin"
+            "name": "lethalleague.exe",
+            "os": "win32"
         }
     ],
     "hook": true,

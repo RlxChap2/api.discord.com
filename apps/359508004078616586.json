@@ -1,15 +1,30 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    7
+                ],
+                "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "bdaaa7d46a0822e98a773eb9ae6b1793",
     "executables": [
         {
             "is_launcher": false,
-            "name": "don't starve together/bin/dontstarve.exe",
+            "name": "don't starve together/bin/dontstarve_steam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "don't starve together/bin/dontstarve_steam.exe",
+            "name": "don't starve together/bin/dontstarve.exe",
             "os": "win32"
         }
     ],
@@ -30,12 +45,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BQ7NMRJT1NQ4"
-        },
-        {
             "distributor": "steam",
             "id": "322330"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BQ7NMRJT1NQ4"
         }
     ]
 }

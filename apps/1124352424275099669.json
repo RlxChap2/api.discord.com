@@ -5,11 +5,15 @@
             "esrb": {
                 "descriptors": [
                     8,
-                    3,
                     11,
+                    3,
                     29
                 ],
                 "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 4
             }
         }
     },
@@ -36,16 +40,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "501300"
+        },
+        {
             "distributor": "xbox",
             "id": "BSLGLG8P9T01"
         },
         {
             "distributor": "epic",
             "id": "BADGER"
-        },
-        {
-            "distributor": "steam",
-            "id": "501300"
         }
     ]
 }

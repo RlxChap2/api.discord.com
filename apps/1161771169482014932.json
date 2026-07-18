@@ -2,16 +2,28 @@
     "aliases": [
         "Scribble It!"
     ],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "2173ae174020235c4d729bafd43883d4",
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/scribbleit-win64-shipping.exe",
+            "name": "scribble it!/scribbleit.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "scribble it!/scribbleit.exe",
+            "name": "win64/scribbleit-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -28,12 +40,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1088150"
-        },
-        {
             "distributor": "epic",
             "id": "DC989527F6684C218EB8F5992E85CFEA"
+        },
+        {
+            "distributor": "steam",
+            "id": "1088150"
         }
     ]
 }

@@ -10,16 +10,15 @@
                     29
                 ],
                 "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 2
             }
         }
     },
     "cover_image_hash": "bb8ee0d81c184d839ae5b38c274adf01",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "factorio",
-            "os": "linux"
-        },
         {
             "is_launcher": false,
             "name": "factorio.exe",
@@ -29,6 +28,11 @@
             "is_launcher": false,
             "name": "factorio.app",
             "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "factorio",
+            "os": "linux"
         }
     ],
     "hook": true,

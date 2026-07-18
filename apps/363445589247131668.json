@@ -7,11 +7,20 @@
             "esrb": {
                 "descriptors": [],
                 "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 3
             }
         }
     },
     "cover_image_hash": "82f092687242e81976b955927df9cd24",
     "executables": [
+        {
+            "is_launcher": false,
+            "name": "roblox.app",
+            "os": "darwin"
+        },
         {
             "is_launcher": false,
             "name": "roblox.exe",
@@ -21,11 +30,6 @@
             "is_launcher": false,
             "name": "robloxplayerbeta.exe",
             "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "roblox.app",
-            "os": "darwin"
         }
     ],
     "hook": true,
