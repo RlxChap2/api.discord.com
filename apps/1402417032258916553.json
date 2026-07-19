@@ -22,17 +22,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "control_dx12.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "control/control_dx11.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "control_dx11.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "control_dx12.exe",
             "os": "win32"
         }
     ],
@@ -53,8 +53,12 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "870780"
+        },
+        {
             "distributor": "xbox",
-            "id": "9PL1J8PJKH29"
+            "id": "9P7LVXNVQ6K7"
         },
         {
             "distributor": "xbox",
@@ -65,16 +69,12 @@
             "id": "9P2WJCRJBMRM"
         },
         {
-            "distributor": "steam",
-            "id": "870780"
-        },
-        {
             "distributor": "xbox",
             "id": "BZ6W9LRPC26W"
         },
         {
             "distributor": "xbox",
-            "id": "9P7LVXNVQ6K7"
+            "id": "9PL1J8PJKH29"
         }
     ]
 }
