@@ -28,17 +28,17 @@
         },
         {
             "is_launcher": false,
+            "name": "launcher/bethesda.net_launcher.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "game/client/eso.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "game/client/eso64.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "launcher/bethesda.net_launcher.exe",
             "os": "win32"
         }
     ],
@@ -57,12 +57,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "306130"
+            "distributor": "xbox",
+            "id": "BPWXCL17ZZJG"
         },
         {
             "distributor": "xbox",
-            "id": "BPWXCL17ZZJG"
+            "id": "BRKX5CRMRTC2"
+        },
+        {
+            "distributor": "steam",
+            "id": "306130"
         },
         {
             "distributor": "epic",
@@ -71,10 +75,6 @@
         {
             "distributor": "xbox",
             "id": "9P1MLQ9QR8S8"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BRKX5CRMRTC2"
         }
     ]
 }
