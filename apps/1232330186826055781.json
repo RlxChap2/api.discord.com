@@ -1,15 +1,26 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    9,
+                    35
+                ],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "6fc661debcd326408d3e494303e27c61",
     "executables": [
         {
             "is_launcher": false,
-            "name": "artifact seeker resurrection/artifactseeker.exe",
+            "name": "artifact seekerlegend of aurorium/artifactseeker.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "artifact seekerlegend of aurorium/artifactseeker.exe",
+            "name": "artifact seeker resurrection/artifactseeker.exe",
             "os": "win32"
         },
         {
@@ -32,15 +43,15 @@
     "third_party_skus": [
         {
             "distributor": "steam",
+            "id": "2510720"
+        },
+        {
+            "distributor": "steam",
             "id": "3054610"
         },
         {
             "distributor": "steam",
             "id": "2744170"
-        },
-        {
-            "distributor": "steam",
-            "id": "2510720"
         }
     ]
 }
