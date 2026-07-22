@@ -1,26 +1,46 @@
 {
     "aliases": [],
-    "cover_image_hash": null,
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    3,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
+    "cover_image_hash": "ff7c78ef5d1ac5de3a4f38f2678769ba",
     "executables": [
         {
             "is_launcher": false,
-            "name": "roworld/game.exe",
+            "name": "roworldsea/downloader.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "roworldsea/downloader.exe",
+            "name": "roworld/game.exe",
             "os": "win32"
         }
     ],
     "hook": false,
     "icon_hash": "6d39a5d8e3e02c9ce0d1ea08ef12dcb2",
     "id": "1506678780612050944",
-    "name": "Ragnarok The New World",
+    "name": "Ragnarok: The New World",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
-    "third_party_skus": []
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Open world"
+    ],
+    "third_party_skus": [
+        {
+            "distributor": "steam",
+            "id": "4212480"
+        }
+    ]
 }
