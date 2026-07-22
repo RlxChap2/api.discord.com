@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "PUBG",
-        "PUBG: BATTLEGROUNDS"
+        "PUBG: BATTLEGROUNDS",
+        "PUBG"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -22,12 +22,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "tslgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tslgame_be.exe",
+            "name": "win64/tslgame_be.exe",
             "os": "win32"
         },
         {
@@ -42,7 +37,12 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/tslgame_be.exe",
+            "name": "tslgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tslgame_be.exe",
             "os": "win32"
         }
     ],
