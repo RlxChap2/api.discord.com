@@ -22,13 +22,8 @@
     "cover_image_hash": "0bda763c3935a99159fae00b0dce1090",
     "executables": [
         {
-            "is_launcher": true,
-            "name": "launcher/funcomlauncher.exe",
-            "os": "win32"
-        },
-        {
             "is_launcher": false,
-            "name": "duneawakening/dunesandbox.exe",
+            "name": "win64/dunesandbox-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -38,12 +33,17 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/dunesandbox-win64-shipping.exe",
+            "name": "win64/dunesandbox-win64-test.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/dunesandbox-win64-test.exe",
+            "name": "duneawakening/dunesandbox.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": true,
+            "name": "launcher/funcomlauncher.exe",
             "os": "win32"
         }
     ],
@@ -62,12 +62,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9P2XQ2FTV8JZ"
+            "distributor": "steam",
+            "id": "1172710"
         },
         {
             "distributor": "xbox",
-            "id": "9PJ6FV3130QZ"
+            "id": "9P2XQ2FTV8JZ"
         },
         {
             "distributor": "xbox",
@@ -75,11 +75,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PF687C7ZQ7D"
+            "id": "9PJ6FV3130QZ"
         },
         {
-            "distributor": "steam",
-            "id": "1172710"
+            "distributor": "xbox",
+            "id": "9PF687C7ZQ7D"
         }
     ]
 }
