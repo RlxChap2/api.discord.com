@@ -1,9 +1,20 @@
 {
     "aliases": [],
     "cover_image_hash": "f09a7ff5c8f065d5582f5fdb57f3e124",
-    "executables": [],
+    "executables": [
+        {
+            "is_launcher": false,
+            "name": "dsclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "dsclient-win64-shipping.exe",
+            "os": "win32"
+        }
+    ],
     "hook": true,
-    "icon_hash": "6ec738d75b85e8c9d55f7ed47ba87dce",
+    "icon_hash": "ae71d7b63fcb18bf8d38c797a6871c1b",
     "id": "1515195654023024681",
     "name": "DragonSword: Awakening",
     "overlay": false,
@@ -16,11 +27,11 @@
     "third_party_skus": [
         {
             "distributor": "steam",
-            "id": "4570720"
+            "id": "4575730"
         },
         {
             "distributor": "steam",
-            "id": "4575730"
+            "id": "4570720"
         }
     ]
 }
