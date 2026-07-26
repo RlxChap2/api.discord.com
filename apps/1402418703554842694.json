@@ -6,8 +6,6 @@
         "agency_ratings": {
             "esrb": {
                 "descriptors": [
-                    2,
-                    12,
                     29
                 ],
                 "rating": 3
@@ -21,14 +19,14 @@
     "cover_image_hash": "c1864b38910c209afd5bf6423b672022",
     "executables": [
         {
-            "is_launcher": false,
-            "name": "fortniteclient-mac-shipping.app",
-            "os": "darwin"
-        },
-        {
             "is_launcher": true,
             "name": "fortniteclient-win64-shipping_eac_eos.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "fortniteclient-mac-shipping.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -53,11 +51,7 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9N84B8L89PDW"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BXWNX8ST04JS"
+            "id": "9MW1TQ8MNZ1G"
         },
         {
             "distributor": "xbox",
@@ -65,11 +59,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NM62SDWFBBG"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9MW1TQ8MNZ1G"
+            "id": "BXWNX8ST04JS"
         },
         {
             "distributor": "epic",
@@ -80,8 +70,16 @@
             "id": "BT5P2X999VH2"
         },
         {
+            "distributor": "xbox",
+            "id": "9NM62SDWFBBG"
+        },
+        {
             "distributor": "epic",
             "id": "Fortnite"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N84B8L89PDW"
         }
     ]
 }
