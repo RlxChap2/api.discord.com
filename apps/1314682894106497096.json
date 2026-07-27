@@ -1,7 +1,7 @@
 {
     "aliases": [
-        "Delta Force",
-        "Delta Force Demo"
+        "Delta Force Demo",
+        "Delta Force"
     ],
     "content_classification": {
         "agency_ratings": {
@@ -18,12 +18,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "df_garena/deltaforceclient.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "deltaforceclient.exe",
+            "name": "win64/deltaforceclient-win64-shipping.exe",
             "os": "win32"
         },
         {
@@ -33,12 +28,17 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/deltaforceclient-win64-shipping.exe",
+            "name": "launcher/df_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher.exe",
+            "name": "df_garena/deltaforceclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "deltaforceclient.exe",
             "os": "win32"
         }
     ],
@@ -56,12 +56,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2507950"
-        },
-        {
             "distributor": "xbox",
             "id": "9NRMZXGKP4NM"
+        },
+        {
+            "distributor": "steam",
+            "id": "2507950"
         },
         {
             "distributor": "epic",
