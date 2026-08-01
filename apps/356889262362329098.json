@@ -5,7 +5,16 @@
     "content_classification": {
         "agency_ratings": {
             "esrb": {
-                "descriptors": [],
+                "descriptors": [
+                    1,
+                    2,
+                    35,
+                    11,
+                    18,
+                    24,
+                    26,
+                    29
+                ],
                 "rating": 3
             },
             "pegi": {
@@ -16,11 +25,6 @@
     },
     "cover_image_hash": "d1149150b90a6c86c694787bfb25325b",
     "executables": [
-        {
-            "is_launcher": false,
-            "name": "ffxiv_dx11.exe",
-            "os": "win32"
-        },
         {
             "is_launcher": false,
             "name": "final fantasy xiv.app",
@@ -34,6 +38,11 @@
         {
             "is_launcher": false,
             "name": "boot/ffxivboot.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ffxiv_dx11.exe",
             "os": "win32"
         }
     ],
@@ -54,7 +63,7 @@
     "third_party_skus": [
         {
             "distributor": "steam",
-            "id": "39210"
+            "id": "262342"
         },
         {
             "distributor": "xbox",
@@ -62,7 +71,7 @@
         },
         {
             "distributor": "steam",
-            "id": "262342"
+            "id": "39210"
         }
     ]
 }
