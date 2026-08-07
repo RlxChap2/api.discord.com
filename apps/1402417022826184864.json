@@ -21,12 +21,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "aoede/aoede_s.exe",
+            "name": "aoede_s.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "aoede_s.exe",
+            "name": "aoede/aoede_s.exe",
             "os": "win32"
         }
     ],
@@ -38,15 +38,19 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Historical",
+        "Warfare"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "steam",
-            "id": "1017900"
-        },
         {
             "distributor": "xbox",
             "id": "9NJWTJSVGVLJ"
+        },
+        {
+            "distributor": "steam",
+            "id": "1017900"
         }
     ]
 }

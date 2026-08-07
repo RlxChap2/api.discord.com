@@ -20,12 +20,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "wingdk/sotgame.exe",
+            "name": "win64/sotgame.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/sotgame.exe",
+            "name": "wingdk/sotgame.exe",
             "os": "win32"
         },
         {
@@ -47,7 +47,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Fantasy",
+        "Open world"
+    ],
     "third_party_skus": [
         {
             "distributor": "xbox",
