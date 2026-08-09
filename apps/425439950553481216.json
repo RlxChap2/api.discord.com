@@ -10,6 +10,10 @@
                     6
                 ],
                 "rating": 2
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 2
             }
         }
     },
@@ -24,20 +28,24 @@
     "hook": true,
     "icon_hash": "913789012e5d14d55307532786a95ab7",
     "id": "425439950553481216",
-    "name": "The LEGO® Movie - Videogame",
+    "name": "The LEGO Movie Videogame",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Comedy",
+        "Kids"
+    ],
     "third_party_skus": [
-        {
-            "distributor": "xbox",
-            "id": "C42GGWF64WH8"
-        },
         {
             "distributor": "steam",
             "id": "267530"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C42GGWF64WH8"
         }
     ]
 }
