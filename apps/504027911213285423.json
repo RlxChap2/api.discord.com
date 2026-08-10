@@ -19,17 +19,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "reus.app",
-            "os": "darwin"
+            "name": "reus.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "reus.exe",
-            "os": "win32"
+            "name": "reus.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
-    "icon_hash": "806c83602c8a55df34d9dc47b3de645a",
+    "icon_hash": "d65ec7184e42f75d101b6e3a4daaa5af",
     "id": "504027911213285423",
     "name": "Reus",
     "overlay": false,
@@ -41,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "gog",
-            "id": ""
-        },
-        {
             "distributor": "steam",
             "id": "222730"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
         }
     ]
 }

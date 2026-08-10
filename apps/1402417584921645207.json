@@ -21,17 +21,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "binaries/vermintide2.exe",
+            "name": "binaries_dx12/vermintide2_dx12.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "binaries_dx12/vermintide2_dx12.exe",
+            "name": "binaries/vermintide2.exe",
             "os": "win32"
         }
     ],
     "hook": true,
-    "icon_hash": "3cba3f7745778fc9dba79f7b6a487def",
+    "icon_hash": "1a48f3aa3e464775b07385e3f66a1751",
     "id": "1402417584921645207",
     "name": "Warhammer: Vermintide 2",
     "overlay": false,
@@ -44,11 +44,7 @@
     "third_party_skus": [
         {
             "distributor": "steam",
-            "id": "259129"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BWT41WK758RT"
+            "id": "552500"
         },
         {
             "distributor": "xbox",
@@ -59,8 +55,12 @@
             "id": "BXZWT67JBZJH"
         },
         {
+            "distributor": "xbox",
+            "id": "BWT41WK758RT"
+        },
+        {
             "distributor": "steam",
-            "id": "552500"
+            "id": "259129"
         }
     ]
 }

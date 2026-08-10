@@ -22,7 +22,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/tslgame_uc.exe",
+            "name": "tslgame.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "tslgame_be.exe",
             "os": "win32"
         },
         {
@@ -32,22 +37,17 @@
         },
         {
             "is_launcher": false,
+            "name": "win64/tslgame_uc.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "win64/tslgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tslgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "tslgame_be.exe",
             "os": "win32"
         }
     ],
     "hook": true,
-    "icon_hash": "f8d60c2d38ebd3cd183ca6fad58c9be6",
+    "icon_hash": "9d616d0c960ff87c3bc6beb9475362f5",
     "id": "1402418717781921935",
     "name": "PUBG: BATTLEGROUNDS",
     "overlay": true,
@@ -64,12 +64,12 @@
             "id": "578080"
         },
         {
-            "distributor": "xbox",
-            "id": "C0MN5DN8KR3F"
-        },
-        {
             "distributor": "epic",
             "id": "EB99EE4694474E8DA0B05A8AB391825C"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C0MN5DN8KR3F"
         }
     ]
 }

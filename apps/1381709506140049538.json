@@ -14,11 +14,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/nebulaclientsteam-win64-shipping.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "win64/nebulaclient-win64-shipping.exe",
             "os": "win32"
         },
@@ -26,10 +21,15 @@
             "is_launcher": false,
             "name": "win64/nebulaclientegs-win64-shipping.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/nebulaclientsteam-win64-shipping.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
-    "icon_hash": "b1b2eaa6c3991e7440f559f63cce1979",
+    "icon_hash": "5071feb170e4f52591d3cf3f873a19ad",
     "id": "1381709506140049538",
     "name": "Wildgate",
     "overlay": false,
@@ -42,8 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9N0TNWK0X4GP"
+            "distributor": "steam",
+            "id": "3504780"
+        },
+        {
+            "distributor": "steam",
+            "id": "3727950"
         },
         {
             "distributor": "xbox",
@@ -54,12 +58,8 @@
             "id": "D06B51D350914826BFBBF7F8D1FED56F"
         },
         {
-            "distributor": "steam",
-            "id": "3727950"
-        },
-        {
-            "distributor": "steam",
-            "id": "3504780"
+            "distributor": "xbox",
+            "id": "9N0TNWK0X4GP"
         }
     ]
 }
