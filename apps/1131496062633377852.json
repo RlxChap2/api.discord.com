@@ -3,7 +3,9 @@
     "content_classification": {
         "agency_ratings": {
             "esrb": {
-                "descriptors": [],
+                "descriptors": [
+                    1
+                ],
                 "rating": 2
             },
             "pegi": {
@@ -34,6 +36,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "21224"
+        },
+        {
             "distributor": "epic",
             "id": "4D8B727A49144090B103F6B6BA471E71"
         },
@@ -44,10 +50,6 @@
         {
             "distributor": "steam",
             "id": "1042380"
-        },
-        {
-            "distributor": "steam",
-            "id": "21224"
         }
     ]
 }
