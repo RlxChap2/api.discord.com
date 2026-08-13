@@ -22,8 +22,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "diablo iii.app",
-            "os": "darwin"
+            "name": "diablo iii.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -32,8 +32,8 @@
         },
         {
             "is_launcher": false,
-            "name": "diablo iii.exe",
-            "os": "win32"
+            "name": "diablo iii.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -52,11 +52,11 @@
     "third_party_skus": [
         {
             "distributor": "battlenet",
-            "id": "D3"
+            "id": null
         },
         {
             "distributor": "battlenet",
-            "id": null
+            "id": "D3"
         }
     ]
 }
