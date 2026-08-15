@@ -26,13 +26,13 @@
         },
         {
             "is_launcher": false,
-            "name": "starbound.exe",
-            "os": "win32"
+            "name": "starbound.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "starbound.app",
-            "os": "darwin"
+            "name": "starbound.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -51,12 +51,8 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "211820"
-        },
-        {
             "distributor": "xbox",
-            "id": "9PK7BFMB3ZNJ"
+            "id": "9MTSBWPWPQVQ"
         },
         {
             "distributor": "xbox",
@@ -64,7 +60,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9MTSBWPWPQVQ"
+            "id": "9PK7BFMB3ZNJ"
+        },
+        {
+            "distributor": "steam",
+            "id": "211820"
         }
     ]
 }
