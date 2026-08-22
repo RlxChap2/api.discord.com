@@ -22,7 +22,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "content/minecraft.exe",
+            "name": "minecraft.windows.exe",
             "os": "win32"
         },
         {
@@ -33,19 +33,19 @@
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": ">javaw.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "minecraft.windows.exe",
+            "name": "content/minecraft.exe",
             "os": "win32"
         },
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
-            "os": "win32"
+            "name": ">java",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -72,7 +72,15 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NBLGGH537BL"
+            "id": "9MVXMVT8ZKWC"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
+        },
+        {
+            "distributor": "xbox",
+            "id": "9WZDNCRDZSBB"
         },
         {
             "distributor": "xbox",
@@ -83,16 +91,8 @@
             "id": "9PGW18NPBZV5"
         },
         {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
             "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
+            "id": "9NBLGGH537BL"
         }
     ]
 }
