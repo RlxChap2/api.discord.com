@@ -5,7 +5,16 @@
     "content_classification": {
         "agency_ratings": {
             "esrb": {
-                "descriptors": [],
+                "descriptors": [
+                    1,
+                    2,
+                    35,
+                    11,
+                    18,
+                    24,
+                    26,
+                    29
+                ],
                 "rating": 3
             },
             "pegi": {
@@ -18,12 +27,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "ffxiv_dx11.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "ffxiv.exe",
+            "name": "boot/ffxivboot.exe",
             "os": "win32"
         },
         {
@@ -33,7 +37,12 @@
         },
         {
             "is_launcher": false,
-            "name": "boot/ffxivboot.exe",
+            "name": "ffxiv.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "ffxiv_dx11.exe",
             "os": "win32"
         }
     ],
@@ -57,12 +66,12 @@
             "id": "39210"
         },
         {
-            "distributor": "steam",
-            "id": "262342"
-        },
-        {
             "distributor": "xbox",
             "id": "9MVG4XH77J0R"
+        },
+        {
+            "distributor": "steam",
+            "id": "262342"
         }
     ]
 }
