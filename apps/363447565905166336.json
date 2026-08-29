@@ -22,12 +22,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "gta_sa.exe",
+            "name": "gta-sa.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "gta-sa.exe",
+            "name": "gta_sa.exe",
             "os": "win32"
         }
     ],
@@ -46,12 +46,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.rockstargames.gtasager"
-        },
-        {
             "distributor": "steam",
             "id": "12120"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.rockstargames.gtasager"
         }
     ]
 }
