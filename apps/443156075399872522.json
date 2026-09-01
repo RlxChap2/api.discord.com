@@ -19,12 +19,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "aura kingdom/launcher.exe",
+            "name": "aura kingdom/_launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "aura kingdom/_launcher.exe",
+            "name": "aura kingdom/launcher.exe",
             "os": "win32"
         }
     ],
@@ -43,12 +43,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.xlegend.aurakingdom"
-        },
-        {
             "distributor": "steam",
             "id": "268420"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.xlegend.aurakingdom"
         }
     ]
 }
