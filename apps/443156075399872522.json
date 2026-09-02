@@ -19,12 +19,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "aura kingdom/_launcher.exe",
+            "name": "aura kingdom/launcher.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "aura kingdom/launcher.exe",
+            "name": "aura kingdom/_launcher.exe",
             "os": "win32"
         }
     ],
@@ -37,18 +37,14 @@
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
+        "Historical",
         "Action",
-        "Fantasy",
-        "Historical"
+        "Fantasy"
     ],
     "third_party_skus": [
         {
             "distributor": "steam",
             "id": "268420"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.xlegend.aurakingdom"
         }
     ]
 }

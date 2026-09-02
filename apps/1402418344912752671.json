@@ -24,13 +24,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria.exe",
-            "os": "win32"
+            "name": "terraria.bin.x86",
+            "os": "linux"
         },
         {
             "is_launcher": false,
@@ -39,8 +34,13 @@
         },
         {
             "is_launcher": false,
-            "name": "terraria.bin.x86",
-            "os": "linux"
+            "name": "terraria.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "terraria.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -54,20 +54,16 @@
     "themes": [
         "Action",
         "Fantasy",
-        "Science fiction",
         "Horror",
-        "Survival",
         "Sandbox",
-        "Open world"
+        "Open world",
+        "Science fiction",
+        "Survival"
     ],
     "third_party_skus": [
         {
             "distributor": "xbox",
             "id": "BTNPS60N3114"
-        },
-        {
-            "distributor": "google_play",
-            "id": "jp.co.spikechunsoft.android.terrariajp"
         },
         {
             "distributor": "steam",
