@@ -18,8 +18,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "roblox.app",
-            "os": "darwin"
+            "name": "robloxplayerbeta.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -28,8 +28,8 @@
         },
         {
             "is_launcher": false,
-            "name": "robloxplayerbeta.exe",
-            "os": "win32"
+            "name": "roblox.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -48,12 +48,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.roblox.client.vnggames"
-        },
-        {
             "distributor": "xbox",
             "id": "9PMF91N3LZ3M"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.roblox.client.vnggames"
         },
         {
             "distributor": "xbox",
