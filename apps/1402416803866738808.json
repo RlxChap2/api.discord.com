@@ -21,12 +21,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "unturned/unturned.exe",
+            "name": "unturned.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "unturned.exe",
+            "name": "unturned/unturned.exe",
             "os": "win32"
         },
         {
@@ -44,19 +44,19 @@
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
+        "Action",
         "Horror",
         "Survival",
-        "Open world",
-        "Action"
+        "Open world"
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9N81WS04WNR5"
-        },
-        {
             "distributor": "steam",
             "id": "304930"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9N81WS04WNR5"
         }
     ]
 }
