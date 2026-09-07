@@ -3,8 +3,13 @@
     "content_classification": {
         "agency_ratings": {
             "esrb": {
-                "descriptors": [],
-                "rating": 3
+                "descriptors": [
+                    10,
+                    3,
+                    28,
+                    21
+                ],
+                "rating": 4
             }
         }
     },
@@ -25,12 +30,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2235430"
-        },
-        {
             "distributor": "xbox",
             "id": "9N50GHFRD57S"
+        },
+        {
+            "distributor": "steam",
+            "id": "2235430"
         }
     ]
 }
