@@ -16,13 +16,13 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "vrchat/vrchat.exe",
+            "is_launcher": true,
+            "name": "vrchat/launch.exe",
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "vrchat/launch.exe",
+            "is_launcher": false,
+            "name": "vrchat/vrchat.exe",
             "os": "win32"
         }
     ],
@@ -41,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "438100"
-        },
-        {
             "distributor": "google_play",
             "id": "com.vrchat.mobile.playstore"
+        },
+        {
+            "distributor": "steam",
+            "id": "438100"
         }
     ]
 }
