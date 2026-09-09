@@ -20,17 +20,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "raid.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "raid.app",
             "os": "darwin"
         },
         {
             "is_launcher": false,
             "name": "build/raid.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "raid.exe",
             "os": "win32"
         }
     ],
@@ -50,6 +50,10 @@
         {
             "distributor": "epic",
             "id": "F42AD298A6C84EE284DD45995E14BA3C"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.plarium.raidlegends"
         },
         {
             "distributor": "steam",
