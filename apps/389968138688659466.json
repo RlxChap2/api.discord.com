@@ -12,13 +12,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "getting over it/gettingoverit.app",
-            "os": "darwin"
+            "name": "getting over it/gettingoverit.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "getting over it/gettingoverit.exe",
-            "os": "win32"
+            "name": "getting over it/gettingoverit.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -36,12 +36,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "240720"
-        },
-        {
             "distributor": "google_play",
             "id": "com.noodlecake.gettingoverit"
+        },
+        {
+            "distributor": "steam",
+            "id": "240720"
         }
     ]
 }
