@@ -19,13 +19,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "lethalleague.exe",
-            "os": "win32"
+            "name": "lethalleague.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "lethalleague.app",
-            "os": "darwin"
+            "name": "lethalleague.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -41,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "261180"
-        },
-        {
             "distributor": "xbox",
             "id": "C0BBTP2979PF"
+        },
+        {
+            "distributor": "steam",
+            "id": "261180"
         }
     ]
 }
