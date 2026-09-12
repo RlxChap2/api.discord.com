@@ -24,11 +24,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "terraria/terraria.exe",
             "os": "win32"
         },
@@ -36,6 +31,11 @@
             "is_launcher": false,
             "name": "terraria.bin.x86",
             "os": "linux"
+        },
+        {
+            "is_launcher": false,
+            "name": "terraria.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -66,12 +66,12 @@
             "id": "105600"
         },
         {
-            "distributor": "xbox",
-            "id": "BTNPS60N3114"
-        },
-        {
             "distributor": "google_play",
             "id": "com.and.games505.TerrariaPaid"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BTNPS60N3114"
         }
     ]
 }
