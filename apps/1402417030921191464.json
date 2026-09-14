@@ -18,12 +18,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "baba is you/baba is you.exe",
+            "name": "baba is you.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "baba is you.exe",
+            "name": "baba is you/baba is you.exe",
             "os": "win32"
         }
     ],
@@ -41,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "736260"
-        },
-        {
             "distributor": "google_play",
             "id": "org.hempuli.baba"
+        },
+        {
+            "distributor": "steam",
+            "id": "736260"
         }
     ]
 }
