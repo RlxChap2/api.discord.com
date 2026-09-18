@@ -22,6 +22,11 @@
             "is_launcher": false,
             "name": "dragonheir silent gods/dragonheir.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "dragonheir.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -30,7 +35,7 @@
     "name": "Dragonheir: Silent Gods",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Fantasy",
@@ -39,12 +44,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.sgra.dragon"
-        },
-        {
             "distributor": "steam",
             "id": "2203070"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.sgra.dragon"
         }
     ]
 }
