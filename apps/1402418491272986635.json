@@ -22,6 +22,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "content/minecraft.exe",
             "os": "win32"
         },
@@ -40,11 +45,6 @@
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
             "name": ">javaw.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
             "os": "win32"
         }
     ],
@@ -67,20 +67,8 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH537BL"
-        },
-        {
             "distributor": "microsoft",
             "id": ""
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH2JHXJ"
         },
         {
             "distributor": "xbox",
@@ -88,11 +76,23 @@
         },
         {
             "distributor": "xbox",
-            "id": "BT6HNJH658C6"
+            "id": "9NBLGGH2JHXJ"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGW18NPBZV5"
         },
         {
             "distributor": "xbox",
             "id": "9WZDNCRDZSBB"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BT6HNJH658C6"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH537BL"
         }
     ]
 }
