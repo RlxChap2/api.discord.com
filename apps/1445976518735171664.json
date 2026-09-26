@@ -1,5 +1,18 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [
+                    26,
+                    3,
+                    28,
+                    29
+                ],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "2f0ce11d7c49723152ba551198f07d30",
     "executables": [],
     "hook": true,
@@ -15,16 +28,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "3636770"
-        },
-        {
             "distributor": "google_play",
             "id": "com.RustyLake.ServantOfTheLakeLite"
         },
         {
             "distributor": "google_play",
             "id": "com.RustyLake.ServantOfTheLake"
+        },
+        {
+            "distributor": "steam",
+            "id": "3636770"
         }
     ]
 }
