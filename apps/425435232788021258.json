@@ -23,12 +23,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "acbsp.exe",
+            "name": "acbmp.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "acbmp.exe",
+            "name": "acbsp.exe",
             "os": "win32"
         }
     ],
@@ -41,22 +41,22 @@
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
-        "Action",
-        "Fantasy",
-        "Science fiction",
-        "Historical",
-        "Stealth",
         "Sandbox",
-        "Open world"
+        "Open world",
+        "Action",
+        "Stealth",
+        "Science fiction",
+        "Fantasy",
+        "Historical"
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PGMNX4HG2C7"
-        },
-        {
             "distributor": "steam",
             "id": "48190"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGMNX4HG2C7"
         }
     ]
 }

@@ -20,12 +20,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "snowbreak/game/game/binaries/win64/game.exe",
+            "name": "snowbreak/game/binaries/win64/game.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "snowbreak/game/binaries/win64/game.exe",
+            "name": "snowbreak/game/game/binaries/win64/game.exe",
             "os": "win32"
         }
     ],
@@ -39,14 +39,10 @@
     "overlay_warn": false,
     "themes": [
         "Action",
-        "Fantasy",
-        "Science fiction"
+        "Science fiction",
+        "Fantasy"
     ],
     "third_party_skus": [
-        {
-            "distributor": "google_play",
-            "id": "com.seasun.snowbreak.google"
-        },
         {
             "distributor": "epic",
             "id": "752B276B9BFF4070BE17669B1519EEB1"
@@ -54,6 +50,10 @@
         {
             "distributor": "steam",
             "id": "2668080"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.seasun.snowbreak.google"
         }
     ]
 }

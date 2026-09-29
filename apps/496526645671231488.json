@@ -21,13 +21,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "albion-online.exe",
-            "os": "win32"
+            "name": "albion-online.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "albion-online.app",
-            "os": "darwin"
+            "name": "albion-online.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -39,9 +39,9 @@
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
-        "Fantasy",
         "Sandbox",
-        "Open world"
+        "Open world",
+        "Fantasy"
     ],
     "third_party_skus": [
         {
@@ -49,12 +49,12 @@
             "id": "761890"
         },
         {
-            "distributor": "epic",
-            "id": "72520902FC594621B6DAA5A6217B4EE7"
-        },
-        {
             "distributor": "google_play",
             "id": "com.albiononline"
+        },
+        {
+            "distributor": "epic",
+            "id": "72520902FC594621B6DAA5A6217B4EE7"
         },
         {
             "distributor": "xbox",
