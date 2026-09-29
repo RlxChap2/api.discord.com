@@ -21,6 +21,12 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
+            "arguments": "net.minecraft.client.main.Main",
+            "is_launcher": false,
+            "name": ">java",
+            "os": "darwin"
+        },
+        {
             "is_launcher": false,
             "name": "minecraft.windows.exe",
             "os": "win32"
@@ -40,12 +46,6 @@
             "is_launcher": false,
             "name": "content/minecraft.exe",
             "os": "win32"
-        },
-        {
-            "arguments": "net.minecraft.client.main.Main",
-            "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
         }
     ],
     "hook": true,
@@ -57,34 +57,32 @@
     "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
-        "Action",
         "Fantasy",
         "Survival",
         "Sandbox",
         "Kids",
-        "Open world",
-        "4X (explore, expand, exploit, and exterminate)"
+        "Open world"
     ],
     "third_party_skus": [
-        {
-            "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
-        },
         {
             "distributor": "xbox",
             "id": "9PGW18NPBZV5"
         },
         {
             "distributor": "xbox",
-            "id": "BT6HNJH658C6"
+            "id": "9MVXMVT8ZKWC"
         },
         {
             "distributor": "microsoft",
             "id": ""
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.mojang.minecraftpe"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9WZDNCRDZSBB"
         },
         {
             "distributor": "xbox",
@@ -93,6 +91,10 @@
         {
             "distributor": "xbox",
             "id": "9NBLGGH537BL"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BT6HNJH658C6"
         }
     ]
 }
