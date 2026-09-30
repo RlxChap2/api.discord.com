@@ -21,13 +21,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "hearthstone.app",
-            "os": "darwin"
+            "name": "hearthstone.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "hearthstone.exe",
-            "os": "win32"
+            "name": "hearthstone.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -43,12 +43,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.blizzard.wtcg.hearthstone"
-        },
-        {
             "distributor": "battlenet",
             "id": null
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.blizzard.wtcg.hearthstone"
         }
     ]
 }
