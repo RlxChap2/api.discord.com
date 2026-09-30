@@ -23,17 +23,17 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/shootergameserver.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "win64/shootergame_be.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "shootergame_be.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/shootergameserver.exe",
             "os": "win32"
         },
         {
@@ -51,19 +51,15 @@
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
-        "Sandbox",
-        "Open world",
+        "Action",
         "Survival",
-        "Action"
+        "Sandbox",
+        "Open world"
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BNBLC4ZGFNKB"
-        },
-        {
-            "distributor": "steam",
-            "id": "346110"
+            "distributor": "epic",
+            "id": "ARK"
         },
         {
             "distributor": "xbox",
@@ -75,15 +71,19 @@
         },
         {
             "distributor": "xbox",
-            "id": "9MT8ND8BS6NB"
-        },
-        {
-            "distributor": "xbox",
             "id": "9NBLGGH52XC6"
         },
         {
-            "distributor": "epic",
-            "id": "ARK"
+            "distributor": "xbox",
+            "id": "BNBLC4ZGFNKB"
+        },
+        {
+            "distributor": "steam",
+            "id": "346110"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MT8ND8BS6NB"
         }
     ]
 }

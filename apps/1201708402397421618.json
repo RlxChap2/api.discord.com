@@ -20,11 +20,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "raid.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
             "name": "build/raid.exe",
             "os": "win32"
         },
@@ -32,6 +27,11 @@
             "is_launcher": false,
             "name": "raid.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "raid.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -43,10 +43,14 @@
     "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
-        "Fantasy",
-        "Action"
+        "Action",
+        "Fantasy"
     ],
     "third_party_skus": [
+        {
+            "distributor": "google_play",
+            "id": "com.plarium.raidlegends"
+        },
         {
             "distributor": "steam",
             "id": "2333480"
@@ -54,10 +58,6 @@
         {
             "distributor": "epic",
             "id": "F42AD298A6C84EE284DD45995E14BA3C"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.plarium.raidlegends"
         }
     ]
 }

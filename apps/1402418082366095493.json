@@ -20,12 +20,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "sotgame.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "content/seaofthieves.exe",
+            "name": "win64/sotgame.exe",
             "os": "win32"
         },
         {
@@ -35,7 +30,12 @@
         },
         {
             "is_launcher": false,
-            "name": "win64/sotgame.exe",
+            "name": "content/seaofthieves.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "sotgame.exe",
             "os": "win32"
         }
     ],
@@ -48,9 +48,9 @@
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
+        "Action",
         "Fantasy",
-        "Open world",
-        "Action"
+        "Open world"
     ],
     "third_party_skus": [
         {

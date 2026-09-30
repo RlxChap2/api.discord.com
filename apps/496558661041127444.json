@@ -19,12 +19,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "csdgogbuild.exe",
+            "name": "csdsteambuild.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "csdsteambuild.exe",
+            "name": "csdgogbuild.exe",
             "os": "win32"
         }
     ],
@@ -39,14 +39,10 @@
     "themes": [
         "Action",
         "Comedy",
-        "Kids",
-        "Business"
+        "Business",
+        "Kids"
     ],
     "third_party_skus": [
-        {
-            "distributor": "gog",
-            "id": ""
-        },
         {
             "distributor": "xbox",
             "id": "9P5B0LLQFDN3"
@@ -54,6 +50,10 @@
         {
             "distributor": "steam",
             "id": "247020"
+        },
+        {
+            "distributor": "gog",
+            "id": ""
         }
     ]
 }
