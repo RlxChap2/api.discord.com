@@ -7,6 +7,10 @@
                     29
                 ],
                 "rating": 3
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 3
             }
         }
     },
@@ -26,11 +30,18 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Sandbox"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",
             "id": "1215390"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.vdimensionltd.animalrevoltbattlesimulator"
         }
     ]
 }

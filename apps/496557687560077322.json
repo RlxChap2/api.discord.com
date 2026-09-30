@@ -12,6 +12,10 @@
                     29
                 ],
                 "rating": 4
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 5
             }
         }
     },
@@ -31,7 +35,11 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Historical",
+        "Warfare"
+    ],
     "third_party_skus": [
         {
             "distributor": "steam",
@@ -40,6 +48,10 @@
         {
             "distributor": "steam",
             "id": "4560"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.feralinteractive.companyofheroes_android"
         }
     ]
 }
