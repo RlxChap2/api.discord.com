@@ -1,5 +1,21 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    29,
+                    7
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "1f95be1b56840e51f40e5306c069bde0",
     "executables": [
         {
@@ -19,12 +35,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1063580"
-        },
-        {
             "distributor": "google_play",
             "id": "com.handelabra.AeonsEnd"
+        },
+        {
+            "distributor": "steam",
+            "id": "1063580"
         }
     ]
 }

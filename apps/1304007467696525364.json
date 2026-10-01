@@ -2,6 +2,16 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -32,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.haoplay.jk.metalslug"
-        },
-        {
             "distributor": "steam",
             "id": "2963870"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.haoplay.jk.metalslug"
         }
     ]
 }

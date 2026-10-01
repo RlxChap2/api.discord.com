@@ -2,6 +2,20 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    3,
+                    7,
+                    9,
+                    12,
+                    13,
+                    16,
+                    19,
+                    23
+                ],
+                "rating": 6
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -41,16 +55,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "google_play",
+            "id": "com.yym.loveesquiremobile"
+        },
+        {
             "distributor": "steam",
             "id": "12270"
         },
         {
             "distributor": "steam",
             "id": "849740"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.yym.loveesquiremobile"
         }
     ]
 }

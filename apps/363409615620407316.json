@@ -2,6 +2,19 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    1,
+                    7,
+                    9,
+                    11,
+                    15,
+                    29,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 3
@@ -33,12 +46,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.cygames.Shadowverse"
-        },
-        {
             "distributor": "steam",
             "id": "453480"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.cygames.Shadowverse"
         }
     ]
 }

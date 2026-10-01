@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    28,
+                    30
+                ],
+                "rating": 1
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 1
@@ -34,8 +41,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "9NN5H6NV569H"
+        },
+        {
             "distributor": "steam",
             "id": "470220"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.matteljv.uno"
         },
         {
             "distributor": "xbox",
@@ -46,24 +61,16 @@
             "id": "9MX3WMSK81HP"
         },
         {
-            "distributor": "epic",
-            "id": "CA93B6D41A4E41AF864942D8F0A2A826"
-        },
-        {
             "distributor": "xbox",
             "id": "9NWS5S7ZGD9T"
         },
         {
-            "distributor": "google_play",
-            "id": "com.matteljv.uno"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NN5H6NV569H"
-        },
-        {
             "distributor": "xbox",
             "id": "9WZDNCRDKFHQ"
+        },
+        {
+            "distributor": "epic",
+            "id": "CA93B6D41A4E41AF864942D8F0A2A826"
         }
     ]
 }

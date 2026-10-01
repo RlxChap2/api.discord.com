@@ -2,6 +2,14 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3,
+                    7
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     29
@@ -26,11 +34,19 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9PP1P7J01XTV"
+            "id": "9NBVFJHD7G8D"
         },
         {
             "distributor": "xbox",
-            "id": "9NBVFJHD7G8D"
+            "id": "9PP1P7J01XTV"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.artifexmundi.endlessfables4.gp.free"
+        },
+        {
+            "distributor": "steam",
+            "id": "1129030"
         },
         {
             "distributor": "xbox",
@@ -38,15 +54,7 @@
         },
         {
             "distributor": "google_play",
-            "id": "com.artifexmundi.endlessfables4.gp.free"
-        },
-        {
-            "distributor": "google_play",
             "id": "com.artifexmundi.endlessfables4.gp.full"
-        },
-        {
-            "distributor": "steam",
-            "id": "1129030"
         }
     ]
 }

@@ -2,9 +2,19 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    7
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 1
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 2
             }
         }
     },
@@ -31,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "456750"
-        },
-        {
             "distributor": "google_play",
             "id": "com.FireproofStudios.TheRoom3"
+        },
+        {
+            "distributor": "steam",
+            "id": "456750"
         }
     ]
 }

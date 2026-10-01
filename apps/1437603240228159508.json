@@ -1,5 +1,20 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    29
+                ],
+                "rating": 4
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "5ea8a2ee28d13d054153954bc5667b0f",
     "executables": [],
     "hook": true,
@@ -15,12 +30,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2800900"
-        },
-        {
             "distributor": "google_play",
             "id": "com.adriaandejongh.riftriff"
+        },
+        {
+            "distributor": "steam",
+            "id": "2800900"
         }
     ]
 }

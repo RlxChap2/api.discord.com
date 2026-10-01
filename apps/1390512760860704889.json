@@ -2,6 +2,19 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    7,
+                    9,
+                    13,
+                    15,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 5
+            },
             "esrb": {
                 "descriptors": [
                     24,
@@ -33,12 +46,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.nexon.bluearchive"
-        },
-        {
             "distributor": "steam",
             "id": "3557620"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.nexon.bluearchive"
         }
     ]
 }

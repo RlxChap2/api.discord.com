@@ -1,5 +1,19 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "f27ec5220a18891eab6e62386225f140",
     "executables": [
         {
@@ -22,12 +36,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.clarus.egypt2"
-        },
-        {
             "distributor": "steam",
             "id": "646500"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.clarus.egypt2"
         }
     ]
 }

@@ -4,6 +4,21 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    33,
+                    2,
+                    3,
+                    34,
+                    7,
+                    28,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 3
@@ -18,11 +33,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "roblox.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
             "name": "roblox.exe",
             "os": "win32"
         },
@@ -30,6 +40,11 @@
             "is_launcher": false,
             "name": "robloxplayerbeta.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "roblox.app",
+            "os": "darwin"
         }
     ],
     "hook": true,
@@ -53,15 +68,15 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PMF91N3LZ3M"
-        },
-        {
-            "distributor": "xbox",
             "id": "9NBLGGGZM6WM"
         },
         {
             "distributor": "google_play",
             "id": "com.roblox.client"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PMF91N3LZ3M"
         }
     ]
 }

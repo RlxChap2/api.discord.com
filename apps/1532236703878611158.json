@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    33,
+                    21
+                ],
+                "rating": 1
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 1
@@ -29,12 +36,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.aladdinx.suikagame"
-        },
-        {
             "distributor": "steam",
             "id": "4572790"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.aladdinx.suikagame"
         }
     ]
 }

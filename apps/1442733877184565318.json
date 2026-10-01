@@ -2,6 +2,14 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3,
+                    7
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -32,16 +40,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "1149710"
+        },
+        {
             "distributor": "xbox",
             "id": "9N4WRJB1DFM1"
         },
         {
             "distributor": "google_play",
             "id": "com.the10tons.teslaforce"
-        },
-        {
-            "distributor": "steam",
-            "id": "1149710"
         }
     ]
 }

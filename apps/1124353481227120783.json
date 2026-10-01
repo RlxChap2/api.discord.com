@@ -2,6 +2,20 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    1,
+                    9,
+                    11,
+                    15,
+                    19,
+                    28,
+                    29,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 1
@@ -29,12 +43,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.cosmiccow.cubiccastles"
-        },
-        {
             "distributor": "steam",
             "id": "317470"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.cosmiccow.cubiccastles"
         }
     ]
 }

@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    30
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 1
@@ -30,12 +37,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1722870"
-        },
-        {
             "distributor": "google_play",
             "id": "com.direwolfdigital.clank"
+        },
+        {
+            "distributor": "steam",
+            "id": "1722870"
         }
     ]
 }

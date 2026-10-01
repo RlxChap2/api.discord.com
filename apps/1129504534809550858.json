@@ -5,6 +5,15 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    11,
+                    22,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     9,
@@ -38,12 +47,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.xd.TLglobal"
-        },
-        {
             "distributor": "steam",
             "id": "1974050"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.xd.TLglobal"
         }
     ]
 }

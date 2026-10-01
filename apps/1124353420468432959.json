@@ -1,5 +1,22 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    9,
+                    12,
+                    28,
+                    15
+                ],
+                "rating": 4
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "d17e3afc8f435b9bd5aff50730b06798",
     "executables": [
         {
@@ -21,12 +38,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.jennyvipham.error143"
-        },
-        {
             "distributor": "steam",
             "id": "2066550"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.jennyvipham.error143"
         }
     ]
 }

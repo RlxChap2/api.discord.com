@@ -2,6 +2,16 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    11,
+                    13,
+                    28,
+                    29,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     1,
@@ -33,16 +43,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "google_play",
+            "id": "com.SamuraiGames.YourChronicle"
+        },
+        {
             "distributor": "steam",
             "id": "1546320"
         },
         {
             "distributor": "epic",
             "id": "D62D66D0E4084AC4A941E1293A053E53"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.SamuraiGames.YourChronicle"
         }
     ]
 }

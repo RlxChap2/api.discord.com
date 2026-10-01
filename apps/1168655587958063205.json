@@ -2,6 +2,20 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    7,
+                    9,
+                    13,
+                    15,
+                    21,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     19,
@@ -44,12 +58,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.sgra.dragon"
-        },
-        {
             "distributor": "steam",
             "id": "2203070"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.sgra.dragon"
         }
     ]
 }

@@ -2,6 +2,18 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    3,
+                    7,
+                    10,
+                    11,
+                    16,
+                    31
+                ],
+                "rating": 7
+            },
             "esrb": {
                 "descriptors": [
                     17,
@@ -35,12 +47,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.GentleManiac.HorizonWalkerGoogle"
-        },
-        {
             "distributor": "steam",
             "id": "3279780"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.GentleManiac.HorizonWalkerGoogle"
         }
     ]
 }

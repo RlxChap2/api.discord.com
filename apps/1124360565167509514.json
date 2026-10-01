@@ -4,6 +4,18 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    7,
+                    9,
+                    11,
+                    28,
+                    29,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 2
@@ -36,12 +48,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "mmorpg.main"
-        },
-        {
             "distributor": "steam",
             "id": "1541020"
+        },
+        {
+            "distributor": "google_play",
+            "id": "mmorpg.main"
         }
     ]
 }

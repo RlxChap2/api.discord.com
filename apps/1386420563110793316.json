@@ -2,6 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    3,
+                    11,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     24,
@@ -37,12 +48,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.kabam.marvelbattle"
-        },
-        {
             "distributor": "steam",
             "id": "3127280"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.kabam.marvelbattle"
         }
     ]
 }

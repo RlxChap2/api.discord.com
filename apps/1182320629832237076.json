@@ -2,6 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    3,
+                    9,
+                    15,
+                    29,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     35,
@@ -41,12 +52,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2484110"
-        },
-        {
             "distributor": "google_play",
             "id": "com.square_enix.android_googleplay.ff7ecww"
+        },
+        {
+            "distributor": "steam",
+            "id": "2484110"
         }
     ]
 }

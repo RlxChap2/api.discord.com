@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    7
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     29
@@ -25,12 +32,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "1198450"
+        },
+        {
             "distributor": "google_play",
             "id": "com.artifexmundi.tso8.gp.free"
         },
         {
-            "distributor": "steam",
-            "id": "1198450"
+            "distributor": "xbox",
+            "id": "9P9ZGVF28T07"
         },
         {
             "distributor": "google_play",
@@ -38,15 +49,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9P7FC5FFJPJ4"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9P9ZGVF28T07"
-        },
-        {
-            "distributor": "xbox",
             "id": "9P5VSP3JB8XP"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P7FC5FFJPJ4"
         }
     ]
 }

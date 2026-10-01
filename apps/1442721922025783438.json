@@ -2,6 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3,
+                    21,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 5
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -28,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "4172530"
-        },
-        {
             "distributor": "google_play",
             "id": "com.wemade.ymirglobal"
+        },
+        {
+            "distributor": "steam",
+            "id": "4172530"
         }
     ]
 }

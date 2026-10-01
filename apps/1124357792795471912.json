@@ -1,5 +1,19 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2
+                ],
+                "rating": 3
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "7cb5050d86d498ab311c71b54695765f",
     "executables": [
         {
@@ -22,16 +36,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "1347970"
+        },
+        {
             "distributor": "google_play",
             "id": "com.crunchyroll.gv.patchquest.game"
         },
         {
             "distributor": "xbox",
             "id": "9P6H9X2N8W3F"
-        },
-        {
-            "distributor": "steam",
-            "id": "1347970"
         }
     ]
 }

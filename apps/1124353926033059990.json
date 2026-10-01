@@ -1,5 +1,21 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    29,
+                    13,
+                    7
+                ],
+                "rating": 4
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [
         {
@@ -21,12 +37,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.fantasyflightgames.mom"
-        },
-        {
             "distributor": "steam",
             "id": "478980"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.fantasyflightgames.mom"
         }
     ]
 }

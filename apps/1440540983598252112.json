@@ -2,6 +2,12 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    11
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     6
@@ -30,12 +36,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9P4XM3TJ13QM"
-        },
-        {
             "distributor": "steam",
             "id": "1889740"
+        },
+        {
+            "distributor": "epic",
+            "id": "44FDC5BEF2BB495981B03E358175B412"
         },
         {
             "distributor": "xbox",
@@ -44,6 +50,10 @@
         {
             "distributor": "google_play",
             "id": "com.netflix.NGP.PaperTrail"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9P4XM3TJ13QM"
         }
     ]
 }

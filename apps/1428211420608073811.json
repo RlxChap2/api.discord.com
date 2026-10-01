@@ -1,5 +1,19 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    29
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "db35e5fb834c2b31cbbce6bd68a1c195",
     "executables": [],
     "hook": true,
@@ -13,12 +27,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.strayfawnstudio.gambonanza"
-        },
-        {
             "distributor": "steam",
             "id": "3509230"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.strayfawnstudio.gambonanza"
         }
     ]
 }

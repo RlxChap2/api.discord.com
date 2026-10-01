@@ -2,11 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
-                    37,
+                    29,
                     3,
-                    29
+                    37
                 ],
                 "rating": 1
             },
@@ -33,10 +39,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9NTGFMG0S19N"
-        },
-        {
             "distributor": "steam",
             "id": "3113680"
         },
@@ -47,6 +49,10 @@
         {
             "distributor": "google_play",
             "id": "com.euphoricbrothersgames.missingbanban"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NTGFMG0S19N"
         }
     ]
 }

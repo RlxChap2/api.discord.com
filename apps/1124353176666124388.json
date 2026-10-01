@@ -2,6 +2,20 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    2,
+                    3,
+                    7,
+                    13,
+                    23,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     29
@@ -37,12 +51,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1881700"
-        },
-        {
             "distributor": "google_play",
             "id": "com.tencent.cosna"
+        },
+        {
+            "distributor": "steam",
+            "id": "1881700"
         }
     ]
 }

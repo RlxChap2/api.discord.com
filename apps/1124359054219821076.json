@@ -2,6 +2,14 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    28,
+                    29
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     29
@@ -31,16 +39,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "google_play",
+            "id": "com.mindblocks.blocks_light"
+        },
+        {
             "distributor": "steam",
             "id": "270110"
         },
         {
             "distributor": "google_play",
             "id": "com.mindblocks.blocks"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.mindblocks.blocks_light"
         }
     ]
 }

@@ -1,5 +1,21 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    11,
+                    7
+                ],
+                "rating": 4
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "d867b60788718ee164e2804f2bd1ac1b",
     "executables": [
         {
@@ -21,12 +37,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.game.whiskeybarrelstudios.swordsandsandalsimmortals"
-        },
-        {
             "distributor": "steam",
             "id": "1707650"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.game.whiskeybarrelstudios.swordsandsandalsimmortals"
         }
     ]
 }

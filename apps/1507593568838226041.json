@@ -2,6 +2,16 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    4,
+                    28,
+                    29,
+                    30
+                ],
+                "rating": 7
+            },
             "esrb": {
                 "descriptors": [
                     10,
@@ -31,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.extremedevelopers.codeofwar"
-        },
-        {
             "distributor": "steam",
             "id": "2430360"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.extremedevelopers.codeofwar"
         }
     ]
 }

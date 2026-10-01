@@ -1,5 +1,25 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    4,
+                    10,
+                    28,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 7
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [
         {
@@ -21,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.mgs.sniper1"
-        },
-        {
             "distributor": "steam",
             "id": "848500"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.mgs.sniper1"
         }
     ]
 }

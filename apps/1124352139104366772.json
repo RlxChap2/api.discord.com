@@ -2,6 +2,16 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3,
+                    7,
+                    9,
+                    13
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -32,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "909080"
-        },
-        {
             "distributor": "google_play",
             "id": "air.com.RustyLake.CubeEscapeParadox"
+        },
+        {
+            "distributor": "steam",
+            "id": "909080"
         }
     ]
 }

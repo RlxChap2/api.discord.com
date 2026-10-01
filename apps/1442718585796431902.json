@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [],
+                "rating": 1
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "e42f7c85c0d438d83a7413069237887f",
     "executables": [],
     "hook": true,
@@ -15,12 +27,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1791590"
-        },
-        {
             "distributor": "google_play",
             "id": "com.cottongame.sunsethills"
+        },
+        {
+            "distributor": "steam",
+            "id": "1791590"
         }
     ]
 }

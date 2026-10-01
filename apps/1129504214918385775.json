@@ -4,6 +4,15 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    21,
+                    30,
+                    31
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     9
@@ -33,12 +42,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1476970"
-        },
-        {
             "distributor": "google_play",
             "id": "com.lavaflame.MMO"
+        },
+        {
+            "distributor": "steam",
+            "id": "1476970"
         }
     ]
 }

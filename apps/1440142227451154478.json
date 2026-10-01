@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    28,
+                    21
+                ],
+                "rating": 1
+            },
             "esrb": {
                 "descriptors": [
                     9,
@@ -34,12 +41,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "9PDXCGZVSVSV"
+        },
+        {
             "distributor": "google_play",
             "id": "io.voodoo.holeio"
         },
         {
-            "distributor": "xbox",
-            "id": "9PB4PZH076RM"
+            "distributor": "steam",
+            "id": "2751230"
         },
         {
             "distributor": "xbox",
@@ -47,11 +58,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PDXCGZVSVSV"
-        },
-        {
-            "distributor": "steam",
-            "id": "2751230"
+            "id": "9PB4PZH076RM"
         }
     ]
 }

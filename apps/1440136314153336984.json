@@ -2,6 +2,18 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    7,
+                    9,
+                    11,
+                    19,
+                    22,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     9,
@@ -32,12 +44,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.gamematter.duel_revolution"
-        },
-        {
             "distributor": "steam",
             "id": "2319160"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.gamematter.duel_revolution"
         }
     ]
 }

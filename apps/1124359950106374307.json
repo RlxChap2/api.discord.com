@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [],
+                "rating": 1
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [
         {
@@ -23,12 +35,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "232810"
-        },
-        {
             "distributor": "google_play",
             "id": "com.mobage.ww.a1912.Godus_Android"
+        },
+        {
+            "distributor": "steam",
+            "id": "232810"
         }
     ]
 }

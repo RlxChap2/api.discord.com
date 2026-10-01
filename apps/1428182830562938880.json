@@ -1,5 +1,19 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "201915cab072d37989e8da86b57b16ea",
     "executables": [],
     "hook": true,
@@ -15,12 +29,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "3385370"
-        },
-        {
             "distributor": "google_play",
             "id": "com.trampolinetales.mm"
+        },
+        {
+            "distributor": "steam",
+            "id": "3385370"
         }
     ]
 }

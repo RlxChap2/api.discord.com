@@ -5,6 +5,17 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    33,
+                    34,
+                    3,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -18,7 +29,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/deltaforceclient-win64-shipping.exe",
+            "name": "launcher/df_launcher.exe",
             "os": "win32"
         },
         {
@@ -28,17 +39,17 @@
         },
         {
             "is_launcher": false,
-            "name": "df_garena/deltaforceclient.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "launcher/df_launcher.exe",
+            "name": "win64/deltaforceclient-win64-shipping.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "launcher/df_launcher_global.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "df_garena/deltaforceclient.exe",
             "os": "win32"
         }
     ],
@@ -56,16 +67,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.proxima.dfm"
+            "distributor": "epic",
+            "id": "3E2C28241611405AA231308A39BEE638"
         },
         {
             "distributor": "xbox",
             "id": "9NRMZXGKP4NM"
         },
         {
-            "distributor": "epic",
-            "id": "3E2C28241611405AA231308A39BEE638"
+            "distributor": "google_play",
+            "id": "com.proxima.dfm"
         },
         {
             "distributor": "steam",

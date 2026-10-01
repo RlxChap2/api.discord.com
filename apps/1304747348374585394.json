@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     24,
@@ -34,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.yoozoo.jgame.us"
-        },
-        {
             "distributor": "steam",
             "id": "2917030"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.yoozoo.jgame.us"
         }
     ]
 }

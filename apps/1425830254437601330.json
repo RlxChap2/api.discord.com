@@ -2,6 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    1,
+                    19,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -19,22 +30,22 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "blueprotocolstarresolw5ks/bpsr_epic.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "bpsr/bpsr_steam.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bpsr.exe",
+            "name": "blue protocol star resonance/blue protocol star resonance.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "blue protocol star resonance/blue protocol star resonance.exe",
+            "name": "blueprotocolstarresolw5ks/bpsr_epic.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "bpsr.exe",
             "os": "win32"
         }
     ],
@@ -57,12 +68,12 @@
             "id": "com.bpsr.apj"
         },
         {
-            "distributor": "steam",
-            "id": "3681810"
-        },
-        {
             "distributor": "epic",
             "id": "1FA6D3090390423EB8BF033E265727F7"
+        },
+        {
+            "distributor": "steam",
+            "id": "3681810"
         }
     ]
 }

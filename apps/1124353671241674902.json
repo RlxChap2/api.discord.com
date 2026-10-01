@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    3,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     9
@@ -31,16 +38,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.ParallelSpace.Cerberus"
-        },
-        {
             "distributor": "xbox",
             "id": "9NN38XKP4M2J"
         },
         {
             "distributor": "steam",
             "id": "755800"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.ParallelSpace.Cerberus"
         }
     ]
 }

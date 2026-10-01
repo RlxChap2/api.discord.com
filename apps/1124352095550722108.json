@@ -2,6 +2,14 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    11,
+                    13
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     1,
@@ -38,16 +46,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.ShinyShoe.MonsterTrain"
-        },
-        {
             "distributor": "xbox",
             "id": "9NP4BGBLLLXM"
         },
         {
             "distributor": "steam",
             "id": "1102190"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.ShinyShoe.MonsterTrain"
         }
     ]
 }

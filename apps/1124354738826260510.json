@@ -2,6 +2,19 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    10,
+                    12,
+                    14,
+                    28,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 7
+            },
             "esrb": {
                 "descriptors": [
                     7,
@@ -35,12 +48,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "735850"
-        },
-        {
             "distributor": "google_play",
             "id": "com.eastsidegames.trailerparkboys"
+        },
+        {
+            "distributor": "steam",
+            "id": "735850"
         }
     ]
 }

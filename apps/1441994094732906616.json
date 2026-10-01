@@ -2,6 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    3,
+                    7,
+                    10,
+                    11,
+                    13,
+                    15
+                ],
+                "rating": 5
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -37,16 +48,16 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9PM1905P9LQ6"
-        },
-        {
             "distributor": "steam",
             "id": "1350200"
         },
         {
             "distributor": "google_play",
             "id": "com.netflix.NGP.Immortality"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PM1905P9LQ6"
         }
     ]
 }

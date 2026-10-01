@@ -4,6 +4,18 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    7,
+                    9,
+                    11,
+                    13,
+                    29,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     1,
@@ -24,6 +36,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "terraria/terraria.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "terraria.exe",
             "os": "win32"
         },
@@ -31,11 +48,6 @@
             "is_launcher": false,
             "name": "terraria.bin.x86",
             "os": "linux"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria/terraria.exe",
-            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -62,16 +74,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "BTNPS60N3114"
+        },
+        {
             "distributor": "google_play",
             "id": "com.and.games505.TerrariaPaid"
         },
         {
             "distributor": "steam",
             "id": "105600"
-        },
-        {
-            "distributor": "xbox",
-            "id": "BTNPS60N3114"
         }
     ]
 }

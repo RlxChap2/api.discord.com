@@ -2,6 +2,17 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    12,
+                    28,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     24,
@@ -33,12 +44,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "707710"
-        },
-        {
             "distributor": "google_play",
             "id": "com.playagames.mobile.dungeon.team.battle.rpg"
+        },
+        {
+            "distributor": "steam",
+            "id": "707710"
         }
     ]
 }

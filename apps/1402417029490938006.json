@@ -4,6 +4,12 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -17,12 +23,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "win64/underlords.exe",
+            "name": "underlords.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "underlords.exe",
+            "name": "win64/underlords.exe",
             "os": "win32"
         }
     ],
@@ -39,12 +45,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1046930"
-        },
-        {
             "distributor": "google_play",
             "id": "com.valvesoftware.underlords"
+        },
+        {
+            "distributor": "steam",
+            "id": "1046930"
         }
     ]
 }

@@ -2,6 +2,16 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    8,
+                    11,
+                    13,
+                    29
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     2,
@@ -43,16 +53,20 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "1562430"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.BlackSaltGames.DREDGE"
+        },
+        {
             "distributor": "epic",
             "id": "8B454B47F5544FC6829CF0FED42EBAE0"
         },
         {
             "distributor": "xbox",
-            "id": "9NXHCK7J1P5X"
-        },
-        {
-            "distributor": "steam",
-            "id": "1562430"
+            "id": "9N227SPK42ZT"
         },
         {
             "distributor": "xbox",
@@ -60,15 +74,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9N227SPK42ZT"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.BlackSaltGames.DREDGE"
+            "id": "9P4X5FQ6GR63"
         },
         {
             "distributor": "xbox",
-            "id": "9P4X5FQ6GR63"
+            "id": "9NXHCK7J1P5X"
         }
     ]
 }

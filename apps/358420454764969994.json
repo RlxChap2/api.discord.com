@@ -4,6 +4,18 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    8,
+                    10,
+                    12,
+                    13,
+                    15,
+                    19
+                ],
+                "rating": 5
+            },
             "esrb": {
                 "descriptors": [
                     4,
@@ -22,12 +34,7 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "isaacitempooleditor/itempooleditor.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "isaacanimationeditor/isaacanimationeditor.exe",
+            "name": "roomeditor/roomeditor.exe",
             "os": "win32"
         },
         {
@@ -42,7 +49,12 @@
         },
         {
             "is_launcher": false,
-            "name": "roomeditor/roomeditor.exe",
+            "name": "isaacanimationeditor/isaacanimationeditor.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "isaacitempooleditor/itempooleditor.exe",
             "os": "win32"
         }
     ],
@@ -62,12 +74,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BQD45PQR4F4J"
-        },
-        {
             "distributor": "steam",
             "id": "250900"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BQD45PQR4F4J"
         }
     ]
 }

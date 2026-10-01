@@ -2,6 +2,14 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    15,
+                    7
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     3,
@@ -33,20 +41,20 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9N25VS5SPZ2V"
-        },
-        {
             "distributor": "steam",
             "id": "1627840"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.tmesis.universeforsale.android"
         },
         {
             "distributor": "epic",
             "id": "60525048F11C46B88BB6D7492CE7B67D"
         },
         {
-            "distributor": "google_play",
-            "id": "com.tmesis.universeforsale.android"
+            "distributor": "xbox",
+            "id": "9N25VS5SPZ2V"
         }
     ]
 }

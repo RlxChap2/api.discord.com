@@ -1,5 +1,21 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    29,
+                    21,
+                    31
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "83222943df31e656d73c7c3eaf1ae340",
     "executables": [],
     "hook": true,
@@ -15,12 +31,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "io.battletabs"
-        },
-        {
             "distributor": "steam",
             "id": "4457520"
+        },
+        {
+            "distributor": "google_play",
+            "id": "io.battletabs"
         }
     ]
 }

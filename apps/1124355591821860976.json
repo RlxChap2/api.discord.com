@@ -2,6 +2,13 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    11
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     9,
@@ -41,16 +48,16 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "steam",
+            "id": "391730"
+        },
+        {
             "distributor": "google_play",
             "id": "com.bscotch.crashlands"
         },
         {
             "distributor": "xbox",
             "id": "9PG870W0VP69"
-        },
-        {
-            "distributor": "steam",
-            "id": "391730"
         }
     ]
 }

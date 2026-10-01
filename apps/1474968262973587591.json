@@ -1,5 +1,24 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    1,
+                    7,
+                    9,
+                    11,
+                    13
+                ],
+                "rating": 5
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "ecff354226b00f0242c0ca391e13a130",
     "executables": [],
     "hook": true,
@@ -15,12 +34,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.TamaniDamani.DisasterPRPlus"
-        },
-        {
             "distributor": "steam",
             "id": "2976890"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.TamaniDamani.DisasterPRPlus"
         }
     ]
 }

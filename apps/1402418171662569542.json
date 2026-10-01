@@ -6,6 +6,17 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    2,
+                    3,
+                    7,
+                    9,
+                    11,
+                    15
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     18,
@@ -25,12 +36,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "divinity original sin 2/bin/eocapp.exe",
+            "name": "bin/supporttool.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "bin/supporttool.exe",
+            "name": "divinity original sin 2/bin/eocapp.exe",
             "os": "win32"
         }
     ],
@@ -47,12 +58,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BW8PVL4CJ2Q6"
-        },
-        {
             "distributor": "steam",
             "id": "435150"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BW8PVL4CJ2Q6"
         }
     ]
 }

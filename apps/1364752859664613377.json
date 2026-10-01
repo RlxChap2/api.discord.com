@@ -1,5 +1,22 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    8,
+                    2,
+                    12,
+                    29
+                ],
+                "rating": 7
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 4
+            }
+        }
+    },
     "cover_image_hash": "eb292da7ad8442f4a715ae32b865696b",
     "executables": [
         {
@@ -22,12 +39,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2578910"
-        },
-        {
             "distributor": "google_play",
             "id": "com.cowboytoadgames.nocturnals"
+        },
+        {
+            "distributor": "steam",
+            "id": "2578910"
         }
     ]
 }

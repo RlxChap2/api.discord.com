@@ -1,5 +1,23 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    28,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 2
+            }
+        }
+    },
     "cover_image_hash": "415fe73e7c76072b4dbac60bc2edd433",
     "executables": [],
     "hook": true,
@@ -15,12 +33,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.savysoda.pss2.android"
-        },
-        {
             "distributor": "steam",
             "id": "2154270"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.savysoda.pss2.android"
         }
     ]
 }

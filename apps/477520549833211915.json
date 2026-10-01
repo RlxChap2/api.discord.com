@@ -1,5 +1,19 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    31
+                ],
+                "rating": 2
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "641c222065b59c6a4ae0d1383c26a121",
     "executables": [
         {
@@ -19,12 +33,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "375950"
-        },
-        {
             "distributor": "google_play",
             "id": "com.IceWaterGames.Viridi"
+        },
+        {
+            "distributor": "steam",
+            "id": "375950"
         }
     ]
 }

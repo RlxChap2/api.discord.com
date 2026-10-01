@@ -2,6 +2,14 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    32,
+                    28,
+                    22
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [],
                 "rating": 1
@@ -23,12 +31,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.StandardIssueGames.SphereTD"
-        },
-        {
             "distributor": "steam",
             "id": "4586760"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.StandardIssueGames.SphereTD"
         }
     ]
 }

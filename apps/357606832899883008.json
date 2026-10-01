@@ -6,6 +6,18 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    33,
+                    2,
+                    7,
+                    13,
+                    22,
+                    29,
+                    30
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     26,
@@ -25,16 +37,6 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "runescape.app",
-            "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "runescape.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "osbuddy.exe",
             "os": "win32"
         },
@@ -47,6 +49,16 @@
             "is_launcher": false,
             "name": "osbuddy64.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "runescape.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "runescape.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -71,12 +83,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1343400"
-        },
-        {
             "distributor": "google_play",
             "id": "com.jagex.runescape.android"
+        },
+        {
+            "distributor": "steam",
+            "id": "1343400"
         }
     ]
 }

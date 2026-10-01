@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [],
+                "rating": 1
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": "1fa22df999ac3c011b0c6bfa1f9acbf8",
     "executables": [
         {
@@ -19,12 +31,12 @@
     "themes": [],
     "third_party_skus": [
         {
-            "distributor": "google_play",
-            "id": "com.StudioGoya.ClassicSudoku"
-        },
-        {
             "distributor": "steam",
             "id": "1188330"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.StudioGoya.ClassicSudoku"
         }
     ]
 }
