@@ -4,6 +4,12 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     9,
@@ -35,12 +41,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "613830"
-        },
-        {
             "distributor": "google_play",
             "id": "com.square_enix.android_googleplay.chrono"
+        },
+        {
+            "distributor": "steam",
+            "id": "613830"
         }
     ]
 }

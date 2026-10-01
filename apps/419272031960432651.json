@@ -2,6 +2,18 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    3,
+                    11,
+                    28,
+                    29,
+                    30,
+                    31
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [
                     42
@@ -36,12 +48,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "444200"
-        },
-        {
             "distributor": "google_play",
             "id": "net.wargaming.wot.blitz"
+        },
+        {
+            "distributor": "steam",
+            "id": "444200"
         }
     ]
 }

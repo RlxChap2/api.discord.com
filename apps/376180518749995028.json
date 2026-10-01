@@ -5,6 +5,18 @@
     ],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1,
+                    8,
+                    10,
+                    11,
+                    13,
+                    15,
+                    19
+                ],
+                "rating": 5
+            },
             "esrb": {
                 "descriptors": [
                     1,
@@ -29,12 +41,12 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "_windows/darkest.exe",
+            "name": "darkest.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "darkest.exe",
+            "name": "_windows/darkest.exe",
             "os": "win32"
         }
     ],
@@ -54,20 +66,20 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "BXKVN6G9C5WJ"
-        },
-        {
-            "distributor": "steam",
-            "id": "262060"
-        },
-        {
             "distributor": "epic",
             "id": "21916C391AE4425D8F6CCE2382AEBD0C"
         },
         {
             "distributor": "xbox",
             "id": "9PKXZHKXNH8C"
+        },
+        {
+            "distributor": "steam",
+            "id": "262060"
+        },
+        {
+            "distributor": "xbox",
+            "id": "BXKVN6G9C5WJ"
         }
     ]
 }
