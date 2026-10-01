@@ -2,22 +2,35 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    19,
+                    28,
+                    15
+                ],
+                "rating": 4
+            },
             "esrb": {
                 "descriptors": [],
-                "rating": 1
+                "rating": 2
             }
         }
     },
     "cover_image_hash": "f35025acec575b6a304794111dfc2b15",
     "executables": [],
     "hook": true,
-    "icon_hash": "e8025625fe3abd5c581ccf2a0cffa8d4",
+    "icon_hash": null,
     "id": "1442712617339588768",
-    "name": "Block Blast",
+    "name": "Block Blast!",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [],
-    "third_party_skus": []
+    "third_party_skus": [
+        {
+            "distributor": "google_play",
+            "id": "com.block.juggle"
+        }
+    ]
 }
