@@ -36,6 +36,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "terraria/terraria.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "terraria.exe",
             "os": "win32"
         },
@@ -48,11 +53,6 @@
             "is_launcher": false,
             "name": "terraria.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria/terraria.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
@@ -66,11 +66,11 @@
     "themes": [
         "Action",
         "Fantasy",
-        "Science fiction",
         "Horror",
-        "Survival",
+        "Open world",
         "Sandbox",
-        "Open world"
+        "Science fiction",
+        "Survival"
     ],
     "third_party_skus": [
         {

@@ -27,22 +27,22 @@
         },
         {
             "is_launcher": false,
-            "name": "duneawakening/dunesandbox.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "win64/dunesandbox_be.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/dunesandbox-win64-shipping.exe",
+            "name": "win64/dunesandbox-win64-test.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "win64/dunesandbox-win64-test.exe",
+            "name": "duneawakening/dunesandbox.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "win64/dunesandbox-win64-shipping.exe",
             "os": "win32"
         }
     ],
@@ -56,13 +56,13 @@
     "overlay_warn": false,
     "themes": [
         "Action",
-        "Science fiction",
-        "Open world"
+        "Open world",
+        "Science fiction"
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "1172710"
+            "distributor": "xbox",
+            "id": "9MZGWXBP42NF"
         },
         {
             "distributor": "xbox",
@@ -70,7 +70,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9MZGWXBP42NF"
+            "id": "9NLSBC02BD5S"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PJ6FV3130QZ"
         },
         {
             "distributor": "xbox",
@@ -81,12 +85,8 @@
             "id": "9PD6PWP8KCD8"
         },
         {
-            "distributor": "xbox",
-            "id": "9NLSBC02BD5S"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9PJ6FV3130QZ"
+            "distributor": "steam",
+            "id": "1172710"
         }
     ]
 }
