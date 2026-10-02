@@ -31,13 +31,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "brawlhalla/brawlhallagame.exe",
-            "os": "win32"
+            "name": "brawlhalla.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "brawlhalla.app",
-            "os": "darwin"
+            "name": "brawlhalla.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -46,7 +46,7 @@
         },
         {
             "is_launcher": false,
-            "name": "brawlhalla.exe",
+            "name": "brawlhalla/brawlhallagame.exe",
             "os": "win32"
         }
     ],
@@ -65,6 +65,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "xbox",
+            "id": "C3B1V55CDL0C"
+        },
+        {
             "distributor": "google_play",
             "id": "air.com.ubisoft.brawl.halla.platform.fighting.action.pvp"
         },
@@ -79,10 +83,6 @@
         {
             "distributor": "xbox",
             "id": "9MXMZ39GVHPG"
-        },
-        {
-            "distributor": "xbox",
-            "id": "C3B1V55CDL0C"
         }
     ]
 }
