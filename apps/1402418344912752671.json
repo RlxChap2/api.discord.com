@@ -36,8 +36,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria.bin.x86",
-            "os": "linux"
+            "name": "terraria.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -51,8 +51,8 @@
         },
         {
             "is_launcher": false,
-            "name": "terraria.app",
-            "os": "darwin"
+            "name": "terraria.bin.x86",
+            "os": "linux"
         }
     ],
     "hook": true,
@@ -78,12 +78,12 @@
             "id": "com.and.games505.TerrariaPaid"
         },
         {
-            "distributor": "steam",
-            "id": "105600"
-        },
-        {
             "distributor": "xbox",
             "id": "BTNPS60N3114"
+        },
+        {
+            "distributor": "steam",
+            "id": "105600"
         }
     ]
 }
