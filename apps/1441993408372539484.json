@@ -5,6 +5,10 @@
             "esrb": {
                 "descriptors": [],
                 "rating": 1
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 1
             }
         }
     },
@@ -16,8 +20,13 @@
     "name": "Microsoft Jigsaw",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [],
-    "third_party_skus": []
+    "third_party_skus": [
+        {
+            "distributor": "xbox",
+            "id": "9wzdncrfj9x2"
+        }
+    ]
 }
