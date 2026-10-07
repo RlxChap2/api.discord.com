@@ -34,17 +34,17 @@
         },
         {
             "is_launcher": false,
-            "name": "launcher/df_launcher.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
             "name": "df_garena/deltaforceclient.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "deltaforceclient.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "launcher/df_launcher.exe",
             "os": "win32"
         },
         {
@@ -67,10 +67,6 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "steam",
-            "id": "2507950"
-        },
-        {
             "distributor": "epic",
             "id": "3E2C28241611405AA231308A39BEE638"
         },
@@ -81,6 +77,10 @@
         {
             "distributor": "google_play",
             "id": "com.proxima.dfm"
+        },
+        {
+            "distributor": "steam",
+            "id": "2507950"
         }
     ]
 }
