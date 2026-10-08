@@ -6,6 +6,7 @@
         "agency_ratings": {
             "apple": {
                 "descriptors": [
+                    32,
                     2,
                     7,
                     9,
@@ -36,8 +37,8 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "terraria.bin.x86",
-            "os": "linux"
+            "name": "terraria.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
@@ -46,13 +47,13 @@
         },
         {
             "is_launcher": false,
-            "name": "terraria.app",
-            "os": "darwin"
+            "name": "terraria.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
-            "name": "terraria.exe",
-            "os": "win32"
+            "name": "terraria.bin.x86",
+            "os": "linux"
         }
     ],
     "hook": true,
