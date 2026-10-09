@@ -2,6 +2,12 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    1
+                ],
+                "rating": 2
+            },
             "esrb": {
                 "descriptors": [
                     9,
@@ -14,7 +20,7 @@
     "cover_image_hash": "3ef64b744c74427ceec1025ee66451f5",
     "executables": [],
     "hook": true,
-    "icon_hash": "ededd21189205340b63eac79562dcdde",
+    "icon_hash": null,
     "id": "1440130403292807260",
     "name": "Nugget Royale",
     "overlay": false,
@@ -25,5 +31,10 @@
         "Action",
         "Survival"
     ],
-    "third_party_skus": []
+    "third_party_skus": [
+        {
+            "distributor": "google_play",
+            "id": "co.pelicanparty.nuggetroyale"
+        }
+    ]
 }
