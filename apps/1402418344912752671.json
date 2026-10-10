@@ -37,6 +37,11 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "terraria.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "terraria/terraria.exe",
             "os": "win32"
         },
@@ -44,11 +49,6 @@
             "is_launcher": false,
             "name": "terraria.app",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "terraria.exe",
-            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -79,12 +79,12 @@
             "id": "BTNPS60N3114"
         },
         {
-            "distributor": "google_play",
-            "id": "com.and.games505.TerrariaPaid"
-        },
-        {
             "distributor": "steam",
             "id": "105600"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.and.games505.TerrariaPaid"
         }
     ]
 }
