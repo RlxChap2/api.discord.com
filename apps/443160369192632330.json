@@ -15,7 +15,11 @@
                 "rating": 7
             },
             "esrb": {
-                "descriptors": [],
+                "descriptors": [
+                    10,
+                    4,
+                    21
+                ],
                 "rating": 4
             },
             "pegi": {
@@ -38,7 +42,7 @@
     "name": "Resident Evil 7: Biohazard",
     "overlay": false,
     "overlay_compatibility_hook": false,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action",
@@ -49,6 +53,10 @@
         {
             "distributor": "steam",
             "id": "418370"
+        },
+        {
+            "distributor": "xbox",
+            "id": "C545JKTS21Q2"
         }
     ]
 }
