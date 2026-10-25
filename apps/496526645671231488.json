@@ -30,13 +30,13 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "albion-online.exe",
-            "os": "win32"
+            "name": "albion-online.app",
+            "os": "darwin"
         },
         {
             "is_launcher": false,
-            "name": "albion-online.app",
-            "os": "darwin"
+            "name": "albion-online.exe",
+            "os": "win32"
         }
     ],
     "hook": true,
@@ -54,6 +54,10 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "google_play",
+            "id": "com.albiononline"
+        },
+        {
             "distributor": "steam",
             "id": "761890"
         },
@@ -64,10 +68,6 @@
         {
             "distributor": "xbox",
             "id": "9PDC9X7BKZR3"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.albiononline"
         }
     ]
 }
