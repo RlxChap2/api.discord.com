@@ -31,10 +31,9 @@
     "cover_image_hash": "2975c144dc7e00ecf57018a4af98b1eb",
     "executables": [
         {
-            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">java",
-            "os": "darwin"
+            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
+            "os": "win32"
         },
         {
             "is_launcher": false,
@@ -42,19 +41,20 @@
             "os": "win32"
         },
         {
+            "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
+            "name": ">javaw.exe",
             "os": "win32"
         },
         {
             "arguments": "net.minecraft.client.main.Main",
             "is_launcher": false,
-            "name": ">javaw.exe",
+            "name": ">java",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
             "os": "win32"
         }
     ],
@@ -75,8 +75,12 @@
     ],
     "third_party_skus": [
         {
+            "distributor": "google_play",
+            "id": "com.mojang.minecraftpe"
+        },
+        {
             "distributor": "xbox",
-            "id": "9MVXMVT8ZKWC"
+            "id": "9PGW18NPBZV5"
         },
         {
             "distributor": "xbox",
@@ -84,19 +88,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.mojang.minecraftpe"
-        },
-        {
-            "distributor": "xbox",
             "id": "9NBLGGH537BL"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9WZDNCRDZSBB"
         },
         {
             "distributor": "xbox",
@@ -105,6 +97,14 @@
         {
             "distributor": "microsoft",
             "id": ""
+        },
+        {
+            "distributor": "xbox",
+            "id": "9MVXMVT8ZKWC"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9WZDNCRDZSBB"
         }
     ]
 }
