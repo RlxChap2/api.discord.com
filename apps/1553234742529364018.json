@@ -18,8 +18,18 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "_forever_/wow.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "wowb.exe",
             "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "_forever_/word of warcraft.app",
+            "os": "darwin"
         }
     ],
     "hook": false,
@@ -36,5 +46,10 @@
         "Open world",
         "Warfare"
     ],
-    "third_party_skus": []
+    "third_party_skus": [
+        {
+            "distributor": "battlenet",
+            "id": "wowf"
+        }
+    ]
 }
