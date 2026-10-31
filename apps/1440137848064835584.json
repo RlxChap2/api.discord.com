@@ -1,5 +1,23 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "apple": {
+                "descriptors": [
+                    33,
+                    2,
+                    11,
+                    29,
+                    30
+                ],
+                "rating": 4
+            },
+            "esrb": {
+                "descriptors": [],
+                "rating": 3
+            }
+        }
+    },
     "cover_image_hash": "95bb29179dc48b1990dde71834543212",
     "executables": [],
     "hook": true,
@@ -15,6 +33,10 @@
         "Horror"
     ],
     "third_party_skus": [
+        {
+            "distributor": "google_play",
+            "id": "com.ninjakiwi.zombieassault"
+        },
         {
             "distributor": "steam",
             "id": "2747660"
