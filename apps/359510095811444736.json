@@ -19,7 +19,22 @@
     "executables": [
         {
             "is_launcher": false,
-            "name": "maplestory.exe",
+            "name": "maplestory/maplestory.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "appdata/maplestory.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "maplestory.app",
+            "os": "darwin"
+        },
+        {
+            "is_launcher": false,
+            "name": "maple/maplestory.exe",
             "os": "win32"
         }
     ],
@@ -29,16 +44,11 @@
     "name": "MapleStory",
     "overlay": true,
     "overlay_compatibility_hook": true,
-    "overlay_methods": null,
+    "overlay_methods": 0,
     "overlay_warn": false,
     "themes": [
         "Action",
         "Fantasy"
     ],
-    "third_party_skus": [
-        {
-            "distributor": "steam",
-            "id": "216150"
-        }
-    ]
+    "third_party_skus": []
 }
