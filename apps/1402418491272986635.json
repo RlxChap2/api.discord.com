@@ -32,6 +32,16 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "content/minecraft.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
+            "name": "minecraft.windows.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "minecraft/runtime/jre-x64/1.8.0_25/bin/javaw.exe",
             "os": "win32"
         },
@@ -46,16 +56,6 @@
             "is_launcher": false,
             "name": ">java",
             "os": "darwin"
-        },
-        {
-            "is_launcher": false,
-            "name": "content/minecraft.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "minecraft.windows.exe",
-            "os": "win32"
         }
     ],
     "hook": true,
@@ -80,11 +80,23 @@
         },
         {
             "distributor": "xbox",
-            "id": "9PGW18NPBZV5"
+            "id": "9NBLGGH537BL"
         },
         {
             "distributor": "xbox",
             "id": "BT6HNJH658C6"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.mojang.minecraftpe"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9PGW18NPBZV5"
+        },
+        {
+            "distributor": "microsoft",
+            "id": ""
         },
         {
             "distributor": "xbox",
@@ -93,18 +105,6 @@
         {
             "distributor": "xbox",
             "id": "9NBLGGH2JHXJ"
-        },
-        {
-            "distributor": "microsoft",
-            "id": ""
-        },
-        {
-            "distributor": "google_play",
-            "id": "com.mojang.minecraftpe"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NBLGGH537BL"
         }
     ]
 }
