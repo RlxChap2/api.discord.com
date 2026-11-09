@@ -2,7 +2,15 @@
     "aliases": [],
     "content_classification": {
         "agency_ratings": {
+            "apple": {
+                "descriptors": [],
+                "rating": 1
+            },
             "esrb": {
+                "descriptors": [],
+                "rating": 1
+            },
+            "pegi": {
                 "descriptors": [],
                 "rating": 1
             }
@@ -19,22 +27,27 @@
     "hook": true,
     "icon_hash": "43bb2d2e0dedc61cee39f870ea8c32b6",
     "id": "1124357856565674167",
-    "name": "Monument Valley: Panoramic Edition",
+    "name": "Monument Valley",
     "overlay": false,
     "overlay_compatibility_hook": false,
     "overlay_methods": null,
     "overlay_warn": false,
     "themes": [
-        "Fantasy"
+        "Fantasy",
+        "Mystery"
     ],
     "third_party_skus": [
         {
-            "distributor": "xbox",
-            "id": "9NBLGGH3Z8PQ"
-        },
-        {
             "distributor": "steam",
             "id": "1927720"
+        },
+        {
+            "distributor": "google_play",
+            "id": "com.ustwo.monumentvalley"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NBLGGH3Z8PQ"
         },
         {
             "distributor": "xbox",
