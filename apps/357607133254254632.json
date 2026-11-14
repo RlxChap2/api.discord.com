@@ -26,13 +26,13 @@
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "deadbydaylight.exe",
+            "is_launcher": false,
+            "name": "deadbydaylight-win64-shipping.exe",
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "deadbydaylight-win64-shipping.exe",
+            "is_launcher": true,
+            "name": "deadbydaylight.exe",
             "os": "win32"
         },
         {
@@ -58,7 +58,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
-            "id": "9NCPDFS5CJ8V"
+            "id": "9NQWPGS5WVJZ"
+        },
+        {
+            "distributor": "steam",
+            "id": "381210"
         },
         {
             "distributor": "epic",
@@ -66,11 +70,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NMS4SFNBGBH"
-        },
-        {
-            "distributor": "steam",
-            "id": "381210"
+            "id": "9NCPDFS5CJ8V"
         },
         {
             "distributor": "xbox",
@@ -78,7 +78,7 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NQWPGS5WVJZ"
+            "id": "9NMS4SFNBGBH"
         }
     ]
 }
