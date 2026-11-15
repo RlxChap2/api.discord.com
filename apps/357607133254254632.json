@@ -22,12 +22,12 @@
     "executables": [
         {
             "is_launcher": true,
-            "name": "dead by daylight/deadbydaylight.exe",
+            "name": "deadbydaylight.exe",
             "os": "win32"
         },
         {
-            "is_launcher": true,
-            "name": "deadbydaylight.exe",
+            "is_launcher": false,
+            "name": "deadbydaylight-egs-shipping.exe",
             "os": "win32"
         },
         {
@@ -36,8 +36,8 @@
             "os": "win32"
         },
         {
-            "is_launcher": false,
-            "name": "deadbydaylight-egs-shipping.exe",
+            "is_launcher": true,
+            "name": "dead by daylight/deadbydaylight.exe",
             "os": "win32"
         }
     ],
@@ -58,15 +58,11 @@
     "third_party_skus": [
         {
             "distributor": "xbox",
+            "id": "9NMS4SFNBGBH"
+        },
+        {
+            "distributor": "xbox",
             "id": "C0N22P73QZ60"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NQWPGS5WVJZ"
-        },
-        {
-            "distributor": "xbox",
-            "id": "9NCPDFS5CJ8V"
         },
         {
             "distributor": "steam",
@@ -78,7 +74,11 @@
         },
         {
             "distributor": "xbox",
-            "id": "9NMS4SFNBGBH"
+            "id": "9NCPDFS5CJ8V"
+        },
+        {
+            "distributor": "xbox",
+            "id": "9NQWPGS5WVJZ"
         }
     ]
 }
