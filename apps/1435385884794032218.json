@@ -1,5 +1,17 @@
 {
     "aliases": [],
+    "content_classification": {
+        "agency_ratings": {
+            "esrb": {
+                "descriptors": [],
+                "rating": 1
+            },
+            "pegi": {
+                "descriptors": [],
+                "rating": 1
+            }
+        }
+    },
     "cover_image_hash": null,
     "executables": [],
     "hook": false,
@@ -10,8 +22,16 @@
     "overlay_compatibility_hook": false,
     "overlay_methods": 0,
     "overlay_warn": false,
-    "themes": [],
+    "themes": [
+        "Action",
+        "Science fiction",
+        "Survival"
+    ],
     "third_party_skus": [
+        {
+            "distributor": "epic",
+            "id": "DC4C4BE805E344A4BAB504DC2C2A526D"
+        },
         {
             "distributor": "epic",
             "id": "fghi4567JM73rzjUvJ0co8syeN7BcJdz"
