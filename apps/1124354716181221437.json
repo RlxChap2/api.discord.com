@@ -19,17 +19,17 @@
     "executables": [
         {
             "is_launcher": false,
+            "name": "common/sable/sable.exe",
+            "os": "win32"
+        },
+        {
+            "is_launcher": false,
             "name": "games/sable/sable.exe",
             "os": "win32"
         },
         {
             "is_launcher": false,
             "name": "epic games/sable/sable.exe",
-            "os": "win32"
-        },
-        {
-            "is_launcher": false,
-            "name": "common/sable/sable.exe",
             "os": "win32"
         },
         {
@@ -52,12 +52,12 @@
     ],
     "third_party_skus": [
         {
-            "distributor": "epic",
-            "id": "66A0893B7B9A42A695F0A387D64DFCC6"
-        },
-        {
             "distributor": "steam",
             "id": "757310"
+        },
+        {
+            "distributor": "epic",
+            "id": "66A0893B7B9A42A695F0A387D64DFCC6"
         },
         {
             "distributor": "xbox",
